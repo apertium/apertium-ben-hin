@@ -275,12 +275,9 @@
 
       <!-- GSoC 2021 -->
 
-      <e><p><l>যেমন<s n="cnjcoo"/></l><r>जैसे<s n="cnjcoo"/></r></p></e>
       <e><p><l>পরে<s n="cnjcoo"/></l><r>बाद में<s n="cnjcoo"/></r></p></e>
       <e><p><l>আবার<s n="cnjcoo"/></l><r>फ़िर से<s n="cnjcoo"/></r></p></e>
-      <e><p><l>তারপর<s n="cnjcoo"/></l><r>फिर<s n="cnjcoo"/></r></p></e>
       <e><p><l>আরো<s n="cnjcoo"/></l><r>अधिक<s n="cnjcoo"/></r></p></e>
-      <e><p><l>যদিও<s n="cnjcoo"/></l><r>हालांकि<s n="cnjcoo"/></r></p></e>
       <e><p><l>ফলে<s n="cnjcoo"/></l><r>नतीजतन<s n="cnjcoo"/></r></p></e>
       <e><p><l>যতক্ষন<s n="cnjcoo"/></l><r>जब तक<s n="cnjcoo"/></r></p></e>
       <e><p><l>উভয়<s n="cnjcoo"/></l><r>दोनों<s n="cnjcoo"/></r></p></e>
@@ -289,7 +286,6 @@
       <e><p><l>একইভাবে<s n="cnjcoo"/></l><r>उसी प्रकार<s n="cnjcoo"/></r></p></e>
       <e><p><l>বিশেষকরে<s n="cnjcoo"/></l><r>विशेष रूप से<s n="cnjcoo"/></r></p></e>
       <e><p><l>এমনকি<s n="cnjcoo"/></l><r>यहाँ तक की<s n="cnjcoo"/></r></p></e>
-      <e><p><l>যদিও<s n="cnjcoo"/></l><r>हालांकि<s n="cnjcoo"/></r></p></e>
       <e><p><l>হয় এটা অথবা ওটা<s n="cnjcoo"/></l><r>ये न तोह वो<s n="cnjcoo"/></r></p></e>
       <e><p><l>যেমন<s n="cnjcoo"/></l><r>जैसे<s n="cnjcoo"/></r></p></e>
       <e><p><l>এছাড়াও<s n="cnjcoo"/></l><r>इसके अलावा<s n="cnjcoo"/></r></p></e>
@@ -312,6 +308,47 @@
       <e><p><l>পরবর্তীকালে<s n="cnjcoo"/></l><r>बाद में<s n="cnjcoo"/></r></p></e>
       <e><p><l>অতএব<s n="cnjcoo"/></l><r>इसलिये<s n="cnjcoo"/></r></p></e>
       <e><p><l>অত্যাধিক<s n="cnjcoo"/></l><r>बोहत ज़ियादा<s n="cnjcoo"/></r></p></e>
+      <e><p><l>তারপর<s n="cnjsub"/></l><r>फिर<s n="cnjsub"/></r></p></e>
+      <e><p><l>মত<s n="cnjsub"/></l><r>जैसा<s n="cnjsub"/></r></p></e>
+      <e><p><l>যেমন<s n="cnjsub"/></l><r>जैसा<s n="cnjsub"/></r></p></e>
+      <e><p><l>যেন<s n="cnjsub"/></l><r>जैसे की<s n="cnjsub"/></r></p></e>
+      <e><p><l>যত দূর সম্ভব<s n="cnjsub"/></l><r>जहां तक ​​संभव हो<s n="cnjsub"/></r></p></e>
+      <e><p><l>যত বেশি সম্ভব<s n="cnjsub"/></l><r>जितना संभव<s n="cnjsub"/></r></p></e>
+      <e><p><l>যত তাড়াতাড়ি সম্ভব<s n="cnjsub"/></l><r>जितनी जल्दी हो सके<s n="cnjsub"/></r></p></e>
+      <e><p><l>কারণ<s n="cnjsub"/></l><r>वजह<s n="cnjsub"/></r></p></e>
+      <e><p><l>আগে<s n="cnjsub"/></l><r>इससे पहले<s n="cnjsub"/></r></p></e>
+      <e><p><l>এমন কি<s n="cnjsub"/></l><r>यहाँ तक की<s n="cnjsub"/></r></p></e>
+      <e><p><l>যদি<s n="cnjsub"/></l><r>अगर<s n="cnjsub"/></r></p></e>
+      <e><p><l>শুধুমাত্র যদি<s n="cnjsub"/></l><r>केवल<s n="cnjsub"/></r></p></e>
+      <e><p><l>তাহলে যদি<s n="cnjsub"/></l><r>यदि ऐसा है तो<s n="cnjsub"/></r></p></e>
+      <e><p><l>অবাস্তব<s n="cnjsub"/></l><r>अवास्तविक<s n="cnjsub"/></r></p></e>
+      <e><p><l>নির্দেশ অনুসারে<s n="cnjsub"/></l><r>आदेशानुसार<s n="cnjsub"/></r></p></e>
+      <e><p><l>এই রকম<s n="cnjsub"/></l><r>ऐशे ही<s n="cnjsub"/></r></p></e>
+      <e><p><l>পাছে<s n="cnjsub"/></l><r>अन्यथा<s n="cnjsub"/></r></p></e>
+      <e><p><l>এখন থেকে<s n="cnjsub"/></l><r>अब से<s n="cnjsub"/></r></p></e>
+      <e><p><l>এখন কি<s n="cnjsub"/></l><r>अब क्या है<s n="cnjsub"/></r></p></e>
+      <e><p><l>এখন কখন<s n="cnjsub"/></l><r>अब जब<s n="cnjsub"/></r></p></e>
+      <e><p><l>একদা<s n="cnjsub"/></l><r>एक बार<s n="cnjsub"/></r></p></e>
+      <e><p><l>একসময়<s n="cnjsub"/></l><r>एक बार<s n="cnjsub"/></r></p></e>
+      <e><p><l>সরবরাহ করা<s n="cnjsub"/></l><r>आपूर्ति<s n="cnjsub"/></r></p></e>
+      <e><p><l>যে সরবরাহ<s n="cnjsub"/></l><r>वह आपूर्ति<s n="cnjsub"/></r></p></e>
+      <e><p><l>বরং যে<s n="cnjsub"/></l><r>इसके बजाय<s n="cnjsub"/></r></p></e>
+      <e><p><l>এখন পর্যন্ত<s n="cnjsub"/></l><r>अब तक<s n="cnjsub"/></r></p></e>
+      <e><p><l>যাতে<s n="cnjsub"/></l><r>इसलिए कि<s n="cnjsub"/></r></p></e>
+      <e><p><l>অনুমান করা<s n="cnjsub"/></l><r>मान लीजिये<s n="cnjsub"/></r></p></e>
+      <e><p><l>তারপর<s n="cnjsub"/></l><r>फिर<s n="cnjsub"/></r></p></e>
+      <e><p><l>পর্যন্ত<s n="cnjsub"/></l><r>जब तक<s n="cnjsub"/></r></p></e>
+      <e><p><l>নাহলে<s n="cnjsub"/></l><r>अन्यथा<s n="cnjsub"/></r></p></e>
+      <e><p><l>যতক্ষণ পর্যন্ত<s n="cnjsub"/></l><r>जब तक<s n="cnjsub"/></r></p></e>
+      <e><p><l>যখন<s n="cnjsub"/></l><r>कब<s n="cnjsub"/></r></p></e>
+      <e><p><l>যেখানে হিসাবে<s n="cnjsub"/></l><r>कहा पे<s n="cnjsub"/></r></p></e>
+      <e><p><l>যেখানে কখনো<s n="cnjsub"/></l><r>जहाँ कभी भी<s n="cnjsub"/></r></p></e>
+      <e><p><l>কোন<s n="cnjsub"/></l><r>नहीं न<s n="cnjsub"/></r></p></e>
+      <e><p><l>যখন<s n="cnjsub"/></l><r>जब<s n="cnjsub"/></r></p></e>
+      <e><p><l>কখন<s n="cnjsub"/></l><r>कब<s n="cnjsub"/></r></p></e>
+      <e><p><l>কোন<s n="cnjsub"/></l><r>कौनसा<s n="cnjsub"/></r></p></e>
+      <e><p><l>কে<s n="cnjsub"/></l><r>कौन<s n="cnjsub"/></r></p></e>
+      <e><p><l>কেন<s n="cnjsub"/></l><r>क्यूं<s n="cnjsub"/></r></p></e>
 
 
       <!-- SECTION DETERMINERS -->
