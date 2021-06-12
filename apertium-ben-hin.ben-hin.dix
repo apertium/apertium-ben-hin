@@ -393,18 +393,41 @@
 
 
       <!-- SECTION DETERMINERS -->
+      <!--Possessive-->
       <e><p><l>রয়েছে<s n="det"/></l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>একটি<s n="det"/></l><r>एक<s n="det"/></r></p></e>
       <e><p><l>কি<s n="det"/><s n="itg"/><s n="sp"/></l><r>क्या<s n="prn"/><s n="itg"/><s n="sp"/><s n="nom"/></r></p></e>
       <e><p><l>তা<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
       <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
-
-     
-
-      <!-- needs gender -->
-      <e><p><l>তার<s n="det"/></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dist"/></r></p></e>
-      <e><p><l>তাদের<s n="det"/></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="dist"/></r></p></e>
-      <e><p><l>তাদের<s n="det"/></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="pl"/><s n="dist"/></r></p></e>
+      <e><p><l>আমার<s n="det"/><s n="p1"/><s n="gen" /><s n="mf"/><s n="pl"/><s n="infml"/></l><r>मेरी<s n="det"/><s n="p1"/><s n="gen" /><s n="mf"/><s n="pl"/><s n="infml"/></r></p></e>
+      <e><p><l>আমাদের<s n="det"/><s n="p1"/><s n="gen" /><s n="pl" /><s n="mf" /></l><r>हमलोगों का<s n="det"/><s n="gen" /><s n="pl" /><s n="mf" /></r></p></e>
+      <e><p><l>তোমাদের<s n="det"/><s n="p1"/><s n="gen" /><s n="pol" /><s n="mf" /><s n="pl" /></l><r>तुम लोगों का<s n="det"/><s n="gen" /><s n="pol" /><s n="mf" /><s n="pl" /></r></p></e>
+      <e><p><l>তার<s n="det"/><s n="p3"/><s n="gen"/><s n="mf"/><s n="sg"/><s n="infml"/></l><r>उसके<s n="det"/><s n="p3"/><s n="gen"/><s n="mf"/><s n="sg"/><s n="infml"/></r></p></e>
+      <e><p><l>ইহার<s n="det"/><s n="p3"/><s n="pol"/><s n="gen"/><s n="mf"/><s n="sg"/></l><r>आईटी इस<s n="det"/><s n="pol"/><s n="gen"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>তার<s n="det"/><s n="p3"/><s n="gen"/><s n="mf"/><s n="sg"/><s n="infml"/></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/></r></p></e>
+      <e><p><l>তাদের<s n="det"/><s n="p3"/><s n="gen"/><s n="mf"/><s n="pl"/><s n="infml"/></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/></r></p></e>
+      <e><p><l>তাদের<s n="det"/><s n="p3"/><s n="gen"/><s n="mf"/><s n="pl"/><s n="infml"/></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/></r></p></e>
+      <!--Quantitative-->
+      <e><p><l>অনেক<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>बहुत सारे<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
+      <e><p><l>কিছু<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>कुछ<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
+      <e><p><l>কোনওটানা<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>कोई नहीं<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
+      <e><p><l>যে কোনো<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>कोई भी<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
+      <e><p><l>যথেষ্ট<s n="det"/><s n="qnt"/><s n="an"/></l><r>बहुत हो चुका<s n="det"/><s n="qnt"/><s n="an"/></r></p></e>
+      <e><p><l>নানারকম<s n="det"/><s n="qnt"/><s n="an"/></l><r>विभिन्न<s n="det"/><s n="qnt"/><s n="an"/></r></p></e>
+      <e><p><l>নানারকম<s n="det"/><s n="qnt"/><s n="an"/></l><r>विभिन्न<s n="det"/><s n="qnt"/><s n="an"/></r></p></e>
+      <e><p><l>অল্প<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>थोड़ा सा<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
+      <e><p><l>প্রচুর<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>बहुत सारे<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
+      <e><p><l>খুব অল্প<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>बहुत कम<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
+      <e><p><l>অনেকটা<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>बहुत<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
+      <e><p><l>একটা<s n="det"/><s n="qnt"/><s n="def"/></l><r>एक<s n="det"/><s n="qnt"/><s n="def"/></r></p></e>
+      <!--Demonstrative-->
+      <e><p><l>এটা<s n="det"/><s n="dem"/><s n="nn"/></l><r>यह है<s n="det"/><s n="dem"/><s n="an"/></r></p></e>
+      <e><p><l>এ<s n="det"/><s n="dem"/><s n="aa"/></l><r>यह है<s n="det"/><s n="dem"/><s n="an"/></r></p></e>
+      <e><p><l>ঐটা<s n="det"/><s n="dem"/><s n="an"/></l><r>यह है<s n="det"/><s n="dem"/><s n="an"/></r></p></e>
+      <e><p><l>এইগুলো<s n="det"/><s n="dem"/><s n="an"/></l><r>यह सब<s n="det"/><s n="dem"/><s n="an"/></r></p></e>
+      <e><p><l>ওইগুলো<s n="det"/><s n="dem"/><s n="nn"/><s n="p3"/></l><r>उन सब<s n="det"/><s n="dem"/><s n="an"/><s n="p3"/></r></p></e> 
+      <e><p><l>পরেরটা<s n="det"/><s n="dem"/></l><r>अगला<s n="det"/><s n="dem"/></r></p></e>
+      <e><p><l>আগেরটা<s n="det"/><s n="dem"/></l><r>पिछला वाला<s n="det"/><s n="dem"/></r></p></e>
 
       <!-- <e><p><l><s n=""/></l><r><s n=""/></r></p></e> -->
 
