@@ -394,11 +394,8 @@
 
       <!-- SECTION DETERMINERS -->
       <!--Possessive-->
-      <e><p><l>রয়েছে<s n="det"/></l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>একটি<s n="det"/></l><r>एक<s n="det"/></r></p></e>
-      <e><p><l>কি<s n="det"/><s n="itg"/><s n="sp"/></l><r>क्या<s n="prn"/><s n="itg"/><s n="sp"/><s n="nom"/></r></p></e>
-      <e><p><l>তা<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
-      <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
+      <e><p><l>রয়েছে<s n="det"/><s n="pres"/><s n="p3"/><s n="mf"/></l><r>वहां<s n="det"/><s n="pres"/><s n="p3"/><s n="mf"/></r></p></e>
+      <e><p><l>কি<s n="det"/><s n="itg"/><s n="sp"/></l><r>क्या<s n="det"/><s n="itg"/><s n="sp"/><s n="nom"/></r></p></e>
       <e><p><l>আমার<s n="det"/><s n="p1"/><s n="gen" /><s n="mf"/><s n="pl"/><s n="infml"/></l><r>मेरी<s n="det"/><s n="p1"/><s n="gen" /><s n="mf"/><s n="pl"/><s n="infml"/></r></p></e>
       <e><p><l>আমাদের<s n="det"/><s n="p1"/><s n="gen" /><s n="pl" /><s n="mf" /></l><r>हमलोगों का<s n="det"/><s n="gen" /><s n="pl" /><s n="mf" /></r></p></e>
       <e><p><l>তোমাদের<s n="det"/><s n="p1"/><s n="gen" /><s n="pol" /><s n="mf" /><s n="pl" /></l><r>तुम लोगों का<s n="det"/><s n="gen" /><s n="pol" /><s n="mf" /><s n="pl" /></r></p></e>
@@ -420,6 +417,7 @@
       <e><p><l>খুব অল্প<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>बहुत कम<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
       <e><p><l>অনেকটা<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>बहुत<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
       <e><p><l>একটা<s n="det"/><s n="qnt"/><s n="def"/></l><r>एक<s n="det"/><s n="qnt"/><s n="def"/></r></p></e>
+      <e><p><l>একটি<s n="det"/><s n="qnt"/><s n="def"/></l><r>एक<s n="det"/><s n="qnt"/><s n="def"/></r></p></e>
       <!--Demonstrative-->
       <e><p><l>এটা<s n="det"/><s n="dem"/><s n="nn"/></l><r>यह है<s n="det"/><s n="dem"/><s n="an"/></r></p></e>
       <e><p><l>এ<s n="det"/><s n="dem"/><s n="aa"/></l><r>यह है<s n="det"/><s n="dem"/><s n="an"/></r></p></e>
@@ -872,6 +870,7 @@
     <e><p><l>কোথায়<s n="prn"/><s n="rel"/></l><r>कहा पे<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>কখন<s n="prn"/><s n="rel"/><s n="itg"/></l><r>कब<s n="prn"/><s n="rel"/><s n="itg"/></r></p></e>
     <e><p><l>কেন<s n="prn"/><s n="rel"/><s n="itg"/></l><r>क्यों<s n="prn"/><s n="rel"/><s n="itg"/></r></p></e>
+    <e><p><l>তা<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
     <!--Indefinite-->
     <e><p><l>অন্য<s n="prn"/><s n="ind"/></l><r>एक और<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>যে কেউ<s n="prn"/><s n="ind"/></l><r>किसी को<s n="prn"/><s n="ind"/></r></p></e>
@@ -890,6 +889,7 @@
     <e><p><l>কি<s n="prn"/><s n="itg"/></l><r>क्या<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>কোনটা<s n="prn"/><s n="itg"/></l><r>कौन<s n="prn"/><s n="itg"/></r></p></e>
 
+    <e><p><l>তিনি<s n="prn"/><s n="dem"/><s n="p3"/><s n="pol"/><s n="aa"/><s n="mf"/><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
 
     <!-- Need to work more on this -->
 
