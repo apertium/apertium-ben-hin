@@ -845,52 +845,50 @@
 
 
     <!--Personal-->
-    <e><p><l>আমি<s n="prn"/><s n="gen"/><s n="p1"/><s n="aa"/><s n="sg"/><s n="pers"/></l><r>मैं<s n="prn"/><s n="gen"/><s n="p1"/><s n="aa"/><s n="sg"/><s n="pers"/></r></p></e>
-    <e><p><l>আমরা<s n="prn"/><s n="gen"/><s n="p1"/><s n="aa"/><s n="pl"/><s n="pers"/></l><r>हम<s n="prn"/><s n="gen"/><s n="p1"/><s n="aa"/><s n="pl"/><s n="pers"/></r></p></e>
-    <e><p><l>তুমি<s n="prn"/><s n="gen"/><s n="p2"/><s n="aa"/><s n="pl"/><s n="pers"/></l><r>आप<s n="prn"/><s n="pers"/><s n="gen"/><s n="p2"/><s n="aa"/><s n="pl"/></r></p></e>
-    <e><p><l>তোমরা<s n="prn"/><s n="gen"/><s n="p2"/><s n="pl"/><s n="pers"/><s n="aa"/></l><r>आप<s n="prn"/><s n="gen"/><s n="pers"/><s n="p2"/><s n="aa"/><s n="pl"/></r></p></e>
-    <e><p><l>সে<s n="prn"/><s n="gen"/><s n="p3"/><s n="sg"/><s n="pers"/><s n="aa"/></l><r>वह<s n="prn"/><s n="gen"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="aa"/></r></p></e>
-    <e><p><l>এটা<s n="prn"/><s n="gen"/><s n="pers"/><s n="sg"/><s n="an"/><s n="dem"/></l><r>यह<s n="prn"/><s n="gen"/><s n="pers"/><s n="sg"/><s n="an"/><s n="dem"/></r></p></e>
-    <e><p><l>তারা<s n="prn"/><s n="gen"/><s n="pers"/><s n="pl"/><s n="aa"/><s n="p3"/></l><r>वे<s n="prn"/><s n="gen"/><s n="pers"/><s n="pl"/><s n="aa"/><s n="p3"/></r></p></e>
+    <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="sg"/><s n="pers"/></l><r>मैं<s n="prn"/><s n="p1"/><s n="aa"/><s n="sg"/><s n="pers"/></r></p></e>
+    <e><p><l>আমরা<s n="prn"/><s n="p1"/><s n="ref"/><s n="aa"/><s n="pl"/><s n="pers"/></l><r>हम<s n="prn"/><s n="p1"/><s n="ref"/><s n="aa"/><s n="pl"/><s n="pers"/></r></p></e>
+    <e><p><l>তুমি<s n="prn"/><s n="p2"/><s n="aa"/><s n="pl"/><s n="pers"/></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="aa"/><s n="pl"/></r></p></e>
+    <e><p><l>তোমরা<s n="prn"/><s n="p2"/><s n="pl"/><s n="pers"/><s n="aa"/></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="aa"/><s n="pl"/></r></p></e>
+    <e><p><l>সে<s n="prn"/><s n="p3"/><s n="sg"/><s n="pers"/><s n="aa"/></l><r>वह<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="aa"/></r></p></e>
+    <e><p><l>এটা<s n="prn"/><s n="pers"/><s n="sg"/><s n="an"/><s n="dem"/></l><r>यह<s n="prn"/><s n="pers"/><s n="sg"/><s n="an"/><s n="dem"/></r></p></e>
+    <e><p><l>তারা<s n="prn"/><s n="pers"/><s n="pl"/><s n="aa"/><s n="p3"/></l><r>वे<s n="prn"/><s n="pers"/><s n="pl"/><s n="aa"/><s n="p3"/></r></p></e>
     <!--Object-->
-    <e><p><l>আমাকে<s n="prn"/></l><r>मेरे को<s n="prn"/></r></p></e>
-    <e><p><l>আমাদেরকে<s n="prn"/></l><r>हम लोगो को<s n="prn"/></r></p></e>
-    <e><p><l>তার<s n="prn"/></l><r>उसके<s n="prn"/></r></p></e>
-    <e><p><l>তাদেরকে<s n="prn"/></l><r>उन्हें<s n="prn"/></r></p></e>
+    <e><p><l>আমাকে<s n="prn"/><s n="p1"/><s n="sg"/><s n="obj"/><s n="pers"/></l><r>मेरे को<s n="prn"/><s n="p1"/><s n="sg"/><s n="obj"/><s n="pers"/></r></p></e>
+    <e><p><l>আমাদেরকে<s n="prn"/><s n="p1"/><s n="pl"/><s n="obj"/><s n="pers"/></l><r>हम लोगो को<s n="prn"/><s n="p1"/><s n="pl"/><s n="obj"/><s n="pers"/></r></p></e>
+    <e><p><l>তার<s n="prn"/><s n="p3"/><s n="sg"/><s n="obj"/><s n="pers"/></l><r>उसके<s n="prn"/><s n="p3"/><s n="sg"/><s n="obj"/><s n="pers"/></r></p></e>
+    <e><p><l>তাদেরকে<s n="prn"/><s n="p3"/><s n="pl"/><s n="obj"/><s n="pers"/></l><r>उन्हें<s n="prn"/><s n="p3"/><s n="pl"/><s n="obj"/><s n="pers"/></r></p></e>
     <!--Possessive-->
-    <e><p><l>আমার<s n="prn"/></l><r>मेरी<s n="prn"/></r></p></e>
-    <e><p><l>আমাদের<s n="prn"/></l><r>हमलोगो का<s n="prn"/></r></p></e>
-    <e><p><l>তোমাদের<s n="prn"/></l><r>तुमलोगों का<s n="prn"/></r></p></e>
-    <e><p><l>তাদের<s n="prn"/></l><r>उन लोगों का<s n="prn"/></r></p></e>
+    <e><p><l>আমার<s n="prn"/><s n="p1"/><s n="gen"/><s n="sg"/><s n="pers"/></l><r>मेरी<s n="prn"/><s n="p1"/><s n="gen"/><s n="sg"/><s n="pers"/></r></p></e>
+    <e><p><l>আমাদের<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>हमलोगो का<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
+    <e><p><l>তোমাদের<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>तुमलोगों का<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
+    <e><p><l>তাদের<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>उन लोगों का<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
     <!--Reflexive-->
-    <e><p><l>আমার<s n="prn"/></l><r>मेरी<s n="prn"/></r></p></e>
-    <e><p><l>নিজেকে<s n="prn"/></l><r>खुद को<s n="prn"/></r></p></e>
-    <e><p><l>নিজেই<s n="prn"/></l><r>खुद ही<s n="prn"/></r></p></e>
-    <e><p><l>তাদেরকে<s n="prn"/></l><r>उन्हें<s n="prn"/></r></p></e>
+    <e><p><l>নিজেকে<s n="prn"/><s n="ref"/><s n="sg"/></l><r>खुद को<s n="prn"/><s n="ref"/><s n="sg"/></r></p></e>
+    <e><p><l>নিজেই<s n="prn"/><s n="ref"/><s n="sg"/></l><r>खुद ही<s n="prn"/><s n="ref"/><s n="sg"/></r></p></e>
+    <e><p><l>তাদেরকে<s n="prn"/><s n="ref"/><s n="sg"/></l><r>उन्हें<s n="prn"/><s n="ref"/><s n="sg"/></r></p></e>
     <!--Relative-->
-    <e><p><l>কাকে<s n="prn"/></l><r>किस को<s n="prn"/></r></p></e>
-    <e><p><l>কার<s n="prn"/></l><r>किसका<s n="prn"/></r></p></e>
-    <e><p><l>কোথায়<s n="prn"/></l><r>कहा पे<s n="prn"/></r></p></e>
-    <e><p><l>কখন<s n="prn"/></l><r>कब<s n="prn"/></r></p></e>
-    <e><p><l>কেন<s n="prn"/></l><r>क्यों<s n="prn"/></r></p></e>
+    <e><p><l>কাকে<s n="prn"/><s n="rel"/><s n="itg"/></l><r>किस को<s n="prn"/><s n="rel"/><s n="itg"/></r></p></e>
+    <e><p><l>কার<s n="prn"/><s n="rel"/><s n="itg"/></l><r>किसका<s n="prn"/><s n="rel"/><s n="itg"/></r></p></e>
+    <e><p><l>কোথায়<s n="prn"/><s n="rel"/></l><r>कहा पे<s n="prn"/><s n="rel"/></r></p></e>
+    <e><p><l>কখন<s n="prn"/><s n="rel"/><s n="itg"/></l><r>कब<s n="prn"/><s n="rel"/><s n="itg"/></r></p></e>
+    <e><p><l>কেন<s n="prn"/><s n="rel"/><s n="itg"/></l><r>क्यों<s n="prn"/><s n="rel"/><s n="itg"/></r></p></e>
     <!--Indefinite-->
-    <e><p><l>অন্য<s n="prn"/></l><r>एक और<s n="prn"/></r></p></e>
-    <e><p><l>যে কেউ<s n="prn"/></l><r>किसी को<s n="prn"/></r></p></e>
-    <e><p><l>যে কোনো কিছু<s n="prn"/></l><r>कुछ भी<s n="prn"/></r></p></e>
-    <e><p><l>প্রত্যেক<s n="prn"/></l><r>सब लोग<s n="prn"/></r></p></e>
-    <e><p><l>সবাই<s n="prn"/></l><r>सब लोग<s n="prn"/></r></p></e>
-    <e><p><l>সবকিছু<s n="prn"/></l><r>हर एक चीज़<s n="prn"/></r></p></e>
-    <e><p><l>কেউনা<s n="prn"/></l><r>कोई नहीं<s n="prn"/></r></p></e>
-    <e><p><l>কিছু একটা<s n="prn"/></l><r>कुछ एक<s n="prn"/></r></p></e>
-    <e><p><l>বেশ কয়েকটা<s n="prn"/></l><r>कई<s n="prn"/></r></p></e>
-    <e><p><l>কম<s n="prn"/></l><r>कम<s n="prn"/></r></p></e>
+    <e><p><l>অন্য<s n="prn"/><s n="ind"/></l><r>एक और<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>যে কেউ<s n="prn"/><s n="ind"/></l><r>किसी को<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>যে কোনো কিছু<s n="prn"/><s n="ind"/></l><r>कुछ भी<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>প্রত্যেক<s n="prn"/><s n="ind"/></l><r>सब लोग<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>সবাই<s n="prn"/><s n="ind"/></l><r>सब लोग<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>সবকিছু<s n="prn"/><s n="ind"/></l><r>हर एक चीज़<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>কেউনা<s n="prn"/><s n="ind"/></l><r>कोई नहीं<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>কিছু একটা<s n="prn"/><s n="ind"/></l><r>कुछ एक<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>বেশ কয়েকটা<s n="prn"/><s n="ind"/></l><r>कई<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>কম<s n="prn"/><s n="ind"/></l><r>कम<s n="prn"/><s n="ind"/></r></p></e>
     <!--Interogative-->
-    <e><p><l>কে<s n="prn"/></l><r>कौन<s n="prn"/></r></p></e>
-    <e><p><l>কখন<s n="prn"/></l><r>कब<s n="prn"/></r></p></e>
-    <e><p><l>কার<s n="prn"/></l><r>गाड़ी<s n="prn"/></r></p></e>
-    <e><p><l>কি<s n="prn"/></l><r>क्या<s n="prn"/></r></p></e>
-    <e><p><l>কোনটা<s n="prn"/></l><r>कौन<s n="prn"/></r></p></e>
-
+    <e><p><l>কে<s n="prn"/><s n="itg"/></l><r>कौन<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>কখন<s n="prn"/><s n="itg"/></l><r>कब<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>কার<s n="prn"/><s n="itg"/></l><r>गाड़ी<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>কি<s n="prn"/><s n="itg"/></l><r>क्या<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>কোনটা<s n="prn"/><s n="itg"/></l><r>कौन<s n="prn"/><s n="itg"/></r></p></e>
 
 
     <!-- Need to work more on this -->
