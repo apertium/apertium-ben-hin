@@ -430,7 +430,7 @@
 
     <!-- negation markers are missing in bengali-->
 
-
+    <e><p><l>বিল্ডিং<s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /></l><r>इमारतें<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>ভারত<s n="np" /><s n="top" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>भारत<s n="np"/><s n="top"/><s n="sg"/></r></p></e> 
     <e><p><l>মালিক<s n="n"/><s n="mf"/><s n="hu"/></l><r>मालिक<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>শিক্ষক<s n="n"/><s n="mf"/><s n="hu"/></l><r>शिक्षक<s n="n"/><s n="m"/></r></p></e>
@@ -494,6 +494,7 @@
     <e><p><l>ট্রাক<s n="n"/><s n="mf"/><s n="nn"/></l><r>ट्रक<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>টাকা<s n="n"/><s n="mf"/><s n="nn"/></l><r>पैसा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>কথা<s n="n"/><s n="mf"/><s n="nn"/></l><r>बात<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ছাত্র<s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="nom"/></l><r>छात्र<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 
     <!--Numerals-->  <!-- GSoC 2021 -->
 
@@ -541,7 +542,7 @@
         <e r="LR"><p><l>চার<s n="num"/><s n="hu"/></l><r>चार<s n="num"/></r></p></e>
         <e r="LR"><p><l>চার<s n="num"/><s n="el"/></l><r>चार<s n="num"/></r></p></e>
 
-        <e><p><l>দু<s n="num"/><s n="an"/></l><r>दो<s n="num"/></r></p></e>
+        <e><p><l>দুই<s n="num"/><s n="an"/></l><r>दो<s n="num"/></r></p></e>
         <e r="LR"><p><l>দু<s n="num"/><s n="nn"/></l><r>दो<s n="num"/></r></p></e>
         <e r="LR"><p><l>দু<s n="num"/><s n="aa"/></l><r>दो<s n="num"/></r></p></e>
         <e r="LR"><p><l>দু<s n="num"/><s n="hu"/></l><r>दो<s n="num"/></r></p></e>
@@ -957,6 +958,7 @@
     <e><p><l>কাছে<s n="post"/></l><r>पास में<s n="post"/></r></p></e>
     <e><p><l>কারনে<s n="post"/></l><r>चूंकि<s n="post"/></r></p></e>
     <e><p><l>সোজা<s n="post"/></l><r>सीधे<s n="post"/></r></p></e>
+    <!--Check this case-->
     <e><p><l>সত্ত্বেও<s n="post"/></l><r>के बावजूद<s n="post"/></r></p></e>
     <e><p><l>বিরুদ্ধে<s n="post"/></l><r>विरुद्ध<s n="post"/></r></p></e>
     <e><p><l>দূরে<s n="post"/></l><r>दूर<s n="post"/></r></p></e>
