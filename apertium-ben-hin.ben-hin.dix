@@ -499,73 +499,30 @@
 
     <!--Numerals-->  <!-- GSoC 2021 -->
 
+        <e><p><l>0<s n="num"/></l><r>0<s n="num"/></r></p></e>
+	      <e><p><l>১<s n="num"/></l><r>१<s n="num"/></r></p></e>
+	      <e><p><l>২<s n="num"/></l><r>२<s n="num"/></r></p></e>
+	      <e><p><l>৩<s n="num"/></l><r>३<s n="num"/></r></p></e>
+	      <e><p><l>৪<s n="num"/></l><r>४<s n="num"/></r></p></e>
+	      <e><p><l>৫<s n="num"/></l><r>५<s n="num"/></r></p></e>
+	      <e><p><l>৬<s n="num"/></l><r>६<s n="num"/></r></p></e>
+	      <e><p><l>৭<s n="num"/></l><r>७<s n="num"/></r></p></e>
+	      <e><p><l>৮<s n="num"/></l><r>८<s n="num"/></r></p></e>
+	      <e><p><l>৯<s n="num"/></l><r>९<s n="num"/></r></p></e>
+      
         <!-- <par n="এক__num" /> -->
     
         <e><p><l>পাঁচ<s n="num"/><s n="an"/></l><r>पांच<s n="num"/></r></p></e>
-        <e r="LR"><p><l>পাঁচ<s n="num"/><s n="nn"/></l><r>पांच<s n="num"/></r></p></e>
-        <e r="LR"><p><l>পাঁচ<s n="num"/><s n="aa"/></l><r>पांच<s n="num"/></r></p></e>
-        <e r="LR"><p><l>পাঁচ<s n="num"/><s n="hu"/></l><r>पांच<s n="num"/></r></p></e>
-        <e r="LR"><p><l>পাঁচ<s n="num"/><s n="el"/></l><r>पांच<s n="num"/></r></p></e>
-
         <e><p><l>দশ<s n="num"/><s n="an"/></l><r>दस<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দশ<s n="num"/><s n="nn"/></l><r>दस<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দশ<s n="num"/><s n="aa"/></l><r>दस<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দশ<s n="num"/><s n="hu"/></l><r>दस<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দশ<s n="num"/><s n="el"/></l><r>दस<s n="num"/></r></p></e>
-
         <e><p><l>সাত<s n="num"/><s n="an"/></l><r>सात<s n="num"/></r></p></e>
-        <e r="LR"><p><l>সাত<s n="num"/><s n="nn"/></l><r>सात<s n="num"/></r></p></e>
-        <e r="LR"><p><l>সাত<s n="num"/><s n="aa"/></l><r>सात<s n="num"/></r></p></e>
-        <e r="LR"><p><l>সাত<s n="num"/><s n="hu"/></l><r>सात<s n="num"/></r></p></e>
-        <e r="LR"><p><l>সাত<s n="num"/><s n="el"/></l><r>सात<s n="num"/></r></p></e>
-
         <e><p><l>আট<s n="num"/><s n="an"/></l><r>आठ<s n="num"/></r></p></e>
-        <e r="LR"><p><l>আট<s n="num"/><s n="nn"/></l><r>आठ<s n="num"/></r></p></e>
-        <e r="LR"><p><l>আট<s n="num"/><s n="aa"/></l><r>आठ<s n="num"/></r></p></e>
-        <e r="LR"><p><l>আট<s n="num"/><s n="hu"/></l><r>आठ<s n="num"/></r></p></e>
-        <e r="LR"><p><l>আট<s n="num"/><s n="el"/></l><r>आठ<s n="num"/></r></p></e>
-
         <e><p><l>ছয়<s n="num"/><s n="an"/></l><r>छह<s n="num"/></r></p></e>
-        <e r="LR"><p><l>ছয়<s n="num"/><s n="nn"/></l><r>छह<s n="num"/></r></p></e>
-        <e r="LR"><p><l>ছয়<s n="num"/><s n="aa"/></l><r>छह<s n="num"/></r></p></e>
-        <e r="LR"><p><l>ছয়<s n="num"/><s n="hu"/></l><r>छह<s n="num"/></r></p></e>
-        <e r="LR"><p><l>ছয়<s n="num"/><s n="el"/></l><r>छह<s n="num"/></r></p></e>
-
         <e><p><l>এক<s n="num"/><s n="an"/></l><r>एक<s n="num"/></r></p></e>
-        <e r="LR"><p><l>এক<s n="num"/><s n="nn"/></l><r>एक<s n="num"/></r></p></e>
-        <e r="LR"><p><l>এক<s n="num"/><s n="aa"/></l><r>एक<s n="num"/></r></p></e>
-        <e r="LR"><p><l>এক<s n="num"/><s n="hu"/></l><r>एक<s n="num"/></r></p></e>
-        <e r="LR"><p><l>এক<s n="num"/><s n="el"/></l><r>एक<s n="num"/></r></p></e>
-
         <e><p><l>চার<s n="num"/><s n="an"/></l><r>चार<s n="num"/></r></p></e>
-        <e r="LR"><p><l>চার<s n="num"/><s n="nn"/></l><r>चार<s n="num"/></r></p></e>
-        <e r="LR"><p><l>চার<s n="num"/><s n="aa"/></l><r>चार<s n="num"/></r></p></e>
-        <e r="LR"><p><l>চার<s n="num"/><s n="hu"/></l><r>चार<s n="num"/></r></p></e>
-        <e r="LR"><p><l>চার<s n="num"/><s n="el"/></l><r>चार<s n="num"/></r></p></e>
-
         <e><p><l>দুই<s n="num"/><s n="an"/></l><r>दो<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দু<s n="num"/><s n="nn"/></l><r>दो<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দু<s n="num"/><s n="aa"/></l><r>दो<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দু<s n="num"/><s n="hu"/></l><r>दो<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দু<s n="num"/><s n="el"/></l><r>दो<s n="num"/></r></p></e>
-
         <e><p><l>নয়<s n="num"/><s n="an"/></l><r>नहीं<s n="num"/></r></p></e>
-        <e r="LR"><p><l>নয়<s n="num"/><s n="nn"/></l><r>नहीं<s n="num"/></r></p></e>
-        <e r="LR"><p><l>নয়<s n="num"/><s n="aa"/></l><r>नहीं<s n="num"/></r></p></e>
-        <e r="LR"><p><l>নয়<s n="num"/><s n="hu"/></l><r>नहीं<s n="num"/></r></p></e>
-        <e r="LR"><p><l>নয়<s n="num"/><s n="el"/></l><r>नहीं<s n="num"/></r></p></e>
-
         <e><p><l>তিন<s n="num"/><s n="an"/></l><r>तीन<s n="num"/></r></p></e>
-        <e r="LR"><p><l>তিন<s n="num"/><s n="nn"/></l><r>तीन<s n="num"/></r></p></e>
-        <e r="LR"><p><l>তিন<s n="num"/><s n="aa"/></l><r>तीन<s n="num"/></r></p></e>
-        <e r="LR"><p><l>তিন<s n="num"/><s n="hu"/></l><r>तीन<s n="num"/></r></p></e>
-        <e r="LR"><p><l>তিন<s n="num"/><s n="el"/></l><r>तीन<s n="num"/></r></p></e>
-
         <e><p><l>দুই<s n="num"/><s n="an"/></l><r>दो<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দুই<s n="num"/><s n="nn"/></l><r>दो<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দুই<s n="num"/><s n="aa"/></l><r>दो<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দুই<s n="num"/><s n="hu"/></l><r>दो<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দুই<s n="num"/><s n="el"/></l><r>दो<s n="num"/></r></p></e>
 
         <!-- <par n="একশ__num" /> -->
 
