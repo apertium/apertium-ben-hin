@@ -394,7 +394,7 @@
       <e><p><l>রয়েছে<s n="det"/><s n="pres"/><s n="p3"/><s n="mf"/></l><r>वहां<s n="det"/><s n="pres"/><s n="p3"/><s n="mf"/></r></p></e>
       <e><p><l>কি<s n="det"/><s n="itg"/><s n="sp"/></l><r>क्या<s n="det"/><s n="itg"/><s n="sp"/><s n="nom"/></r></p></e>
       <e><p><l>আমার<s n="det"/><s n="p1"/><s n="gen" /><s n="mf"/><s n="pl"/><s n="infml"/></l><r>मेरी<s n="det"/><s n="p1"/><s n="gen" /><s n="mf"/><s n="pl"/><s n="infml"/></r></p></e>
-      <e><p><l>আমাদের<s n="det"/><s n="p1"/><s n="gen" /><s n="pl" /><s n="mf" /></l><r>हमलोगों का<s n="det"/><s n="gen" /><s n="pl" /><s n="mf" /></r></p></e>
+      <e><p><l>আমাদের<s n="det"/><s n="p1"/><s n="gen" /><s n="pl" /><s n="mf" /></l><r>हमारा<s n="det"/><s n="gen" /><s n="pl" /><s n="mf" /></r></p></e>
       <e><p><l>তোমাদের<s n="det"/><s n="p1"/><s n="gen" /><s n="pol" /><s n="mf" /><s n="pl" /></l><r>तुम लोगों का<s n="det"/><s n="gen" /><s n="pol" /><s n="mf" /><s n="pl" /></r></p></e>
       <e><p><l>তার<s n="det"/><s n="p3"/><s n="gen"/><s n="mf"/><s n="sg"/><s n="infml"/></l><r>उसके<s n="det"/><s n="p3"/><s n="gen"/><s n="mf"/><s n="sg"/><s n="infml"/></r></p></e>
       <e><p><l>ইহার<s n="det"/><s n="p3"/><s n="pol"/><s n="gen"/><s n="mf"/><s n="sg"/></l><r>आईटी इस<s n="det"/><s n="pol"/><s n="gen"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -430,6 +430,7 @@
 
     <!-- negation markers are missing in bengali-->
 
+    <e><p><l>মানুষ<s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="nom" /></l><r>आदमी<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>বিল্ডিং<s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /></l><r>इमारतें<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>ভারত<s n="np" /><s n="top" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>भारत<s n="np"/><s n="top"/><s n="sg"/></r></p></e> 
     <e><p><l>মালিক<s n="n"/><s n="mf"/><s n="hu"/></l><r>मालिक<s n="n"/><s n="m"/></r></p></e>
@@ -910,7 +911,7 @@
     <e><p><l>সপ্তাহ<s n="n"/><s n="mf"/><s n="nn"/></l><r>सप्ताह<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>মসজিদ<s n="n"/><s n="mf"/><s n="nn"/></l><r>मस्जिद<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>মৃত্যু<s n="n"/><s n="mf"/><s n="nn"/></l><r>मृत्यु<s n="n"/><s n="f"/></r></p></e>
-
+    <e><p><l>মানুষরা<s n="n"/><s n="mf"/><s n="aa"/></l><r>पुरुष<s n="n"/><s n="f"/></r></p></e>
 
 
 
@@ -958,8 +959,7 @@
     <e><p><l>কাছে<s n="post"/></l><r>पास में<s n="post"/></r></p></e>
     <e><p><l>কারনে<s n="post"/></l><r>चूंकि<s n="post"/></r></p></e>
     <e><p><l>সোজা<s n="post"/></l><r>सीधे<s n="post"/></r></p></e>
-    <!--Check this case-->
-    <e><p><l>সত্ত্বেও<s n="post"/></l><r>के बावजूद<s n="post"/></r></p></e>
+   <!--Check this case--> <e><p><l>সত্ত্বেও<s n="post"/></l><r>के बावजूद<s n="post"/></r></p></e>
     <e><p><l>বিরুদ্ধে<s n="post"/></l><r>विरुद्ध<s n="post"/></r></p></e>
     <e><p><l>দূরে<s n="post"/></l><r>दूर<s n="post"/></r></p></e>
     <e><p><l>বনাম<s n="post"/></l><r>बनाम<s n="post"/></r></p></e>
@@ -1040,7 +1040,7 @@
     <e><p><l>তাদেরকে<s n="prn"/><s n="p3"/><s n="pl"/><s n="obj"/><s n="pers"/></l><r>उन्हें<s n="prn"/><s n="p3"/><s n="pl"/><s n="obj"/><s n="pers"/></r></p></e>
     <!--Possessive-->
     <e><p><l>আমার<s n="prn"/><s n="p1"/><s n="gen"/><s n="sg"/><s n="pers"/></l><r>मेरी<s n="prn"/><s n="p1"/><s n="gen"/><s n="sg"/><s n="pers"/></r></p></e>
-    <e><p><l>আমাদের<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>हमलोगो का<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
+    <e r="LR"><p><l>আমাদের<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>हमलोगो का<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
     <e><p><l>তোমাদের<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>तुमलोगों का<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
     <e><p><l>তাদের<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>उन लोगों का<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
     <!--Reflexive-->
@@ -1159,11 +1159,19 @@
       <e><p><l>যুদ্ধ করা<s n="vblex"/></l><r>युद्ध लड़ना<s n="vblex"/></r></p></e>
       <e><p><l>দেখ<s n="vblex"/></l><r>देख<s n="vblex"/></r></p></e>
 
+    <!-- SECTION: Punctuation -->
+
+    <e><re>[,]</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
+    <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
+    <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
+    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+    <e><re>[.\?;:!…¿¶॥]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>[0-9]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     
-      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+      
    </section>
 </dictionary>
+
 
 <!--
 Resources:
