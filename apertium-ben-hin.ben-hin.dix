@@ -37,6 +37,7 @@
     <sdef n="pers"            c="Personal pronoun"/>
     <sdef n="ref"             c="Reflexive pronoun"/>
     <sdef n="res"             c="Reciprocal pronoun"/>
+    <sdef n="obl"             c="Oblique"/> 
 
     <sdef n="det"             c="Determiner"/>
     <sdef n="pos"             c="Possessive"/>
@@ -554,12 +555,6 @@
         <e r="LR"><p><l>চার<s n="num"/><s n="hu"/></l><r>चार<s n="num"/></r></p></e>
         <e r="LR"><p><l>চার<s n="num"/><s n="el"/></l><r>चार<s n="num"/></r></p></e>
 
-        <e><p><l>দু<s n="num"/><s n="an"/></l><r>दो<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দু<s n="num"/><s n="nn"/></l><r>दो<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দু<s n="num"/><s n="aa"/></l><r>दो<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দু<s n="num"/><s n="hu"/></l><r>दो<s n="num"/></r></p></e>
-        <e r="LR"><p><l>দু<s n="num"/><s n="el"/></l><r>दो<s n="num"/></r></p></e>
-
         <e><p><l>নয়<s n="num"/><s n="an"/></l><r>नौ<s n="num"/></r></p></e>
         <e r="LR"><p><l>নয়<s n="num"/><s n="nn"/></l><r>नौ<s n="num"/></r></p></e>
         <e r="LR"><p><l>নয়<s n="num"/><s n="aa"/></l><r>नौ<s n="num"/></r></p></e>
@@ -789,7 +784,6 @@
     <e><p><l>সংবাদপত্র<s n="n"/><s n="mf"/><s n="nn"/></l><r>समाचारपत्र<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>পাখি<s n="n"/><s n="mf"/><s n="aa"/></l><r>पक्षी<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>টমেটো<s n="n"/><s n="nt"/><s n="nn"/></l><r>टमाटर<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>গরু<s n="n"/><s n="mf"/><s n="aa"/></l><r>गाय<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>বৃষ্টি<s n="n"/><s n="nt"/><s n="nn"/></l><r>वर्षा<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>মেঘ<s n="n"/><s n="nt"/><s n="nn"/></l><r>बादल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>জ্বর<s n="n"/><s n="nt"/><s n="nn"/></l><r>ज्वर<s n="n"/><s n="m"/></r></p></e>
@@ -922,9 +916,10 @@
     <e><p><l>সপ্তাহ<s n="n"/><s n="mf"/><s n="nn"/></l><r>सप्ताह<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>মসজিদ<s n="n"/><s n="mf"/><s n="nn"/></l><r>मस्जिद<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>মৃত্যু<s n="n"/><s n="mf"/><s n="nn"/></l><r>मृत्यु<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>মানুষরা<s n="n"/><s n="mf"/><s n="aa"/></l><r>पुरुष<s n="n"/><s n="f"/></r></p></e>
-
-
+    <e><p><l>মানুষরা<s n="n"/><s n="mf"/><s n="aa"/></l><r>पुरुष<s n="n"/><s n="f"/></r></p></e> 
+    <e><p><l>গরু<s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="nom"/></l><r>गायों<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+    <e><p><l>গরু<s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="nom"/></l><r>गायें<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+    
 
     <!-- SECTION POSTPOSITION -->
     <e><p><l>পাশে<s n="adv"/></l><r>पास<b/>में<s n="post"/></r></p></e>

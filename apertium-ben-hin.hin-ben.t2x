@@ -1,16 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interchunk>
   <section-def-cats>
+
     <def-cat n="SN">
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
-  </section-def-cats>
+
+  <def-cat n="noun">
+      <cat-item tags="NP.*"/>
+       <cat-item tags="NP"/>
+    </def-cat>
+
+  <def-cat n="verb">
+      <cat-item tags="VP.*"/> 
+       <cat-item tags="VP"/>   
+    </def-cat>
+
+  <def-cat n="preposition">
+       <cat-item tags="PP"/>
+      <cat-item tags="PP.*"/>    
+    </def-cat>
+
+  <def-cat n="adverb">
+       <cat-item tags="ADVP"/>
+      <cat-item tags="ADVP.*"/>
+    </def-cat>
+
+    <def-cat n="adjective">
+       <cat-item tags="ADJP"/>
+      <cat-item tags="ADJP.*"/>
+    </def-cat>
+
+    <def-cat n="conjunction">
+       <cat-item tags="CNJ"/>
+      <cat-item tags="CNJ.*"/>
+    </def-cat>
+
+    <def-cat n="ADV">
+      <cat-item tags="adv"/>
+      <cat-item tags="adv.*"/>
+    </def-cat>
+
+    <def-cat n="adj">
+      <cat-item lemma="adj"  tags="SA.*"/>
+      <cat-item lemma="np_pp"  tags="SA.*"/>
+    </def-cat>
+
+    <def-cat n="DET">
+      <cat-item tags="DET.*"/>
+    </def-cat>
+
+    <def-cat n="RELAN">
+      <cat-item tags="REL.an.*"/>
+      <!--<cat-item tags="SN.an.*"/>-->
+    </def-cat>
+  
+    <def-cat n="NUM">
+      <cat-item tags="NUM.*"/>
+    </def-cat>
+
+    <def-cat n="punt">
+      <cat-item tags="sent"/>
+    </def-cat>
+
+    <def-cat n="cnjcoo"> 
+      <cat-item tags="cnjcoo"/>
+    </def-cat>
+
+    </section-def-cats>
 
   <section-def-attrs>
+
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+
+    <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+
+    <def-attr n="case">
+      <attr-item tags="d"/>
+      <attr-item tags="o"/>
+      <attr-item tags="CD"/>
+    </def-attr>
+
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
     </def-attr>
+
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>	  
+      <attr-item tags="vblex.pron"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="HAVER"/>
+    </def-attr>
+    
   </section-def-attrs>
 
   <section-def-vars>
