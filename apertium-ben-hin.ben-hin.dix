@@ -572,7 +572,7 @@
         <e r="LR"><p><l>দুই<s n="num"/><s n="aa"/></l><r>दो<s n="num"/></r></p></e>
         <e r="LR"><p><l>দুই<s n="num"/><s n="hu"/></l><r>दो<s n="num"/></r></p></e>
         <e r="LR"><p><l>দুই<s n="num"/><s n="el"/></l><r>दो<s n="num"/></r></p></e>
-
+  
         <!-- <par n="একশ__num" /> -->
 
         <e><p><l>চৌদ্দ<s n="num"/><s n="an"/></l><r>चौदह<s n="num"/></r></p></e>
@@ -1171,7 +1171,7 @@
     <e><re>[,]</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
     <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
     <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
-    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+    <e><p><l>[—\-]+<s n="guio"/></l><r>[—\-]+<s n="guio"/></r></p></e>
     <e><re>[.\?;:!…¿¶॥]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[0-9]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     
