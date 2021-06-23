@@ -20,9 +20,10 @@
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
+    <sdef n="ger"             c="Gerund"/>  
 
     <sdef n="pcnd"            c=""/>
-    <sdef n="ppst"             c=""/>
+    <sdef n="ppst"            c=""/>
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
     <sdef n="ant"             c="Anthroponym"/>
@@ -37,7 +38,8 @@
     <sdef n="pers"            c="Personal pronoun"/>
     <sdef n="ref"             c="Reflexive pronoun"/>
     <sdef n="res"             c="Reciprocal pronoun"/>
-    <sdef n="obl"             c="Oblique"/> 
+    <sdef n="obl"             c="Oblique"/>
+    <sdef n="loc"             c="Locative"/>  
 
     <sdef n="det"             c="Determiner"/>
     <sdef n="pos"             c="Possessive"/>
@@ -139,14 +141,14 @@
       <e><p><l>পুরানো<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
       <e><p><l>শেষ<s n="adj"/></l><r>समाप्त<s n="adj"/></r></p></e>
       <e><p><l>ভাল<s n="adj"/></l><r>अच्छा<s n="adj"/></r></p></e>
-      <e><p><l>ছয়<s n="num"/></l><r>छह<s n="num"/></r></p></e>
       <e><p><l>শেষে<s n="adv"/></l><r>आखिर<b/>में<s n="adj"/></r></p></e>
       <e><p><l>দক্ষিণ<s n="adj"/></l><r>दक्षिण<s n="adj"/></r></p></e>
       <e><p><l>নতুন<s n="adj"/></l><r>नई<s n="adj"/></r></p></e>
       <e><p><l>একটু<s n="adj"/></l><r>थोड़ा<s n="adj"/></r></p></e>
 
-      <!-- GSOC2021 coding challenge -->
+      <!-- GSOC2021 coding challenge --> 
 
+      <e><p><l>সোজা<s n="adj"/><s n="mf"/></l><r>सीधे<s n="adv"/></r></p></e>
       <e><p><l>আজন্ম​<s n="adj"/></l><r>उम्र भर<s n="adj"/></r></p></e>
       <e><p><l>উচিত<s n="adj"/></l><r>चाहिए<s n="adj"/></r></p></e>
       <e><p><l>ধনী<s n="adj"/></l><r>धनी<s n="adj"/></r></p></e>
@@ -259,7 +261,7 @@
       <e><p><l>আবার<s n="adv"/></l><r>फिर<s n="adv"/></r></p></e>
       <e><p><l>আমরন<s n="adv"/></l><r>मृत्यु तक<s n="adv"/></r></p></e>
       <e><p><l>আসমুদ্র<s n="adv"/></l><r>समुद्र तक<s n="adv"/></r></p></e>
-
+      <e><p><l>দূরে<s n="adv"/></l><r>दूर<s n="adv"/></r></p></e>
 
       <!-- SECTION CONJUNCTION -->
       
@@ -272,121 +274,122 @@
       <e><p><l>তবে<s n="cnjcoo"/></l><r>लेकिन<s n="cnjcoo"/></r></p></e>
 
       <!-- GSoC 2021 -->
-
-      <e><p><l>পরে<s n="cnjcoo"/></l><r>बाद में<s n="cnjcoo"/></r></p></e>
-      <e><p><l>আবার<s n="cnjcoo"/></l><r>फ़िर से<s n="cnjcoo"/></r></p></e>
+        
+      <e><p><l>কারনে<s n="cnjcoo"/></l><r>चूंकि<s n="cnjadv"/></r></p></e>
+      <e><p><l>পরে<s n="cnjcoo"/></l><r>बाद<b/>में<s n="cnjcoo"/></r></p></e>
+      <e><p><l>আবার<s n="cnjcoo"/></l><r>फ़िर<b/>से<s n="cnjcoo"/></r></p></e>
       <e><p><l>আরো<s n="cnjcoo"/></l><r>अधिक<s n="cnjcoo"/></r></p></e>
       <e><p><l>ফলে<s n="cnjcoo"/></l><r>नतीजतन<s n="cnjcoo"/></r></p></e>
-      <e><p><l>যতক্ষন<s n="cnjcoo"/></l><r>जब तक<s n="cnjcoo"/></r></p></e>
+      <e><p><l>যতক্ষন<s n="cnjcoo"/></l><r>जब<b/>तक<s n="cnjcoo"/></r></p></e>
       <e><p><l>উভয়<s n="cnjcoo"/></l><r>दोनों<s n="cnjcoo"/></r></p></e>
       <e><p><l>কারণে<s n="cnjcoo"/></l><r>इसलिए<s n="cnjcoo"/></r></p></e>
-      <e><p><l>তাছাড়া<s n="cnjcoo"/></l><r>इसके अलावा<s n="cnjcoo"/></r></p></e>
-      <e><p><l>একইভাবে<s n="cnjcoo"/></l><r>उसी प्रकार<s n="cnjcoo"/></r></p></e>
-      <e><p><l>বিশেষকরে<s n="cnjcoo"/></l><r>विशेष रूप से<s n="cnjcoo"/></r></p></e>
-      <e><p><l>এমনকি<s n="cnjcoo"/></l><r>यहाँ तक की<s n="cnjcoo"/></r></p></e>
-      <e><p><l>হয় এটা অথবা ওটা<s n="cnjcoo"/></l><r>ये न तोह वो<s n="cnjcoo"/></r></p></e>
+      <e><p><l>তাছাড়া<s n="cnjcoo"/></l><r>इसके<b/>अलावा<s n="cnjcoo"/></r></p></e>
+      <e><p><l>একইভাবে<s n="cnjcoo"/></l><r>उसी<b/>प्रकार<s n="cnjcoo"/></r></p></e>
+      <e><p><l>বিশেষকরে<s n="cnjcoo"/></l><r>विशेष<b/>रूप<b/>से<s n="cnjcoo"/></r></p></e>
+      <e><p><l>এমনকি<s n="cnjcoo"/></l><r>यहाँ<b/>तक<b/>की<s n="cnjcoo"/></r></p></e>
+      <e><p><l>হয়<b/>এটা<b/>অথবা<b/>ওটা<s n="cnjcoo"/></l><r>ये<b/>न<b/>तोह<b/>वो<s n="cnjcoo"/></r></p></e>
       <e><p><l>যেমন<s n="cnjcoo"/></l><r>जैसे<s n="cnjcoo"/></r></p></e>
-      <e><p><l>এছাড়াও<s n="cnjcoo"/></l><r>इसके अलावा<s n="cnjcoo"/></r></p></e>
-      <e><p><l>সাধারণত<s n="cnjcoo"/></l><r>आम तौर पर<s n="cnjcoo"/></r></p></e>
+      <e><p><l>এছাড়াও<s n="cnjcoo"/></l><r>इसके<b/>अलावा<s n="cnjcoo"/></r></p></e>
+      <e><p><l>সাধারণত<s n="cnjcoo"/></l><r>आम<b/>तौर<b/>पर<s n="cnjcoo"/></r></p></e>
       <e><p><l>অতঃপর<s n="cnjcoo"/></l><r>फिर<s n="cnjcoo"/></r></p></e>
-      <e><p><l>সত্ত্বেও<s n="cnjcoo"/></l><r>के बावजूद<s n="cnjcoo"/></r></p></e>
+      <e><p><l>সত্ত্বেও<s n="cnjcoo"/></l><r>के<b/>बावजूद<s n="cnjcoo"/></r></p></e>
       <e><p><l>লক্ষ্যনীয়<s n="cnjcoo"/></l><r>प्रसिद्ध<s n="cnjcoo"/></r></p></e>
-      <e><p><l>পক্ষান্তরে<s n="cnjcoo"/></l><r>इसके विपरीत<s n="cnjcoo"/></r></p></e>
+      <e><p><l>পক্ষান্তরে<s n="cnjcoo"/></l><r>इसके<b/>विपरीत<s n="cnjcoo"/></r></p></e>
       <e><p><l>উপসংহার<s n="cnjcoo"/></l><r>निष्कर्ष<s n="cnjcoo"/></r></p></e>
-      <e><p><l>সংক্ষেপে<s n="cnjcoo"/></l><r>संक्षेप में<s n="cnjcoo"/></r></p></e>
+      <e><p><l>সংক্ষেপে<s n="cnjcoo"/></l><r>संक्षेप<b/>में<s n="cnjcoo"/></r></p></e>
       <e><p><l>ফলশ্রুতিতে<s n="cnjcoo"/></l><r>नतीजतन<s n="cnjcoo"/></r></p></e>
       <e><p><l>অধিকন্তু<s n="cnjcoo"/></l><r>अतिरिक्त<s n="cnjcoo"/></r></p></e>
-      <e><p><l>ইতিমধ্যে<s n="cnjcoo"/></l><r>इस दौरान<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ইতিমধ্যে<s n="cnjcoo"/></l><r>इस<b/>दौरान<s n="cnjcoo"/></r></p></e>
       <e><p><l>অর্থাৎ<s n="cnjcoo"/></l><r>अर्थात्<s n="cnjcoo"/></r></p></e>
       <e><p><l>অথবা<s n="cnjcoo"/></l><r>या<s n="cnjcoo"/></r></p></e>
       <e><p><l>অন্যথা<s n="cnjcoo"/></l><r>अन्यथा<s n="cnjcoo"/></r></p></e>
       <e><p><l>সামগ্রিক<s n="cnjcoo"/></l><r>संपूर्ण<s n="cnjcoo"/></r></p></e>
-      <e><p><l>অপরপক্ষে<s n="cnjcoo"/></l><r>दूसरी ओर<s n="cnjcoo"/></r></p></e>
+      <e><p><l>অপরপক্ষে<s n="cnjcoo"/></l><r>दूसरी<b/>ओर<s n="cnjcoo"/></r></p></e>
       <e><p><l>সুতরাং<s n="cnjcoo"/></l><r>इसलिए<s n="cnjcoo"/></r></p></e>
-      <e><p><l>পরবর্তীকালে<s n="cnjcoo"/></l><r>बाद में<s n="cnjcoo"/></r></p></e>
+      <e><p><l>পরবর্তীকালে<s n="cnjcoo"/></l><r>बाद<b/>में<s n="cnjcoo"/></r></p></e>
       <e><p><l>অতএব<s n="cnjcoo"/></l><r>इसलिये<s n="cnjcoo"/></r></p></e>
-      <e><p><l>অত্যাধিক<s n="cnjcoo"/></l><r>बोहत ज़ियादा<s n="cnjcoo"/></r></p></e>
-      <e><p><l>জন্য<s n="cnjcoo"/></l><r>के लिये<s n="cnjcoo"/></r></p></e>
+      <e><p><l>অত্যাধিক<s n="cnjcoo"/></l><r>बोहत<b/>ज़ियादा<s n="cnjcoo"/></r></p></e>
+      <e><p><l>জন্য<s n="cnjcoo"/></l><r>के<b/>लिये<s n="cnjcoo"/></r></p></e>
       <e><p><l>এবং<s n="cnjcoo"/></l><r>तथा<s n="cnjcoo"/></r></p></e>
       <e><p><l>না<s n="cnjcoo"/></l><r>नहीं<s n="cnjcoo"/></r></p></e>
-      <e><p><l>কিন্তু<s n="cnjcoo"/></l><r>बोहत ज़ियादा<s n="cnjcoo"/></r></p></e>
+      <e><p><l>কিন্তু<s n="cnjcoo"/></l><r>बोहत<b/>ज़ियादा<s n="cnjcoo"/></r></p></e>
       <e><p><l>অথবা<s n="cnjcoo"/></l><r>या<s n="cnjcoo"/></r></p></e>
       <e><p><l>তথাপি<s n="cnjcoo"/></l><r>हालाँकि<s n="cnjcoo"/></r></p></e>
       <e><p><l>তাই<s n="cnjcoo"/></l><r>इसलिए<s n="cnjcoo"/></r></p></e>
       <e><p><l>তারপর<s n="cnjsub"/></l><r>फिर<s n="cnjsub"/></r></p></e>
       <e><p><l>মত<s n="cnjsub"/></l><r>जैसा<s n="cnjsub"/></r></p></e>
       <e><p><l>যেমন<s n="cnjsub"/></l><r>जैसा<s n="cnjsub"/></r></p></e>
-      <e><p><l>যেন<s n="cnjsub"/></l><r>जैसे की<s n="cnjsub"/></r></p></e>
-      <e><p><l>যত দূর সম্ভব<s n="cnjsub"/></l><r>जहां तक ​​संभव हो<s n="cnjsub"/></r></p></e>
-      <e><p><l>যত বেশি সম্ভব<s n="cnjsub"/></l><r>जितना संभव<s n="cnjsub"/></r></p></e>
-      <e><p><l>যত তাড়াতাড়ি সম্ভব<s n="cnjsub"/></l><r>जितनी जल्दी हो सके<s n="cnjsub"/></r></p></e>
+      <e><p><l>যেন<s n="cnjsub"/></l><r>जैसे<b/>की<s n="cnjsub"/></r></p></e>
+      <e><p><l>যত<b/>দূর<b/>সম্ভব<s n="cnjsub"/></l><r>जहां<b/>तक<b/>संभव<b/>हो<s n="cnjsub"/></r></p></e>
+      <e><p><l>যত<b/>বেশি<b/>সম্ভব<s n="cnjsub"/></l><r>जितना<b/>संभव<s n="cnjsub"/></r></p></e>
+      <e><p><l>যত<b/>তাড়াতাড়ি<b/>সম্ভব<s n="cnjsub"/></l><r>जितनी<b/>जल्दी<b/>हो<b/>सके<s n="cnjsub"/></r></p></e>
       <e><p><l>কারণ<s n="cnjsub"/></l><r>वजह<s n="cnjsub"/></r></p></e>
-      <e><p><l>আগে<s n="cnjsub"/></l><r>इससे पहले<s n="cnjsub"/></r></p></e>
-      <e><p><l>এমন কি<s n="cnjsub"/></l><r>यहाँ तक की<s n="cnjsub"/></r></p></e>
+      <e><p><l>আগে<s n="cnjsub"/></l><r>इससे<b/>पहले<s n="cnjsub"/></r></p></e>
+      <e><p><l>এমন<b/>কি<s n="cnjsub"/></l><r>यहाँ<b/>तक<b/>की<s n="cnjsub"/></r></p></e>
       <e><p><l>যদি<s n="cnjsub"/></l><r>अगर<s n="cnjsub"/></r></p></e>
-      <e><p><l>শুধুমাত্র যদি<s n="cnjsub"/></l><r>केवल<s n="cnjsub"/></r></p></e>
-      <e><p><l>তাহলে যদি<s n="cnjsub"/></l><r>यदि ऐसा है तो<s n="cnjsub"/></r></p></e>
+      <e><p><l>শুধুমাত্র<b/>যদি<s n="cnjsub"/></l><r>केवल<s n="cnjsub"/></r></p></e>
+      <e><p><l>তাহলে<b/>যদি<s n="cnjsub"/></l><r>यदि<b/>ऐसा<b/>है<b/>तो<s n="cnjsub"/></r></p></e>
       <e><p><l>অবাস্তব<s n="cnjsub"/></l><r>अवास्तविक<s n="cnjsub"/></r></p></e>
-      <e><p><l>নির্দেশ অনুসারে<s n="cnjsub"/></l><r>आदेशानुसार<s n="cnjsub"/></r></p></e>
-      <e><p><l>এই রকম<s n="cnjsub"/></l><r>ऐशे ही<s n="cnjsub"/></r></p></e>
+      <e><p><l>নির্দেশ<b/>অনুসারে<s n="cnjsub"/></l><r>आदेशानुसार<s n="cnjsub"/></r></p></e>
+      <e><p><l>এই<b/>রকম<s n="cnjsub"/></l><r>ऐशे<b/>ही<s n="cnjsub"/></r></p></e>
       <e><p><l>পাছে<s n="cnjsub"/></l><r>अन्यथा<s n="cnjsub"/></r></p></e>
-      <e><p><l>এখন থেকে<s n="cnjsub"/></l><r>अब से<s n="cnjsub"/></r></p></e>
-      <e><p><l>এখন কি<s n="cnjsub"/></l><r>अब क्या है<s n="cnjsub"/></r></p></e>
-      <e><p><l>এখন কখন<s n="cnjsub"/></l><r>अब जब<s n="cnjsub"/></r></p></e>
-      <e><p><l>একদা<s n="cnjsub"/></l><r>एक बार<s n="cnjsub"/></r></p></e>
-      <e><p><l>একসময়<s n="cnjsub"/></l><r>एक बार<s n="cnjsub"/></r></p></e>
-      <e><p><l>সরবরাহ করা<s n="cnjsub"/></l><r>आपूर्ति<s n="cnjsub"/></r></p></e>
-      <e><p><l>যে সরবরাহ<s n="cnjsub"/></l><r>वह आपूर्ति<s n="cnjsub"/></r></p></e>
-      <e><p><l>বরং যে<s n="cnjsub"/></l><r>इसके बजाय<s n="cnjsub"/></r></p></e>
-      <e><p><l>এখন পর্যন্ত<s n="cnjsub"/></l><r>अब तक<s n="cnjsub"/></r></p></e>
-      <e><p><l>যাতে<s n="cnjsub"/></l><r>इसलिए कि<s n="cnjsub"/></r></p></e>
-      <e><p><l>অনুমান করা<s n="cnjsub"/></l><r>मान लीजिये<s n="cnjsub"/></r></p></e>
+      <e><p><l>এখন<b/>থেকে<s n="cnjsub"/></l><r>अब<b/>से<s n="cnjsub"/></r></p></e>
+      <e><p><l>এখন<b/>কি<s n="cnjsub"/></l><r>अब<b/>क्या<b/>है<s n="cnjsub"/></r></p></e>
+      <e><p><l>এখন<b/>কখন<s n="cnjsub"/></l><r>अब<b/>जब<s n="cnjsub"/></r></p></e>
+      <e><p><l>একদা<s n="cnjsub"/></l><r>एक<b/>बार<s n="cnjsub"/></r></p></e>
+      <e><p><l>একসময়<s n="cnjsub"/></l><r>एक<b/>बार<s n="cnjsub"/></r></p></e>
+      <e><p><l>সরবরাহ<b/>করা<s n="cnjsub"/></l><r>आपूर्ति<s n="cnjsub"/></r></p></e>
+      <e><p><l>যে<b/>সরবরাহ<s n="cnjsub"/></l><r>वह<b/>आपूर्ति<s n="cnjsub"/></r></p></e>
+      <e><p><l>বরং<b/>যে<s n="cnjsub"/></l><r>इसके<b/>बजाय<s n="cnjsub"/></r></p></e>
+      <e><p><l>এখন<b/>পর্যন্ত<s n="cnjsub"/></l><r>अब<b/>तक<s n="cnjsub"/></r></p></e>
+      <e><p><l>যাতে<s n="cnjsub"/></l><r>इसलिए<b/>कि<s n="cnjsub"/></r></p></e>
+      <e><p><l>অনুমান<b/>করা<s n="cnjsub"/></l><r>मान<b/>लीजिये<s n="cnjsub"/></r></p></e>
       <e><p><l>তারপর<s n="cnjsub"/></l><r>फिर<s n="cnjsub"/></r></p></e>
-      <e><p><l>পর্যন্ত<s n="cnjsub"/></l><r>जब तक<s n="cnjsub"/></r></p></e>
+      <e><p><l>পর্যন্ত<s n="cnjsub"/></l><r>जब<b/>तक<s n="cnjsub"/></r></p></e>
       <e><p><l>নাহলে<s n="cnjsub"/></l><r>अन्यथा<s n="cnjsub"/></r></p></e>
-      <e><p><l>যতক্ষণ পর্যন্ত<s n="cnjsub"/></l><r>जब तक<s n="cnjsub"/></r></p></e>
+      <e><p><l>যতক্ষণ<b/>পর্যন্ত<s n="cnjsub"/></l><r>जब<b/>तक<s n="cnjsub"/></r></p></e>
       <e><p><l>যখন<s n="cnjsub"/></l><r>कब<s n="cnjsub"/></r></p></e>
-      <e><p><l>যেখানে হিসাবে<s n="cnjsub"/></l><r>कहा पे<s n="cnjsub"/></r></p></e>
-      <e><p><l>যেখানে কখনো<s n="cnjsub"/></l><r>जहाँ कभी भी<s n="cnjsub"/></r></p></e>
-      <e><p><l>কোন<s n="cnjsub"/></l><r>नहीं न<s n="cnjsub"/></r></p></e>
+      <e><p><l>যেখানে<b/>হিসাবে<s n="cnjsub"/></l><r>कहा<b/>पे<s n="cnjsub"/></r></p></e>
+      <e><p><l>যেখানে<b/>কখনো<s n="cnjsub"/></l><r>जहाँ<b/>कभी<b/>भी<s n="cnjsub"/></r></p></e>
+      <e><p><l>কোন<s n="cnjsub"/></l><r>नहीं<b/>न<s n="cnjsub"/></r></p></e>
       <e><p><l>যখন<s n="cnjsub"/></l><r>जब<s n="cnjsub"/></r></p></e>
       <e><p><l>কখন<s n="cnjsub"/></l><r>कब<s n="cnjsub"/></r></p></e>
       <e><p><l>কোন<s n="cnjsub"/></l><r>कौनसा<s n="cnjsub"/></r></p></e>
       <e><p><l>কে<s n="cnjsub"/></l><r>कौन<s n="cnjsub"/></r></p></e>
       <e><p><l>কেন<s n="cnjsub"/></l><r>क्यूं<s n="cnjsub"/></r></p></e>
       <e><p><l>তদনুসিরে<s n="cnjadv"/></l><r>तदनुसार<s n="cnjadv"/></r></p></e>
-      <e><p><l>অতিরিক্তভাবে<s n="cnjadv"/></l><r>अधिकता से<s n="cnjadv"/></r></p></e>
-      <e><p><l>এছাড়াও<s n="cnjadv"/></l><r>और भी<s n="cnjadv"/></r></p></e>
-      <e><p><l>যাই হোক<s n="cnjadv"/></l><r>जो भी हो<s n="cnjadv"/></r></p></e>
+      <e><p><l>অতিরিক্তভাবে<s n="cnjadv"/></l><r>अधिकता<b/>से<s n="cnjadv"/></r></p></e>
+      <e><p><l>এছাড়াও<s n="cnjadv"/></l><r>और<b/>भी<s n="cnjadv"/></r></p></e>
+      <e><p><l>যাই<b/>হোক<s n="cnjadv"/></l><r>जो<b/>भी<b/>हो<s n="cnjadv"/></r></p></e>
       <e><p><l>ছাড়াও<s n="cnjadv"/></l><r>आलावा<s n="cnjadv"/></r></p></e>
       <e><p><l>অবশ্যই<s n="cnjadv"/></l><r>ज़रूर<s n="cnjadv"/></r></p></e>
       <e><p><l>নিশ্চিত<s n="cnjadv"/></l><r>ज़रूर<s n="cnjadv"/></r></p></e>
       <e><p><l>অতএব<s n="cnjadv"/></l><r>इसलिये<s n="cnjadv"/></r></p></e>
-      <e><p><l>বিপরীতভাবে<s n="cnjadv"/></l><r>इसके विपरीत<s n="cnjadv"/></r></p></e>
-      <e><p><l>অন্যকোথাও<s n="cnjadv"/></l><r>कहीं और<s n="cnjadv"/></r></p></e>
-      <e><p><l>সমানভাবে<s n="cnjadv"/></l><r>समान रूप से<s n="cnjadv"/></r></p></e>
-      <e><p><l>শেষঅবধি<s n="cnjadv"/></l><r>अंत तक<s n="cnjadv"/></r></p></e>
-      <e><p><l>আবার<s n="cnjadv"/></l><r>फिर व<s n="cnjadv"/></r></p></e>
-      <e><p><l>अब से<s n="cnjadv"/></l><r>এখন থেকে<s n="cnjadv"/></r></p></e>
-      <e><p><l>যাইহোক<s n="cnjadv"/></l><r>वैसे भी<s n="cnjadv"/></r></p></e>
+      <e><p><l>বিপরীতভাবে<s n="cnjadv"/></l><r>इसके<b/>विपरीत<s n="cnjadv"/></r></p></e>
+      <e><p><l>অন্যকোথাও<s n="cnjadv"/></l><r>कहीं<b/>और<s n="cnjadv"/></r></p></e>
+      <e><p><l>সমানভাবে<s n="cnjadv"/></l><r>समान<b/>रूप<b/>से<s n="cnjadv"/></r></p></e>
+      <e><p><l>শেষঅবধি<s n="cnjadv"/></l><r>अंत<b/>तक<s n="cnjadv"/></r></p></e>
+      <e><p><l>আবার<s n="cnjadv"/></l><r>फिर<b/>व<s n="cnjadv"/></r></p></e>
+      <e><p><l>अब<b/>से<s n="cnjadv"/></l><r>এখন<b/>থেকে<s n="cnjadv"/></r></p></e>
+      <e><p><l>যাইহোক<s n="cnjadv"/></l><r>वैसे<b/>भी<s n="cnjadv"/></r></p></e>
       <e><p><l>এছাড়াও<s n="cnjadv"/></l><r>भी<s n="cnjadv"/></r></p></e>
-      <e><p><l>তুলনাকরলে<s n="cnjadv"/></l><r>तुलना से<s n="cnjadv"/></r></p></e>
-      <e><p><l>বিপরীতে<s n="cnjadv"/></l><r>इसके विपरीत<s n="cnjadv"/></r></p></e>
-      <e><p><l>প্রকৃতপক্ষে<s n="cnjadv"/></l><r>वास्तव में<s n="cnjadv"/></r></p></e>
-      <e><p><l>বুদ্ধিমানের মত<s n="cnjadv"/></l><r>बुद्धिमान की तरह<s n="cnjadv"/></r></p></e>
-      <e><p><l>ইতিমধ্যে<s n="cnjadv"/></l><r>इस दौरान<s n="cnjadv"/></r></p></e>
+      <e><p><l>তুলনাকরলে<s n="cnjadv"/></l><r>तुलना<b/>से<s n="cnjadv"/></r></p></e>
+      <e><p><l>বিপরীতে<s n="cnjadv"/></l><r>इसके<b/>विपरीत<s n="cnjadv"/></r></p></e>
+      <e><p><l>প্রকৃতপক্ষে<s n="cnjadv"/></l><r>वास्तव<b/>में<s n="cnjadv"/></r></p></e>
+      <e><p><l>বুদ্ধিমানের<b/>মত<s n="cnjadv"/></l><r>बुद्धिमान<b/>की<b/>तरह<s n="cnjadv"/></r></p></e>
+      <e><p><l>ইতিমধ্যে<s n="cnjadv"/></l><r>इस<b/>दौरान<s n="cnjadv"/></r></p></e>
       <e><p><l>অর্থাত্<s n="cnjadv"/></l><r>यानी<s n="cnjadv"/></r></p></e>
-      <e><p><l>তবুও<s n="cnjadv"/></l><r>फिर भी<s n="cnjadv"/></r></p></e>
-      <e><p><l>এটারপর<s n="cnjadv"/></l><r>उसके बाद<s n="cnjadv"/></r></p></e>
+      <e><p><l>তবুও<s n="cnjadv"/></l><r>फिर<b/>भी<s n="cnjadv"/></r></p></e>
+      <e><p><l>এটারপর<s n="cnjadv"/></l><r>उसके<b/>बाद<s n="cnjadv"/></r></p></e>
       <e><p><l>এখন<s n="cnjadv"/></l><r>अब<s n="cnjadv"/></r></p></e>
       <e><p><l>অন্যথায়<s n="cnjadv"/></l><r>अन्यथा<s n="cnjadv"/></r></p></e>
       <e><p><l>বরং<s n="cnjadv"/></l><r>बल्कि<s n="cnjadv"/></r></p></e>
-      <e><p><l>নির্বিশেষে<s n="cnjadv"/></l><r>भले ही<s n="cnjadv"/></r></p></e>
-      <e><p><l>একইরকমভাবে<s n="cnjadv"/></l><r>उसी प्रकार<s n="cnjadv"/></r></p></e>
+      <e><p><l>নির্বিশেষে<s n="cnjadv"/></l><r>भले<b/>ही<s n="cnjadv"/></r></p></e>
+      <e><p><l>একইরকমভাবে<s n="cnjadv"/></l><r>उसी<b/>प्रकार<s n="cnjadv"/></r></p></e>
       <e><p><l>ফলস্বরূপ<s n="cnjadv"/></l><r>नतीजतन<s n="cnjadv"/></r></p></e>
-      <e><p><l>বিপরীতে<s n="cnjadv"/></l><r>इसके विपरीत<s n="cnjadv"/></r></p></e>
-      <e><p><l>আসলে<s n="cnjadv"/></l><r>वास्तव में<s n="cnjadv"/></r></p></e>
-      <e><p><l>নিঃসন্দেহে<s n="cnjadv"/></l><r>निश्चित रूप से<s n="cnjadv"/></r></p></e>
+      <e><p><l>বিপরীতে<s n="cnjadv"/></l><r>इसके<b/>विपरीत<s n="cnjadv"/></r></p></e>
+      <e><p><l>আসলে<s n="cnjadv"/></l><r>वास्तव<b/>में<s n="cnjadv"/></r></p></e>
+      <e><p><l>নিঃসন্দেহে<s n="cnjadv"/></l><r>निश्चित<b/>रूप<b/>से<s n="cnjadv"/></r></p></e>
 
 
 
@@ -403,34 +406,36 @@
       <e><p><l>তাদের<s n="det"/><s n="p3"/><s n="gen"/><s n="mf"/><s n="pl"/><s n="infml"/></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/></r></p></e>
       <e><p><l>তাদের<s n="det"/><s n="p3"/><s n="gen"/><s n="mf"/><s n="pl"/><s n="infml"/></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/></r></p></e>
       <!--Quantitative-->
-      <e><p><l>অনেক<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>बहुत सारे<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
+      <e><p><l>অনেক<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>बहुत<b/>सारे<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
       <e><p><l>কিছু<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>कुछ<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
-      <e><p><l>কোনওটানা<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>कोई नहीं<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
-      <e><p><l>যে কোনো<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>कोई भी<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
-      <e><p><l>যথেষ্ট<s n="det"/><s n="qnt"/><s n="an"/></l><r>बहुत हो चुका<s n="det"/><s n="qnt"/><s n="an"/></r></p></e>
+      <e><p><l>কোনওটানা<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>कोई<b/>नहीं<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
+      <e><p><l>যে<b/>কোনো<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>कोई<b/>भी<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
+      <e><p><l>যথেষ্ট<s n="det"/><s n="qnt"/><s n="an"/></l><r>बहुत<b/>हो<b/>चुका<s n="det"/><s n="qnt"/><s n="an"/></r></p></e>
       <e><p><l>নানারকম<s n="det"/><s n="qnt"/><s n="an"/></l><r>विभिन्न<s n="det"/><s n="qnt"/><s n="an"/></r></p></e>
       <e><p><l>নানারকম<s n="det"/><s n="qnt"/><s n="an"/></l><r>विभिन्न<s n="det"/><s n="qnt"/><s n="an"/></r></p></e>
-      <e><p><l>অল্প<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>थोड़ा सा<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
-      <e><p><l>প্রচুর<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>बहुत सारे<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
-      <e><p><l>খুব অল্প<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>बहुत कम<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
+      <e><p><l>অল্প<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>थोड़ा<b/>सा<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
+      <e><p><l>প্রচুর<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>बहुत<b/>सारे<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
+      <e><p><l>খুব<b/>অল্প<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>बहुत<b/>कम<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
       <e><p><l>অনেকটা<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></l><r>बहुत<s n="det"/><s n="qnt"/><s n="ind"/><s n="an"/></r></p></e>
       <e><p><l>একটা<s n="det"/><s n="qnt"/><s n="def"/></l><r>एक<s n="det"/><s n="qnt"/><s n="def"/></r></p></e>
       <e><p><l>একটি<s n="det"/><s n="qnt"/><s n="def"/></l><r>एक<s n="det"/><s n="qnt"/><s n="def"/></r></p></e>
       <!--Demonstrative-->
-      <e><p><l>এটা<s n="det"/><s n="dem"/><s n="nn"/></l><r>यह है<s n="det"/><s n="dem"/><s n="an"/></r></p></e>
-      <e><p><l>এ<s n="det"/><s n="dem"/><s n="aa"/></l><r>यह है<s n="det"/><s n="dem"/><s n="an"/></r></p></e>
-      <e><p><l>ঐটা<s n="det"/><s n="dem"/><s n="an"/></l><r>यह है<s n="det"/><s n="dem"/><s n="an"/></r></p></e>
-      <e><p><l>এইগুলো<s n="det"/><s n="dem"/><s n="an"/></l><r>यह सब<s n="det"/><s n="dem"/><s n="an"/></r></p></e>
-      <e><p><l>ওইগুলো<s n="det"/><s n="dem"/><s n="nn"/><s n="p3"/></l><r>उन सब<s n="det"/><s n="dem"/><s n="an"/><s n="p3"/></r></p></e> 
+      <e><p><l>এটা<s n="det"/><s n="dem"/><s n="nn"/></l><r>यह<b/>है<s n="det"/><s n="dem"/><s n="an"/></r></p></e>
+      <e><p><l>এ<s n="det"/><s n="dem"/><s n="aa"/></l><r>यह<b/>है<s n="det"/><s n="dem"/><s n="an"/></r></p></e>
+      <e><p><l>ঐটা<s n="det"/><s n="dem"/><s n="an"/></l><r>यह<b/>है<s n="det"/><s n="dem"/><s n="an"/></r></p></e>
+      <e><p><l>এইগুলো<s n="det"/><s n="dem"/><s n="an"/></l><r>यह<b/>सब<s n="det"/><s n="dem"/><s n="an"/></r></p></e>
+      <e><p><l>ওইগুলো<s n="det"/><s n="dem"/><s n="nn"/><s n="p3"/></l><r>उन<b/>सब<s n="det"/><s n="dem"/><s n="an"/><s n="p3"/></r></p></e> 
       <e><p><l>পরেরটা<s n="det"/><s n="dem"/></l><r>अगला<s n="det"/><s n="dem"/></r></p></e>
-      <e><p><l>আগেরটা<s n="det"/><s n="dem"/></l><r>पिछला वाला<s n="det"/><s n="dem"/></r></p></e>
+      <e><p><l>আগেরটা<s n="det"/><s n="dem"/></l><r>पिछला<b/>वाला<s n="det"/><s n="dem"/></r></p></e>
 
       <!-- <e><p><l><s n=""/></l><r><s n=""/></r></p></e> -->
 
       <!-- SECTION: Nouns -->
 
     <!-- negation markers are missing in bengali-->
+    
 
+    <!--need to check--><e><p><l>সময়<s n="n"/><s n="mf" /><s n="nn" /><s n="sg" /><s n="nom" /><s n="obl" /></l><r>समय<b/>पर<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>মানুষ<s n="n" /><s n="mf" /><s n="hu" /><s n="sg" /><s n="nom" /></l><r>आदमी<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>বিল্ডিং<s n="n" /><s n="nt" /><s n="nn" /><s n="sg" /><s n="nom" /></l><r>इमारतें<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>ভারত<s n="np" /><s n="top" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>भारत<s n="np"/><s n="top"/><s n="sg"/></r></p></e> 
@@ -584,7 +589,7 @@
         <e><p><l>সাতান্ন<s n="num"/><s n="an"/></l><r>सत्तावन<s n="num"/></r></p></e>
         <e><p><l>পঁয়ত্রিশ<s n="num"/><s n="an"/></l><r>पैंतीस<s n="num"/></r></p></e>
         <e><p><l>ছাব্বিশ<s n="num"/><s n="an"/></l><r>छब्बीस<s n="num"/></r></p></e>
-        <e><p><l>ছয়শত<s n="num"/><s n="an"/></l><r>छे सौ<s n="num"/></r></p></e>
+        <e><p><l>ছয়শত<s n="num"/><s n="an"/></l><r>छे<b/>सौ<s n="num"/></r></p></e>
         <e><p><l>আটানব্বই<s n="num"/><s n="an"/></l><r>अट्ठानबे<s n="num"/></r></p></e>
         <e><p><l>চুয়াত্তর<s n="num"/><s n="an"/></l><r>चौहत्तर<s n="num"/></r></p></e>
         <e><p><l>একাত্তর<s n="num"/><s n="an"/></l><r>इकहत्तर<s n="num"/></r></p></e>
@@ -617,23 +622,23 @@
         <e><p><l>বিরানব্বই<s n="num"/><s n="an"/></l><r>बानबे<s n="num"/></r></p></e>
         <e><p><l>ঊনষাট<s n="num"/><s n="an"/></l><r>उनहत्तर<s n="num"/></r></p></e>
         <e><p><l>আশি<s n="num"/><s n="an"/></l><r>अस्सी<s n="num"/></r></p></e>
-        <e><p><l>চারশ<s n="num"/><s n="an"/></l><r>चार सौ<s n="num"/></r></p></e>
+        <e><p><l>চারশ<s n="num"/><s n="an"/></l><r>चार<b/>सौ<s n="num"/></r></p></e>
         <e><p><l>চোষট্টি<s n="num"/><s n="an"/></l><r>चौंसठ<s n="num"/></r></p></e>
-        <e><p><l>দুইশ<s n="num"/><s n="an"/></l><r>दो सौ<s n="num"/></r></p></e>
-        <e><p><l>পাঁচশত<s n="num"/><s n="an"/></l><r>पांच सौ<s n="num"/></r></p></e>
+        <e><p><l>দুইশ<s n="num"/><s n="an"/></l><r>दो<b/>सौ<s n="num"/></r></p></e>
+        <e><p><l>পাঁচশত<s n="num"/><s n="an"/></l><r>पांच<b/>सौ<s n="num"/></r></p></e>
         <e><p><l>একুশ<s n="num"/><s n="an"/></l><r>इक्कीस<s n="num"/></r></p></e>
         <e><p><l>সাতষট্টি<s n="num"/><s n="an"/></l><r>सड़सठ<s n="num"/></r></p></e>
         <e><p><l>আটচল্লিশ<s n="num"/><s n="an"/></l><r>अड़तालीस<s n="num"/></r></p></e>
-        <e><p><l>আটশত<s n="num"/><s n="an"/></l><r>आठ सौ<s n="num"/></r></p></e>
+        <e><p><l>আটশত<s n="num"/><s n="an"/></l><r>आठ<b/>सौ<s n="num"/></r></p></e>
         <e><p><l>চুয়াল্লিশ<s n="num"/><s n="an"/></l><r>चवालीस<s n="num"/></r></p></e>
-        <e><p><l>একশ<s n="num"/><s n="an"/></l><r>एक सौ<s n="num"/></r></p></e>
+        <e><p><l>একশ<s n="num"/><s n="an"/></l><r>एक<b/>सौ<s n="num"/></r></p></e>
         <e><p><l>একচল্লিশ<s n="num"/><s n="an"/></l><r>इकतालीस<s n="num"/></r></p></e>
         <e><p><l>তিপ্পান্ন<s n="num"/><s n="an"/></l><r>तिरपन<s n="num"/></r></p></e>
-        <e><p><l>আটশ<s n="num"/><s n="an"/></l><r>आठ सौ<s n="num"/></r></p></e>
+        <e><p><l>আটশ<s n="num"/><s n="an"/></l><r>आठ<b/>सौ<s n="num"/></r></p></e>
         <e><p><l>সতের<s n="num"/><s n="an"/></l><r>सत्रह<s n="num"/></r></p></e>
-        <e><p><l>তিনশত<s n="num"/><s n="an"/></l><r>तीन सौ<s n="num"/></r></p></e>
+        <e><p><l>তিনশত<s n="num"/><s n="an"/></l><r>तीन<b/>सौ<s n="num"/></r></p></e>
         <e><p><l>একানব্বই<s n="num"/><s n="an"/></l><r>इक्यानबे<s n="num"/></r></p></e>
-        <e><p><l>দুইশত<s n="num"/><s n="an"/></l><r>दो सौ<s n="num"/></r></p></e>
+        <e><p><l>দুইশত<s n="num"/><s n="an"/></l><r>दो<b/>सौ<s n="num"/></r></p></e>
         <e><p><l>আঠাশ<s n="num"/><s n="an"/></l><r>अट्ठाईस<s n="num"/></r></p></e>
         <e><p><l>আঠার<s n="num"/><s n="an"/></l><r>अठारह<s n="num"/></r></p></e>
         <e><p><l>তেত্রিশ<s n="num"/><s n="an"/></l><r>तेंतीस<s n="num"/></r></p></e>
@@ -664,7 +669,7 @@
         <e><p><l>বাষট্টি<s n="num"/><s n="an"/></l><r>बासठ<s n="num"/></r></p></e>
         <e><p><l>পঞ্চান্ন<s n="num"/><s n="an"/></l><r>पचपन<s n="num"/></r></p></e>
         <e><p><l>পনের<s n="num"/><s n="an"/></l><r>पंद्रह<s n="num"/></r></p></e>
-        <e><p><l>সাতশত<s n="num"/><s n="an"/></l><r>सात सौ<s n="num"/></r></p></e>
+        <e><p><l>সাতশত<s n="num"/><s n="an"/></l><r>सात<b/>सौ<s n="num"/></r></p></e>
         <e><p><l>নয়<s n="num"/><s n="an"/></l><r>नहीं<s n="num"/></r></p></e>
         <e><p><l>নয়শ<s n="num"/><s n="an"/></l><r>नव्वे<s n="num"/></r></p></e>
         <e><p><l>ষোল<s n="num"/><s n="an"/></l><r>सोलह<s n="num"/></r></p></e>
@@ -675,13 +680,13 @@
         <e><p><l>চৌত্রিশ<s n="num"/><s n="an"/></l><r>चौंतीस<s n="num"/></r></p></e>
         <e><p><l>ঊনপঞ্চাশ<s n="num"/><s n="an"/></l><r>उनसठ<s n="num"/></r></p></e>
         <e><p><l>ছেচল্লিশ<s n="num"/><s n="an"/></l><r>छियालीस<s n="num"/></r></p></e>
-        <e><p><l>তিনশ<s n="num"/><s n="an"/></l><r>तीन सौ<s n="num"/></r></p></e>
+        <e><p><l>তিনশ<s n="num"/><s n="an"/></l><r>तीन<b/>सौ<s n="num"/></r></p></e>
         <e><p><l>লাখ<s n="num"/><s n="an"/></l><r>लाखों<s n="num"/></r></p></e>
         <e><p><l>ছিয়াত্তর<s n="num"/><s n="an"/></l><r>छिहत्तर<s n="num"/></r></p></e>
-        <e><p><l>চারশত<s n="num"/><s n="an"/></l><r>चार सौ<s n="num"/></r></p></e>
+        <e><p><l>চারশত<s n="num"/><s n="an"/></l><r>चार<b/>सौ<s n="num"/></r></p></e>
         <e><p><l>পঁচাশি<s n="num"/><s n="an"/></l><r>पचासी<s n="num"/></r></p></e>
-        <e><p><l>একশত<s n="num"/><s n="an"/></l><r>एक सौ<s n="num"/></r></p></e> 
-        <e><p><l>ছয়শ<s n="num"/><s n="an"/></l><r>छे सौ<s n="num"/></r></p></e>
+        <e><p><l>একশত<s n="num"/><s n="an"/></l><r>एक<b/>सौ<s n="num"/></r></p></e> 
+        <e><p><l>ছয়শ<s n="num"/><s n="an"/></l><r>छे<b/>सौ<s n="num"/></r></p></e>
         <e><p><l>ত্রিশ<s n="num"/><s n="an"/></l><r>तीस<s n="num"/></r></p></e>
         <e><p><l>বিশ<s n="num"/><s n="an"/></l><r>बीस<s n="num"/></r></p></e>
         <e><p><l>তিরাশি<s n="num"/><s n="an"/></l><r>तिरासी<s n="num"/></r></p></e>
@@ -919,7 +924,7 @@
     <e><p><l>মানুষরা<s n="n"/><s n="mf"/><s n="aa"/></l><r>पुरुष<s n="n"/><s n="f"/></r></p></e> 
     <e><p><l>গরু<s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="nom"/></l><r>गायों<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
     <e><p><l>গরু<s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="nom"/></l><r>गायें<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
-    
+    <e><p><l>অভিযুক্ত<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></l><r>अभियुक्त<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 
     <!-- SECTION POSTPOSITION -->
     <e><p><l>পাশে<s n="adv"/></l><r>पास<b/>में<s n="post"/></r></p></e>
@@ -963,19 +968,14 @@
     <e><p><l>চার<b/>দিকে<s n="post"/></l><r>चारो<b/>ओर<s n="post"/></r></p></e>
     <e><p><l>প্রথম<b/>থেকে<b/>শেষ<b/>পর্যন্ত​<s n="post"/></l><r>शुरुआत<b/>से<b/>अंत<b/>तक<s n="post"/></r></p></e>
     <e><p><l>কাছে<s n="post"/></l><r>पास<b/>में<s n="post"/></r></p></e>
-    <e><p><l>কারনে<s n="post"/></l><r>चूंकि<s n="post"/></r></p></e>
-    <e><p><l>সোজা<s n="post"/></l><r>सीधे<s n="post"/></r></p></e>
-   <!--Check this case--> <e><p><l>সত্ত্বেও<s n="post"/></l><r>के<b/>बावजूद<s n="post"/></r></p></e>
+    <e><p><l>সত্ত্বেও<s n="post"/></l><r>के<b/>बावजूद<s n="post"/></r></p></e>
     <e><p><l>বিরুদ্ধে<s n="post"/></l><r>विरुद्ध<s n="post"/></r></p></e>
-    <e><p><l>দূরে<s n="post"/></l><r>दूर<s n="post"/></r></p></e>
+    
     <e><p><l>বনাম<s n="post"/></l><r>बनाम<s n="post"/></r></p></e>
-    <e><p><l>সময়ে<s n="post"/></l><r>समय<b/>पर<s n="post"/></r></p></e>
-    <e><p><l>বিশ্বাস<b/>করা<s n="post"/></l><r>विश्वास<b/>करना<s n="post"/></r></p></e>
-    <!--Check this case--> <e><p><l>মেনে<b/>চলা<s n="post"/></l><r>पालन<b/>​​​​करना<s n="post"/></r></p></e>
-    <e><p><l>কি<b/>কারনে<s n="post"/></l><r>किस<b/>कारण<b/>से<s n="post"/></r></p></e>
-    <e><p><l>অভিযুক্ত<s n="post"/></l><r>अभियुक्त<s n="post"/></r></p></e>
-    <e><p><l>হটে<b/>আসা<s n="post"/></l><r>हट<b/>जाना<s n="post"/></r></p></e>
-    <e><p><l>সতর্ক<b/>হওয়া<s n="post"/></l><r>सावधान<b/>होना<s n="post"/></r></p></e>
+    <!--need to fix--><e><p><l>বিশ্বাস<b/>করা<s n="vblex"/><s n="ger"/></l><r>विश्वास<b/>करना<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
+    <!--Check this case cnjadv--> <e><p><l>মেনে<b/>চলা<s n="post"/></l><r>पालन<b/>​​​​करना<s n="post"/></r></p></e>
+    <!--Check this case verb--><e><p><l>হটে<b/>আসা<s n="post"/></l><r>हट<b/>जाना<s n="post"/></r></p></e>
+    <!--Check this case verb / satarka adj--><e><p><l>সতর্ক<b/>হওয়া<s n="post"/></l><r>सावधान<b/>होना<s n="post"/></r></p></e>
 
 
     <!-- SECTION PRONOUNS -->
@@ -1078,7 +1078,6 @@
     <e><p><l>কার<s n="prn"/><s n="itg"/></l><r>गाड़ी<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>কি<s n="prn"/><s n="itg"/></l><r>क्या<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>কোনটা<s n="prn"/><s n="itg"/></l><r>कौन<s n="prn"/><s n="itg"/></r></p></e>
-
     <e><p><l>তিনি<s n="prn"/><s n="dem"/><s n="p3"/><s n="pol"/><s n="aa"/><s n="mf"/><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
 
     <!-- Need to work more on this -->
@@ -1176,8 +1175,6 @@
     <e><p><l>[—\-]+<s n="guio"/></l><r>[—\-]+<s n="guio"/></r></p></e>
     <e><re>[.\?;:!…¿¶॥]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[0-9]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
-    
-    <!-- verify --> <e><p><l>॥<s n="num"/></l><r>९<s n="num"/></r></p></e>
       
    </section>
 </dictionary>

@@ -112,11 +112,15 @@
       <attr-item tags="vbmod"/>
       <attr-item tags="HAVER"/>
     </def-attr>
-    
+
   </section-def-attrs>
 
   <section-def-vars>
     <def-var n="number"/>
+    <def-var n="nbrvar"/>
+    <def-var n="genvar"/>
+    <def-var n="persvar"/>
+    <def-var n="lemvar"/>
   </section-def-vars>
 
   <section-def-macros>
