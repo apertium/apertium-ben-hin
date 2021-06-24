@@ -100,6 +100,7 @@
     <sdef n="pst"             c="Positive"/>
     <sdef n="comp"            c="Comparative"/>
     <sdef n="sup"             c="Superlative"/>
+    <sdef n="gna"             c="verbal adverb"/>
 
     <sdef n="ord"             c="Ordinal"/>
     <sdef n="acr"             c="Acronym"/>
@@ -243,7 +244,7 @@
       <e><p><l>সামনে<s n="adv"/></l><r>सामने<s n="adv"/></r></p></e>
       <e><p><l>সেখানে<s n="adv"/></l><r>वहाँ<s n="adv"/></r></p></e>
       <e><p><l>সহজে<s n="adv"/></l><r>आराम से<s n="adv"/></r></p></e>
-      <e><p><l>সতর্ক<s n="adv"/></l><r>सावधानी से<s n="adv"/></r></p></e>
+      <e><p><l>সতর্ক<s n="adj"/><s n="mf"/></l><r>सावधान<s n="adj"/></r></p></e>
       <e><p><l>সঠিক<s n="adv"/></l><r>सही<s n="adv"/></r></p></e>
       <e><p><l>আস্তে আস্তে<s n="adv"/></l><r>धीरे से<s n="adv"/></r></p></e>
       <e><p><l>এই ভাবে<s n="adv"/></l><r>इस तरह<s n="adv"/></r></p></e>
@@ -973,10 +974,11 @@
     
     <e><p><l>বনাম<s n="post"/></l><r>बनाम<s n="post"/></r></p></e>
     <!--need to fix--><e><p><l>বিশ্বাস<b/>করা<s n="vblex"/><s n="ger"/></l><r>विश्वास<b/>करना<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
-    <!--Check this case cnjadv--> <e><p><l>মেনে<b/>চলা<s n="post"/></l><r>पालन<b/>​​​​करना<s n="post"/></r></p></e>
-    <!--Check this case verb--><e><p><l>হটে<b/>আসা<s n="post"/></l><r>हट<b/>जाना<s n="post"/></r></p></e>
-    <!--Check this case verb / satarka adj--><e><p><l>সতর্ক<b/>হওয়া<s n="post"/></l><r>सावधान<b/>होना<s n="post"/></r></p></e>
-
+    <!--Check this case verb / satarka adj <e><p><l>সতর্ক<b/>হওয়া<s n="post"/></l><r>सावधान<b/>होना<s n="post"/></r></p></e>
+--> 
+    <e><p><l>হটে<s n="post"/></l><r>टालके<s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
+    <e><p><l>মেনে<s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="nom"/></l><r>पालन<s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+    <e><p><l>চলা<s n="n"/></l><r>​​​​करना<s n="vblex"/></r></p></e>
 
     <!-- SECTION PRONOUNS -->
     <e><p><l>তা<s n="prn" /><s n="p3" /><s n="rel" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="nom" /></l><r>वो<s n="adv"/></r></p></e>
@@ -1124,11 +1126,12 @@
       <e><p><l>বল<s n="vblex"/></l><r>बता<s n="vblex"/></r></p></e>
       <e><p><l>চা<s n="vblex"/></l><r>चाह<s n="vblex"/></r></p></e>
       <e><p><l>লাগ<s n="vblex"/></l><r>लग<s n="vblex"/></r></p></e>
-<!--     <e><p><l><s n=""/></l><r><s n=""/></r></p></e>
- -->    
-      <!-- GSoC 2021 -->
+      <!--  <e><p><l><s n=""/></l><r><s n=""/></r></p></e>  -->
+  
+
+      <!-- GSoC 2021 -->      <!--  होना ->  “#আছ” -->
       <e><p><l>জেগে<b/>ওঠা<s n="vblex"/></l><r>उठो<s n="vblex"/></r></p></e>
-      <e><p><l>হওয়া<s n="vblex"/></l><r>होना<s n="vblex"/></r></p></e>
+      <e><p><l>হওয়া<s n="vblex"/><s n="ger"/> </l><r>होना<s n="vblex"/></r></p></e>
       <e><p><l>আদেশ<b/>করা<s n="vblex"/></l><r>हुक्म<b/>देना<s n="vblex"/></r></p></e>
       <e><p><l>বহন<b/>করা<s n="vblex"/></l><r>उठाना<s n="vblex"/></r></p></e>
       <e><p><l>আঘাত<b/>করা<s n="vblex"/></l><r>चोट<b/>पहुंचाना<s n="vblex"/></r></p></e>
@@ -1142,7 +1145,7 @@
       <e><p><l>নত<b/>করা<s n="vblex"/></l><r>झुकना<s n="vblex"/></r></p></e>
       <e><p><l>তৈরী<b/>করা<s n="vblex"/></l><r>बनाना<s n="vblex"/></r></p></e>
       <e><p><l>দেখা<s n="vblex"/></l><r>देखना<s n="vblex"/></r></p></e>
-      <e><p><l>আসা<s n="vblex"/></l><r>आना<s n="vblex"/></r></p></e>
+      <e><p><l>আসা<s n="vblex"/><s n="ger"/></l><r>आना<s n="vblex"/><s n="iv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
       <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
       <e><p><l>পছন্দ<b/>করা<s n="vblex"/></l><r>पसंद<b/>करना<s n="vblex"/></r></p></e>
       <e><p><l>লেগে<b/>থাকা<s n="vblex"/></l><r>लगे<b/>रहना<s n="vblex"/></r></p></e>
