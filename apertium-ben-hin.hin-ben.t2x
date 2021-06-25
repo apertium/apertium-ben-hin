@@ -104,10 +104,10 @@
       <cat-item tags="SN.UNDET.*"/>
     </def-cat>
 
-    <def-cat n="SV"><!--Verb conjugat, i tb infinitiu per quan el tagger s'equivoca. -->
+    <def-cat n="SV"><!--Verb conjugate -->
       <cat-item lemma="verbcj" tags="SV.*"/>
       <cat-item tags="Vcop.*"/>
-      <cat-item lemma="mod" tags="SV.*"/><!--MG: I have to <sent> : no deixar-ho penjat (haig de 'fer-ho'). En canvi : 'I have to <desconeguda>: sí que és 'haig de'. -->
+      <cat-item lemma="mod" tags="SV.*"/><!--MG: I have to <sent> . -->
       <cat-item lemma="auxmod_inf" tags="SV.*"/>
       <cat-item lemma="auxmod_inf_inf" tags="SV.*"/><!--BCN-->
       <cat-item lemma="be_ger_inf" tags="SV.*"/> <!--BCN-->
@@ -119,7 +119,7 @@
       <cat-item lemma="mod_inf" tags="SV.*"/>
       <cat-item lemma="mod_perif" tags="SV.*"/>
       <cat-item lemma="mod_inf_perif" tags="SV.*"/>
-      <cat-item lemma="aux_mod" tags="SV.*"/><!--Aquests van davant desconegudes o sent (I will have to.) -->
+      <cat-item lemma="aux_mod" tags="SV.*"/><!--changes -->
       <cat-item lemma="have_pp" tags="SV.*"/>
       <cat-item lemma="have_pp_inf" tags="SV.*"/><!-- BCN-->
       <cat-item lemma="auxmod_have_pp" tags="SV.*"/>
@@ -128,7 +128,7 @@
       <cat-item lemma="be_ger" tags="SV.*"/>
       <cat-item lemma="be_ger_enc" tags="SV.*"/>
       <cat-item tags="SV.vblex.inf.*"/>
-      <cat-item tags="SV.pron.inf.*"/><!--afegit 16-01-2008 -->
+      <cat-item tags="SV.pron.inf.*"/>
       <cat-item tags="SV.vbmod.inf.*"/>
       <cat-item lemma="verbcj_perif" tags="SV.*"/>
       <cat-item lemma="pro_verbcj" tags="SV.*"/>
@@ -149,7 +149,7 @@
       
     </def-cat>
     
-    <def-cat n="SVGER"><!-- BCN. Per ara no entren els compostos amb have (having won)-->
+    <def-cat n="SVGER"><!-- BCN. (having won)-->
       <cat-item lemma="ger" tags="SV.*"/>
       <cat-item lemma="ger_enc" tags="SV.*"/>
       <cat-item lemma="ger_enc_enc" tags="SV.*"/>
@@ -198,7 +198,7 @@
 
     <def-cat n="pp">
       <cat-item lemma="pp"  tags="SA.*"/>
-      <cat-item lemma="adj"  tags="SA.*"/><!-- BCN per que agafi bé resolutions adopted -->
+      <cat-item lemma="adj"  tags="SA.*"/><!-- BCN -->
     </def-cat>
  
 
@@ -281,7 +281,7 @@
   </section-def-attrs>
 
   <section-def-vars>
-    <def-var n="number"/> <!--uno-->
+    <def-var n="number"/> <!--uno tags-->
     <def-var n="nbrvar"/>
     <def-var n="genvar"/>
     <def-var n="vibhakthi"/>
