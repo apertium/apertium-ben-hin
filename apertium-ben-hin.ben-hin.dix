@@ -1049,14 +1049,14 @@
     <e><p><l>তার<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>उसके<s n="prn"/><s n="p3"/><s n="sg"/><s n="obj"/><s n="pers"/></r></p></e>  <!--prpers-->
     <e><p><l>তাদেরকে<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>उन्हें<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>  <!--prpers giving #-->
     <!--Possessive-->
-    <e><p><l>আমার<s n="prn"/><s n="p1"/><s n="gen"/><s n="sg"/><s n="pers"/></l><r>मेरी<s n="prn"/><s n="p1"/><s n="gen"/><s n="sg"/><s n="pers"/></r></p></e>
-    <e r="LR"><p><l>আমাদের<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>हमलोगो<b/>का<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
-    <e><p><l>তোমাদের<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>तुमलोगों<b/>का<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
-    <e><p><l>তাদের<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>उन<b/>लोगों<b/>का<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
+    <e><p><l>আমার<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>मेरी<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>   <!--tags correct, getting * -->
+    <e r="LR"><p><l>আমাদের<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>हमलोगो<b/>का<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>  <!--First word not defined second word has tags-->
+    <e><p><l>তোমাদের<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>तुमलोगों<b/>का<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
+    <e><p><l>তাদের<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>उन<b/>लोगों<b/>का<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>   <!--prpers-->
     <!--Reflexive-->
     <e><p><l>নিজেকে<s n="prn"/><s n="ref"/><s n="sg"/></l><r>खुद<b/>को<s n="prn"/><s n="ref"/><s n="sg"/></r></p></e>
     <e><p><l>নিজেই<s n="prn"/><s n="ref"/><s n="sg"/></l><r>खुद<b/>ही<s n="prn"/><s n="ref"/><s n="sg"/></r></p></e>
-    <e><p><l>তাদেরকে<s n="prn"/><s n="ref"/><s n="sg"/></l><r>उन्हें<s n="prn"/><s n="ref"/><s n="sg"/></r></p></e>
+    <e><p><l>তাদেরকে<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>उन्हें<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>
     <!--Relative-->
     <e><p><l>কাকে<s n="prn"/><s n="rel"/><s n="itg"/></l><r>किस<b/>को<s n="prn"/><s n="rel"/><s n="itg"/></r></p></e>
     <e><p><l>কার<s n="prn"/><s n="rel"/><s n="itg"/></l><r>किसका<s n="prn"/><s n="rel"/><s n="itg"/></r></p></e>
