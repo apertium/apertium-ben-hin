@@ -71,6 +71,7 @@
 
     <sdef n="iv"              c="Intransitive"/>
     <sdef n="tv"              c="Transitive"/>
+    <sdef n="prox"            c="Proximate"/>
 
     <sdef n="rel"             c="Relative"/>
     <sdef n="nom"             c="Nominative"/>
@@ -981,7 +982,7 @@
     <e><p><l>চলা<s n="n"/></l><r>​​​​करना<s n="vblex"/></r></p></e>
 
     <!-- SECTION PRONOUNS -->
-    <e><p><l>তা<s n="prn" /><s n="p3" /><s n="rel" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="nom" /></l><r>वो<s n="adv"/></r></p></e>
+   <!-- <e><p><l>তা<s n="prn" /><s n="p3" /><s n="rel" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="nom" /></l><r>वो<s n="adv"/></r></p></e> -->
 
 
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -1035,18 +1036,18 @@
      <!-- GSoC 2021 -->
 
     <!--Personal-->
-    <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="sg"/><s n="pers"/></l><r>मैं<s n="prn"/><s n="p1"/><s n="aa"/><s n="sg"/><s n="pers"/></r></p></e>
-    <e><p><l>আমরা<s n="prn"/><s n="p1"/><s n="ref"/><s n="aa"/><s n="pl"/><s n="pers"/></l><r>हम<s n="prn"/><s n="p1"/><s n="ref"/><s n="aa"/><s n="pl"/><s n="pers"/></r></p></e>
-    <e><p><l>তুমি<s n="prn"/><s n="p2"/><s n="aa"/><s n="pl"/><s n="pers"/></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="aa"/><s n="pl"/></r></p></e>
-    <e><p><l>তোমরা<s n="prn"/><s n="p2"/><s n="pl"/><s n="pers"/><s n="aa"/></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="aa"/><s n="pl"/></r></p></e>
-    <e><p><l>সে<s n="prn"/><s n="p3"/><s n="sg"/><s n="pers"/><s n="aa"/></l><r>वह<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="aa"/></r></p></e>
-    <e><p><l>এটা<s n="prn"/><s n="pers"/><s n="sg"/><s n="an"/><s n="dem"/></l><r>यह<s n="prn"/><s n="pers"/><s n="sg"/><s n="an"/><s n="dem"/></r></p></e>
-    <e><p><l>তারা<s n="prn"/><s n="pers"/><s n="pl"/><s n="aa"/><s n="p3"/></l><r>वे<s n="prn"/><s n="pers"/><s n="pl"/><s n="aa"/><s n="p3"/></r></p></e>
+    <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>আমরা<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="obl"/></r></p></e>
+    <e><p><l>তুমি<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
+    <e><p><l>তোমরা<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>  <!--need to fix, this line is correct-->
+    <e><p><l>সে<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="nom"/></r></p></e>  <!--prpers-->
+    <e><p><l>এটা<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="nom"/></r></p></e>  <!--prpers getting #-->
+    <e><p><l>তারা<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>वे<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>   <!--prpers getting #-->
     <!--Object-->
-    <e><p><l>আমাকে<s n="prn"/><s n="p1"/><s n="sg"/><s n="obj"/><s n="pers"/></l><r>मेरे<b/>को<s n="prn"/><s n="p1"/><s n="sg"/><s n="obj"/><s n="pers"/></r></p></e>
-    <e><p><l>আমাদেরকে<s n="prn"/><s n="p1"/><s n="pl"/><s n="obj"/><s n="pers"/></l><r>हम<b/>लोगो<b/>को<s n="prn"/><s n="p1"/><s n="pl"/><s n="obj"/><s n="pers"/></r></p></e>
-    <e><p><l>তার<s n="prn"/><s n="p3"/><s n="sg"/><s n="obj"/><s n="pers"/></l><r>उसके<s n="prn"/><s n="p3"/><s n="sg"/><s n="obj"/><s n="pers"/></r></p></e>
-    <e><p><l>তাদেরকে<s n="prn"/><s n="p3"/><s n="pl"/><s n="obj"/><s n="pers"/></l><r>उन्हें<s n="prn"/><s n="p3"/><s n="pl"/><s n="obj"/><s n="pers"/></r></p></e>
+    <e><p><l>আমাকে<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>मेरे<b/>को<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e> <!--post for को-->
+    <e><p><l>আমাদেরকে<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>हम<b/>लोगो<b/>को<s n="prn"/><s n="p1"/><s n="pl"/><s n="obj"/><s n="pers"/></r></p></e>  <!--  ("हम" prn pers p1 pl nom , "लोगो" n m sg obl , "को" post )  -->
+    <e><p><l>তার<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>उसके<s n="prn"/><s n="p3"/><s n="sg"/><s n="obj"/><s n="pers"/></r></p></e>  <!--prpers-->
+    <e><p><l>তাদেরকে<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>उन्हें<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>  <!--prpers giving #-->
     <!--Possessive-->
     <e><p><l>আমার<s n="prn"/><s n="p1"/><s n="gen"/><s n="sg"/><s n="pers"/></l><r>मेरी<s n="prn"/><s n="p1"/><s n="gen"/><s n="sg"/><s n="pers"/></r></p></e>
     <e r="LR"><p><l>আমাদের<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>हमलोगो<b/>का<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
