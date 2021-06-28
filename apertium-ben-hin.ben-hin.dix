@@ -991,7 +991,6 @@
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e> 
 
 
-
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="dat"/></r></p></e>
     <!-- need to add gender in tlx -->
@@ -1019,7 +1018,6 @@
     <!-- gender  -->
     <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>आप<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
 
-    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="erg"/></r></p></e>
     <e><p><l>prpers<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="nom"/></r></p></e>
     <e><p><l>prpers<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
     
@@ -1039,10 +1037,10 @@
     <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>আমরা<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="obl"/></r></p></e>
     <e><p><l>তুমি<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
-    <e><p><l>তোমরা<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>  <!--need to fix, this line is correct-->
+    <e><p><l>তোমরা<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>तुम<b/>लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>  <!--need to fix, this line is correct, created paradigm-->
     <e><p><l>সে<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="nom"/></r></p></e>  <!--prpers-->
     <e><p><l>এটা<s n="prn"/><s n="p3"/><s n="infml"/><s n="nn"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="nom"/></r></p></e>  <!--prpers getting #-->
-    <e><p><l>তারা<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>वे<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>   <!--prpers getting #-->
+    <e><p><l>তারা<s n="prn"/></l><r>वे<s n="prn"/></r></p></e>   <!--prpers getting *-->
     <!--Object-->
     <e><p><l>আমাকে<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>मेरे<b/>को<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e> <!--post for को-->
     <e><p><l>আমাদেরকে<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>हम<b/>लोगो<b/>को<s n="prn"/><s n="p1"/><s n="pl"/><s n="obj"/><s n="pers"/></r></p></e>  <!--  ("हम" prn pers p1 pl nom , "लोगो" n m sg obl , "को" post )  -->
@@ -1082,7 +1080,8 @@
     <e><p><l>কি<s n="prn"/><s n="itg"/></l><r>क्या<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>কোনটা<s n="prn"/><s n="itg"/></l><r>कौन<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>তিনি<s n="prn"/><s n="dem"/><s n="p3"/><s n="pol"/><s n="aa"/><s n="mf"/><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
-
+    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="erg"/></r></p></e>
+   
     <!-- Need to work more on this -->
 
      <!-- <e><p><l>সামনে<s n="post"/></l><r>सामने<s n="post"/></r></p></e> -->
