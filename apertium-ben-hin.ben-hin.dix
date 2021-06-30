@@ -1044,34 +1044,34 @@
     <e><p><l>তোমাদের<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>तुमलोगों<b/>का<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
     <e><p><l>তাদের<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>उन<b/>लोगों<b/>का<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>   <!--prpers-->
     <!--Reflexive-->
-    <e><p><l>নিজেকে<s n="prn"/><s n="ref"/><s n="sg"/></l><r>खुद<b/>को<s n="prn"/><s n="ref"/><s n="sg"/></r></p></e>
-    <e><p><l>নিজেই<s n="prn"/><s n="ref"/><s n="sg"/></l><r>खुद<b/>ही<s n="prn"/><s n="ref"/><s n="sg"/></r></p></e>
-    <e><p><l>তাদেরকে<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>उन्हें<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>
+    <e><p><l>নিজেকে<s n="prn"/></l><r>खुद<b/>को<s n="prn"/></r></p></e>  <!--#-->
+    <e><p><l>নিজেই<s n="prn"/></l><r>खुद<b/>ही<s n="prn"/></r></p></e>  <!--#-->
+    <e><p><l>তাদেরকে<s n="prn"/></l><r>उन्हें<s n="prn"/></r></p></e>  <!--#-->
     <!--Relative-->
-    <e><p><l>কাকে<s n="prn"/><s n="rel"/><s n="itg"/></l><r>किस<b/>को<s n="prn"/><s n="rel"/><s n="itg"/></r></p></e>
-    <e><p><l>কার<s n="prn"/><s n="rel"/><s n="itg"/></l><r>किसका<s n="prn"/><s n="rel"/><s n="itg"/></r></p></e>
-    <e><p><l>কোথায়<s n="prn"/><s n="rel"/></l><r>कहा<b/>पे<s n="prn"/><s n="rel"/></r></p></e>
-    <e><p><l>কখন<s n="prn"/><s n="rel"/><s n="itg"/></l><r>कब<s n="prn"/><s n="rel"/><s n="itg"/></r></p></e>
-    <e><p><l>কেন<s n="prn"/><s n="rel"/><s n="itg"/></l><r>क्यों<s n="prn"/><s n="rel"/><s n="itg"/></r></p></e>
-    <e><p><l>তা<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
+    <e><p><l>কাকে<s n="prn"/></l><r>किस<b/>को<s n="prn"/></r></p></e> <!--#-->
+    <e><p><l>কার<s n="prn"/></l><r>किसका<s n="prn"/></r></p></e>  <!--#-->
+    <e><p><l>কোথায়<s n="prn"/></l><r>कहा<b/>पे<s n="prn"/></r></p></e>  <!--#-->
+    <e><p><l>কখন<s n="prn"/></l><r>कब<s n="prn"/></r></p></e>  <!--#-->
+    <e><p><l>কেন<s n="prn"/></l><r>क्यों<s n="prn"/></r></p></e>
+    <e><p><l>তা<s n="prn" /></l><r>यह<s n="prn"/></r></p></e>   <!--#-->
     <!--Indefinite-->
-    <e><p><l>অন্য<s n="prn"/><s n="ind"/></l><r>एक<b/>और<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>যে<b/>কেউ<s n="prn"/><s n="ind"/></l><r>किसी<b/>को<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>যে<b/>কোনো<b/>কিছু<s n="prn"/><s n="ind"/></l><r>कुछ<b/>भी<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>প্রত্যেক<s n="prn"/><s n="ind"/></l><r>सब<b/>लोग<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>সবাই<s n="prn"/><s n="ind"/></l><r>सब<b/>लोग<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>সবকিছু<s n="prn"/><s n="ind"/></l><r>हर<b/>एक<b/>चीज़<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>কেউনা<s n="prn"/><s n="ind"/></l><r>कोई<b/>नहीं<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>কিছু<b/>একটা<s n="prn"/><s n="ind"/></l><r>कुछ<b/>एक<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>বেশ<b/>কয়েকটা<s n="prn"/><s n="ind"/></l><r>कई<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>কম<s n="prn"/><s n="ind"/></l><r>कम<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>অন্য<s n="prn"/></l><r>एक<b/>और<s n="prn"/></r></p></e>  <!--#-->
+    <e><p><l>যে<b/>কেউ<s n="prn"/></l><r>किसी<b/>को<s n="prn"/></r></p></e>   <!--#-->
+    <e><p><l>যে<b/>কোনো<s n="det"/></l><r>कुछ<b/>भी<s n="prn"/></r></p></e>  <!--Transfer rules needed: “#कुछ भी कुछ”-->
+    <e><p><l>প্রত্যেক<s n="prn"/></l><r>सब<b/>लोग<s n="prn"/></r></p></e>   <!--#-->
+    <e><p><l>সবাই<s n="prn"/></l><r>सब<b/>लोग<s n="prn"/></r></p></e>  <!--#-->
+    <e><p><l>সবকিছু<s n="prn"/></l><r>हर<b/>एक<b/>चीज़<s n="prn"/></r></p></e> <!--#-->
+    <e><p><l>কেউনা<s n="prn"/></l><r>कोई<b/>नहीं<s n="prn"/></r></p></e>   <!--#-->
+    <e><p><l>কিছু<b/>একটা<s n="prn"/></l><r>कुछ<b/>एक<s n="prn"/></r></p></e>   <!--#-->
+    <e><p><l>বেশ<b/>কয়েকটা<s n="prn"/></l><r>कई<s n="det"/></r></p></e>  <!--#-->
+    <e><p><l>কম<s n="prn"/></l><r>कम<s n="det"/><s n="ind"/></r></p></e>  <!--#-->
     <!--Interrogative-->
     <e><p><l>কে<s n="prn"/><s n="itg"/></l><r>कौन<s n="prn"/><s n="itg"/></r></p></e>   <!--#-->
     <e><p><l>কখন<s n="prn"/><s n="itg"/></l><r>कब<s n="prn"/><s n="itg"/></r></p></e>  <!--#-->
     <e><p><l>কার<s n="prn"/><s n="p3"/></l><r>गाड़ी<s n="prn"/><s n="itg"/></r></p></e>   <!--#-->
     <e><p><l>কি<s n="prn"/><s n="itg"/></l><r>क्या<s n="prn"/><s n="itg"/></r></p></e>   <!--#-->
     <e><p><l>কোনটা<s n="prn"/><s n="p3"/></l><r>कौन<s n="prn"/><s n="itg"/></r></p></e> <!--#-->
-    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="erg"/></r></p></e>
+    <e><p><l>আপনি<s n="prn" /></l><r>आप<s n="prn"/></r></p></e> <!--Removing tags give #-->
    
     <!-- Need to work more on this -->
 
