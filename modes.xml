@@ -8,8 +8,6 @@
       <program name="lt-proc -w">
         <file name="ben-hin.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="ben-hin.rlx.bin"/>
       </program>
@@ -23,7 +21,6 @@
       <program name="lrx-proc -m">
         <file name="ben-hin.autolex.bin"/>
       </program>
-
       <program name="apertium-transfer -b">
         <file name="apertium-ben-hin.ben-hin.t1x"/>
         <file name="ben-hin.t1x.bin"/>
@@ -39,7 +36,18 @@
       <program name="lt-proc $1">
         <file name="ben-hin.autogen.bin"/>
       </program>
+    </pipeline>
+  </mode>
 
+  <mode name="ben-hin-disamb" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ben-hin.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a -l"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="ben-hin.rlx.bin"/>
+      </program>
     </pipeline>
   </mode>
 
@@ -50,15 +58,12 @@
       <program name="lt-proc -w">
         <file name="hin-ben.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="hin-ben.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2 -u 2"> 
         <file name="hin-ben.prob"/>
       </program>
-
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="hin-ben.autobil.bin"/>
@@ -66,7 +71,6 @@
       <program name="lrx-proc -m">
         <file name="hin-ben.autolex.bin"/>
       </program>
-
       <program name="apertium-transfer -b">
         <file name="apertium-ben-hin.hin-ben.t1x"/>
         <file name="hin-ben.t1x.bin"/>
@@ -82,11 +86,22 @@
       <program name="lt-proc $1">
         <file name="hin-ben.autogen.bin"/>
       </program>
-
       <program name="lt-proc -p">
         <file name="hin-ben.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
-</modes>
 
+  <mode name="hin-ben-disamb" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="hin-ben.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a -l"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="hin-ben.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+</modes>
