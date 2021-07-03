@@ -128,72 +128,70 @@
 
       <!-- SECTION ADJECTIVES -->
       <e><p><l>মেডিকেল<s n="adj"/></l><r>मेडिकल<s n="adj"/></r></p></e>
-      <e><p><l>সাড়ে<s n="adj"/></l><r>डेढ़<s n="adj"/></r></p></e>
+      <e><p><l>সাড়ে<s n="adj"/></l><r>डेढ़<s n="adj"/></r></p></e> 
       <e><p><l>আহত<s n="adj"/></l><r>घायल<s n="adj"/></r></p></e>
-      <e><p><l>খুশি<s n="adj"/></l><r>खुश<s n="adj"/></r></p></e>
+      <e><p><l>খুশি<s n="adj"/></l><r>खुश<s n="adj"/></r></p></e> 
       <e><p><l>সর্বদা<s n="adv"/></l><r>हमेशा<s n="adv"/></r></p></e>
       <e><p><l>সুন্দর<s n="adj"/></l><r>अच्छा<s n="adj"/></r></p></e> 
       <e><p><l>গরম<s n="adj"/></l><r>गर्म<s n="adj"/></r></p></e> 
       <e><p><l>ঠান্ডা<s n="adj"/><s n="sint"/></l><r>ठंडा<s n="adj"/></r></p></e>
-      <e><p><l>বড়<s n="adj"/></l><r>बड़ा<s n="adj"/></r></p></e>
+      <e><p><l>বড়<s n="adj"/></l><r>बड़ा<s n="adj"/></r></p></e> 
       <e><p><l>ছোট<s n="adj"/></l><r>छोटा<s n="adj"/></r></p></e>
-      <e><p><l>ছোট<s n="adj"/></l><r>छोटी<s n="adj"/></r></p></e>
-      <e><p><l>বুড়ো<s n="adj"/></l><r>बूढ़े<s n="adj"/></r></p></e>
-      <e><p><l>বুড়ো<s n="adj"/></l><r>बूढ़े<s n="adj"/></r></p></e>
+      <e><p><l>বুড়ো<s n="adj"/></l><r>बूढ़े<s n="adj"/></r></p></e> <!--#-->
       <e><p><l>পুরানো<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
-      <e><p><l>শেষ<s n="adj"/></l><r>समाप्त<s n="adj"/></r></p></e>
+      <e><p><l>শেষ<s n="adj"/></l><r>समाप्त<s n="adj"/></r></p></e> <!--#-->
       <e><p><l>ভাল<s n="adj"/></l><r>अच्छा<s n="adj"/></r></p></e>
-      <e><p><l>শেষে<s n="adv"/></l><r>आखिर<b/>में<s n="adj"/></r></p></e>
-      <e><p><l>দক্ষিণ<s n="adj"/></l><r>दक्षिण<s n="adj"/></r></p></e>
+      <e><p><l>শেষে<s n="adj"/></l><r>आखिर<b/>में<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>দক্ষিণ<s n="adj"/></l><r>दक्षिण<s n="adj"/></r></p></e> <!--#-->
       <e><p><l>নতুন<s n="adj"/></l><r>नई<s n="adj"/></r></p></e>
       <e><p><l>একটু<s n="adj"/></l><r>थोड़ा<s n="adj"/></r></p></e>
 
       <!-- GSOC2021 coding challenge --> 
 
-      <e><p><l>সোজা<s n="adj"/><s n="mf"/></l><r>सीधे<s n="adv"/></r></p></e>
-      <e><p><l>আজন্ম​<s n="adj"/></l><r>उम्र भर<s n="adj"/></r></p></e>
-      <e><p><l>উচিত<s n="adj"/></l><r>चाहिए<s n="adj"/></r></p></e>
+      <e><p><l>সোজা<s n="adj"/><s n="mf"/></l><r>सीधे<s n="adv"/></r></p></e>  <!--#-->
+      <e><p><l>আজন্ম​<s n="adj"/></l><r>उम्र भर<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>উচিত<s n="adj"/></l><r>चाहिए<s n="adj"/></r></p></e> <!--#-->
       <e><p><l>ধনী<s n="adj"/></l><r>धनी<s n="adj"/></r></p></e>
-      <e><p><l>ঋনী<s n="adj"/></l><r>ऋणी<s n="adj"/></r></p></e>
-      <e><p><l>এটেল<s n="adj"/></l><r>इथेल<s n="adj"/></r></p></e>
-      <e><p><l>একলা<s n="adj"/></l><r>अकेला<s n="adj"/></r></p></e>
-      <e><p><l>একাদশ<s n="adj"/></l><r>ग्यारहवें<s n="adj"/></r></p></e>
-      <e><p><l>করাল<s n="adj"/></l><r>बड़े दांत<s n="adj"/></r></p></e>
-      <e><p><l>ছেঁদো<s n="adj"/></l><r>सस्ता<s n="adj"/></r></p></e>
+      <e><p><l>ঋনী<s n="adj"/></l><r>ऋणी<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>এটেল<s n="adj"/></l><r>इथेल<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>একলা<s n="adj"/></l><r>अकेला<s n="adj"/></r></p></e> 
+      <e><p><l>একাদশ<s n="adj"/></l><r>ग्यारहवें<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>করাল<s n="adj"/></l><r>बड़े दांत<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>ছেঁদো<s n="adj"/></l><r>सस्ता<s n="adj"/></r></p></e> 
       <e><p><l>সস্তা<s n="adj"/></l><r>सस्ता<s n="adj"/></r></p></e>
-      <e><p><l>জারজ<s n="adj"/></l><r>नाजायज औलाद<s n="adj"/></r></p></e>
-      <e><p><l>কটু<s n="adj"/></l><r>कड़वा<s n="adj"/></r></p></e>
-      <e><p><l>নষট্<s n="adj"/></l><r>नष्ट<s n="adj"/></r></p></e>
+      <e><p><l>জারজ<s n="adj"/></l><r>नाजायज औलाद<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>কটু<s n="adj"/></l><r>कड़वा<s n="adj"/></r></p></e> 
+      <e><p><l>নষট্<s n="adj"/></l><r>नष्ट<s n="adj"/></r></p></e> <!--#-->
       <e><p><l>নেপালি<s n="adj"/></l><r>नेपाली<s n="adj"/></r></p></e>
-      <e><p><l>উচ্চ<s n="adj"/></l><r>ऊंचाई<s n="adj"/></r></p></e>
-      <e><p><l>ঋজু<s n="adj"/></l><r>सीधे<s n="adj"/></r></p></e>
+      <e><p><l>উচ্চ<s n="adj"/></l><r>ऊंचाई<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>ঋজু<s n="adj"/></l><r>सीधे<s n="adj"/></r></p></e> <!--#-->
       <e><p><l>ঈষৎ<s n="adj"/></l><r>थोड़ा<s n="adj"/></r></p></e>
-      <e><p><l>অপকট<s n="adj"/></l><r>खुले तौर पर<s n="adj"/></r></p></e>
-      <e><p><l>আকর্ন<s n="adj"/></l><r>कान तक<s n="adj"/></r></p></e>
-      <e><p><l>একাগ্র<s n="adj"/></l><r>ध्यान केंद्रित<s n="adj"/></r></p></e>
-      <e><p><l>গতায়ু<s n="adj"/></l><r>गतायु<s n="adj"/></r></p></e>
-      <e><p><l>জান্তব্<s n="adj"/></l><r>जानवरों<s n="adj"/></r></p></e>
-      <e><p><l>পানীয়<s n="adj"/></l><r>पेय<s n="adj"/></r></p></e>
-      <e><p><l>প্রথম্<s n="adj"/></l><r>प्रथम<s n="adj"/></r></p></e>
-      <e><p><l>ফুটন্ত<s n="adj"/></l><r>उबलना<s n="adj"/></r></p></e>
+      <e><p><l>অপকট<s n="adj"/></l><r>खुले तौर पर<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>আকর্ন<s n="adj"/></l><r>कान तक<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>একাগ্র<s n="adj"/></l><r>ध्यान केंद्रित<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>গতায়ু<s n="adj"/></l><r>गतायु<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>জান্তব্<s n="adj"/></l><r>जानवरों<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>পানীয়<s n="adj"/></l><r>पेय<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>প্রথম্<s n="adj"/></l><r>प्रथम<s n="adj"/></r></p></e>  
+      <e><p><l>ফুটন্ত<s n="adj"/></l><r>उबलना<s n="adj"/></r></p></e>  <!--#-->
       <e><p><l>বেশী<s n="adj"/></l><r>अधिक<s n="adj"/></r></p></e>
-      <e><p><l>মাতাল<s n="adj"/></l><r>शराबी<s n="adj"/></r></p></e>
-      <e><p><l>ভূমিষ্ঠ<s n="adj"/></l><r>जन्म लिया<s n="adj"/></r></p></e>
-      <e><p><l>অক্থিত​<s n="adj"/></l><r>अनकहा<s n="adj"/></r></p></e>
-      <e><p><l>ঈপ্সিত<s n="adj"/></l><r>वांछित<s n="adj"/></r></p></e>
-      <e><p><l>উচ্ছিষ্ট<s n="adj"/></l><r>कूड़ा<s n="adj"/></r></p></e>
-      <e><p><l>উড়ন্ত<s n="adj"/></l><r>हवाई<s n="adj"/></r></p></e>
-      <e><p><l>ঐচ্ছিক<s n="adj"/></l><r>स्वयंसेवक<s n="adj"/></r></p></e>
-      <e><p><l>ঝমাঝম্<s n="adj"/></l><r>झमाझम<s n="adj"/></r></p></e>
-      <e><p><l>ঐশ্বরিক<s n="adj"/></l><r>दिव्य<s n="adj"/></r></p></e>
-      <e><p><l>দৃপ্ত<s n="adj"/></l><r>उज्ज्वल<s n="adj"/></r></p></e>
-      <e><p><l>ম্লান<s n="adj"/></l><r>फीका<s n="adj"/></r></p></e>
-      <e><p><l>উদ্ধৃত<s n="adj"/></l><r>उद्धृत<s n="adj"/></r></p></e>
-      <e><p><l>চিরাচরিত<s n="adj"/></l><r>परंपरागत<s n="adj"/></r></p></e>
-      <e><p><l>গতানুগতিক<s n="adj"/></l><r>पारंपरिक<s n="adj"/></r></p></e>
-      <e><p><l>উটকো<s n="adj"/></l><r>अजीब<s n="adj"/></r></p></e>
+      <e><p><l>মাতাল<s n="adj"/></l><r>शराबी<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>ভূমিষ্ঠ<s n="adj"/></l><r>जन्म लिया<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>অক্থিত​<s n="adj"/></l><r>अनकहा<s n="adj"/></r></p></e>  
+      <e><p><l>ঈপ্সিত<s n="adj"/></l><r>वांछित<s n="adj"/></r></p></e> 
+      <e><p><l>উচ্ছিষ্ট<s n="adj"/></l><r>कूड़ा<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>উড়ন্ত<s n="adj"/></l><r>हवाई<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>ঐচ্ছিক<s n="adj"/></l><r>स्वयंसेवक<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>ঝমাঝম্<s n="adj"/></l><r>झमाझम<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>ঐশ্বরিক<s n="adj"/></l><r>दिव्य<s n="adj"/></r></p></e>  
+      <e><p><l>দৃপ্ত<s n="adj"/></l><r>उज्ज्वल<s n="adj"/></r></p></e>  
+      <e><p><l>ম্লান<s n="adj"/></l><r>फीका<s n="adj"/></r></p></e>  
+      <e><p><l>উদ্ধৃত<s n="adj"/></l><r>उद्धृत<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>চিরাচরিত<s n="adj"/></l><r>परंपरागत<s n="adj"/></r></p></e>  
+      <e><p><l>গতানুগতিক<s n="adj"/></l><r>पारंपरिक<s n="adj"/></r></p></e> 
+      <e><p><l>উটকো<s n="adj"/></l><r>अजीब<s n="adj"/></r></p></e>  <!--#-->
       <e><p><l>ঔপনিবেশিক<s n="adj"/></l><r>औपनिवेशिक<s n="adj"/></r></p></e>
-      <e><p><l>ওতপ্রত<s n="adj"/></l><r>परस्पर<s n="adj"/></r></p></e>
+      <e><p><l>ওতপ্রত<s n="adj"/></l><r>परस्पर<s n="adj"/></r></p></e>  <!--#-->
       
   
      
@@ -403,9 +401,7 @@
       <e><p><l>তোমাদের<s n="det"/></l><r>तुम लोगों का<s n="det"/></r></p></e>  <!--#-->
       <e><p><l>তার<s n="det"/></l><r>उसके<s n="det"/></r></p></e>  <!--#-->
       <e><p><l>ইহার<s n="det"/></l><r>आईटी इस<s n="det"/></r></p></e>  <!--#-->
-      <e><p><l>তার<s n="det"/></l><r>यह<s n="prn"/></r></p></e>  <!--#-->
-      <e><p><l>তাদের<s n="det"/></l><r>यह<s n="prn"/></r></p></e>  <!--#-->
-      <e><p><l>তাদের<s n="det"/></l><r>यह<s n="prn"/></r></p></e>  <!--#-->
+      <e><p><l>তাদের<s n="det"/></l><r>उन लोगों का<s n="prn"/></r></p></e>  <!--#-->
       <!--Quantitative-->
       <e><p><l>অনেক<s n="det"/></l><r>बहुत<b/>सारे<s n="det"/></r></p></e> <!--#-->
       <e><p><l>কিছু<s n="det"/></l><r>कुछ<s n="det"/></r></p></e>  <!--#-->
@@ -1028,17 +1024,17 @@
     <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>আমরা<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="obl"/></r></p></e>
     <e><p><l>তুমি<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
-    <e><p><l>তোমরা<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>तुम<b/>लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>  <!-- getting #-->
+    <e><p><l>তোমরা<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>तुम<b/>लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>  <!--#-->
     <e><p><l>এটা<s n="prn"/><s n="nn"/></l><r>यह<s n="prn"/><s n="mf"/></r></p></e>  <!--prpers getting #-->
     
     <!--Object-->
-    <e><p><l>আমাকে<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>मेरे<b/>को<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e> <!--post for को-->
-    <e><p><l>আমাদেরকে<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>हम<b/>लोगो<b/>को<s n="prn"/><s n="p1"/><s n="pl"/><s n="obj"/><s n="pers"/></r></p></e>  <!--  ("हम" prn pers p1 pl nom , "लोगो" n m sg obl , "को" post )  -->
-    <e><p><l>তার<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>उसके<s n="prn"/><s n="p3"/><s n="sg"/><s n="obj"/><s n="pers"/></r></p></e>  <!--prpers-->
-    <e><p><l>তাদেরকে<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>उन्हें<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>  <!--prpers giving #-->
+    <!--Word: আমাকে--><e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>मेरे<b/>को<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e> <!--#-->
+    <!--Word: আমাদেরকে--><e><p><l>আমরা<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>हम<b/>लोगो<b/>को<s n="prn"/><s n="p1"/><s n="pl"/><s n="obj"/><s n="pers"/></r></p></e>  <!--#-->
+    <e><p><l>তার<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>उसके<s n="prn"/><s n="p3"/><s n="sg"/><s n="obj"/><s n="pers"/></r></p></e>  <!--#-->
+    <e><p><l>তাদেরকে<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>उन्हें<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>  <!--#-->
     <!--Possessive-->
-    <e><p><l>আমার<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>मेरी<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>   <!--tags correct, getting * -->
-    <e r="LR"><p><l>আমাদের<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>हमलोगो<b/>का<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>  <!--First word not defined second word has tags-->
+    <e><p><l>আমার<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>मेरी<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>   <!--#-->
+    <e r="LR"><p><l>আমাদের<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>हमलोगो<b/>का<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>  <!--Determiner exists, #-->
     <e><p><l>তোমাদের<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>तुमलोगों<b/>का<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
     <e><p><l>তাদের<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>उन<b/>लोगों<b/>का<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>   <!--prpers-->
     <!--Reflexive-->
