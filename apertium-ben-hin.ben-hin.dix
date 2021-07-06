@@ -922,6 +922,7 @@
     <e><p><l>গরু<s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="nom"/></l><r>गायों<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
     <e><p><l>গরু<s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="nom"/></l><r>गायें<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
     <e><p><l>অভিযুক্ত<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></l><r>अभियुक्त<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>ইংরেজ<s n="adj"/><s n="mf"/></l><r>अंग्रेज<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 
     <!-- SECTION POSTPOSITION -->
     <e><p><l>পাশে<s n="adv"/></l><r>पास<b/>में<s n="post"/></r></p></e>
@@ -934,6 +935,9 @@
     <e><p><l>বাইরে<s n="post"/></l><r>बाहर<s n="post"/></r></p></e>
     <e><p><l>সঙ্গে<s n="post"/></l><r>साथ<s n="post"/></r></p></e>
     <e><p><l>মধ্যে<s n="post"/></l><r>बीच<s n="post"/></r></p></e>
+    <e><p><l>মধ্যে<s n="post"/></l><r>मे<s n="post"/></r></p></e> 
+    <e><p><l>প্রতি<s n="post"/></l><r>को<s n="post"/></r></p></e> 
+    <e><p><l>আছে<s n="post"/></l><r>ने<s n="post"/></r></p></e>
 
      <!-- GSoC 2021 -->
     <e><p><l>থেকে<s n="post"/></l><r>से<s n="post"/></r></p></e>
