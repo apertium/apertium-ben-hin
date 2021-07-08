@@ -127,6 +127,8 @@
       <!-- Gsoc2020 coding challenge -->
 
       <!-- SECTION ADJECTIVES -->
+
+      <e><p><l>ই<s n="adj"/></l><r>ही<s n="adj"/></r></p></e>
       <e><p><l>মেডিকেল<s n="adj"/></l><r>मेडिकल<s n="adj"/></r></p></e>
       <e><p><l>সাড়ে<s n="adj"/></l><r>डेढ़<s n="adj"/></r></p></e> 
       <e><p><l>আহত<s n="adj"/></l><r>घायल<s n="adj"/></r></p></e>
@@ -392,7 +394,7 @@
       <e><p><l>বিপরীতে<s n="cnjadv"/></l><r>इसके<b/>विपरीत<s n="cnjadv"/></r></p></e>  <!--#-->
       <e><p><l>আসলে<s n="cnjadv"/></l><r>वास्तव<b/>में<s n="cnjadv"/></r></p></e>  <!--#-->
       <e><p><l>নিঃসন্দেহে<s n="cnjadv"/></l><r>निश्चित<b/>रूप<b/>से<s n="cnjadv"/></r></p></e>  <!--#-->
-
+      <e><p><l>তাই<s n="cnjcoo"/></l><r>तो<s n="cnjadv"/></r></p></e>
 
 
       <!-- SECTION DETERMINERS -->
@@ -499,8 +501,8 @@
     <e><p><l>ট্রাক<s n="n"/><s n="mf"/><s n="nn"/></l><r>ट्रक<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>টাকা<s n="n"/><s n="mf"/><s n="nn"/></l><r>पैसा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>কথা<s n="n"/><s n="mf"/><s n="nn"/></l><r>बात<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>ছাত্র<s n="n"/><s n="mf"/><s n="hu"/><s n="sg"/><s n="nom"/></l><r>छात्र<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-
+    <e><p><l>ছাত্র<s n="n"/><s n="mf"/><s n="hu"/></l><r>छात्र<s n="n"/><s n="m"/></r></p></e>
+    
     <!--Numerals-->  <!-- GSoC 2021 -->
 
         <e><p><l>0<s n="num"/></l><r>0<s n="num"/></r></p></e>
@@ -940,13 +942,32 @@
     <e><p><l>মসজিদ<s n="n"/><s n="mf"/><s n="nn"/></l><r>मस्जिद<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>মৃত্যু<s n="n"/><s n="mf"/><s n="nn"/></l><r>मृत्यु<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>মানুষরা<s n="n"/><s n="mf"/><s n="aa"/></l><r>पुरुष<s n="n"/><s n="f"/></r></p></e> 
-    <e><p><l>গরু<s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="nom"/></l><r>गायों<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
-    <e><p><l>গরু<s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="nom"/></l><r>गायें<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
-    <e><p><l>অভিযুক্ত<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></l><r>अभियुक्त<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>গরু<s n="n"/><s n="mf"/><s n="aa"/></l><r>गायों<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>গরু<s n="n"/><s n="mf"/><s n="aa"/></l><r>गायें<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>অভিযুক্ত<s n="n"/><s n="nt"/><s n="nn"/></l><r>अभियुक्त<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ইংরেজ<s n="n"/><s n="mf"/></l><r>अंग्रेज<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>বিপ্লব<s n="n"/></l><r>क्रान्ति<s n="n"/></r></p></e>  <!--#-->  
-    <e><p><l>স্বাধীনতা<s n="n"/><s n="mf"/><s n="nn"/></l><r>स्वातंत्र्य<s n="n"/><s n="m"/></r></p></e>   <!--removing tags will give #-->
+    <e><p><l>বিপ্লব<s n="n"/><s n="mf"/><s n="nn"/></l><r>क्रान्ति<s n="n"/><s n="f"/></r></p></e>  
+    <e><p><l>স্বাধীনতা<s n="n"/><s n="mf"/><s n="nn"/></l><r>स्वातंत्र्य<s n="n"/><s n="m"/></r></p></e> 
     <e><p><l>নাম<s n="n"/><s n="mf"/><s n="nn"/></l><r>नाम<s n="n"/><s n="m"/></r></p></e> 
+    <e><p><l>রূপ<s n="n"/><s n="mf"/><s n="nn"/></l><r>रूप<s n="n"/><s n="m"/></r></p></e> 
+    <e><p><l>বছর<s n="n"/><s n="nt"/><s n="nn"/></l><r>वर्ष<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ক্ষেত্র<s n="n"/><s n="mf"/><s n="nn"/></l><r>क्षेत्र<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>দেশ<s n="n"/><s n="nt"/><s n="nn"/></l><r>देश<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>দেশ<s n="n"/><s n="nt"/><s n="nn"/></l><r>देश<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>পুরানো<s n="adj"/><s n="mf"/></l><r>आदि<s n="n"/><s n="m"/></r></p></e>  <!--Name of a person, getting # -->
+    <e><p><l>রাষ্ট্র<s n="n"/><s n="mf"/><s n="nn"/></l><r>राज्य<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>প্রকার<s n="n"/><s n="mf"/><s n="nn"/></l><r>प्रकार<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>কবি<s n="n"/><s n="mf"/><s n="hu"/></l><r>कवि<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>হিন্দি<s n="n"/><s n="mf"/><s n="nn"/></l><r>हिंदी<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>কবিতা<s n="n"/><s n="nt"/><s n="nn"/></l><r>कविता<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>শব্দ<s n="n"/><s n="mf"/><s n="nn"/></l><r>शब्द<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>আলাপ<s n="n"/><s n="nt"/><s n="nn"/></l><r>बात<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>হিন্দি<s n="n"/><s n="mf"/><s n="nn"/></l><r>हिन्दी<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>সন্ধি<s n="n"/><s n="nt"/><s n="nn"/></l><r>संधि<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>কবিতা<s n="n"/><s n="nt"/><s n="nn"/></l><r>काव्य<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>না<s n="adv"/></l><r>न<s n="n"/><s n="m"/></r></p></e>  <!--Getting #, need to fix-->
+    <e><p><l>পরিকল্পনা<s n="n"/><s n="nt"/><s n="nn"/></l><r>योजना<s n="n"/><s n="f"/></r></p></e>
+
 
     <!-- SECTION POSTPOSITION -->
     <e><p><l>পাশে<s n="adv"/></l><r>पास<b/>में<s n="post"/></r></p></e>
@@ -960,7 +981,9 @@
     <e><p><l>সঙ্গে<s n="post"/></l><r>साथ<s n="post"/></r></p></e>
     <e><p><l>মধ্যে<s n="post"/></l><r>बीच<s n="post"/></r></p></e>
 
-     <!-- GSoC 2021 -->
+     <!-- GSoC 2021 -->  
+
+    <e><p><l>মধ্যে<s n="post"/></l><r>में<s n="post"/></r></p></e> 
     <e><p><l>থেকে<s n="post"/></l><r>से<s n="post"/></r></p></e>
     <e><p><l>জন্য<s n="post"/></l><r>के<b/>लिये<s n="post"/></r></p></e>
     <e><p><l>দ্বারা<s n="post"/></l><r>द्वारा<s n="post"/></r></p></e>
