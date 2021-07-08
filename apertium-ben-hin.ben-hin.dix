@@ -504,15 +504,35 @@
     <!--Numerals-->  <!-- GSoC 2021 -->
 
         <e><p><l>0<s n="num"/></l><r>0<s n="num"/></r></p></e>
-	      <e><p><l>১<s n="num"/></l><r>१<s n="num"/></r></p></e>
-	      <e><p><l>২<s n="num"/></l><r>२<s n="num"/></r></p></e>
-	      <e><p><l>৩<s n="num"/></l><r>३<s n="num"/></r></p></e>
-	      <e><p><l>৪<s n="num"/></l><r>४<s n="num"/></r></p></e>
-	      <e><p><l>৫<s n="num"/></l><r>५<s n="num"/></r></p></e>
-	      <e><p><l>৬<s n="num"/></l><r>६<s n="num"/></r></p></e>
-	      <e><p><l>৭<s n="num"/></l><r>७<s n="num"/></r></p></e>
-	      <e><p><l>৮<s n="num"/></l><r>८<s n="num"/></r></p></e>
-	      <e><p><l>৯<s n="num"/></l><r>९<s n="num"/></r></p></e>
+        <e><p><l>১<s n="num"/></l><r>१<s n="num"/></r></p></e>
+        <e><p><l>২<s n="num"/></l><r>२<s n="num"/></r></p></e>
+        <e><p><l>৩<s n="num"/></l><r>३<s n="num"/></r></p></e>
+        <e><p><l>৪<s n="num"/></l><r>४<s n="num"/></r></p></e>
+        <e><p><l>৫<s n="num"/></l><r>५<s n="num"/></r></p></e>
+        <e><p><l>৬<s n="num"/></l><r>६<s n="num"/></r></p></e>
+        <e><p><l>৭<s n="num"/></l><r>७<s n="num"/></r></p></e>
+        <e><p><l>৮<s n="num"/></l><r>८<s n="num"/></r></p></e>
+        <e><p><l>৯<s n="num"/></l><r>९<s n="num"/></r></p></e>
+        <e><p><l>0<s n="num"/><s n="aa"/></l><r>0<s n="num"/></r></p></e>
+        <e><p><l>১<s n="num"/><s n="aa"/></l><r>१<s n="num"/></r></p></e>
+        <e><p><l>২<s n="num"/><s n="aa"/></l><r>२<s n="num"/></r></p></e>
+        <e><p><l>৩<s n="num"/><s n="aa"/></l><r>३<s n="num"/></r></p></e>
+        <e><p><l>৪<s n="num"/><s n="aa"/></l><r>४<s n="num"/></r></p></e>
+        <e><p><l>৫<s n="num"/><s n="aa"/></l><r>५<s n="num"/></r></p></e>
+        <e><p><l>৬<s n="num"/><s n="aa"/></l><r>६<s n="num"/></r></p></e>
+        <e><p><l>৭<s n="num"/><s n="aa"/></l><r>७<s n="num"/></r></p></e>
+        <e><p><l>৮<s n="num"/><s n="aa"/></l><r>८<s n="num"/></r></p></e>
+        <e><p><l>৯<s n="num"/><s n="aa"/></l><r>९<s n="num"/></r></p></e>
+        <e><p><l>0<s n="num"/><s n="nn"/></l><r>0<s n="num"/></r></p></e>
+        <e><p><l>১<s n="num"/><s n="nn"/></l><r>१<s n="num"/></r></p></e>
+        <e><p><l>২<s n="num"/><s n="nn"/></l><r>२<s n="num"/></r></p></e>
+        <e><p><l>৩<s n="num"/><s n="nn"/></l><r>३<s n="num"/></r></p></e>
+        <e><p><l>৪<s n="num"/><s n="nn"/></l><r>४<s n="num"/></r></p></e>
+        <e><p><l>৫<s n="num"/><s n="nn"/></l><r>५<s n="num"/></r></p></e>
+        <e><p><l>৬<s n="num"/><s n="nn"/></l><r>६<s n="num"/></r></p></e>
+        <e><p><l>৭<s n="num"/><s n="nn"/></l><r>७<s n="num"/></r></p></e>
+        <e><p><l>৮<s n="num"/><s n="nn"/></l><r>८<s n="num"/></r></p></e>
+        <e><p><l>৯<s n="num"/><s n="nn"/></l><r>९<s n="num"/></r></p></e>
       
         <!-- <par n="এক__num" /> -->
 
