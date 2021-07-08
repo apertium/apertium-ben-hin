@@ -86,9 +86,6 @@
       <program name="lt-proc $1">
         <file name="hin-ben.autogen.bin"/>
       </program>
-      <program name="lt-proc -p">
-        <file name="hin-ben.autopgen.bin"/>
-      </program>
     </pipeline>
   </mode>
 
