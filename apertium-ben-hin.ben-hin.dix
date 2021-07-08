@@ -925,8 +925,8 @@
     <e><p><l>অভিযুক্ত<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></l><r>अभियुक्त<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>ইংরেজ<s n="n"/><s n="mf"/></l><r>अंग्रेज<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>বিপ্লব<s n="n"/></l><r>क्रान्ति<s n="n"/></r></p></e>  <!--#-->  
-    <e><p><l>স্বাধীনতা<s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="nom"/></l><r>स्वातंत्र्य<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>   <!--removing tags will give #-->
-    <e><p><l>নাম<s n="n"/><s n="mf"/><s n="nn"/><s n="sg"/><s n="nom"/></l><r>नाम<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e> 
+    <e><p><l>স্বাধীনতা<s n="n"/><s n="mf"/><s n="nn"/></l><r>स्वातंत्र्य<s n="n"/><s n="m"/></r></p></e>   <!--removing tags will give #-->
+    <e><p><l>নাম<s n="n"/><s n="mf"/><s n="nn"/></l><r>नाम<s n="n"/><s n="m"/></r></p></e> 
 
     <!-- SECTION POSTPOSITION -->
     <e><p><l>পাশে<s n="adv"/></l><r>पास<b/>में<s n="post"/></r></p></e>
