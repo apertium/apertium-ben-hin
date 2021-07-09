@@ -318,6 +318,9 @@
       <e><p><l>অথবা<s n="cnjcoo"/></l><r>या<s n="cnjcoo"/></r></p></e>
       <e><p><l>তথাপি<s n="cnjcoo"/></l><r>हालाँकि<s n="cnjcoo"/></r></p></e>  <!--#-->
       <e><p><l>তাই<s n="cnjcoo"/></l><r>इसलिए<s n="cnjcoo"/></r></p></e>  <!--#-->
+      <e r="RL"><p><l>এবং<s n="cnjcoo"/></l><r>व<s n="cnjcoo"/></r></p></e> 
+
+
 
       <e><p><l>তারপর<s n="cnjsub"/></l><r>फिर<s n="cnjsub"/></r></p></e>  <!--#-->
       <e><p><l>মত<s n="cnjsub"/></l><r>जैसा<s n="cnjsub"/></r></p></e>  <!--#-->
@@ -502,6 +505,21 @@
     <e><p><l>টাকা<s n="n"/><s n="mf"/><s n="nn"/></l><r>पैसा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>কথা<s n="n"/><s n="mf"/><s n="nn"/></l><r>बात<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ছাত্র<s n="n"/><s n="mf"/><s n="hu"/></l><r>छात्र<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ব্যক্তি<s n="n"/><s n="mf"/><s n="hu"/></l><r>व्यक्ति<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>কাজ<s n="n"/><s n="nt"/><s n="nn"/></l><r>कार्य<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>বিকাশ<s n="np"/><s n="ant"/><s n="m"/></l><r>विकास<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>বিশ্ব<s n="n"/><s n="nt"/><s n="nn"/></l><r>विश्व<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>উদ্দেশ্য<s n="n"/><s n="nt"/><s n="nn"/></l><r>उद्देश्य<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>পরীক্ষা<s n="n"/><s n="nt"/><s n="nn"/></l><r>परीक्षा<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>স্থিতি<s n="n"/><s n="mf"/><s n="nn"/></l><r>स्थिति<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>কারণ<s n="n"/><s n="mf"/><s n="nn"/></l><r>कारण<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>অর্থ<s n="n"/><s n="mf"/><s n="nn"/></l><r>अर्थ<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ব্যাংক<s n="n"/><s n="mf"/><s n="nn"/></l><r>बैंक<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>কেন্দ্র<s n="n"/><s n="nt"/><s n="nn"/></l><r>केंद्र<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>বার<s n="n"/><s n="nt"/><s n="nn"/></l><r>बार<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>মন<s n="n"/><s n="mf"/><s n="nn"/></l><r>मन<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>রাজা<s n="n"/><s n="mf"/><s n="hu"/></l><r>राजा<s n="n"/><s n="m"/></r></p></e>  
+
     
     <!--Numerals-->  <!-- GSoC 2021 -->
 
@@ -967,7 +985,11 @@
     <e r="RL"><p><l>কবিতা<s n="n"/><s n="nt"/><s n="nn"/></l><r>काव्य<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>না<s n="adv"/></l><r>न<s n="n"/><s n="m"/></r></p></e>  <!--Getting #, need to fix-->
     <e><p><l>পরিকল্পনা<s n="n"/><s n="nt"/><s n="nn"/></l><r>योजना<s n="n"/><s n="f"/></r></p></e>
-
+    <e r="RL"><p><l><s n="n"/><s n="nt"/><s n="nn"/></l><r>वाला<s n="n"/><s n="m"/></r></p></e>  <!--No / blank word equivalent for bengali-->
+    <e><p><l>দিন<s n="n"/><s n="mf"/><s n="nn"/></l><r>दिन<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>স্থান<s n="n"/><s n="mf"/><s n="nn"/></l><r>स्थान<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>আধার<s n="n"/><s n="mf"/><s n="nn"/></l><r>आधार<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>মধ্যম<s n="n"/><s n="mf"/><s n="nn"/></l><r>माध्यम<s n="n"/><s n="m"/></r></p></e>
 
     <!-- SECTION POSTPOSITION -->
     <e><p><l>পাশে<s n="adv"/></l><r>पास<b/>में<s n="post"/></r></p></e>
@@ -1020,7 +1042,7 @@
     <e><p><l>আছে<s n="post"/></l><r>ने<s n="post"/></r></p></e>  
     <e><p><l>উপর<s n="post"/></l><r>पर<s n="post"/></r></p></e>
     <e><p><l>জন্য<s n="post"/></l><r>के लिए<s n="post"/></r></p></e>
-    
+    <e><p><l>প্রতি<s n="post"/></l><r>प्रति<s n="post"/></r></p></e>
     <e><p><l>বনাম<s n="post"/></l><r>बनाम<s n="post"/></r></p></e>
     <!--need to fix--><e><p><l>বিশ্বাস<b/>করা<s n="vblex"/><s n="ger"/></l><r>विश्वास<b/>करना<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
     <!--Check this case verb / satarka adj <e><p><l>সতর্ক<b/>হওয়া<s n="post"/></l><r>सावधान<b/>होना<s n="post"/></r></p></e>
