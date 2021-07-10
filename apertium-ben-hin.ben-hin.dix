@@ -990,6 +990,20 @@
     <e><p><l>স্থান<s n="n"/><s n="mf"/><s n="nn"/></l><r>स्थान<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>আধার<s n="n"/><s n="mf"/><s n="nn"/></l><r>आधार<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>মধ্যম<s n="n"/><s n="mf"/><s n="nn"/></l><r>माध्यम<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>বিষয়<s n="n"/><s n="mf"/><s n="nn"/></l><r>विषय<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>সেবা<s n="n"/><s n="mf"/><s n="nn"/></l><r>सेवा<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>তারা<s n="n"/><s n="mf"/><s n="nn"/></l><r>स्तर<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>কৃষি<s n="n"/><s n="nt"/><s n="nn"/></l><r>कृषि<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>চিঠি<s n="n"/><s n="mf"/><s n="nn"/></l><r>पत्र<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>প্রতিষ্ঠান<s n="n"/><s n="nt"/><s n="nn"/></l><r>कंपनी<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>সদস্য<s n="n"/><s n="mf"/><s n="hu"/></l><r>सदस्य<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>দৃষ্টি<s n="n"/><s n="nt"/><s n="nn"/></l><r>दृष्टि<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>যুগ<s n="n"/><s n="nt"/><s n="nn"/></l><r>युग<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>নীতি<s n="n"/><s n="mf"/><s n="nn"/></l><r>नीति<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>মতন<s n="n"/><s n="mf"/><s n="nn"/></l><r>तरह<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>কার্যক্রম<s n="n"/><s n="mf"/><s n="nn"/></l><r>कार्यक्रम<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>মানব<s n="n"/><s n="m"/><s n="hu"/></l><r>मानव<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>জাতি<s n="n"/><s n="mf"/><s n="nn"/></l><r>राष्ट्र<s n="n"/><s n="m"/></r></p></e>
 
     <!-- SECTION POSTPOSITION -->
     <e><p><l>পাশে<s n="adv"/></l><r>पास<b/>में<s n="post"/></r></p></e>
@@ -1188,6 +1202,7 @@
       <e><p><l>বল<s n="vblex"/></l><r>बता<s n="vblex"/></r></p></e>
       <e><p><l>চা<s n="vblex"/></l><r>चाह<s n="vblex"/></r></p></e>
       <e><p><l>লাগ<s n="vblex"/></l><r>लग<s n="vblex"/></r></p></e>
+      
       <!--  <e><p><l><s n=""/></l><r><s n=""/></r></p></e>  -->
   
 
@@ -1230,6 +1245,10 @@
       <e><p><l>যুদ্ধ<b/>করা<s n="vblex"/></l><r>युद्ध<b/>लड़ना<s n="vblex"/></r></p></e>
       <e><p><l>দেখ<s n="vblex"/></l><r>देख<s n="vblex"/></r></p></e>
       <e><p><l>দাও<s n="vblex"/></l><r>दे<s n="vblex"/></r></p></e>  <!--#-->
+      <e><p><l>এসো<s n="vblex"/></l><r>आ<s n="vblex"/></r></p></e>  <!--#-->
+      <e><p><l>বলুন<s n="vblex"/></l><r>कह<s n="vblex"/></r></p></e>  <!--#-->
+      <e><p><l>গ্রহণ করা<s n="vblex"/></l><r>ले<s n="vblex"/></r></p></e>  <!--Need to fix-->
+      <e><p><l>দেখা কর<s n="vblex"/></l><r>मिल<s n="vblex"/></r></p></e>  <!--#-->
 
     <!-- SECTION: Punctuation -->
 
