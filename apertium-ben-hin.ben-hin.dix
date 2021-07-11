@@ -284,7 +284,7 @@
       <e><p><l>ফলে<s n="cnjcoo"/></l><r>नतीजतन<s n="cnjcoo"/></r></p></e>  <!--#-->
       <e><p><l>যতক্ষন<s n="cnjcoo"/></l><r>जब<b/>तक<s n="cnjcoo"/></r></p></e>  <!--#-->
       <e><p><l>উভয়<s n="cnjcoo"/></l><r>दोनों<s n="cnjcoo"/></r></p></e>  <!--#-->
-      <e><p><l>কারণে<s n="cnjcoo"/></l><r>इसलिए<s n="cnjcoo"/></r></p></e>  <!--#-->
+      <e><p><l>তাই<s n="cnjcoo"/></l><r>इसलिए<s n="cnjcoo"/></r></p></e>  
       <e><p><l>তাছাড়া<s n="cnjcoo"/></l><r>इसके<b/>अलावा<s n="cnjcoo"/></r></p></e>  <!--#-->
       <e><p><l>একইভাবে<s n="cnjcoo"/></l><r>उसी<b/>प्रकार<s n="cnjcoo"/></r></p></e>  <!--#-->
       <e><p><l>বিশেষকরে<s n="cnjcoo"/></l><r>विशेष<b/>रूप<b/>से<s n="cnjcoo"/></r></p></e> <!--#-->
@@ -1058,6 +1058,22 @@
     <e><p><l>জন্য<s n="post"/></l><r>के लिए<s n="post"/></r></p></e>
     <e><p><l>প্রতি<s n="post"/></l><r>प्रति<s n="post"/></r></p></e>
     <e><p><l>বনাম<s n="post"/></l><r>बनाम<s n="post"/></r></p></e>
+
+    <e><p><l>সঙ্গে<s n="post"/></l><r>के साथ<s n="post"/></r></p></e>
+    <e><p><l>কারণে<s n="post"/></l><r>के कारण<s n="post"/></r></p></e>  <!-- Ben -> Hin gives #-->
+    <e><p><l>পরে<s n="post"/></l><r>के बाद<s n="post"/></r></p></e>
+    <e><p><l>অনুসারে<s n="post"/></l><r>के अनुसार<s n="post"/></r></p></e>
+    <e><p><l>জন্য<s n="post"/></l><r>हेतु<s n="post"/></r></p></e>
+    <e><p><l>অনুসারে<s n="post"/></l><r>के तहत<s n="post"/></r></p></e>
+    <e><p><l>এবং<s n="post"/></l><r>ओर<s n="post"/></r></p></e>
+    <e><p><l>জন্য<s n="post"/></l><r>लिए<s n="post"/></r></p></e>
+    <e><p><l>দিকে<s n="post"/></l><r>की ओर<s n="post"/></r></p></e>
+    <e><p><l>এর বাইরে<s n="post"/></l><r>में से<s n="post"/></r></p></e>
+    <e><p><l>কাছে<s n="post"/></l><r>के पास<s n="post"/></r></p></e>
+
+
+
+    
     <!--need to fix--><e><p><l>বিশ্বাস<b/>করা<s n="vblex"/><s n="ger"/></l><r>विश्वास<b/>करना<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
     <!--Check this case verb / satarka adj <e><p><l>সতর্ক<b/>হওয়া<s n="post"/></l><r>सावधान<b/>होना<s n="post"/></r></p></e>
 --> 
@@ -1246,7 +1262,7 @@
       <e><p><l>দেখ<s n="vblex"/></l><r>देख<s n="vblex"/></r></p></e>
 
      <!--Need to Test, Having some errors--> 
-     
+
       <e><p><l>দাও<s n="vblex"/></l><r>दे<s n="vblex"/></r></p></e>  <!--#-->
       <e><p><l>এসো<s n="vblex"/></l><r>आ<s n="vblex"/></r></p></e>  <!--#-->
       <e><p><l>বলুন<s n="vblex"/></l><r>कह<s n="vblex"/></r></p></e>  <!--#-->
