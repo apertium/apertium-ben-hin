@@ -1244,11 +1244,29 @@
       <e><p><l>বলা<s n="vblex"/></l><r>बोलना<s n="vblex"/></r></p></e>
       <e><p><l>যুদ্ধ<b/>করা<s n="vblex"/></l><r>युद्ध<b/>लड़ना<s n="vblex"/></r></p></e>
       <e><p><l>দেখ<s n="vblex"/></l><r>देख<s n="vblex"/></r></p></e>
+
+     <!--Need to Test, Having some errors--> 
+     
       <e><p><l>দাও<s n="vblex"/></l><r>दे<s n="vblex"/></r></p></e>  <!--#-->
       <e><p><l>এসো<s n="vblex"/></l><r>आ<s n="vblex"/></r></p></e>  <!--#-->
       <e><p><l>বলুন<s n="vblex"/></l><r>कह<s n="vblex"/></r></p></e>  <!--#-->
-      <e><p><l>গ্রহণ করা<s n="vblex"/></l><r>ले<s n="vblex"/></r></p></e>  <!--Need to fix-->
+    <!--  <e><p><l>গ্রহণ করা<s n="vblex"/></l><r>ले<s n="vblex"/></r></p></e>  Need to fix-->
       <e><p><l>দেখা কর<s n="vblex"/></l><r>मिल<s n="vblex"/></r></p></e>  <!--#-->
+      <e><p><l>নেওয়া<s n="vblex"/></l><r>ले<s n="vblex"/></r></p></e>
+      <e><p><l>হয়ে যাওয়া<s n="vblex"/></l><r>हो जा<s n="vblex"/></r></p></e>
+      <e><p><l>লিখুন<s n="vblex"/></l><r>लिख<s n="vblex"/></r></p></e>
+      <e><p><l>তৈরি<s n="vblex"/></l><r>बना<s n="vblex"/></r></p></e>
+      <e><p><l>রাখা<s n="vblex"/></l><r>रख<s n="vblex"/></r></p></e>
+      <e><p><l>হ্যাঁ<s n="vblex"/></l><r>जी<s n="vblex"/></r></p></e>
+      <e><p><l>পড়<s n="vblex"/></l><r>पड़<s n="vblex"/></r></p></e>
+      <e><p><l>মান<s n="vblex"/></l><r>मान<s n="vblex"/></r></p></e>
+      <e><p><l>হত্তয়া<s n="vblex"/></l><r>बन<s n="vblex"/></r></p></e>
+      <e><p><l>অনুভূত<s n="vblex"/></l><r>लगा<s n="vblex"/></r></p></e>
+      <e><p><l>বলা হচ্ছে<s n="vblex"/></l><r>कहा जा<s n="vblex"/></r></p></e>
+      <e><p><l>বোঝা<s n="vblex"/></l><r>समझ<s n="vblex"/></r></p></e>
+      <e><p><l>ভরা<s n="vblex"/></l><r>भर<s n="vblex"/></r></p></e>
+
+      <!---->
 
     <!-- SECTION: Punctuation -->
 
