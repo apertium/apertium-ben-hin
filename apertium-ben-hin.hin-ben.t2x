@@ -8,8 +8,17 @@
   </section-def-cats>
 
   <section-def-attrs>
-    <def-attr n="a_nbr">
+    <def-attr n="nbr">
       <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+    </def-attr>
+    <def-attr n="case">
+      <attr-item tags="nom"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="loc"/>
+      <attr-item tags="gen"/>
+      <attr-item tags="obj"/>
+      <attr-item tags="obl"/>
     </def-attr>
   </section-def-attrs>
 
@@ -32,6 +41,17 @@
         <pattern-item n="SN"/>
       </pattern>
       <action>
+
+<!-- This is only a temporary patch that changes the oblique case (which does not exist in Bengali) to the nominative case, which does exist. -->
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" part="case"/><lit-tag v="obl"/></equal>
+          </test>
+          <let><clip pos="1" part="case"/><lit-tag v="nom"/></let>
+        </when>
+      </choose>
+
         <out>
           <chunk>
             <clip pos="1" part="lem"/>
