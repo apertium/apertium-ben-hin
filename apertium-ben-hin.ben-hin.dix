@@ -1120,7 +1120,7 @@
         <e><p><l>পঞ্চান্ন<s n="num"/><s n="an"/></l><r>पचपन<s n="num"/></r></p></e>
         <e><p><l>পনের<s n="num"/><s n="an"/></l><r>पंद्रह<s n="num"/></r></p></e>
         <e><p><l>সাতশত<s n="num"/><s n="an"/></l><r>सात<b/>सौ<s n="num"/></r></p></e>
-        <e><p><l>নয়<s n="num"/><s n="an"/></l><r>नहीं<s n="num"/></r></p></e>  <!--Problem Case-->
+        <e><p><l>নয়<s n="num"/><s n="an"/></l><r>नौ<s n="num"/></r></p></e>  <!--Problem Case-->
         <e><p><l>নয়শ<s n="num"/><s n="an"/></l><r>नव्वे<s n="num"/></r></p></e>
         <e><p><l>ষোল<s n="num"/><s n="an"/></l><r>सोलह<s n="num"/></r></p></e>
         <e><p><l>তেষট্টি<s n="num"/><s n="an"/></l><r>त्रेसठ<s n="num"/></r></p></e>
@@ -1145,9 +1145,9 @@
 
     <!-- SECTION POSTPOSITION -->
 
-    <e><p><l>পাশে<s n="adv"/></l><r>पास<b/>में<s n="post"/></r></p></e>
+    <e><p><l>পাশে<s n="post"/></l><r>पास<b/>में<s n="post"/></r></p></e>
     <e><p><l>সামনে<s n="adv"/></l><r>सामने<s n="post"/></r></p></e>
-    <e><p><l>সামনের<s n="post"/></l><r>सामने<b/>वाले<s n="adv"/></r></p></e>
+    <e><p><l>সামনের<s n="post"/></l><r>सामने<b/>वाले<s n="post"/></r></p></e>
     <e><p><l>সাথে<s n="post"/></l><r>साथ<s n="post"/></r></p></e>    
     <e><p><l>দিয়ে<s n="post"/></l><r>से<s n="post"/></r></p></e>
     <e><p><l>পরে<s n="post"/></l><r>बाद<b/>में<s n="post"/></r></p></e>
@@ -1161,7 +1161,7 @@
     <e><p><l>দ্বারা<s n="post"/></l><r>द्वारा<s n="post"/></r></p></e>
     <e><p><l>পর্য্যন্ত<s n="post"/></l><r>जब<b/>तक<s n="post"/></r></p></e>
     <e><p><l>সঙ্গে<s n="post"/></l><r>साथ<b/>में<s n="post"/></r></p></e>
-    <e><p><l>এর<s n="post"/></l><r>का<s n="post"/></r></p></e>
+    <e><p><l>এর<s n="post"/></l><r>का<s n="post"/><s n="gen"/><s n="m"/><s n="sg"/></r></p></e> 
     <e><p><l>দিকে<s n="post"/></l><r>के<b/>प्रति<s n="post"/></r></p></e>
     <e><p><l>উপরে<s n="post"/></l><r>ऊपर<s n="post"/></r></p></e>
     <e><p><l>নীচে<s n="post"/></l><r>के<b/>नीचे<s n="post"/></r></p></e>
