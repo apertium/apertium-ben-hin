@@ -133,7 +133,7 @@
       <e><p><l>খুশি<s n="adj"/></l><r>खुश<s n="adj"/></r></p></e> 
       <e><p><l>সর্বদা<s n="adv"/></l><r>हमेशा<s n="adv"/></r></p></e>
       <e><p><l>সুন্দর<s n="adj"/></l><r>अच्छा<s n="adj"/></r></p></e> 
-      <e><p><l>সুন্দরি<s n="adj"/></l><r>अच्छा<s n="adj"/></r></p></e> 
+      <e><p><l>সুন্দরী<s n="adj"/></l><r>अच्छा<s n="adj"/></r></p></e> 
       <e><p><l>গরম<s n="adj"/></l><r>गर्म<s n="adj"/></r></p></e> 
       <e><p><l>ঠান্ডা<s n="adj"/><s n="sint"/></l><r>ठंडा<s n="adj"/></r></p></e>
       <e><p><l>বড়<s n="adj"/></l><r>बड़ा<s n="adj"/></r></p></e> 
@@ -1039,7 +1039,7 @@
         <e><p><l>সাতান্ন<s n="num"/><s n="an"/></l><r>सत्तावन<s n="num"/></r></p></e>
         <e><p><l>পঁয়ত্রিশ<s n="num"/><s n="an"/></l><r>पैंतीस<s n="num"/></r></p></e>
         <e><p><l>ছাব্বিশ<s n="num"/><s n="an"/></l><r>छब्बीस<s n="num"/></r></p></e>
-        <e><p><l>ছয়শত<s n="num"/><s n="an"/></l><r>छे सौ<s n="num"/></r></p></e> 
+        <e><p><l>ছয়শত<s n="num"/><s n="an"/></l><r>छे सौ<s n="num"/></r></p></e>   
         <e><p><l>আটানব্বই<s n="num"/><s n="an"/></l><r>अट्ठानबे<s n="num"/></r></p></e>
         <e><p><l>চুয়াত্তর<s n="num"/><s n="an"/></l><r>चौहत्तर<s n="num"/></r></p></e>
         <e><p><l>একাত্তর<s n="num"/><s n="an"/></l><r>इकहत्तर<s n="num"/></r></p></e>
@@ -1120,7 +1120,7 @@
         <e><p><l>পঞ্চান্ন<s n="num"/><s n="an"/></l><r>पचपन<s n="num"/></r></p></e>
         <e><p><l>পনের<s n="num"/><s n="an"/></l><r>पंद्रह<s n="num"/></r></p></e>
         <e><p><l>সাতশত<s n="num"/><s n="an"/></l><r>सात<b/>सौ<s n="num"/></r></p></e>
-        <e><p><l>নয়<s n="num"/><s n="an"/></l><r>नहीं<s n="num"/></r></p></e>
+        <e><p><l>নয়<s n="num"/><s n="an"/></l><r>नहीं<s n="num"/></r></p></e>  <!--Problem Case-->
         <e><p><l>নয়শ<s n="num"/><s n="an"/></l><r>नव्वे<s n="num"/></r></p></e>
         <e><p><l>ষোল<s n="num"/><s n="an"/></l><r>सोलह<s n="num"/></r></p></e>
         <e><p><l>তেষট্টি<s n="num"/><s n="an"/></l><r>त्रेसठ<s n="num"/></r></p></e>
