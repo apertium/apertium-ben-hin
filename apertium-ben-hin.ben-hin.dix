@@ -98,6 +98,7 @@
     <sdef n="actv"            c="Active voice"/>
 
     <sdef n="sint"            c="Synthetic (of adjectives)"/>
+    <sdef n="psint"           c="Partially synthetic"/>
     <sdef n="pst"             c="Positive"/>
     <sdef n="comp"            c="Comparative"/>
     <sdef n="sup"             c="Superlative"/>
@@ -138,58 +139,59 @@
       <e><p><l>ঠান্ডা<s n="adj"/><s n="sint"/></l><r>ठंडा<s n="adj"/></r></p></e>
       <e><p><l>বড়<s n="adj"/></l><r>बड़ा<s n="adj"/></r></p></e> 
       <e><p><l>ছোট<s n="adj"/></l><r>छोटा<s n="adj"/></r></p></e>
-      <e><p><l>বুড়ো<s n="adj"/></l><r>बूढ़े<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>বুড়ো<s n="adj"/></l><r>बूढ़े<s n="adj"/></r></p></e> 
       <e><p><l>পুরানো<s n="adj"/></l><r>पुराना<s n="adj"/></r></p></e>
-      <e><p><l>শেষ<s n="adj"/></l><r>समाप्त<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>শেষ<s n="adj"/></l><r>समाप्त<s n="adj"/></r></p></e> 
       <e><p><l>ভাল<s n="adj"/></l><r>अच्छा<s n="adj"/></r></p></e>
-      <e><p><l>শেষে<s n="adj"/></l><r>आखिर<b/>में<s n="adj"/></r></p></e> <!--#-->
-      <e><p><l>দক্ষিণ<s n="adj"/></l><r>दक्षिण<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>শেষে<s n="adj"/></l><r>आखिर<b/>में<s n="adj"/></r></p></e> 
+      <e><p><l>দক্ষিণ<s n="adj"/></l><r>दक्षिण<s n="adj"/></r></p></e> 
       <e><p><l>নতুন<s n="adj"/></l><r>नई<s n="adj"/></r></p></e>
       <e><p><l>একটু<s n="adj"/></l><r>थोड़ा<s n="adj"/></r></p></e>
-      <e><p><l>সোজা<s n="adj"/><s n="mf"/></l><r>सीधे<s n="adv"/></r></p></e>  <!--#-->
-      <e><p><l>আজন্ম​<s n="adj"/></l><r>उम्र भर<s n="adj"/></r></p></e> <!--#-->
-      <e><p><l>উচিত<s n="adj"/></l><r>चाहिए<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>সোজা<s n="adj"/></l><r>सीधे<s n="adj"/></r></p></e>  
+      <e><p><l>আজন্ম​<s n="adj"/></l><r>उम्र भर<s n="adj"/></r></p></e> 
+      <e><p><l>উচিত<s n="adj"/></l><r>चाहिए<s n="adj"/></r></p></e> 
       <e><p><l>ধনী<s n="adj"/></l><r>धनी<s n="adj"/></r></p></e>
-      <e><p><l>ঋনী<s n="adj"/></l><r>ऋणी<s n="adj"/></r></p></e> <!--#-->
-      <e><p><l>এটেল<s n="adj"/></l><r>इथेल<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>ঋনী<s n="adj"/></l><r>ऋणी<s n="adj"/></r></p></e> 
+      <e><p><l>এটেল<s n="adj"/></l><r>इथेल<s n="adj"/></r></p></e> 
       <e><p><l>একলা<s n="adj"/></l><r>अकेला<s n="adj"/></r></p></e> 
-      <e><p><l>একাদশ<s n="adj"/></l><r>ग्यारहवें<s n="adj"/></r></p></e> <!--#-->
-      <e><p><l>করাল<s n="adj"/></l><r>बड़े दांत<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>একাদশ<s n="adj"/></l><r>ग्यारहवें<s n="adj"/></r></p></e> <!-- hin -> ben #-->
+      <e><p><l>করাল<s n="adj"/></l><r>बड़े दांत<s n="adj"/></r></p></e> 
       <e><p><l>ছেঁদো<s n="adj"/></l><r>सस्ता<s n="adj"/></r></p></e> 
       <e><p><l>সস্তা<s n="adj"/></l><r>सस्ता<s n="adj"/></r></p></e>
-      <e><p><l>জারজ<s n="adj"/></l><r>नाजायज औलाद<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>জারজ<s n="adj"/></l><r>नाजायज<s n="adj"/></r></p></e> 
       <e><p><l>কটু<s n="adj"/></l><r>कड़वा<s n="adj"/></r></p></e> 
-      <e><p><l>নষট্<s n="adj"/></l><r>नष्ट<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>নষট্<s n="adj"/></l><r>नष्ट<s n="adj"/></r></p></e> 
       <e><p><l>নেপালি<s n="adj"/></l><r>नेपाली<s n="adj"/></r></p></e>
-      <e><p><l>উচ্চ<s n="adj"/></l><r>ऊंचाई<s n="adj"/></r></p></e> <!--#-->
-      <e><p><l>ঋজু<s n="adj"/></l><r>सीधे<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>উচ্চ<s n="adj"/><s n="sint"/></l><r>ऊंचाई<s n="adj"/></r></p></e> 
+      <e><p><l>ঋজু<s n="adj"/></l><r>सीधे<s n="adj"/></r></p></e> 
       <e><p><l>ঈষৎ<s n="adj"/></l><r>थोड़ा<s n="adj"/></r></p></e>
-      <e><p><l>অপকট<s n="adj"/></l><r>खुले तौर पर<s n="adj"/></r></p></e>  <!--#-->
-      <e><p><l>আকর্ন<s n="adj"/></l><r>कान तक<s n="adj"/></r></p></e>  <!--#-->
-      <e><p><l>একাগ্র<s n="adj"/></l><r>ध्यान केंद्रित<s n="adj"/></r></p></e>  <!--#-->
-      <e><p><l>গতায়ু<s n="adj"/></l><r>गतायु<s n="adj"/></r></p></e>  <!--#-->
-      <e><p><l>জান্তব্<s n="adj"/></l><r>जानवरों<s n="adj"/></r></p></e> <!--#-->
-      <e><p><l>পানীয়<s n="adj"/></l><r>पेय<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>অপকট<s n="adj"/></l><r>खुले तौर पर<s n="adj"/></r></p></e>
+      <e><p><l>আকর্ন<s n="adj"/></l><r>कान तक<s n="adj"/></r></p></e>  
+      <e><p><l>একাগ্র<s n="adj"/></l><r>ब्याज<s n="adj"/></r></p></e>  
+      <e><p><l>গতায়ু<s n="adj"/></l><r>गतायु<s n="adj"/></r></p></e>  
+      <e><p><l>জান্তব্<s n="adj"/></l><r>जानवरों<s n="adj"/></r></p></e> 
+      <e><p><l>পানীয়<s n="adj"/></l><r>पेय<s n="adj"/></r></p></e> 
       <e><p><l>প্রথম্<s n="adj"/></l><r>प्रथम<s n="adj"/></r></p></e>  
-      <e><p><l>ফুটন্ত<s n="adj"/></l><r>उबलना<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>ফুটন্ত<s n="adj"/></l><r>उबलना<s n="adj"/></r></p></e>  
       <e><p><l>বেশী<s n="adj"/></l><r>अधिक<s n="adj"/></r></p></e>
-      <e><p><l>মাতাল<s n="adj"/></l><r>शराबी<s n="adj"/></r></p></e> <!--#-->
-      <e><p><l>ভূমিষ্ঠ<s n="adj"/></l><r>जन्म लिया<s n="adj"/></r></p></e> <!--#-->
+      <e><p><l>মাতাল<s n="adj"/></l><r>शराबी<s n="adj"/></r></p></e>   
+      <e><p><l>মাতাল<s n="adj"/></l><r>मतवाला<s n="adj"/></r></p></e>
+      <e><p><l>ভূমিষ্ঠ<s n="adj"/></l><r>जन्म लिया<s n="adj"/></r></p></e> 
       <e><p><l>অক্থিত​<s n="adj"/></l><r>अनकहा<s n="adj"/></r></p></e>  
       <e><p><l>ঈপ্সিত<s n="adj"/></l><r>वांछित<s n="adj"/></r></p></e> 
-      <e><p><l>উচ্ছিষ্ট<s n="adj"/></l><r>कूड़ा<s n="adj"/></r></p></e>  <!--#-->
-      <e><p><l>উড়ন্ত<s n="adj"/></l><r>हवाई<s n="adj"/></r></p></e>  <!--#-->
-      <e><p><l>ঐচ্ছিক<s n="adj"/></l><r>स्वयंसेवक<s n="adj"/></r></p></e>  <!--#-->
-      <e><p><l>ঝমাঝম্<s n="adj"/></l><r>झमाझम<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>উচ্ছিষ্ট<s n="adj"/></l><r>कूड़ा<s n="adj"/></r></p></e>  
+      <e><p><l>উড়ন্ত<s n="adj"/></l><r>हवाई<s n="adj"/></r></p></e>  
+      <e><p><l>ঐচ্ছিক<s n="adj"/></l><r>स्वयंसेवक<s n="adj"/></r></p></e>  
+      <e><p><l>ঝমাঝম্<s n="adj"/></l><r>झमाझम<s n="adj"/></r></p></e>  
       <e><p><l>ঐশ্বরিক<s n="adj"/></l><r>दिव्य<s n="adj"/></r></p></e>  
       <e><p><l>দৃপ্ত<s n="adj"/></l><r>उज्ज्वल<s n="adj"/></r></p></e>  
       <e><p><l>ম্লান<s n="adj"/></l><r>फीका<s n="adj"/></r></p></e>  
-      <e><p><l>উদ্ধৃত<s n="adj"/></l><r>उद्धृत<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>উদ্ধৃত<s n="adj"/></l><r>उद्धृत<s n="adj"/></r></p></e>  
       <e><p><l>চিরাচরিত<s n="adj"/></l><r>परंपरागत<s n="adj"/></r></p></e>  
       <e><p><l>গতানুগতিক<s n="adj"/></l><r>पारंपरिक<s n="adj"/></r></p></e> 
-      <e><p><l>উটকো<s n="adj"/></l><r>अजीब<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>উটকো<s n="adj"/></l><r>अजीब<s n="adj"/></r></p></e>  
       <e><p><l>ঔপনিবেশিক<s n="adj"/></l><r>औपनिवेशिक<s n="adj"/></r></p></e>
-      <e><p><l>ওতপ্রত<s n="adj"/></l><r>परस्पर<s n="adj"/></r></p></e>  <!--#-->
+      <e><p><l>ওতপ্রত<s n="adj"/></l><r>परस्पर<s n="adj"/></r></p></e>  
       <e r="RL"><p><l>কোন<s n="adj"/></l><r>किसी<s n="adj"/></r></p></e>
       <e><p><l>আলা<s n="adj"/></l><r>वाला<s n="adj"/></r></p></e>
       <e r="RL"><p><l>মতন<s n="adj"/></l><r>सा<s n="adj"/></r></p></e>
@@ -199,16 +201,15 @@
       <e><p><l>সব<s n="adj"/></l><r>सभी<s n="adj"/></r></p></e>
       <e><p><l>ভিন্ন<s n="adj"/></l><r>विभिन्न<s n="adj"/></r></p></e>
       <e><p><l>প্রধানমন্ত্রী<s n="adj"/></l><r>प्रमुख<s n="adj"/></r></p></e>
-      <e><p><l>বিশেষ<s n="adj"/></l><r>विशेष<s n="adj"/></r></p></e>  <!--# for Hin->ben-->
+      <e><p><l>বিশেষ<s n="adj"/><s n="psint"/></l><r>विशेष<s n="adj"/></r></p></e>  <!--# for Hin->ben-->
       <e><p><l>এই<s n="adj"/></l><r>इसी<s n="adj"/></r></p></e>
       <e><p><l>সামাজিক<s n="adj"/></l><r>सामाजिक<s n="adj"/></r></p></e>
-      <e><p><l>যেমন<s n="adj"/></l><r>जैसा<s n="adj"/></r></p></e>   <!--# for ben-> hin -->
       <e><p><l>পুরো<s n="adj"/></l><r>पूरा<s n="adj"/></r></p></e>
       <e><p><l>গুরুত্বপূর্ণ<s n="adj"/></l><r>मुख्य<s n="adj"/></r></p></e>
       <e><p><l>সম্পর্কিত<s n="adj"/></l><r>संबंधित<s n="adj"/></r></p></e>
       <e><p><l>যৌথ<s n="adj"/></l><r>संयुक्त<s n="adj"/></r></p></e>
       <e><p><l>অর্থনৈতিক<s n="adj"/></l><r>आर्थिक<s n="adj"/></r></p></e>
-      <e><p><l>আধুনিক<s n="adj"/></l><r>आधुनिक<s n="adj"/></r></p></e>  <!--# for Hin->ben-->
+      <e><p><l>আধুনিক<s n="adj"/><s n="sint"/></l><r>आधुनिक<s n="adj"/></r></p></e> 
       <e><p><l>অন্তর্গত<s n="adj"/></l><r>शामिल<s n="adj"/></r></p></e>
       <e><p><l>একই<s n="adj"/></l><r>उसी<s n="adj"/></r></p></e>
       <e><p><l>দাপ্তরিক<s n="adj"/></l><r>सरकारी<s n="adj"/></r></p></e>
@@ -219,8 +220,7 @@
       <e><p><l>শুধু এটাই<s n="adj"/></l><r>यही<s n="adj"/></r></p></e>
       <e><p><l>সারাহ<s n="adj"/></l><r>सारा<s n="adj"/></r></p></e>
       <e><p><l>জিনিস<s n="adj"/></l><r>समान<s n="adj"/></r></p></e>
-      <e><p><l>না<s n="adj"/></l><r>न<s n="adj"/></r></p></e>    <!--Hin -> Ben #-->
-      <e><p><l>প্রাচীন<s n="adj"/></l><r>प्राचीन<s n="adj"/></r></p></e>   <!--Hin -> Ben #-->
+      <e><p><l>প্রাচীন<s n="adj"/><s n="sint"/></l><r>प्राचीन<s n="adj"/></r></p></e> 
       <e><p><l>প্রয়োজনীয়<s n="adj"/></l><r>आवश्यक<s n="adj"/></r></p></e>
       <e><p><l>গুরুত্বপূর্ণ<s n="adj"/></l><r>महत्वपूर्ण<s n="adj"/></r></p></e>
       <e><p><l>এই কোটা<s n="adj"/></l><r>इतना<s n="adj"/></r></p></e>
@@ -248,7 +248,7 @@
       <e><p><l>অ<s n="adj"/></l><r>गैर<s n="adj"/></r></p></e>
       <e><p><l>গ্লোবাল<s n="adj"/></l><r>वैश्विक<s n="adj"/></r></p></e>
       <e><p><l>ছাড়<s n="adj"/></l><r>चार<s n="adj"/></r></p></e>
-      <e><p><l>কম<s n="adj"/></l><r>कम<s n="adj"/></r></p></e>   <!--Hin -> Ben #-->
+      <e><p><l>কম<s n="adj"/></l><r>कम<s n="adj"/></r></p></e>  
       <e><p><l>গ্রামীণ<s n="adj"/></l><r>ग्रामीण<s n="adj"/></r></p></e>
       <e><p><l>গ<s n="adj"/></l><r>सी<s n="adj"/></r></p></e>
       <e><p><l>সাংস্কৃতিক<s n="adj"/></l><r>सांस्कृतिक<s n="adj"/></r></p></e>
@@ -265,7 +265,7 @@
       <e><p><l>স্থানীয়<s n="adj"/></l><r>स्थानीय<s n="adj"/></r></p></e>
       <e><p><l>উপস্থাপন<s n="adj"/></l><r>वर्तमान<s n="adj"/></r></p></e>
       <e><p><l>প্রাকৃতিক<s n="adj"/></l><r>प्राकृतिक<s n="adj"/></r></p></e>
-      <e><p><l>কিছু<s n="adj"/></l><r>कुछ<s n="adj"/></r></p></e>   <!-- hin->ben #-->
+      <e><p><l>কিছু<s n="adj"/></l><r>कुछ<s n="adj"/></r></p></e>  
       <e><p><l>কত<s n="adj"/></l><r>कितना<s n="adj"/></r></p></e>
       <e><p><l>কম<s n="adj"/></l><r>निम्न<s n="adj"/></r></p></e>
       <e><p><l>পাবলিক<s n="adj"/></l><r>सार्वजनिक<s n="adj"/></r></p></e>
@@ -284,16 +284,19 @@
       <e><p><l>মোট<s n="adj"/></l><r>कुल<s n="adj"/></r></p></e>
       <e><p><l>রচিত<s n="adj"/></l><r>रचित<s n="adj"/></r></p></e>
       <e><p><l>ব্যক্তিগত<s n="adj"/></l><r>निजी<s n="adj"/></r></p></e>
-      <e r="RL"><p><l>সঠিক<s n="adj"/></l><r>उचित<s n="adj"/></r></p></e>  <!--Hin -> ben #-->
+      <e><p><l>সঠিক<s n="adj"/><s n="sint"/></l><r>उचित<s n="adj"/></r></p></e>
       <e><p><l>দলিত<s n="adj"/></l><r>दलित<s n="adj"/></r></p></e>
       <e><p><l>মুক্ত<s n="adj"/></l><r>मुक्त<s n="adj"/></r></p></e>
       <e><p><l>স্বতন্ত্র<s n="adj"/></l><r>स्वतंत्र<s n="adj"/></r></p></e>
       <e><p><l>পূর্ব<s n="adj"/></l><r>पूर्व<s n="adj"/></r></p></e>
+      <e><p><l>সতর্ক<s n="adj"/></l><r>सावधान<s n="adj"/></r></p></e>
       
 
      
-      <!-- SECTION ADVERBS -->
+      <!-- SECTION ADVERBS --> 
 
+      <e><p><l>কম<s n="adv"/></l><r>कम<s n="adv"/></r></p></e>
+      <e><p><l>কিছু<s n="adv"/></l><r>कुछ<s n="adv"/></r></p></e>
       <e><p><l>দুজনেই<s n="adv"/></l><r>दोनों<b/>ही<s n="adv"/></r></p></e>  <!--#-->
       <e><p><l>হয়ে<s n="adv"/></l><r>होकर<s n="adv"/></r></p></e>  <!--#-->
       <e><p><l>হয়<s n="adv"/></l><r>होता<b/>है<s n="adv"/></r></p></e>  <!--#-->
@@ -337,7 +340,6 @@
       <e><p><l>সামনে<s n="adv"/></l><r>सामने<s n="adv"/></r></p></e>  
       <e><p><l>সেখানে<s n="adv"/></l><r>वहाँ<s n="adv"/></r></p></e>
       <e><p><l>সহজে<s n="adv"/></l><r>आराम से<s n="adv"/></r></p></e>  <!--#-->
-      <e><p><l>সতর্ক<s n="adj"/><s n="mf"/></l><r>सावधान<s n="adj"/></r></p></e>
       <e><p><l>সঠিক<s n="adv"/></l><r>सही<s n="adv"/></r></p></e>  
       <e><p><l>আস্তে আস্তে<s n="adv"/></l><r>धीरे से<s n="adv"/></r></p></e>
       <e><p><l>এই ভাবে<s n="adv"/></l><r>इस तरह<s n="adv"/></r></p></e>
@@ -358,6 +360,7 @@
       <e><p><l>দূরে<s n="adv"/></l><r>दूर<s n="adv"/></r></p></e>
       <e><p><l>খুব<s n="adv"/></l><r>भी<s n="adv"/></r></p></e>
       <e><p><l>কেবল<s n="adv"/></l><r>केवल<s n="adv"/></r></p></e>
+      <e><p><l>না<s n="adv"/></l><r>न<s n="adv"/></r></p></e>
 
       <!-- SECTION CONJUNCTION -->
       
@@ -413,7 +416,7 @@
 
       <e><p><l>তারপর<s n="cnjsub"/></l><r>फिर<s n="cnjsub"/></r></p></e>  <!--#-->
       <e><p><l>মত<s n="cnjsub"/></l><r>जैसा<s n="cnjsub"/></r></p></e>  <!--#-->
-      <e><p><l>যেমন<s n="cnjsub"/></l><r>जैसा<s n="cnjsub"/></r></p></e>  <!--#-->
+      <e><p><l>যেমন<s n="cnjsub"/></l><r>जैसा<s n="cnjsub"/></r></p></e>  
       <e><p><l>যেন<s n="cnjsub"/></l><r>जैसे<b/>की<s n="cnjsub"/></r></p></e>  <!--#-->
       <e><p><l>যত<b/>দূর<b/>সম্ভব<s n="cnjsub"/></l><r>जहां<b/>तक<b/>संभव<b/>हो<s n="cnjsub"/></r></p></e>  <!--#-->
       <e><p><l>যত<b/>বেশি<b/>সম্ভব<s n="cnjsub"/></l><r>जितना<b/>संभव<s n="cnjsub"/></r></p></e>  <!--#-->
@@ -859,7 +862,6 @@
     <e><p><l>হিন্দি<s n="n"/><s n="mf"/><s n="nn"/></l><r>हिन्दी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>সন্ধি<s n="n"/><s n="nt"/><s n="nn"/></l><r>संधि<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>কবিতা<s n="n"/><s n="nt"/><s n="nn"/></l><r>काव्य<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>না<s n="adv"/></l><r>न<s n="n"/><s n="m"/></r></p></e>  <!--Getting #, need to fix-->
     <e><p><l>পরিকল্পনা<s n="n"/><s n="nt"/><s n="nn"/></l><r>योजना<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>দিন<s n="n"/><s n="mf"/><s n="nn"/></l><r>दिन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>স্থান<s n="n"/><s n="mf"/><s n="nn"/></l><r>स्थान<s n="n"/><s n="m"/></r></p></e>
@@ -1029,7 +1031,8 @@
         <e r="LR"><p><l>দশ<s n="num"/><s n="el"/></l><r>दस<s n="num"/></r></p></e>
   
         <!-- <par n="একশ__num" /> -->
-
+   
+        <e><p><l>একাদশ<s n="num"/><s n="an"/></l><r>ग्यारहवें<s n="num"/></r></p></e>
         <e><p><l>চৌদ্দ<s n="num"/><s n="an"/></l><r>चौदह<s n="num"/></r></p></e>
         <e><p><l>বায়ান্ন<s n="num"/><s n="an"/></l><r>बावन<s n="num"/></r></p></e>
         <e><p><l>সাতাশ<s n="num"/><s n="an"/></l><r>सत्ताईस<s n="num"/></r></p></e>
@@ -1251,8 +1254,7 @@
     <e><p><l>prpers<s n="prn" /><s n="p3" /></l><r>वह<s n="prn"/><s n="p3" /></r></p></e>  <!--#-->
     <e><p><l>তিনি<s n="prn" /><s n="p3" /></l><r>उसने<s n="prn"/><s n="dem" /></r></p></e>  <!--#-->
     
-
-    <!--Check this case--> <e><p><l>কিছু<s n="prn" /><s n="p3"/><s n="mf"/></l><r>कुछ<s n="adj"/><s n="m"/></r></p></e>    
+ 
     <!-- p3 is not well defined in hindi -->
 
     <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -1294,7 +1296,7 @@
     <e><p><l>কেউনা<s n="prn"/></l><r>कोई<b/>नहीं<s n="prn"/></r></p></e>   <!--#-->
     <e><p><l>কিছু<b/>একটা<s n="prn"/></l><r>कुछ<b/>एक<s n="prn"/></r></p></e>   <!--#-->
     <e><p><l>বেশ<b/>কয়েকটা<s n="prn"/></l><r>कई<s n="det"/></r></p></e>  <!--#-->
-    <e><p><l>কম<s n="prn"/></l><r>कम<s n="det"/><s n="ind"/></r></p></e>  <!--#-->
+    <e><p><l>কম<s n="det"/></l><r>कम<s n="det"/></r></p></e>  <!--#-->
     <!--Interrogative-->
     <e><p><l>কে<s n="prn"/><s n="itg"/></l><r>कौन<s n="prn"/><s n="itg"/></r></p></e>   <!--#-->
     <e><p><l>কখন<s n="prn"/><s n="itg"/></l><r>कब<s n="prn"/><s n="itg"/></r></p></e>  <!--#-->
