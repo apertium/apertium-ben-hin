@@ -36,7 +36,7 @@
   </section-def-macros>
 
   <section-rules>
-    <rule comment="REGLA: SN">
+    <rule comment="RULE: SN">
       <pattern>
         <pattern-item n="SN"/>
       </pattern>

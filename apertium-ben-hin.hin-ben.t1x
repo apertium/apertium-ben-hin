@@ -15,10 +15,6 @@
       <cat-item tags="adj.*"/>
     </def-cat>
 
-    <def-cat n="genitive">
-      <cat-item tags="gen"/>
-    </def-cat>
-
     <def-cat n="vblex">
       <cat-item tags="vblex.*"/>
     </def-cat>
@@ -491,7 +487,7 @@
 
   <section-rules>
 
-     <rule comment="REGLA: ADJ">
+     <rule comment="RULE: ADJ">
       <pattern>
         <pattern-item n="adj"/>
       </pattern>
@@ -516,7 +512,7 @@
       </action>
     </rule>
 
-   <rule comment="REGLA: NOM">
+   <rule comment="RULE: NOM">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
@@ -539,7 +535,6 @@
             </lu>
           </chunk>
         </out>
-
       </action>
     </rule>
 
@@ -555,7 +550,7 @@
     </rule> -->
 
 
-    <rule comment="REGLA: SENT">
+    <rule comment="RULE: SENT">
       <pattern>
         <pattern-item n="sent"/>
       </pattern>
