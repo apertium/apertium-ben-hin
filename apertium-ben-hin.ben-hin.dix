@@ -1073,10 +1073,6 @@
     <e><p><l>ভাই<s n="n"/><s n="m"/><s n="hu"/></l><r>भाई<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>অনুচ্ছেদ<s n="n"/><s n="nt"/><s n="nn"/></l><r>अनुच्छेद<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>সুখ<s n="n"/><s n="nt"/><s n="nn"/></l><r>सुख<s n="n"/><s n="m"/></r></p></e>
-
-
-    
-    
     <e><p><l>ই<s n="n"/><s n="nt"/><s n="nn"/></l><r>ई<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>সংস্থান<s n="n"/><s n="nt"/><s n="nn"/></l><r>साधन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>সংগ্রাম<s n="n"/><s n="mf"/><s n="nn"/></l><r>संघर्ष<s n="n"/><s n="m"/></r></p></e>
@@ -1279,9 +1275,7 @@
     <e><p><l>পরম্পরা<s n="n"/><s n="mf"/><s n="nn"/></l><r>परम्परा<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>নীতিশাস্ত্র<s n="n"/><s n="nt"/><s n="nn"/></l><r>शास्त्र<s n="n"/><s n="m"/></r></p></e>
     
-
-    
-    
+ 
     <!--Numerals--> 
 
         <e><p><l>0<s n="num"/></l><r>0<s n="num"/></r></p></e>
@@ -1493,8 +1487,110 @@
         <e><p><l>তের<s n="num"/><s n="an"/></l><r>तेरह<s n="num"/></r></p></e>
 
     <!--Ordinals-->
-
-        <e><p><l>প্রথম<s n="adj"/><s n="ord"/></l><r>प्रथम<s n="num"/><s n="ord"/></r></p></e>
+<!--
+        <e><p><l>প্রথম<s n="adj"/><s n="ord"/></l><r>पहला<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>দ্বিতীয়<s n="adj"/><s n="ord"/></l><r>दूसरा<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>তৃতীয়<s n="adj"/><s n="ord"/></l><r>तीसरा<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>চতুর্থ<s n="adj"/><s n="ord"/></l><r>चौथा<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>পঞ্চম<s n="adj"/><s n="ord"/></l><r>पाञ्चवा<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ষষ্ঠ<s n="adj"/><s n="ord"/></l><r>छठा<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>সপ্তম<s n="adj"/><s n="ord"/></l><r>सातवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>অষ্টম<s n="adj"/><s n="ord"/></l><r>आठवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>নবম<s n="adj"/><s n="ord"/></l><r>नौवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>দশম<s n="adj"/><s n="ord"/></l><r>दसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>এগারোতম<s n="adj"/><s n="ord"/></l><r>ग्यारहवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>বারোতম<s n="adj"/><s n="ord"/></l><r>बारहवां<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>তেরোতম<s n="adj"/><s n="ord"/></l><r>तेरहवां<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>চৌদ্দতম<s n="adj"/><s n="ord"/></l><r>चौदहवां<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>পঞ্চদশতম<s n="adj"/><s n="ord"/></l><r>पंद्रहवां<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ষোলতম<s n="adj"/><s n="ord"/></l><r>सोलहवां<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>সতেরোতম<s n="adj"/><s n="ord"/></l><r>सत्रहवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>আঠারতম<s n="adj"/><s n="ord"/></l><r>अठारहवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>উনিশতম<s n="adj"/><s n="ord"/></l><r>उन्नीसवां<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>বিংশতিতম<s n="adj"/><s n="ord"/></l><r>बीसवां<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>একুশতম<s n="adj"/><s n="ord"/></l><r>इक्कीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>দ্বাবিংশ<s n="adj"/><s n="ord"/></l><r>बाईसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>তেইশতম<s n="adj"/><s n="ord"/></l><r>तेईसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>চব্বিশতম<s n="adj"/><s n="ord"/></l><r>चौबीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>পঁচিশতম<s n="adj"/><s n="ord"/></l><r>पच्चीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ছাব্বিশতম<s n="adj"/><s n="ord"/></l><r>छब्बीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>বিশ সপ্তম<s n="adj"/><s n="ord"/></l><r>सत्ताइसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>আটাশতম<s n="adj"/><s n="ord"/></l><r>अट्ठाइसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>উনত্রিশতম<s n="adj"/><s n="ord"/></l><r>उनतीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ত্রিশতম<s n="adj"/><s n="ord"/></l><r>तीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>একত্রিশতম<s n="adj"/><s n="ord"/></l><r>इकतीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>বত্রিশতম<s n="adj"/><s n="ord"/></l><r>बत्तीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>তেত্রিশতম<s n="adj"/><s n="ord"/></l><r>तैंतीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>চৌত্রিশতম<s n="adj"/><s n="ord"/></l><r>चौंतीसवां<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>পঁয়ত্রিশতম<s n="adj"/><s n="ord"/></l><r>पैंतीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ছত্রিশতম<s n="adj"/><s n="ord"/></l><r>छत्तीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>সাইত্রিশতম<s n="adj"/><s n="ord"/></l><r>सैंतीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>আটত্রিশতম<s n="adj"/><s n="ord"/></l><r>अड़तीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ঊনচল্লিশতম<s n="adj"/><s n="ord"/></l><r>उनतालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>চল্লিশতম<s n="adj"/><s n="ord"/></l><r>चालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>একচল্লিশতম<s n="adj"/><s n="ord"/></l><r>इकतालीसवां<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>বিয়াল্লিশতম<s n="adj"/><s n="ord"/></l><r>बयालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>তেতাল্লিশতম<s n="adj"/><s n="ord"/></l><r>तैंतालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>চুয়াল্লিশতম<s n="adj"/><s n="ord"/></l><r>चौतालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>পঁয়তাল্লিশতম<s n="adj"/><s n="ord"/></l><r>पैंतालीसवां<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ছিচল্লিশতম<s n="adj"/><s n="ord"/></l><r>छियालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>সাতচল্লিশতম<s n="adj"/><s n="ord"/></l><r>सैंतालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>আটচল্লিশতম<s n="adj"/><s n="ord"/></l><r>अड़तालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ঊনপঞ্চাশতম<s n="adj"/><s n="ord"/></l><r>उनचासवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>পঞ্চাশতম<s n="adj"/><s n="ord"/></l><r>पचासवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>একান্নতম<s n="adj"/><s n="ord"/></l><r>इक्यावनवां<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>বায়ান্নতম<s n="adj"/><s n="ord"/></l><r>बावनवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>তেপ্পান্নতম<s n="adj"/><s n="ord"/></l><r>तिरेपानवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>চুয়ান্নতম<s n="adj"/><s n="ord"/></l><r>चौवनवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>পঞ্চান্নতম<s n="adj"/><s n="ord"/></l><r>पचपनवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ছাপ্পান্নতম<s n="adj"/><s n="ord"/></l><r>छप्पनवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>সাতান্নতম<s n="adj"/><s n="ord"/></l><r>सतावनवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>আটান্নতম<s n="adj"/><s n="ord"/></l><r>अट्ठावनवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ঊনষাটতম<s n="adj"/><s n="ord"/></l><r>उनसठवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ষাট নম্বর<s n="adj"/><s n="ord"/></l><r>साठवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>একষট্টিতম<s n="adj"/><s n="ord"/></l><r>इकसठवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>বাষট্টিতম<s n="adj"/><s n="ord"/></l><r>बासठवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>তেষট্টিতম<s n="adj"/><s n="ord"/></l><r>तिरसठवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>চৌষট্টিতম<s n="adj"/><s n="ord"/></l><r>चौंसठवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>পঁয়ষট্টিতম<s n="adj"/><s n="ord"/></l><r>पैंसठवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ছেষট্টিতম<s n="adj"/><s n="ord"/></l><r>छियासठवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>সাতষট্টিতম<s n="adj"/><s n="ord"/></l><r>सड़सठवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>আটষট্টিতম<s n="adj"/><s n="ord"/></l><r>अड़सठवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>উনসত্তুরতম<s n="adj"/><s n="ord"/></l><r>उनहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>সত্তরতম<s n="adj"/><s n="ord"/></l><r>सत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>একাত্তরতম<s n="adj"/><s n="ord"/></l><r>इकहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>বাহাত্তরতম<s n="adj"/><s n="ord"/></l><r>बहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>তেহাত্তুরতম<s n="adj"/><s n="ord"/></l><r>तिहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>চুহাত্তরতম<s n="adj"/><s n="ord"/></l><r>चौहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>পঁচাত্তরতম<s n="adj"/><s n="ord"/></l><r>पचहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ছিয়াত্তরতম<s n="adj"/><s n="ord"/></l><r>छिहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>সাতাত্তরতম<s n="adj"/><s n="ord"/></l><r>सतहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>আটাত্তরতম<s n="adj"/><s n="ord"/></l><r>अठहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>বাহাত্তরতম<s n="adj"/><s n="ord"/></l><r>उनासीवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>আশিতম<s n="adj"/><s n="ord"/></l><r>अस्सीवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>একাশিতম<s n="adj"/><s n="ord"/></l><r>इक्यासीवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>বিরাশিতম<s n="adj"/><s n="ord"/></l><r>बयासीवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>তিরাশিতম<s n="adj"/><s n="ord"/></l><r>तिरासीवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>চুরাশিতম<s n="adj"/><s n="ord"/></l><r>चौरासीवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>পঁচাশিতম<s n="adj"/><s n="ord"/></l><r>पचासीवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ছিয়াশিতম<s n="adj"/><s n="ord"/></l><r>छियासीवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>সাতাশিতম<s n="adj"/><s n="ord"/></l><r>सतासीवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>আটাশিতম<s n="adj"/><s n="ord"/></l><r>अठासीवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ঊনানব্বুইতম<s n="adj"/><s n="ord"/></l><r>नवासीवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>নব্বইতম<s n="adj"/><s n="ord"/></l><r>नब्बेवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>একানব্বইতম<s n="adj"/><s n="ord"/></l><r>इक्यानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>বিরানব্বইতম<s n="adj"/><s n="ord"/></l><r>बानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>তিরানব্বইতম<s n="adj"/><s n="ord"/></l><r>तिरानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>চুরানব্বইতম<s n="adj"/><s n="ord"/></l><r>चौरानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>পঁচানব্বইতম<s n="adj"/><s n="ord"/></l><r>पंचानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>ছিয়ানব্বইতম<s n="adj"/><s n="ord"/></l><r>छियानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>সাতানব্বইতম<s n="adj"/><s n="ord"/></l><r>सतानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>আটানব্বইতম<s n="adj"/><s n="ord"/></l><r>अट्ठानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>নিরানব্বইতম<s n="adj"/><s n="ord"/></l><r>निन्यानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>একশতম<s n="adj"/><s n="ord"/></l><r>एक सौवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>শততম<s n="adj"/><s n="ord"/></l><r>एक सौवाँ<s n="num"/><s n="ord"/></r></p></e>
+        <e><p><l>হাজারতম<s n="adj"/><s n="ord"/></l><r>एक हजारवाँ<s n="num"/><s n="ord"/></r></p></e>
+-->
 
     <!-- SECTION POSTPOSITION -->
 
