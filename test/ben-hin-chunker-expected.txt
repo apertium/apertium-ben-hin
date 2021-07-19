@@ -1,0 +1,18 @@
+[0IZTRrUrLjt1#0] ^unknown<unknown>{^*রারংক$}$
+[/0IZTRrUrLjt1]
+[1COnjcQwwgCd#0] ^unknown<unknown>{^*ষোলটা$}$
+[/1COnjcQwwgCd]
+[7gZYCF5NIgra#0] ^unknown<unknown>{^*ফুটন্তর$}$
+[/7gZYCF5NIgra]
+[BThVtnrX9nWn#0] ^default<default>{^५<num>$}$
+[/BThVtnrX9nWn]
+[OXPgIukyIPkh#0] ^default<default>{^-<guio>$}$
+[/OXPgIukyIPkh]
+[QbgF6nrAFOI1#0] ^sent<SENT>{^;<sent>$}$
+[/QbgF6nrAFOI1]
+[S2_V650_t5iM#0] ^unknown<unknown>{^*পোস্ব$}$
+[/S2_V650_t5iM]
+[T36md40CMz2j#0] ^unknown<unknown>{^*দলকে্$}$
+[/T36md40CMz2j]
+[poEKQq2qTVXt#0] ^default<default>{^«<lquot>$}$
+[/poEKQq2qTVXt]

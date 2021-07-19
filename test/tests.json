@@ -1,0 +1,10 @@
+{
+    "ben-hin": {
+        "input": "ben-hin-input.txt",
+        "mode": "ben-hin"
+    },
+    "hin-ben": {
+        "input": "hin-ben-input.txt",
+        "mode": "hin-ben"
+    }
+}
