@@ -97,7 +97,7 @@
        <attr-item tags="vbser"/>
     </def-attr>
 
-    <def-attr n="temps">
+    <def-attr n="tense">
        <attr-item tags="pri"/>
     </def-attr>
 
