@@ -67,6 +67,7 @@
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
       <attr-item tags="adj.pos"/>
+      <attr-item tags="adj.ord"/>
     </def-attr>
     <def-attr n="transivity">
       <attr-item tags="tv"/>
