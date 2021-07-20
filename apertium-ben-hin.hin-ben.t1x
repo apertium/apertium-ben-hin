@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer default="chunk">
 <section-def-cats>
-  <def-cat n="nom">
+  <def-cat n="noun">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
@@ -15,8 +15,30 @@
       <cat-item tags="adj.*"/>
     </def-cat>
 
-    <def-cat n="vblex">
+    <def-cat n="verb">
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vbaux.*"/>
       <cat-item tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="verb_inf">
+      <cat-item tags="vblex.inf.*"/>
+      <cat-item tags="vblex.*.inf.*"/>	<!-- just while the tv/iv bug in the bidix is not solved -->
+    </def-cat>
+    <def-cat n="verb_pers">
+      <cat-item tags="vbser.*.p1.*"/>
+      <cat-item tags="vbser.*.p2.*"/>
+      <cat-item tags="vbser.*.p3.*"/>
+      <cat-item tags="vbaux.*.p1.*"/>
+      <cat-item tags="vbaux.*.p2.*"/>
+      <cat-item tags="vbaux.*.p3.*"/>
+      <cat-item tags="vblex.*.p1.*"/>
+      <cat-item tags="vblex.*.p2.*"/>
+      <cat-item tags="vblex.*.p3.*"/>
+    </def-cat>
+    <def-cat n="vblex_pers">
+      <cat-item tags="vblex.*.p1.*"/>
+      <cat-item tags="vblex.*.p2.*"/>
+      <cat-item tags="vblex.*.p3.*"/>
     </def-cat>
 
     <def-cat n="ppst">
@@ -88,6 +110,7 @@
       <attr-item tags="gen"/>
       <attr-item tags="obj"/>
       <attr-item tags="obl"/>
+      <attr-item tags="erg"/>
     </def-attr>
 
     <def-attr n="a_verb">
@@ -96,14 +119,33 @@
        <attr-item tags="vbser"/>
     </def-attr>
 
-    <def-attr n="temps">
-       <attr-item tags="pri"/>
+    <def-attr n="tense">
+       <attr-item tags="inf"/>
+       <attr-item tags="pres"/>
+       <attr-item tags="prs"/>
+       <attr-item tags="fut"/>
+       <attr-item tags="imp"/>
+       <attr-item tags="pres.smpl"/>
+       <attr-item tags="pres.imp"/>
+       <attr-item tags="pres.cnt"/>
+       <attr-item tags="past.smpl"/>
+       <attr-item tags="past.cnt"/>
+       <attr-item tags="past.hbtl"/>
+       <attr-item tags="ft.smpl"/>
+       <attr-item tags="ft.imp"/>
+       <attr-item tags="plprft"/>
     </def-attr>
 
     <def-attr n="pers">
        <attr-item tags="p1"/>
        <attr-item tags="p2"/>
+       <attr-item tags="p2.frm"/>
+       <attr-item tags="p2.fam"/>
+       <attr-item tags="p2.infml"/>
+       <attr-item tags="p2.pol"/>
        <attr-item tags="p3"/>
+       <attr-item tags="p3.infml"/>
+       <attr-item tags="p3.pol"/>
     </def-attr>
   </section-def-attrs>
 
@@ -112,6 +154,7 @@
     <def-var n="nbrvar"/>
     <def-var n="persvar"/>
     <def-var n="casevar"/>
+    <def-var n="tensevar"/>
     <def-var n="genvar"/>
   </section-def-vars>
 
@@ -138,13 +181,13 @@
             </or>
         </test>
             <let>
-                  <var n ="nbrvar"/>
+                  <var n="nbrvar"/>
                         <clip part="nbr" pos="1" side="tl"/>
             </let>
         </when>
   <otherwise>
           <let>
-        <var n ="nbrvar"/>
+        <var n="nbrvar"/>
               <lit-tag v="sg"/>
           </let>
   </otherwise>
@@ -172,13 +215,13 @@
             </or>
           </test>
         <let>
-              <var n ="genvar"/>
+              <var n="genvar"/>
               <clip part="gen" pos="1" side="tl"/>
         </let>
         </when>
         <otherwise>
           <let>
-              <var n ="genvar"/>
+              <var n="genvar"/>
               <lit-tag v="m"/>
           </let>
         </otherwise>
@@ -206,13 +249,13 @@
             </or>
           </test>
         <let>
-              <var n ="persvar"/>
+              <var n="persvar"/>
               <clip part="pers" pos="1" side="tl"/>
         </let>
         </when>
         <otherwise>
           <let>
-              <var n ="persvar"/>
+              <var n="persvar"/>
               <lit-tag v="p3"/>
           </let>
         </otherwise>
@@ -236,13 +279,13 @@
             </or>
           </test>
         <let>
-              <var n ="casevar"/>
+              <var n="casevar"/>
               <clip part="case" pos="1" side="tl"/>
         </let>
         </when>
         <otherwise>
           <let>
-              <var n ="casevar"/>
+              <var n="casevar"/>
               <lit-tag v="nom"/>
           </let>
         </otherwise>
@@ -270,13 +313,13 @@
             </or>
         </test>
             <let>
-                  <var n ="nbrvar"/>
+                  <var n="nbrvar"/>
                         <clip part="nbr" pos="1" side="tl"/>
             </let>
         </when>
   <otherwise>
           <let>
-        <var n ="nbrvar"/>
+        <var n="nbrvar"/>
               <lit-tag v="sg"/>
           </let>
   </otherwise>
@@ -304,13 +347,13 @@
             </or>
           </test>
         <let>
-              <var n ="genvar"/>
+              <var n="genvar"/>
               <clip part="gen" pos="1" side="tl"/>
         </let>
         </when>
         <otherwise>
           <let>
-              <var n ="genvar"/>
+              <var n="genvar"/>
               <lit-tag v="m"/>
           </let>
         </otherwise>
@@ -338,7 +381,7 @@
             </or>
           </test>
         <let>
-              <var n ="persvar"/>
+              <var n="persvar"/>
               <clip part="pers" pos="1" side="tl"/>
         </let>
         <let>
@@ -348,7 +391,7 @@
         </when>
         <otherwise>
           <let>
-              <var n ="persvar"/>
+              <var n="persvar"/>
               <lit-tag v="p3"/>
           </let>
           <let>
@@ -379,13 +422,13 @@
             </or>
           </test>
         <let>
-              <var n ="nbrvar"/>
+              <var n="nbrvar"/>
               <clip part="nbr" pos="1" side="tl"/>
         </let>
         </when>
         <otherwise>
           <let>
-              <var n ="nbrvar"/>
+              <var n="nbrvar"/>
               <lit-tag v="sg"/>
           </let>
         </otherwise>
@@ -409,13 +452,13 @@
             </or>
           </test>
         <let>
-              <var n ="genvar"/>
+              <var n="genvar"/>
               <clip part="gen" pos="1" side="tl"/>
         </let>
         </when>
         <otherwise>
           <let>
-              <var n ="genvar"/>
+              <var n="genvar"/>
               <lit-tag v="m"/>
           </let>
         </otherwise>
@@ -444,13 +487,13 @@
             </or>
           </test>
         <let>
-              <var n ="persvar"/>
+              <var n="persvar"/>
               <clip part="pers" pos="1" side="tl"/>
         </let>
         </when>
         <otherwise>
           <let>
-              <var n ="persvar"/>
+              <var n="persvar"/>
               <lit-tag v="p3"/>
           </let>
         </otherwise>
@@ -471,17 +514,69 @@
             </or>
           </test>
         <let>
-              <var n ="casevar"/>
+              <var n="casevar"/>
               <clip part="case" pos="1" side="tl"/>
         </let>
         </when>
         <otherwise>
           <let>
-              <var n ="casevar"/>
+              <var n="casevar"/>
               <lit-tag v="d"/>
           </let>
         </otherwise>
       </choose> -->
+    </def-macro>
+
+    <def-macro n="change_tense" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal><clip part="tense" pos="1" side="sl"/><lit-tag v="pres"/></equal>
+          </test>
+          <let><var n="tensevar"/><lit-tag v="pres.smpl"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip part="tense" pos="1" side="sl"/><lit-tag v="prs"/></equal>
+          </test>
+          <let><var n="tensevar"/><lit-tag v="pres.smpl"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip part="tense" pos="1" side="sl"/><lit-tag v="fut"/></equal>
+          </test>
+          <let><var n="tensevar"/><lit-tag v="ft.smpl"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip part="tense" pos="1" side="sl"/><lit-tag v="imp"/></equal>
+          </test>
+          <let><var n="tensevar"/><lit-tag v="past.smpl"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="change_pers" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal><clip part="pers" pos="1" side="sl"/><lit-tag v="p2.frm"/></equal>
+          </test>
+          <let><var n="persvar"/><lit-tag v="p2.pol"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip part="pers" pos="1" side="sl"/><lit-tag v="p2"/></equal>
+          </test>
+          <let><var n="persvar"/><lit-tag v="p2.pol"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip part="pers" pos="1" side="sl"/><lit-tag v="p3"/></equal>
+          </test>
+          <let><var n="persvar"/><lit-tag v="p3.pol"/></let>
+        </when>
+      </choose>
     </def-macro>
   </section-def-macros>
 
@@ -512,13 +607,13 @@
       </action>
     </rule>
 
-   <rule comment="RULE: NOM">
+   <rule comment="RULE: NOUN">
       <pattern>
-        <pattern-item n="nom"/>
+        <pattern-item n="noun"/>
       </pattern>
       <action>
         <out>
-          <chunk name="nom">
+          <chunk name="noun">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="1" side="tl" part="gen"/></tag>
@@ -538,17 +633,55 @@
       </action>
     </rule>
 
-<!-- 
-    <rule comment = "Vblex">
+   <rule comment="RULE: VERB (conjugated)">
       <pattern>
-        <pattern-item n="vblex"/>
+        <pattern-item n="verb_pers"/>
       </pattern>
       <action>
-
+        <call-macro n="change_tense">
+          <with-param pos="1" />
+        </call-macro>
+        <call-macro n="change_pers">
+          <with-param pos="1" />
+        </call-macro>
+        <out>
+          <chunk name="vblex">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><var n="tensevar"/></tag>
+              <tag><var n="persvar"/></tag>
+             </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <var n="tensevar"/>
+              <var n="persvar"/>
+            </lu>
+          </chunk>
+        </out>
       </action>
+    </rule>
 
-    </rule> -->
-
+   <rule comment="RULE: VERB (infinitive)">
+      <pattern>
+        <pattern-item n="verb_inf"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="vblex">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="tense"/></tag>
+             </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="tense"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="RULE: SENT">
       <pattern>
