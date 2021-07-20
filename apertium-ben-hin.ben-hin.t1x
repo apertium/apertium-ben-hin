@@ -2,7 +2,7 @@
 <transfer default="chunk">
   <section-def-cats>
 
-    <def-cat n="nom">
+    <def-cat n="noun">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
@@ -97,7 +97,7 @@
        <attr-item tags="vbser"/>
     </def-attr>
 
-    <def-attr n="temps">
+    <def-attr n="tense">
        <attr-item tags="pri"/>
     </def-attr>
 
@@ -514,13 +514,13 @@
       </action>
     </rule>
 
-   <rule comment="RULE: NOM">
+   <rule comment="RULE: NOUN">
       <pattern>
-        <pattern-item n="nom"/>
+        <pattern-item n="noun"/>
       </pattern>
       <action>
         <out>
-          <chunk name="nom">
+          <chunk name="noun">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="1" side="tl" part="gen"/></tag>
@@ -543,7 +543,7 @@
     <rule comment="ADJ NOUN">
         <pattern>
           <pattern-item n="adj" />
-          <pattern-item n="nom"/>
+          <pattern-item n="noun"/>
         </pattern>
         <action>
           <call-macro n="adj_init">
