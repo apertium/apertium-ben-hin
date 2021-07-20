@@ -1487,110 +1487,109 @@
         <e><p><l>তের<s n="num"/><s n="an"/></l><r>तेरह<s n="num"/></r></p></e>
 
     <!--Ordinals-->
-<!--
-        <e><p><l>প্রথম<s n="adj"/><s n="ord"/></l><r>पहला<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>দ্বিতীয়<s n="adj"/><s n="ord"/></l><r>दूसरा<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>তৃতীয়<s n="adj"/><s n="ord"/></l><r>तीसरा<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>চতুর্থ<s n="adj"/><s n="ord"/></l><r>चौथा<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>পঞ্চম<s n="adj"/><s n="ord"/></l><r>पाञ्चवा<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ষষ্ঠ<s n="adj"/><s n="ord"/></l><r>छठा<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>সপ্তম<s n="adj"/><s n="ord"/></l><r>सातवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>অষ্টম<s n="adj"/><s n="ord"/></l><r>आठवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>নবম<s n="adj"/><s n="ord"/></l><r>नौवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>দশম<s n="adj"/><s n="ord"/></l><r>दसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>এগারোতম<s n="adj"/><s n="ord"/></l><r>ग्यारहवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>বারোতম<s n="adj"/><s n="ord"/></l><r>बारहवां<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>তেরোতম<s n="adj"/><s n="ord"/></l><r>तेरहवां<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>চৌদ্দতম<s n="adj"/><s n="ord"/></l><r>चौदहवां<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>পঞ্চদশতম<s n="adj"/><s n="ord"/></l><r>पंद्रहवां<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ষোলতম<s n="adj"/><s n="ord"/></l><r>सोलहवां<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>সতেরোতম<s n="adj"/><s n="ord"/></l><r>सत्रहवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>আঠারতম<s n="adj"/><s n="ord"/></l><r>अठारहवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>উনিশতম<s n="adj"/><s n="ord"/></l><r>उन्नीसवां<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>বিংশতিতম<s n="adj"/><s n="ord"/></l><r>बीसवां<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>একুশতম<s n="adj"/><s n="ord"/></l><r>इक्कीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>দ্বাবিংশ<s n="adj"/><s n="ord"/></l><r>बाईसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>তেইশতম<s n="adj"/><s n="ord"/></l><r>तेईसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>চব্বিশতম<s n="adj"/><s n="ord"/></l><r>चौबीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>পঁচিশতম<s n="adj"/><s n="ord"/></l><r>पच्चीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ছাব্বিশতম<s n="adj"/><s n="ord"/></l><r>छब्बीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>বিশ সপ্তম<s n="adj"/><s n="ord"/></l><r>सत्ताइसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>আটাশতম<s n="adj"/><s n="ord"/></l><r>अट्ठाइसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>উনত্রিশতম<s n="adj"/><s n="ord"/></l><r>उनतीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ত্রিশতম<s n="adj"/><s n="ord"/></l><r>तीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>একত্রিশতম<s n="adj"/><s n="ord"/></l><r>इकतीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>বত্রিশতম<s n="adj"/><s n="ord"/></l><r>बत्तीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>তেত্রিশতম<s n="adj"/><s n="ord"/></l><r>तैंतीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>চৌত্রিশতম<s n="adj"/><s n="ord"/></l><r>चौंतीसवां<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>পঁয়ত্রিশতম<s n="adj"/><s n="ord"/></l><r>पैंतीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ছত্রিশতম<s n="adj"/><s n="ord"/></l><r>छत्तीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>সাইত্রিশতম<s n="adj"/><s n="ord"/></l><r>सैंतीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>আটত্রিশতম<s n="adj"/><s n="ord"/></l><r>अड़तीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ঊনচল্লিশতম<s n="adj"/><s n="ord"/></l><r>उनतालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>চল্লিশতম<s n="adj"/><s n="ord"/></l><r>चालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>একচল্লিশতম<s n="adj"/><s n="ord"/></l><r>इकतालीसवां<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>বিয়াল্লিশতম<s n="adj"/><s n="ord"/></l><r>बयालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>তেতাল্লিশতম<s n="adj"/><s n="ord"/></l><r>तैंतालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>চুয়াল্লিশতম<s n="adj"/><s n="ord"/></l><r>चौतालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>পঁয়তাল্লিশতম<s n="adj"/><s n="ord"/></l><r>पैंतालीसवां<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ছিচল্লিশতম<s n="adj"/><s n="ord"/></l><r>छियालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>সাতচল্লিশতম<s n="adj"/><s n="ord"/></l><r>सैंतालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>আটচল্লিশতম<s n="adj"/><s n="ord"/></l><r>अड़तालीसवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ঊনপঞ্চাশতম<s n="adj"/><s n="ord"/></l><r>उनचासवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>পঞ্চাশতম<s n="adj"/><s n="ord"/></l><r>पचासवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>একান্নতম<s n="adj"/><s n="ord"/></l><r>इक्यावनवां<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>বায়ান্নতম<s n="adj"/><s n="ord"/></l><r>बावनवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>তেপ্পান্নতম<s n="adj"/><s n="ord"/></l><r>तिरेपानवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>চুয়ান্নতম<s n="adj"/><s n="ord"/></l><r>चौवनवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>পঞ্চান্নতম<s n="adj"/><s n="ord"/></l><r>पचपनवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ছাপ্পান্নতম<s n="adj"/><s n="ord"/></l><r>छप्पनवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>সাতান্নতম<s n="adj"/><s n="ord"/></l><r>सतावनवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>আটান্নতম<s n="adj"/><s n="ord"/></l><r>अट्ठावनवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ঊনষাটতম<s n="adj"/><s n="ord"/></l><r>उनसठवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ষাট নম্বর<s n="adj"/><s n="ord"/></l><r>साठवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>একষট্টিতম<s n="adj"/><s n="ord"/></l><r>इकसठवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>বাষট্টিতম<s n="adj"/><s n="ord"/></l><r>बासठवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>তেষট্টিতম<s n="adj"/><s n="ord"/></l><r>तिरसठवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>চৌষট্টিতম<s n="adj"/><s n="ord"/></l><r>चौंसठवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>পঁয়ষট্টিতম<s n="adj"/><s n="ord"/></l><r>पैंसठवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ছেষট্টিতম<s n="adj"/><s n="ord"/></l><r>छियासठवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>সাতষট্টিতম<s n="adj"/><s n="ord"/></l><r>सड़सठवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>আটষট্টিতম<s n="adj"/><s n="ord"/></l><r>अड़सठवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>উনসত্তুরতম<s n="adj"/><s n="ord"/></l><r>उनहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>সত্তরতম<s n="adj"/><s n="ord"/></l><r>सत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>একাত্তরতম<s n="adj"/><s n="ord"/></l><r>इकहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>বাহাত্তরতম<s n="adj"/><s n="ord"/></l><r>बहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>তেহাত্তুরতম<s n="adj"/><s n="ord"/></l><r>तिहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>চুহাত্তরতম<s n="adj"/><s n="ord"/></l><r>चौहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>পঁচাত্তরতম<s n="adj"/><s n="ord"/></l><r>पचहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ছিয়াত্তরতম<s n="adj"/><s n="ord"/></l><r>छिहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>সাতাত্তরতম<s n="adj"/><s n="ord"/></l><r>सतहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>আটাত্তরতম<s n="adj"/><s n="ord"/></l><r>अठहत्तरवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>বাহাত্তরতম<s n="adj"/><s n="ord"/></l><r>उनासीवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>আশিতম<s n="adj"/><s n="ord"/></l><r>अस्सीवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>একাশিতম<s n="adj"/><s n="ord"/></l><r>इक्यासीवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>বিরাশিতম<s n="adj"/><s n="ord"/></l><r>बयासीवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>তিরাশিতম<s n="adj"/><s n="ord"/></l><r>तिरासीवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>চুরাশিতম<s n="adj"/><s n="ord"/></l><r>चौरासीवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>পঁচাশিতম<s n="adj"/><s n="ord"/></l><r>पचासीवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ছিয়াশিতম<s n="adj"/><s n="ord"/></l><r>छियासीवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>সাতাশিতম<s n="adj"/><s n="ord"/></l><r>सतासीवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>আটাশিতম<s n="adj"/><s n="ord"/></l><r>अठासीवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ঊনানব্বুইতম<s n="adj"/><s n="ord"/></l><r>नवासीवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>নব্বইতম<s n="adj"/><s n="ord"/></l><r>नब्बेवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>একানব্বইতম<s n="adj"/><s n="ord"/></l><r>इक्यानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>বিরানব্বইতম<s n="adj"/><s n="ord"/></l><r>बानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>তিরানব্বইতম<s n="adj"/><s n="ord"/></l><r>तिरानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>চুরানব্বইতম<s n="adj"/><s n="ord"/></l><r>चौरानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>পঁচানব্বইতম<s n="adj"/><s n="ord"/></l><r>पंचानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>ছিয়ানব্বইতম<s n="adj"/><s n="ord"/></l><r>छियानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>সাতানব্বইতম<s n="adj"/><s n="ord"/></l><r>सतानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>আটানব্বইতম<s n="adj"/><s n="ord"/></l><r>अट्ठानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>নিরানব্বইতম<s n="adj"/><s n="ord"/></l><r>निन्यानवेवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>একশতম<s n="adj"/><s n="ord"/></l><r>एक सौवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>শততম<s n="adj"/><s n="ord"/></l><r>एक सौवाँ<s n="num"/><s n="ord"/></r></p></e>
-        <e><p><l>হাজারতম<s n="adj"/><s n="ord"/></l><r>एक हजारवाँ<s n="num"/><s n="ord"/></r></p></e>
--->
+
+        <e><p><l>প্রথম<s n="adj"/><s n="ord"/></l><r>पहला<s n="adj"/></r></p></e>
+        <e><p><l>দ্বিতীয়<s n="adj"/><s n="ord"/></l><r>दूसरा<s n="adj"/></r></p></e>
+        <e><p><l>তৃতীয়<s n="adj"/><s n="ord"/></l><r>तीसरा<s n="adj"/></r></p></e>
+        <e><p><l>চতুর্থ<s n="adj"/><s n="ord"/></l><r>चौथा<s n="adj"/></r></p></e>
+        <e><p><l>পঞ্চম<s n="adj"/><s n="ord"/></l><r>पाञ्चवा<s n="adj"/></r></p></e>
+        <e><p><l>ষষ্ঠ<s n="adj"/><s n="ord"/></l><r>छठा<s n="adj"/></r></p></e>
+        <e><p><l>সপ্তম<s n="adj"/><s n="ord"/></l><r>सातवा<s n="adj"/></r></p></e>  <!-- hin -> ben # -->
+        <e><p><l>অষ্টম<s n="adj"/><s n="ord"/></l><r>आठवाँ<s n="adj"/></r></p></e>
+        <e><p><l>নবম<s n="adj"/><s n="ord"/></l><r>नौंवा<s n="adj"/></r></p></e>
+        <e><p><l>দশম<s n="adj"/><s n="ord"/></l><r>दसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>এগারোতম<s n="adj"/><s n="ord"/></l><r>ग्यारहवाँ<s n="adj"/></r></p></e>  <!--Start of #-->
+        <e><p><l>বারোতম<s n="adj"/><s n="ord"/></l><r>बारहवाँ<s n="adj"/></r></p></e>   
+        <e><p><l>তেরোতম<s n="adj"/><s n="ord"/></l><r>तेरहवाँ<s n="adj"/></r></p></e>   
+        <e><p><l>চৌদ্দতম<s n="adj"/><s n="ord"/></l><r>चौदहवाँ<s n="adj"/></r></p></e>   
+        <e><p><l>পঞ্চদশতম<s n="adj"/><s n="ord"/></l><r>पन्द्रहवाँ<s n="adj"/></r></p></e>
+        <e><p><l>ষোলতম<s n="adj"/><s n="ord"/></l><r>सोलहवाँ<s n="adj"/></r></p></e>   
+        <e><p><l>সতেরোতম<s n="adj"/><s n="ord"/></l><r>सत्तरहवाँ<s n="adj"/></r></p></e>
+        <e><p><l>আঠারতম<s n="adj"/><s n="ord"/></l><r>अठारहवाँ<s n="adj"/></r></p></e>
+        <e><p><l>উনিশতম<s n="adj"/><s n="ord"/></l><r>उन्नीसवाँ<s n="adj"/></r></p></e>    
+        <e><p><l>বিংশতিতম<s n="adj"/><s n="ord"/></l><r>बीसवाँ<s n="adj"/></r></p></e>    
+        <e><p><l>একুশতম<s n="adj"/><s n="ord"/></l><r>इक्कीसवाँ<s n="adj"/></r></p></e>  
+        <e><p><l>দ্বাবিংশ<s n="adj"/><s n="ord"/></l><r>बाईसवाँ<s n="adj"/></r></p></e>   
+        <e><p><l>তেইশতম<s n="adj"/><s n="ord"/></l><r>तेईसवाँ<s n="adj"/></r></p></e>   
+        <e><p><l>চব্বিশতম<s n="adj"/><s n="ord"/></l><r>चौबीसवाँ<s n="adj"/></r></p></e>   
+        <e><p><l>পঁচিশতম<s n="adj"/><s n="ord"/></l><r>पच्चीसवाँ<s n="adj"/></r></p></e>   
+        <e><p><l>ছাব্বিশতম<s n="adj"/><s n="ord"/></l><r>छब्बीसवाँ<s n="adj"/></r></p></e>   
+        <e><p><l>বিশ সপ্তম<s n="adj"/><s n="ord"/></l><r>सत्ताइसवाँ<s n="adj"/></r></p></e>   
+        <e><p><l>আটাশতম<s n="adj"/><s n="ord"/></l><r>अट्ठाइसवाँ<s n="adj"/></r></p></e>   
+        <e><p><l>উনত্রিশতম<s n="adj"/><s n="ord"/></l><r>उनतीसवाँ<s n="adj"/></r></p></e>    
+        <e><p><l>ত্রিশতম<s n="adj"/><s n="ord"/></l><r>तीसवाँ<s n="adj"/></r></p></e>    
+        <e><p><l>একত্রিশতম<s n="adj"/><s n="ord"/></l><r>इकतीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>বত্রিশতম<s n="adj"/><s n="ord"/></l><r>बत्तीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>তেত্রিশতম<s n="adj"/><s n="ord"/></l><r>तैंतीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>চৌত্রিশতম<s n="adj"/><s n="ord"/></l><r>चौंतीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>পঁয়ত্রিশতম<s n="adj"/><s n="ord"/></l><r>पैंतीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>ছত্রিশতম<s n="adj"/><s n="ord"/></l><r>छत्तीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>সাইত্রিশতম<s n="adj"/><s n="ord"/></l><r>सैंतीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>আটত্রিশতম<s n="adj"/><s n="ord"/></l><r>अड़तीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>ঊনচল্লিশতম<s n="adj"/><s n="ord"/></l><r>उनतालीसवाँ<s n="adj"/></r></p></e>  
+        <e><p><l>চল্লিশতম<s n="adj"/><s n="ord"/></l><r>चालीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>একচল্লিশতম<s n="adj"/><s n="ord"/></l><r>इकतालीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>বিয়াল্লিশতম<s n="adj"/><s n="ord"/></l><r>बयालीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>তেতাল্লিশতম<s n="adj"/><s n="ord"/></l><r>तैंतालीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>চুয়াল্লিশতম<s n="adj"/><s n="ord"/></l><r>चौतालीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>পঁয়তাল্লিশতম<s n="adj"/><s n="ord"/></l><r>पैंतालीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>ছিচল্লিশতম<s n="adj"/><s n="ord"/></l><r>छियालीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>সাতচল্লিশতম<s n="adj"/><s n="ord"/></l><r>सैंतालीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>আটচল্লিশতম<s n="adj"/><s n="ord"/></l><r>अड़तालीसवाँ<s n="adj"/></r></p></e>
+        <e><p><l>ঊনপঞ্চাশতম<s n="adj"/><s n="ord"/></l><r>उनचासवाँ<s n="adj"/></r></p></e>
+        <e><p><l>পঞ্চাশতম<s n="adj"/><s n="ord"/></l><r>पचासवाँ<s n="adj"/></r></p></e>  
+        <e><p><l>একান্নতম<s n="adj"/><s n="ord"/></l><r>इक्यावनवाँ<s n="adj"/></r></p></e>
+        <e><p><l>বায়ান্নতম<s n="adj"/><s n="ord"/></l><r>बावनवाँ<s n="adj"/></r></p></e>
+        <e><p><l>তেপ্পান্নতম<s n="adj"/><s n="ord"/></l><r>तिरेपानवाँ<s n="adj"/></r></p></e>
+        <e><p><l>চুয়ান্নতম<s n="adj"/><s n="ord"/></l><r>चौवनवाँ<s n="adj"/></r></p></e>
+        <e><p><l>পঞ্চান্নতম<s n="adj"/><s n="ord"/></l><r>पचपनवाँ<s n="adj"/></r></p></e>
+        <e><p><l>ছাপ্পান্নতম<s n="adj"/><s n="ord"/></l><r>छप्पनवाँ<s n="adj"/></r></p></e>
+        <e><p><l>সাতান্নতম<s n="adj"/><s n="ord"/></l><r>सतावनवाँ<s n="adj"/></r></p></e>
+        <e><p><l>আটান্নতম<s n="adj"/><s n="ord"/></l><r>अट्ठावनवाँ<s n="adj"/></r></p></e>
+        <e><p><l>ঊনষাটতম<s n="adj"/><s n="ord"/></l><r>उनसठवाँ<s n="adj"/></r></p></e>
+        <e><p><l>ষাট নম্বর<s n="adj"/><s n="ord"/></l><r>साठवाँ<s n="adj"/></r></p></e>  
+        <e><p><l>একষট্টিতম<s n="adj"/><s n="ord"/></l><r>इकसठवाँ<s n="adj"/></r></p></e>
+        <e><p><l>বাষট্টিতম<s n="adj"/><s n="ord"/></l><r>बासठवाँ<s n="adj"/></r></p></e>
+        <e><p><l>তেষট্টিতম<s n="adj"/><s n="ord"/></l><r>तिरसठवाँ<s n="adj"/></r></p></e>
+        <e><p><l>চৌষট্টিতম<s n="adj"/><s n="ord"/></l><r>चौंसठवाँ<s n="adj"/></r></p></e>
+        <e><p><l>পঁয়ষট্টিতম<s n="adj"/><s n="ord"/></l><r>पैंसठवाँ<s n="adj"/></r></p></e>
+        <e><p><l>ছেষট্টিতম<s n="adj"/><s n="ord"/></l><r>छियासठवाँ<s n="adj"/></r></p></e>
+        <e><p><l>সাতষট্টিতম<s n="adj"/><s n="ord"/></l><r>सड़सठवाँ<s n="adj"/></r></p></e>
+        <e><p><l>আটষট্টিতম<s n="adj"/><s n="ord"/></l><r>अड़सठवाँ<s n="adj"/></r></p></e>
+        <e><p><l>উনসত্তুরতম<s n="adj"/><s n="ord"/></l><r>उनहत्तरवाँ<s n="adj"/></r></p></e>
+        <e><p><l>সত্তরতম<s n="adj"/><s n="ord"/></l><r>सत्तरवाँ<s n="adj"/></r></p></e>
+        <e><p><l>একাত্তরতম<s n="adj"/><s n="ord"/></l><r>इकहत्तरवाँ<s n="adj"/></r></p></e>
+        <e><p><l>বাহাত্তরতম<s n="adj"/><s n="ord"/></l><r>बहत्तरवाँ<s n="adj"/></r></p></e>
+        <e><p><l>তেহাত্তুরতম<s n="adj"/><s n="ord"/></l><r>तिहत्तरवाँ<s n="adj"/></r></p></e>
+        <e><p><l>চুহাত্তরতম<s n="adj"/><s n="ord"/></l><r>चौहत्तरवाँ<s n="adj"/></r></p></e>
+        <e><p><l>পঁচাত্তরতম<s n="adj"/><s n="ord"/></l><r>पचहत्तरवाँ<s n="adj"/></r></p></e>
+        <e><p><l>ছিয়াত্তরতম<s n="adj"/><s n="ord"/></l><r>छिहत्तरवाँ<s n="adj"/></r></p></e>
+        <e><p><l>সাতাত্তরতম<s n="adj"/><s n="ord"/></l><r>सतहत्तरवाँ<s n="adj"/></r></p></e>
+        <e><p><l>আটাত্তরতম<s n="adj"/><s n="ord"/></l><r>अठहत्तरवाँ<s n="adj"/></r></p></e>
+        <e><p><l>বাহাত্তরতম<s n="adj"/><s n="ord"/></l><r>उनासीवाँ<s n="adj"/></r></p></e>
+        <e><p><l>আশিতম<s n="adj"/><s n="ord"/></l><r>अस्सीवाँ<s n="adj"/></r></p></e>
+        <e><p><l>একাশিতম<s n="adj"/><s n="ord"/></l><r>इक्यासीवाँ<s n="adj"/></r></p></e>
+        <e><p><l>বিরাশিতম<s n="adj"/><s n="ord"/></l><r>बयासीवाँ<s n="adj"/></r></p></e>
+        <e><p><l>তিরাশিতম<s n="adj"/><s n="ord"/></l><r>तिरासीवाँ<s n="adj"/></r></p></e>
+        <e><p><l>চুরাশিতম<s n="adj"/><s n="ord"/></l><r>चौरासीवाँ<s n="adj"/></r></p></e>
+        <e><p><l>পঁচাশিতম<s n="adj"/><s n="ord"/></l><r>पचासीवाँ<s n="adj"/></r></p></e>
+        <e><p><l>ছিয়াশিতম<s n="adj"/><s n="ord"/></l><r>छियासीवाँ<s n="adj"/></r></p></e>
+        <e><p><l>সাতাশিতম<s n="adj"/><s n="ord"/></l><r>सतासीवाँ<s n="adj"/></r></p></e>
+        <e><p><l>আটাশিতম<s n="adj"/><s n="ord"/></l><r>अठासीवाँ<s n="adj"/></r></p></e>
+        <e><p><l>ঊনানব্বুইতম<s n="adj"/><s n="ord"/></l><r>नवासीवाँ<s n="adj"/></r></p></e>
+        <e><p><l>নব্বইতম<s n="adj"/><s n="ord"/></l><r>नब्बेवाँ<s n="adj"/></r></p></e>
+        <e><p><l>একানব্বইতম<s n="adj"/><s n="ord"/></l><r>इक्यानवेवाँ<s n="adj"/></r></p></e>
+        <e><p><l>বিরানব্বইতম<s n="adj"/><s n="ord"/></l><r>बानवेवाँ<s n="adj"/></r></p></e>
+        <e><p><l>তিরানব্বইতম<s n="adj"/><s n="ord"/></l><r>तिरानवेवाँ<s n="adj"/></r></p></e>
+        <e><p><l>চুরানব্বইতম<s n="adj"/><s n="ord"/></l><r>चौरानवेवाँ<s n="adj"/></r></p></e>
+        <e><p><l>পঁচানব্বইতম<s n="adj"/><s n="ord"/></l><r>पंचानवेवाँ<s n="adj"/></r></p></e>
+        <e><p><l>ছিয়ানব্বইতম<s n="adj"/><s n="ord"/></l><r>छियानवेवाँ<s n="adj"/></r></p></e>
+        <e><p><l>সাতানব্বইতম<s n="adj"/><s n="ord"/></l><r>सतानवेवाँ<s n="adj"/></r></p></e>
+        <e><p><l>আটানব্বইতম<s n="adj"/><s n="ord"/></l><r>अट्ठानवेवाँ<s n="adj"/></r></p></e>
+        <e><p><l>নিরানব্বইতম<s n="adj"/><s n="ord"/></l><r>निन्यानवेवाँ<s n="adj"/></r></p></e>
+        <e><p><l>শততম<s n="adj"/><s n="ord"/></l><r>सौंवाँ<s n="adj"/></r></p></e>
+        <e><p><l>হাজারতম<s n="adj"/><s n="ord"/></l><r>हज़ारवाँ<s n="adj"/></r></p></e>  <!--All # till before-->
+
 
     <!-- SECTION POSTPOSITION -->
 
@@ -1661,43 +1660,90 @@
 
    <!-- <e><p><l>তা<s n="prn" /><s n="p3" /><s n="rel" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="nom" /></l><r>वो<s n="adv"/></r></p></e> -->
  
-    <!--Personal-->
+    <!--Personal p1.aa.mf.sg-->
 
-    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></r></p></e>
     <!-- need to add gender in tlx -->
-    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e> 
+    <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e> 
+    <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="loc"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e> 
 
-
-    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="dat"/></r></p></e>
+    <!-- p1.aa.mf.pl -->
+    <e><p><l>আমরা<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>আমরা<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="dat"/></r></p></e>
     <!-- need to add gender in tlx -->
+    <e><p><l>আমরা<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="gen"/></r></p></e>
 
-    <e><p><l>prpers<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="gen"/></r></p></e>
 
-
-    <!-- p2-fam -->
-    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
-
+    <!-- p2.fam.aa.mf.sg -->
+    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>आपको<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="loc" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
     <!-- need to add gender in tlx for the possessed noun-->
-    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>तुम<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>आपका<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg" /><s n="gen" /></r></p></e>
+    
+    <!-- p2.fam.aa.mf.pl -->
+    <e><p><l>তোমরা<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>आप लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>তোমরা<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>आप लोगों को<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+    <!-- need to add gender in tlx for the possessed noun-->
+    <e><p><l>তোমরা<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>आप लोगों का<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="gen" /></r></p></e>
 
-    <!-- p2 - infml -->
-    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="dat"/></r></p></e>
+    <!-- p2.infml.aa.mf.sg -->
+    <e><p><l>তুই<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>তুই<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>तेरे को<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
     <!-- gender in tlx for the noun -->
-    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>तू<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>তুই<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>तेरा<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg" /><s n="gen" /></r></p></e>
+    
+    <!-- p2.infml.aa.mf.pl -->
+    <e><p><l>তোরা<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>তোরা<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>तुम लोगों को<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+    <!-- gender in tlx for the noun -->
+    <e><p><l>তোরা<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>तुम लोगों का<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg" /><s n="gen" /></r></p></e>
 
-    <!-- p2 - pol -->
-    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
-    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
-
+    <!-- p2.pol.aa.mf.sg -->
+    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
+    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>आप को<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="obj"/></r></p></e>
     <!-- gender  -->
-    <e><p><l>prpers<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>आप<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>आप का<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>
 
-    <e><p><l>prpers<s n="prn" /></l><r>वो<s n="prn"/></r></p></e>    <!--#-->
-    <e><p><l>prpers<s n="prn" /><s n="p3" /></l><r>वह<s n="prn"/><s n="p3" /></r></p></e>  <!--#-->
+    <!-- p2.pol.aa.mf.pl -->
+    <e><p><l>আপনারা<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>आप लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
+    <e><p><l>আপনারা<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>आप लोगो को<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="obj"/></r></p></e>
+    <!-- gender  -->
+    <e><p><l>আপনারা<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>आप लोगो का<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>
+
+    <!-- p3.pol.aa.mf.sg -->  <!-- gender  -->
+    <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>वो<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="nom"/></r></p></e>
+    <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>उनको<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="obj"/></r></p></e>
+    <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>उनका<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="gen"/></r></p></e>  <!--Male-->
+    <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>उनकी<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="gen"/></r></p></e>  <!--Female-->
+
+    <!-- p3.pol.aa.mf.pl -->
+    <e><p><l>তাঁরা<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>उन लोग<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
+    <e><p><l>তাঁরা<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>उन लोगो को<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="frm"/><s n="obj"/></r></p></e>
+    <e><p><l>তাঁরা<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>उन लोगो का<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>  <!--Male-->
+    <e><p><l>তাঁরা<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>उन लोगो की<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>  <!--Female-->
+  
+    <!-- p3.infml.mf.sg -->
+    
+    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>वो<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="nom"/></r></p></e>
+    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>उससे<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="obj"/></r></p></e>
+    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>उसका<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="gen"/></r></p></e> <!--Male-->
+    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>उसकी<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="gen"/></r></p></e>  <!--Female-->
+    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="loc" /></l><r>इस में<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="loc"/></r></p></e>
+
+    <!-- p3.infml.mf.pl -->
+    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>वो लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
+    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>इन लोगों को<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="obj"/></r></p></e>
+    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>इन लोगों के<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e> 
+    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="loc" /></l><r>उनमे<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="loc"/></r></p></e>
+
+
+
+  <!--<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>-->
+
+    <e><p><l>ও<s n="prn" /></l><r>वो<s n="prn"/></r></p></e>    <!--#-->
+    <e><p><l>ও<s n="prn" /><s n="p3" /></l><r>वह<s n="prn"/><s n="p3" /></r></p></e>  <!--#-->
     <e><p><l>তিনি<s n="prn" /><s n="p3" /></l><r>उसने<s n="prn"/><s n="dem" /></r></p></e>  <!--#-->
     
  
@@ -1715,7 +1761,7 @@
     <e><p><l>তার<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>उसके<s n="prn"/><s n="p3"/><s n="sg"/><s n="obj"/><s n="pers"/></r></p></e>  <!--#-->
     <e><p><l>তাদেরকে<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>उन्हें<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>  <!--#-->
     <!--Possessive-->
-    <e><p><l>আমার<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>मेरी<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>   <!--#-->
+    <e><p><l>আমার<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>मेरी<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>  
     <e r="LR"><p><l>আমাদের<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>हमलोगो<b/>का<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>  <!--Determiner exists, #-->
     <e><p><l>তোমাদের<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>तुमलोगों<b/>का<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
     <e><p><l>তাদের<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>उन<b/>लोगों<b/>का<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>   <!--prpers-->
