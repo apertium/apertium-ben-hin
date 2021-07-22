@@ -1492,13 +1492,13 @@
         <e><p><l>দ্বিতীয়<s n="adj"/><s n="ord"/></l><r>दूसरा<s n="adj"/></r></p></e>
         <e><p><l>তৃতীয়<s n="adj"/><s n="ord"/></l><r>तीसरा<s n="adj"/></r></p></e>
         <e><p><l>চতুর্থ<s n="adj"/><s n="ord"/></l><r>चौथा<s n="adj"/></r></p></e>
-        <e><p><l>পঞ্চম<s n="adj"/><s n="ord"/></l><r>पाञ्चवा<s n="adj"/></r></p></e>
+        <e><p><l>পঞ্চম<s n="adj"/><s n="ord"/></l><r>पंचम<s n="adj"/></r></p></e>
         <e><p><l>ষষ্ঠ<s n="adj"/><s n="ord"/></l><r>छठा<s n="adj"/></r></p></e>
-        <e><p><l>সপ্তম<s n="adj"/><s n="ord"/></l><r>सातवा<s n="adj"/></r></p></e>  <!-- hin -> ben # -->
+        <e><p><l>সপ্তম<s n="adj"/><s n="ord"/></l><r>सातवा<s n="adj"/></r></p></e>  
         <e><p><l>অষ্টম<s n="adj"/><s n="ord"/></l><r>आठवाँ<s n="adj"/></r></p></e>
         <e><p><l>নবম<s n="adj"/><s n="ord"/></l><r>नौंवा<s n="adj"/></r></p></e>
         <e><p><l>দশম<s n="adj"/><s n="ord"/></l><r>दसवाँ<s n="adj"/></r></p></e>
-        <e><p><l>এগারোতম<s n="adj"/><s n="ord"/></l><r>ग्यारहवाँ<s n="adj"/></r></p></e>  <!--Start of #-->
+        <e><p><l>এগারোতম<s n="adj"/><s n="ord"/></l><r>ग्यारहवाँ<s n="adj"/></r></p></e>  
         <e><p><l>বারোতম<s n="adj"/><s n="ord"/></l><r>बारहवाँ<s n="adj"/></r></p></e>   
         <e><p><l>তেরোতম<s n="adj"/><s n="ord"/></l><r>तेरहवाँ<s n="adj"/></r></p></e>   
         <e><p><l>চৌদ্দতম<s n="adj"/><s n="ord"/></l><r>चौदहवाँ<s n="adj"/></r></p></e>   
@@ -1588,7 +1588,7 @@
         <e><p><l>আটানব্বইতম<s n="adj"/><s n="ord"/></l><r>अट्ठानवेवाँ<s n="adj"/></r></p></e>
         <e><p><l>নিরানব্বইতম<s n="adj"/><s n="ord"/></l><r>निन्यानवेवाँ<s n="adj"/></r></p></e>
         <e><p><l>শততম<s n="adj"/><s n="ord"/></l><r>सौंवाँ<s n="adj"/></r></p></e>
-        <e><p><l>হাজারতম<s n="adj"/><s n="ord"/></l><r>हज़ारवाँ<s n="adj"/></r></p></e>  <!--All # till before-->
+        <e><p><l>হাজারতম<s n="adj"/><s n="ord"/></l><r>हज़ारवाँ<s n="adj"/></r></p></e>
 
 
     <!-- SECTION POSTPOSITION -->
@@ -1674,98 +1674,89 @@
     <!-- need to add gender in tlx -->
     <e><p><l>আমরা<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="gen"/></r></p></e>
 
-
+    
     <!-- p2.fam.aa.mf.sg -->
-    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>आपको<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
-    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="loc" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="pol"/><s n="nom"/></r></p></e>   
+    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="pol"/><s n="obj"/></r></p></e>
+    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="loc" /></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="pol"/><s n="loc"/></r></p></e>
     <!-- need to add gender in tlx for the possessed noun-->
-    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>आपका<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg" /><s n="gen" /></r></p></e>
+    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="sg"/><s n="pol"/><s n="gen"/></r></p></e>
+    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="pol"/><s n="gen"/></r></p></e>	
+    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="sg"/><s n="pol"/><s n="gen"/></r></p></e>
     
     <!-- p2.fam.aa.mf.pl -->
-    <e><p><l>তোমরা<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>आप लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>তোমরা<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>आप लोगों को<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+    <e><p><l>তোমরা<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
+    <e><p><l>তোমরা<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="dat"/></r></p></e>
     <!-- need to add gender in tlx for the possessed noun-->
-    <e><p><l>তোমরা<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>आप लोगों का<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="gen" /></r></p></e>
+    <e><p><l>তোমরা<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>
 
     <!-- p2.infml.aa.mf.sg -->
-    <e><p><l>তুই<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>তুই<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>तेरे को<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>তুই<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>তুই<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="obl"/></r></p></e>
     <!-- gender in tlx for the noun -->
-    <e><p><l>তুই<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>तेरा<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg" /><s n="gen" /></r></p></e>
+    <e><p><l>তুই<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg" /><s n="gen" /></r></p></e>
+    <e><p><l>তুই<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="sg" /><s n="gen" /></r></p></e>
+    <e><p><l>তুই<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="sg" /><s n="gen" /></r></p></e>
     
     <!-- p2.infml.aa.mf.pl -->
-    <e><p><l>তোরা<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>তোরা<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>तुम लोगों को<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>তোরা<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
+    <e><p><l>তোরা<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="dat"/></r></p></e>
     <!-- gender in tlx for the noun -->
-    <e><p><l>তোরা<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>तुम लोगों का<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg" /><s n="gen" /></r></p></e>
+    <e><p><l>তোরা<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>
 
     <!-- p2.pol.aa.mf.sg -->
-    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
-    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>आप को<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="obj"/></r></p></e>
+    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="frm"/><s n="nom"/></r></p></e>
+    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="frm"/><s n="dat"/></r></p></e>
     <!-- gender  -->
-    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>आप का<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>
-
+    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="sg"/><s n="frm"/><s n="gen"/></r></p></e>
+    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="frm"/><s n="gen"/></r></p></e>
+    <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="sg"/><s n="frm"/><s n="gen"/></r></p></e>
+<!--Need Fix-->
     <!-- p2.pol.aa.mf.pl -->
-    <e><p><l>আপনারা<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>आप लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
-    <e><p><l>আপনারা<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>आप लोगो को<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="obj"/></r></p></e>
+    <e><p><l>আপনারা<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
+    <e><p><l>আপনারা<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="obl"/></r></p></e>
     <!-- gender  -->
-    <e><p><l>আপনারা<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>आप लोगो का<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>
+    <e><p><l>আপনারা<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>
+    <e><p><l>আপনারা<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>
+    <e><p><l>আপনারা<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>
 
     <!-- p3.pol.aa.mf.sg -->  <!-- gender  -->
-    <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>वो<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="nom"/></r></p></e>
-    <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>उनको<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="obj"/></r></p></e>
-    <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>उनका<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="gen"/></r></p></e>  <!--Male-->
-    <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>उनकी<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="gen"/></r></p></e>  <!--Female-->
+    <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="nom"/></r></p></e>
+    <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="obj"/></r></p></e>
+    <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>  
+    <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>  
+    <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>  <!-- hin -> ben wrong translation #-->
+    <e><p><l>তিনি<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="erg"/></r></p></e>
 
     <!-- p3.pol.aa.mf.pl -->
-    <e><p><l>তাঁরা<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>उन लोग<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
-    <e><p><l>তাঁরা<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>उन लोगो को<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="frm"/><s n="obj"/></r></p></e>
-    <e><p><l>তাঁরা<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>उन लोगो का<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>  <!--Male-->
-    <e><p><l>তাঁরা<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>उन लोगो की<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>  <!--Female-->
+    <e><p><l>তাঁরা<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
+    <e><p><l>তাঁরা<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="obj"/></r></p></e>
+    <e><p><l>তাঁরা<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e>  
+    <e><p><l>তাঁরা<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e> 
+    <e><p><l>তাঁরা<s n="prn" /><s n="p3" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e> 
   
     <!-- p3.infml.mf.sg -->
     
-    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>वो<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="nom"/></r></p></e>
-    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>उससे<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="obj"/></r></p></e>
-    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>उसका<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="gen"/></r></p></e> <!--Male-->
-    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>उसकी<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="gen"/></r></p></e>  <!--Female-->
-    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="loc" /></l><r>इस में<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="frm"/><s n="loc"/></r></p></e>
+    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="nom"/></r></p></e>
+    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="obj"/></r></p></e>
+    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e> 
+    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>  
+    <e><p><l>ও<s n="prn" /><s n="p3" /><s n="infml" /><s n="nn" /><s n="mf" /><s n="sg" /><s n="loc" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="loc"/></r></p></e>
 
     <!-- p3.infml.mf.pl -->
-    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="nom" /></l><r>वो लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
-    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>इन लोगों को<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="obj"/></r></p></e>
-    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>इन लोगों के<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e> 
-    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="loc" /></l><r>उनमे<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="loc"/></r></p></e>
+    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
+    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="obj"/></r></p></e>
+    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e> 
+    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e> 
+    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e> 
+    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="nn" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e> 
+    <e><p><l>ওরা<s n="prn" /><s n="p3" /><s n="infml" /><s n="nn" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="loc"/></r></p></e>
 
-
+<!--Checked till here-->
 
   <!--<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>-->
 
-    <e><p><l>ও<s n="prn" /></l><r>वो<s n="prn"/></r></p></e>    <!--#-->
-    <e><p><l>ও<s n="prn" /><s n="p3" /></l><r>वह<s n="prn"/><s n="p3" /></r></p></e>  <!--#-->
-    <e><p><l>তিনি<s n="prn" /><s n="p3" /></l><r>उसने<s n="prn"/><s n="dem" /></r></p></e>  <!--#-->
-    
- 
-    <!-- p3 is not well defined in hindi -->
-
-    <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>আমরা<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="obl"/></r></p></e>
-    <e><p><l>তুমি<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
-    <e><p><l>তোমরা<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>तुम<b/>लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>  <!--#-->
-    <e><p><l>এটা<s n="prn"/><s n="nn"/></l><r>यह<s n="prn"/><s n="mf"/></r></p></e>  <!--prpers getting #-->
-    
-    <!--Object-->
-    <!--Word: আমাকে--><e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="obj"/></l><r>मेरे<b/>को<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e> <!--#-->
-    <!--Word: আমাদেরকে--><e><p><l>আমরা<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>हम<b/>लोगो<b/>को<s n="prn"/><s n="p1"/><s n="pl"/><s n="obj"/><s n="pers"/></r></p></e>  <!--#-->
-    <e><p><l>তার<s n="prn"/><s n="p3"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>उसके<s n="prn"/><s n="p3"/><s n="sg"/><s n="obj"/><s n="pers"/></r></p></e>  <!--#-->
-    <e><p><l>তাদেরকে<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>उन्हें<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>  <!--#-->
-    <!--Possessive-->
-    <e><p><l>আমার<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen"/></l><r>मेरी<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>  
-    <e r="LR"><p><l>আমাদের<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>हमलोगो<b/>का<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>  <!--Determiner exists, #-->
-    <e><p><l>তোমাদের<s n="prn"/><s n="p2"/><s n="fam"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>तुमलोगों<b/>का<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
-    <e><p><l>তাদের<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></l><r>उन<b/>लोगों<b/>का<s n="prn"/><s n="p3"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>   <!--prpers-->
-    <!--Reflexive-->
+    <!--Reflexive--> 
     <e><p><l>নিজেকে<s n="prn"/></l><r>खुद<b/>को<s n="prn"/></r></p></e>  <!--#-->
     <e><p><l>নিজেই<s n="prn"/></l><r>खुद<b/>ही<s n="prn"/></r></p></e>  <!--#-->
     <e><p><l>তাদেরকে<s n="prn"/></l><r>उन्हें<s n="prn"/></r></p></e>  <!--#-->
@@ -1790,13 +1781,11 @@
     <e><p><l>বেশ<b/>কয়েকটা<s n="prn"/></l><r>कई<s n="det"/></r></p></e>  <!--#-->
     <e><p><l>কম<s n="det"/></l><r>कम<s n="det"/></r></p></e>  <!--#-->
     <!--Interrogative-->
-    <e><p><l>কে<s n="prn"/><s n="itg"/></l><r>कौन<s n="prn"/><s n="itg"/></r></p></e>   <!--#-->
-    <e><p><l>কখন<s n="prn"/><s n="itg"/></l><r>कब<s n="prn"/><s n="itg"/></r></p></e>  <!--#-->
-    <e><p><l>কার<s n="prn"/><s n="p3"/></l><r>गाड़ी<s n="prn"/><s n="itg"/></r></p></e>   <!--#-->
-    <e><p><l>কি<s n="prn"/><s n="itg"/></l><r>क्या<s n="prn"/><s n="itg"/></r></p></e>   <!--#-->
-    <e><p><l>কোনটা<s n="prn"/><s n="p3"/></l><r>कौन<s n="prn"/><s n="itg"/></r></p></e> <!--#-->
-    <e><p><l>আপনি<s n="prn" /></l><r>आप<s n="prn"/></r></p></e> <!--Removing tags give # -->
-    <e r="RL"><p><l>আপনি<s n="prn" /></l><r>अप<s n="prn"/></r></p></e>  <!--#-->
+    <e><p><l>কে<s n="prn"/><s n="p3"/><s n="itg"/></l><r>कौन<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>কখন<s n="prn"/><s n="p3"/><s n="itg"/></l><r>कब<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>কার<s n="prn"/><s n="p3"/><s n="rel"/></l><r>किसका<s n="prn"/></r></p></e>  <!--#--> 
+    <e><p><l>কোনটা<s n="prn"/></l><r>कौनसा<s n="prn"/><s n="itg"/></r></p></e>  <!--#-->
+    <e><p><l>আপনি<s n="prn"/><s n="p2"/><s n="pol"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>अप<s n="prn"/></r></p></e>  
 
 
     <!-- SECTION VERBS -->
