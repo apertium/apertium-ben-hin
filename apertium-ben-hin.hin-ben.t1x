@@ -40,6 +40,14 @@
       <cat-item tags="vblex.*.p2.*"/>
       <cat-item tags="vblex.*.p3.*"/>
     </def-cat>
+    <def-cat n="vblex_impf">
+      <cat-item tags="vblex.*.impf.*"/>
+    </def-cat>
+    <def-cat n="vbser_pres_pers">
+      <cat-item tags="vbser.pres.p1.*"/>
+      <cat-item tags="vbser.pres.p2.*"/>
+      <cat-item tags="vbser.pres.p3.*"/>
+    </def-cat>
 
     <def-cat n="ppst">
       <cat-item tags="vbser.ppst"/>
@@ -554,6 +562,9 @@
           </test>
           <let><var n="tensevar"/><lit-tag v="past.smpl"/></let>
         </when>
+        <otherwise>
+          <let><var n="tensevar"/><clip part="tense" pos="1" side="sl"/></let>
+        </otherwise>
       </choose>
     </def-macro>
 
@@ -577,6 +588,9 @@
           </test>
           <let><var n="persvar"/><lit-tag v="p3.pol"/></let>
         </when>
+        <otherwise>
+          <let><var n="persvar"/><clip part="pers" pos="1" side="sl"/></let>
+        </otherwise>
       </choose>
     </def-macro>
   </section-def-macros>
@@ -598,10 +612,11 @@
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
              </tags>
           <lu>
-            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_adj"/>
             <clip pos="1" side="tl" part="sint"/>
             <lit-tag v="mf"/>
+            <clip pos="1" side="tl" part="lemq"/>
           </lu>
           </chunk>
         </out>
@@ -622,12 +637,13 @@
               <tag><clip pos="1" side="tl" part="case"/></tag>
              </tags>
             <lu>
-              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_n"/>
               <clip pos="1" side="tl" part="gen" link-to="2"/>
               <clip pos="1" side="tl" part="anim"/>
               <clip pos="1" side="tl" part="nbr" link-to="3"/>
               <clip pos="1" side="tl" part="case" link-to="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -653,10 +669,11 @@
               <tag><var n="persvar"/></tag>
              </tags>
             <lu>
-              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <var n="tensevar"/>
               <var n="persvar"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -675,9 +692,41 @@
               <tag><clip pos="1" side="tl" part="tense"/></tag>
              </tags>
             <lu>
-              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="tense"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+   <rule comment="RULE: vblex.impf + vbser.pres.pers > vblex.pres">
+      <pattern>
+        <pattern-item n="vblex_impf"/>
+        <pattern-item n="vbser_pres_pers"/>
+      </pattern>
+      <action>
+        <call-macro n="change_tense">
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="change_pers">
+          <with-param pos="2" />
+        </call-macro>
+        <out>
+          <chunk name="vblex">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><var n="tensevar"/></tag>
+              <tag><var n="persvar"/></tag>
+             </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <var n="tensevar"/>
+              <var n="persvar"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
