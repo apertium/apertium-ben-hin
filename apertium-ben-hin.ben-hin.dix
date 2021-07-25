@@ -491,7 +491,6 @@
       <!-- SECTION DETERMINERS -->
 
       <!--Possessive-->
-      <e><p><l>কি<s n="det"/><s n="itg"/><s n="sp"/></l><r>क्या<s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>  <!--translation works #-->
       <e><p><l>আমার<s n="det"/><s n="gen"/></l><r>मेरी<s n="det"/><s n="gen"/><s n="pl"/><s n="mf"/></r></p></e>  
       <e><p><l>আমাদের<s n="det"/><s n="gen"/></l><r>हमारा<s n="det"/><s n="gen"/><s n="pl"/><s n="mf"/></r></p></e>  
       <e><p><l>তোমাদের<s n="det"/><s n="gen"/></l><r>तुम लोगों का<s n="det"/><s n="gen"/><s n="pl"/><s n="mf"/></r></p></e>  
@@ -510,8 +509,8 @@
       <e><p><l>প্রচুর<s n="det"/><s n="qnt"/></l><r>बहुत<b/>सारे<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>  
       <e><p><l>খুব<b/>অল্প<s n="det"/><s n="qnt"/></l><r>बहुत<b/>कम<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>  
       <e><p><l>অনেকটা<s n="det"/><s n="qnt"/></l><r>बहुत<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e> 
-      <e><p><l>একটা<s n="det"/></l><r>एक<s n="det"/></r></p></e>
-      <e><p><l>একটি<s n="det"/></l><r>एक<s n="det"/></r></p></e>
+      <e><p><l>একটা<s n="det"/><s n="qnt"/></l><r>एक<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+      <e><p><l>একটি<s n="det"/><s n="qnt"/></l><r>एक<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 
       <!--Demonstrative-->
       <e><p><l>এটা<s n="det"/><s n="dem"/></l><r>यह<b/>है<s n="det"/><s n="m"/><s n="sg"/><s n="nom"/><s n="dem"/></r></p></e>  
@@ -521,7 +520,33 @@
       <e><p><l>ওইগুলো<s n="det"/><s n="dem"/></l><r>उन<b/>सब<s n="det"/><s n="m"/><s n="sg"/><s n="nom"/><s n="dem"/></r></p></e>  
       <e><p><l>পরেরটা<s n="det"/><s n="dem"/></l><r>अगला<s n="det"/><s n="m"/><s n="sg"/><s n="nom"/><s n="dem"/></r></p></e>  
       <e><p><l>আগেরটা<s n="det"/><s n="dem"/></l><r>पिछला<b/>वाला<s n="det"/><s n="m"/><s n="sg"/><s n="nom"/><s n="dem"/></r></p></e> 
+      <e><p><l>এখানকার<s n="det"/><s n="dem" /></l><r>यहाँ का<s n="det"/><s n="m"/><s n="sg"/><s n="nom"/><s n="dem"/></r></p></e>
+      <!--Indefinite--> 
+      <e><p><l>যেকোনো<s n="det"/><s n="ind" /></l><r>कुछ भी<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+      <e><p><l>প্রত্যেক<s n="det"/><s n="ind" /></l><r>हर कोई<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+      <e><p><l>আরেকটি<s n="det"/><s n="ind" /></l><r>और एक<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+      <e><p><l>আরেক<s n="det"/><s n="ind" /></l><r>और<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+      <e><p><l>কোনো<s n="det"/><s n="ind" /></l><r>कोई<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+      <e><p><l>জনৈক<s n="det"/><s n="ind" /></l><r>व्यक्ति<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+      <e><p><l>উভয়<s n="det"/><s n="ind" /></l><r>दोनों<s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
+      <e><p><l>প্রতিটি<s n="det"/><s n="ind" /></l><r>हर एक<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+      <e><p><l>যেসব<s n="det"/><s n="ind" /></l><r>जो सब<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+      <e><p><l>একটি<s n="det"/><s n="ind" /></l><r>एक<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+      <e><p><l>একটা<s n="det"/><s n="ind" /></l><r>एक<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e> 
+      <e><p><l>পরেরটা<s n="det"/><s n="ind" /></l><r>अगला<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
 
+      <!--Interrogative-->
+      <e><p><l>কি<s n="det"/><s n="itg"/><s n="sp"/></l><r>क्या<s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e> 
+      <e><p><l>কোনটা<s n="det"/><s n="itg"/><s n="sp"/></l><r>कौन सा<s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
+      <e><p><l>কখন<s n="det"/><s n="itg"/><s n="sp"/></l><r>कब<s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
+      <e><p><l>কিভাবে<s n="det"/><s n="itg"/><s n="sp"/></l><r>कैसे<s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
+      <e><p><l>কেন<s n="det"/><s n="itg"/><s n="sp"/></l><r>क्यों<s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
+      <e><p><l>কি করতে<s n="det"/><s n="itg"/><s n="sp"/></l><r>क्या करें<s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
+      <e><p><l>কার জন্য<s n="det"/><s n="itg"/><s n="sp"/></l><r>किसके लिए<s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
+      <e><p><l>কতক্ষন<s n="det"/><s n="itg"/><s n="sp"/></l><r>कब तक<s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
+      <e><p><l>কবে<s n="det"/><s n="itg"/><s n="sp"/></l><r>कब<s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
+      <e><p><l>কোন<s n="det"/><s n="itg"/><s n="sp"/></l><r>कौन<s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
+      <e><p><l>কতগুলো<s n="det"/><s n="itg"/><s n="sp"/></l><r>कितने<s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
       <!-- SECTION: Nouns -->
 
     <!-- negation markers are missing in bengali-->
@@ -1655,6 +1680,7 @@
     <e><p><l>কাছে<s n="post"/></l><r>के पास<s n="post"/></r></p></e>
     <e><p><l>সময়<s n="post"/></l><r>के दौरान<s n="post"/></r></p></e>
     <e><p><l>সামনে<s n="post"/></l><r>सामने<s n="post"/></r></p></e>
+    <e><p><l>থেকে<s n="post"/></l><r>से<s n="post"/></r></p></e>
 
   <!-- SECTION PRONOUNS -->
 
@@ -1757,8 +1783,8 @@
   <!--<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>-->
 
     <!--Reflexive--> 
-    <e><p><l>নিজেকে<s n="prn"/></l><r>खुद<b/>को<s n="prn"/></r></p></e>  <!--#-->
-    <e><p><l>নিজেই<s n="prn"/></l><r>खुद<b/>ही<s n="prn"/></r></p></e>  <!--#-->
+    <e><p><l>নিজেকে<s n="prn"/></l><r>खुदको<s n="prn"/></r></p></e>  <!--#-->
+    <e><p><l>নিজেই<s n="prn"/></l><r>खुदही<s n="prn"/></r></p></e>  <!--#-->
     <e><p><l>তাদেরকে<s n="prn"/></l><r>उन्हें<s n="prn"/></r></p></e>  <!--#-->
     <!--Relative-->
     <e><p><l>কাকে<s n="prn"/></l><r>किस<b/>को<s n="prn"/></r></p></e> <!--#-->
@@ -1768,9 +1794,8 @@
     <e><p><l>কেন<s n="prn"/></l><r>क्यों<s n="prn"/></r></p></e>
     <e><p><l>তা<s n="prn" /></l><r>यह<s n="prn"/></r></p></e>   <!--#-->
     <e><p><l>যে<s n="prn" /></l><r>जो<s n="prn"/><s n="rel"/></r></p></e>   <!--#--> 
-    <e><p><l>আপনি<s n="prn" /></l><r>अप<s n="prn"/><s n="rel"/></r></p></e>
+  
     <!--Indefinite-->
-    <e><p><l>অন্য<s n="prn"/></l><r>एक<b/>और<s n="prn"/></r></p></e>  <!--#-->
     <e><p><l>যে<b/>কেউ<s n="prn"/></l><r>किसी<b/>को<s n="prn"/></r></p></e>   <!--#-->
     <e><p><l>যে<b/>কোনো<s n="det"/></l><r>कुछ<b/>भी<s n="prn"/></r></p></e>  <!--Transfer rules needed: “#कुछ भी कुछ”-->
     <e><p><l>প্রত্যেক<s n="prn"/></l><r>सब<b/>लोग<s n="prn"/></r></p></e>   <!--#-->
@@ -1778,116 +1803,113 @@
     <e><p><l>সবকিছু<s n="prn"/></l><r>हर<b/>एक<b/>चीज़<s n="prn"/></r></p></e> <!--#-->
     <e><p><l>কেউনা<s n="prn"/></l><r>कोई<b/>नहीं<s n="prn"/></r></p></e>   <!--#-->
     <e><p><l>কিছু<b/>একটা<s n="prn"/></l><r>कुछ<b/>एक<s n="prn"/></r></p></e>   <!--#-->
-    <e><p><l>বেশ<b/>কয়েকটা<s n="prn"/></l><r>कई<s n="det"/></r></p></e>  <!--#-->
-    <e><p><l>কম<s n="det"/></l><r>कम<s n="det"/></r></p></e>  <!--#-->
+    <e><p><l>বেশ<b/>কয়েকটা<s n="prn"/></l><r>कई<s n="prn"/></r></p></e>  <!--#-->
+  
     <!--Interrogative-->
     <e><p><l>কে<s n="prn"/><s n="p3"/><s n="itg"/></l><r>कौन<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>কখন<s n="prn"/><s n="p3"/><s n="itg"/></l><r>कब<s n="prn"/><s n="itg"/></r></p></e>
-    <e><p><l>কার<s n="prn"/><s n="p3"/><s n="rel"/></l><r>किसका<s n="prn"/></r></p></e>  <!--#--> 
-    <e><p><l>কোনটা<s n="prn"/></l><r>कौनसा<s n="prn"/><s n="itg"/></r></p></e>  <!--#-->
+    <e><p><l>কার<s n="prn"/><s n="p3"/><s n="itg"/></l><r>किसका<s n="prn"/><s n="itg"/></r></p></e>  <!--#--> 
+    <e><p><l>কোনটা<s n="prn"/></l><r>कौन सा<s n="prn"/><s n="itg"/></r></p></e>  
     <e><p><l>আপনি<s n="prn"/><s n="p2"/><s n="pol"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>अप<s n="prn"/></r></p></e>  
 
 
     <!-- SECTION VERBS -->
 
-    <e><p><l>খুঁজ<s n="vblex"/></l><r>खोज<s n="vblex"/></r></p></e>
+      <e><p><l>খুঁজ<s n="vblex"/></l><r>खोज<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>তাকা<s n="vblex"/></l><r>देख<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>চল<s n="vblex"/></l><r>चल<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>যা<s n="vblex"/></l><r>जा<s n="vblex"/><s n="iv"/></r></p></e>
-      <e><p><l>শোন<s n="vblex"/></l><r>सुन<s n="vblex"/></r></p></e>
-      <e><p><l>শোনা<s n="vblex"/></l><r>सुन<s n="vblex"/></r></p></e>
-      <e><p><l>চেষ্টা<b/>কর<s n="vblex"/></l><r>कोशिश<b/>कर<s n="vblex"/></r></p></e>
-      <e><p><l>জান<s n="vblex"/></l><r>जान<s n="vblex"/></r></p></e>
+      <e><p><l>শোন<s n="vblex"/></l><r>सुन<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>শোনা<s n="vblex"/></l><r>सुन<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>চেষ্টা<b/>কর<s n="vblex"/></l><r>कोशिश<b/>कर<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>জান<s n="vblex"/></l><r>जान<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>পা<s n="vblex"/></l><r>पा<s n="vblex"/><s n="tv"/></r></p></e>
-      <e><p><l>যা<s n="vblex"/></l><r>जा<s n="vblex"/></r></p></e>
-      <e><p><l>কর<s n="vblex"/></l><r>कर<s n="vblex"/></r></p></e>  <!--#-->
-      <e><p><l>পার<s n="vblex"/></l><r>सक<s n="vaux"/></r></p></e>
+      <e><p><l>যা<s n="vblex"/></l><r>जा<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>কর<s n="vblex"/></l><r>कर<s n="vblex"/><s n="tv"/></r></p></e>  
+      <e><p><l>পার<s n="vblex"/></l><r>सक<s n="vaux"/><s n="iv"/></r></p></e>
       <e><p><l>আছ<s n="vblex"/></l><r>हो<s n="vbser"/></r></p></e>
-      <e><p><l>থেকে<s n="post"/></l><r>से<s n="post"/></r></p></e>
-      <e><p><l>খেল<s n="vblex"/></l><r>खेल<s n="vblex"/></r></p></e>
-      <e><p><l>পছন্দ<s n="vblex"/></l><r>पसंद<b/>हो<s n="vbser"/></r></p></e>
+      <e><p><l>খেল<s n="vblex"/></l><r>खेल<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>পছন্দ<s n="vblex"/></l><r>पसंद<b/>हो<s n="vbser"/></r></p></e> 
       <e><p><l>ঘুমা<s n="vblex"/></l><r>सो<s n="vblex"/><s n="iv"/></r></p></e>
-      <e><p><l>দেখ<s n="vblex"/></l><r>देख<s n="vblex"/></r></p></e>
-      <e><p><l>দৌড়<s n="vblex"/></l><r>दौड़<s n="vblex"/><s n="pcnd"/></r></p></e>
-      <e><p><l>লুকিয়ে<s n="vblex"/></l><r>छिप<s n="vblex"/></r></p></e> 
-      <e><p><l>লুকা<s n="vblex"/></l><r>छिप<s n="vblex"/></r></p></e> 
-      <e><p><l>বস<s n="vblex"/></l><r>बैठ<s n="vblex"/></r></p></e>
-      <e><p><l>গুন<s n="vblex"/></l><r>गिन<s n="vblex"/></r></p></e>
-      <e><p><l>খোঁজ<s n="vblex"/></l><r>खोज<s n="vblex"/></r></p></e>
-      <e><p><l>বল<s n="vblex"/></l><r>बोल<s n="vblex"/></r></p></e>
-      <e><p><l>হাস<s n="vblex"/></l><r>हँस<s n="vblex"/></r></p></e>
-      <e><p><l>ভাব<s n="vblex"/></l><r>सोच<s n="vblex"/></r></p></e>
-      <e><p><l>জানা<s n="vblex"/></l><r>जान<s n="vblex"/></r></p></e>
-      <e><p><l>হাঁট<s n="vblex"/></l><r>चल<s n="vblex"/></r></p></e>
-      <e><p><l>চেষ্টা<s n="vblex"/></l><r>कोशिश<s n="vblex"/></r></p></e>
-      <e><p><l>শুন<s n="vblex"/></l><r>सुन<s n="vblex"/></r></p></e>
-      <e><p><l>খা<s n="vblex"/></l><r>खाना<s n="vblex"/></r></p></e>
-      <e><p><l>খা<s n="vblex"/></l><r>पीना<s n="vblex"/></r></p></e>
-      <e><p><l>খুঁজ<s n="vblex"/></l><r>खोज<s n="vblex"/></r></p></e>
-      <e><p><l>জিজ্ঞাসা<b/>কর<s n="vblex"/></l><r>पूछ<s n="vblex"/></r></p></e>
-      <e><p><l>বল<s n="vblex"/></l><r>बता<s n="vblex"/></r></p></e>
-      <e><p><l>চা<s n="vblex"/></l><r>चाह<s n="vblex"/></r></p></e>
-      <e><p><l>লাগ<s n="vblex"/></l><r>लग<s n="vblex"/></r></p></e>
-      <e><p><l>জেগে<b/>ওঠা<s n="vblex"/></l><r>उठो<s n="vblex"/></r></p></e>
-      <e><p><l>হওয়া<s n="vblex"/></l><r>होना<s n="vblex"/></r></p></e>
-      <e><p><l>আদেশ<b/>করা<s n="vblex"/></l><r>हुक्म<b/>देना<s n="vblex"/></r></p></e>
-      <e><p><l>বহন<b/>করা<s n="vblex"/></l><r>उठाना<s n="vblex"/></r></p></e>
-      <e><p><l>আঘাত<b/>করা<s n="vblex"/></l><r>चोट<b/>पहुंचाना<s n="vblex"/></r></p></e>
-      <e><p><l>ভেঙে<b/>ফেলা<s n="vblex"/></l><r>टोड<b/>देना<s n="vblex"/></r></p></e>
-      <e><p><l>কামড়ানো<s n="vblex"/></l><r>कटना<s n="vblex"/></r></p></e>
-      <e><p><l>আরম্ভ<b/>করা<s n="vblex"/></l><r>शुरू<b/>करना<s n="vblex"/></r></p></e>
-      <e><p><l>প্রবাহিত<b/>হওয়া<s n="vblex"/></l><r>प्रवाहित<b/>होना<s n="vblex"/></r></p></e>
-      <e><p><l>কেনা<s n="vblex"/></l><r>खरीदना<s n="vblex"/></r></p></e>
-      <e><p><l>পোড়ানো<s n="vblex"/></l><r>जलाना<s n="vblex"/></r></p></e>
-      <e><p><l>জন্ম<b/>দেওয়া<s n="vblex"/></l><r>जन्म<b/>दिया<s n="vblex"/></r></p></e>
-      <e><p><l>নত<b/>করা<s n="vblex"/></l><r>झुकना<s n="vblex"/></r></p></e>
-      <e><p><l>তৈরী<b/>করা<s n="vblex"/></l><r>बनाना<s n="vblex"/></r></p></e>
-      <e><p><l>দেখা<s n="vblex"/></l><r>देखना<s n="vblex"/></r></p></e>
-      <e><p><l>আসা<s n="vblex"/><s n="ger"/></l><r>आना<s n="vblex"/><s n="iv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
-      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/></r></p></e>
-      <e><p><l>পছন্দ<b/>করা<s n="vblex"/></l><r>पसंद<b/>करना<s n="vblex"/></r></p></e>
-      <e><p><l>লেগে<b/>থাকা<s n="vblex"/></l><r>लगे<b/>रहना<s n="vblex"/></r></p></e>
-      <e><p><l>আটকে<b/>থাকা<s n="vblex"/></l><r>अटके<b/>रहेना<s n="vblex"/></r></p></e>
-      <e><p><l>পোশাক<b/>পরা<s n="vblex"/></l><r>कपड़ा<b/>पहनना<s n="vblex"/></r></p></e>
-      <e><p><l>খনন<b/>করা<s n="vblex"/></l><r>खुदाई<b/>करना<s n="vblex"/></r></p></e>
-      <e><p><l>চালানো<s n="vblex"/></l><r>चालना<s n="vblex"/></r></p></e>
-      <e><p><l>অনুভব<b/>করা<s n="vblex"/></l><r>महसूस<b/>करना<s n="vblex"/></r></p></e>
-      <e><p><l>ভুলে<b/>যাওয়া<s n="vblex"/></l><r>भूल<b/>जाना<s n="vblex"/></r></p></e>
-      <e><p><l>শোনা<s n="vblex"/></l><r>सुनना<s n="vblex"/></r></p></e>
-      <e><p><l>পাওয়া<s n="vblex"/></l><r>मिल<b/>रहा<s n="vblex"/></r></p></e>
-      <e><p><l>ত্যাগ<b/>করা<s n="vblex"/></l><r>चले<b/>जाना<s n="vblex"/></r></p></e>
-      <e><p><l>জন্মানাে<s n="vblex"/></l><r>जन्म<b/>लेना<s n="vblex"/></r></p></e>
-      <e><p><l>ফাঁসি<b/>দেওয়া<s n="vblex"/></l><r>लटकना<s n="vblex"/></r></p></e>
-      <e><p><l>মিথ্যে<b/>কথা<b/>বলা<s n="vblex"/></l><r>झूठ<b/>बोलना<s n="vblex"/></r></p></e>
-      <e><p><l>ঝগড়া<b/>করা<s n="vblex"/></l><r>लड़ना<s n="vblex"/></r></p></e>
-      <e><p><l>আবৃত্তি<b/>করা<s n="vblex"/></l><r>जिक्र<b/>करना<s n="vblex"/></r></p></e>
-      <e><p><l>বাজানো<s n="vblex"/></l><r>बजाना<s n="vblex"/></r></p></e>
-      <e><p><l>বলা<s n="vblex"/></l><r>बोलना<s n="vblex"/></r></p></e>
-      <e><p><l>যুদ্ধ<b/>করা<s n="vblex"/></l><r>युद्ध<b/>लड़ना<s n="vblex"/></r></p></e>
-      <e><p><l>দেখ<s n="vblex"/></l><r>देख<s n="vblex"/></r></p></e>
+      <e><p><l>দেখ<s n="vblex"/></l><r>देख<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>দৌড়া<s n="vblex"/></l><r>दौड़<s n="vblex"/><s n="pcnd"/></r></p></e>
+      <e><p><l>লুকিয়ে<s n="vblex"/></l><r>छिप<s n="vblex"/><s n="tv"/></r></p></e> 
+      <e><p><l>লুকা<s n="vblex"/></l><r>छिप<s n="vblex"/><s n="tv"/></r></p></e> 
+      <e><p><l>বস<s n="vblex"/></l><r>बैठ<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>গুন<s n="vblex"/></l><r>गिन<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>খোঁজা<s n="vblex"/></l><r>खोज<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>বল<s n="vblex"/></l><r>बोल<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>হাস<s n="vblex"/></l><r>हँस<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>ভাব<s n="vblex"/></l><r>सोच<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>জানা<s n="vblex"/></l><r>जान<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>হাঁট<s n="vblex"/></l><r>चल<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>চেষ্টা<s n="vblex"/></l><r>कोशिश<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>শুন<s n="vblex"/></l><r>सुन<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>খা<s n="vblex"/></l><r>खाना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>খা<s n="vblex"/></l><r>पीना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>জিজ্ঞাসা<b/>কর<s n="vblex"/></l><r>पूछ<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>বল<s n="vblex"/></l><r>बता<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>চা<s n="vblex"/></l><r>चाह<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>লাগ<s n="vblex"/></l><r>लग<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>জেগে<b/>ওঠা<s n="vblex"/></l><r>उठो<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>হওয়া<s n="vblex"/></l><r>होना<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>আদেশ<b/>করা<s n="vblex"/></l><r>हुक्म<b/>देना<s n="vblex"/><s n="iv"/></r></p></e> 
+      <e><p><l>বহন<b/>করা<s n="vblex"/></l><r>उठाना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>আঘাত<b/>করা<s n="vblex"/></l><r>चोट<b/>पहुंचाना<s n="vblex"/><s n="iv"/></r></p></e>  
+      <e><p><l>ভেঙে<b/>ফেলা<s n="vblex"/></l><r>तोड़ देना<s n="vblex"/><s n="iv"/></r></p></e> 
+      <e><p><l>কামড়ানো<s n="vblex"/></l><r>कटना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>আরম্ভ<b/>করা<s n="vblex"/></l><r>शुरू<b/>करना<s n="vblex"/><s n="tv"/></r></p></e> 
+      <e><p><l>প্রবাহিত<b/>হওয়া<s n="vblex"/></l><r>प्रवाहित<b/>होना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>কেনা<s n="vblex"/></l><r>खरीदना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>পোড়ানো<s n="vblex"/></l><r>जलाना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>জন্ম<b/>দেওয়া<s n="vblex"/></l><r>जन्म<b/>दिया<s n="vblex"/><s n="iv"/></r></p></e> 
+      <e><p><l>নত<b/>করা<s n="vblex"/></l><r>झुकना<s n="vblex"/><s n="tv"/></r></p></e>  
+      <e><p><l>তৈরী<b/>করা<s n="vblex"/></l><r>बनाना<s n="vblex"/><s n="tv"/></r></p></e>  
+      <e><p><l>দেখা<s n="vblex"/></l><r>देखना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>আসা<s n="vblex"/></l><r>आना<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>ধরা<s n="vblex"/></l><r>पकड़ना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>পছন্দ<b/>করা<s n="vblex"/></l><r>पसंद<b/>करना<s n="vblex"/><s n="iv"/></r></p></e>  
+      <e><p><l>লেগে<b/>থাকা<s n="vblex"/></l><r>लगे<b/>रहना<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>আটকে<b/>থাকা<s n="vblex"/></l><r>अटके<b/>रहेना<s n="vblex"/><s n="iv"/></r></p></e>  
+      <e><p><l>পোশাক<b/>পরা<s n="vblex"/></l><r>कपड़ा<b/>पहनना<s n="vblex"/><s n="iv"/></r></p></e>  
+      <e><p><l>খনন<b/>করা<s n="vblex"/></l><r>खुदाई<b/>करना<s n="vblex"/><s n="iv"/></r></p></e>  
+      <e><p><l>চালানো<s n="vblex"/></l><r>चालना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>অনুভব<b/>করা<s n="vblex"/></l><r>महसूस<b/>करना<s n="vblex"/><s n="iv"/></r></p></e>   
+      <e><p><l>ভুলে<b/>যাওয়া<s n="vblex"/></l><r>भूल<b/>जाना<s n="vblex"/><s n="tv"/></r></p></e>   
+      <e><p><l>শোনা<s n="vblex"/></l><r>सुनना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>পাওয়া<s n="vblex"/></l><r>मिल<b/>रहा<s n="vblex"/><s n="tv"/></r></p></e>  
+      <e><p><l>ত্যাগ<b/>করা<s n="vblex"/></l><r>चले<b/>जाना<s n="vblex"/><s n="tv"/></r></p></e>  
+      <e><p><l>জন্মানাে<s n="vblex"/></l><r>जन्म<b/>लेना<s n="vblex"/><s n="tv"/></r></p></e>  
+      <e><p><l>ফাঁসি<b/>দেওয়া<s n="vblex"/></l><r>लटकना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>মিথ্যে<b/>কথা<b/>বলা<s n="vblex"/></l><r>झूठ<b/>बोलना<s n="vblex"/><s n="iv"/></r></p></e>  
+      <e><p><l>ঝগড়া<b/>করা<s n="vblex"/></l><r>लड़ना<s n="vblex"/><s n="tv"/></r></p></e>  
+      <e><p><l>আবৃত্তি<b/>করা<s n="vblex"/></l><r>जिक्र<b/>करना<s n="vblex"/><s n="iv"/></r></p></e>  
+      <e><p><l>বাজানো<s n="vblex"/></l><r>बजाना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>বলা<s n="vblex"/></l><r>बोलना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>যুদ্ধ<b/>করা<s n="vblex"/></l><r>युद्ध<b/>लड़ना<s n="vblex"/><s n="iv"/></r></p></e>  
+      <e><p><l>দেখ<s n="vblex"/></l><r>देख<s n="vblex"/><s n="tv"/></r></p></e>
 
      <!--Need to Test, Having some errors--> 
 
-      <e><p><l>দাও<s n="vblex"/></l><r>दे<s n="vblex"/></r></p></e>  <!--#-->
-      <e><p><l>এসো<s n="vblex"/></l><r>आ<s n="vblex"/></r></p></e>  <!--#-->
-      <e><p><l>বলুন<s n="vblex"/></l><r>कह<s n="vblex"/></r></p></e>  <!--#-->
-    <!--  <e><p><l>গ্রহণ করা<s n="vblex"/></l><r>ले<s n="vblex"/></r></p></e>  Need to fix-->
-      <e><p><l>দেখা কর<s n="vblex"/></l><r>मिल<s n="vblex"/></r></p></e>  <!--#-->
-      <e><p><l>নেওয়া<s n="vblex"/></l><r>ले<s n="vblex"/></r></p></e>
-      <e><p><l>হয়ে যাওয়া<s n="vblex"/></l><r>हो जा<s n="vblex"/></r></p></e>
-      <e><p><l>লিখুন<s n="vblex"/></l><r>लिख<s n="vblex"/></r></p></e>
-      <e><p><l>তৈরি<s n="vblex"/></l><r>बना<s n="vblex"/></r></p></e>
-      <e><p><l>রাখা<s n="vblex"/></l><r>रख<s n="vblex"/></r></p></e>
-      <e><p><l>হ্যাঁ<s n="vblex"/></l><r>जी<s n="vblex"/></r></p></e>
-      <e><p><l>পড়<s n="vblex"/></l><r>पड़<s n="vblex"/></r></p></e>
-      <e><p><l>মান<s n="vblex"/></l><r>मान<s n="vblex"/></r></p></e>
-      <e><p><l>হত্তয়া<s n="vblex"/></l><r>बन<s n="vblex"/></r></p></e>
-      <e><p><l>অনুভূত<s n="vblex"/></l><r>लगा<s n="vblex"/></r></p></e>
-      <e><p><l>বলা হচ্ছে<s n="vblex"/></l><r>कहा जा<s n="vblex"/></r></p></e>
-      <e><p><l>বোঝা<s n="vblex"/></l><r>समझ<s n="vblex"/></r></p></e>
-      <e><p><l>ভরা<s n="vblex"/></l><r>भर<s n="vblex"/></r></p></e>
-      <e><p><l>হটে<s n="post"/></l><r>टालके<s n="vblex"/></r></p></e>  <!--Ben->Hin # , Hin-> ben * -->
-      <e><p><l>চলা<s n="vblex"/></l><r>चलना<s n="vblex"/></r></p></e>  <!--ben-hin, hin-ben #-->
+      <e><p><l>দাও<s n="vblex"/></l><r>दे<s n="vblex"/><s n="tv"/></r></p></e>  <!--#-->
+      <e><p><l>এসো<s n="vblex"/></l><r>आ<s n="vblex"/><s n="iv"/></r></p></e>  <!--#-->
+      <e><p><l>বলুন<s n="vblex"/></l><r>कह<s n="vblex"/><s n="tv"/></r></p></e>  <!--#-->
+      <e><p><l>গ্রহণ করা<s n="vblex"/></l><r>ले<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>দেখা কর<s n="vblex"/></l><r>मिल<s n="vblex"/><s n="tv"/></r></p></e>  <!--#-->
+      <e><p><l>নেওয়া<s n="vblex"/></l><r>ले<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>হয়ে যাওয়া<s n="vblex"/></l><r>हो जा<s n="vblex"/><s n="iv"/></r></p></e> 
+      <e><p><l>লিখুন<s n="vblex"/></l><r>लिख<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>তৈরি<s n="vblex"/></l><r>बना<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>রাখা<s n="vblex"/></l><r>रख<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>হ্যাঁ<s n="vblex"/></l><r>जी<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>পড়<s n="vblex"/></l><r>पड़<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>মান<s n="vblex"/></l><r>मान<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>হত্তয়া<s n="vblex"/></l><r>बन<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>অনুভূত<s n="vblex"/></l><r>लगा<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>বলা হচ্ছে<s n="vblex"/></l><r>कहा जा<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>বোঝা<s n="vblex"/></l><r>समझ<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>ভরা<s n="vblex"/></l><r>भर<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>চলা<s n="vblex"/></l><r>चलना<s n="vblex"/><s n="tv"/></r></p></e>  <!--ben-hin, hin-ben #-->
      
       <!---->
 
