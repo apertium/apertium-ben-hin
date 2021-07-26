@@ -134,6 +134,7 @@
        <attr-item tags="prs"/>
        <attr-item tags="fut"/>
        <attr-item tags="imp"/>
+       <attr-item tags="impf"/>
        <attr-item tags="pres.smpl"/>
        <attr-item tags="pres.imp"/>
        <attr-item tags="pres.cnt"/>
@@ -559,6 +560,12 @@
         <when>
           <test>
             <equal><clip part="tense" pos="1" side="sl"/><lit-tag v="imp"/></equal>
+          </test>
+          <let><var n="tensevar"/><lit-tag v="past.smpl"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip part="tense" pos="1" side="sl"/><lit-tag v="impf"/></equal>
           </test>
           <let><var n="tensevar"/><lit-tag v="past.smpl"/></let>
         </when>
