@@ -6,13 +6,13 @@
       <cat-item tags="np.*"/>
     </def-cat>
 
-    <def-cat n="sent">
-      <cat-item tags="sent"/>
-    </def-cat>
-
     <def-cat n="adj">
       <cat-item tags="adj"/>
       <cat-item tags="adj.*"/>
+    </def-cat>
+
+    <def-cat n="prn">
+      <cat-item tags="prn.*"/>
     </def-cat>
 
     <def-cat n="verb">
@@ -63,6 +63,10 @@
       <cat-item tags="vblex.pres.*"/>
       <cat-item tags="vblex.prft.*"/>
     </def-cat>
+
+    <def-cat n="sent">
+      <cat-item tags="sent"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -109,7 +113,24 @@
     <def-attr n="a_n">
       <attr-item tags="n"/>
       <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
       <attr-item tags="np.top"/>
+      <attr-item tags="np.al"/>
+    </def-attr>
+
+    <def-attr n="a_prn">
+      <attr-item tags="prn"/>
+      <attr-item tags="prn.pers"/>
+      <attr-item tags="prn.ref"/>
+      <attr-item tags="prn.dem"/>
+      <attr-item tags="prn.dem.prox"/>
+      <attr-item tags="prn.dem.dist"/>
+      <attr-item tags="prn.ind"/>
+      <attr-item tags="prn.rel"/>
+      <attr-item tags="prn.rel.infml"/>
+      <attr-item tags="prn.rel.pol"/>
+      <attr-item tags="prn.itg"/>
+      <attr-item tags="prn.p3.itg"/>
     </def-attr>
 
     <def-attr n="case">
@@ -120,6 +141,7 @@
       <attr-item tags="obj"/>
       <attr-item tags="obl"/>
       <attr-item tags="erg"/>
+      <attr-item tags="ins"/>
     </def-attr>
 
     <def-attr n="a_verb">
@@ -134,6 +156,7 @@
        <attr-item tags="prs"/>
        <attr-item tags="fut"/>
        <attr-item tags="imp"/>
+       <attr-item tags="impf"/>
        <attr-item tags="pres.smpl"/>
        <attr-item tags="pres.imp"/>
        <attr-item tags="pres.cnt"/>
@@ -562,6 +585,12 @@
           </test>
           <let><var n="tensevar"/><lit-tag v="past.smpl"/></let>
         </when>
+        <when>
+          <test>
+            <equal><clip part="tense" pos="1" side="sl"/><lit-tag v="impf"/></equal>
+          </test>
+          <let><var n="tensevar"/><lit-tag v="past.smpl"/></let>
+        </when>
         <otherwise>
           <let><var n="tensevar"/><clip part="tense" pos="1" side="sl"/></let>
         </otherwise>
@@ -641,6 +670,34 @@
               <clip pos="1" side="tl" part="a_n"/>
               <clip pos="1" side="tl" part="gen" link-to="2"/>
               <clip pos="1" side="tl" part="anim"/>
+              <clip pos="1" side="tl" part="nbr" link-to="3"/>
+              <clip pos="1" side="tl" part="case" link-to="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+   <rule comment="RULE: PRONOUN">
+      <pattern>
+        <pattern-item n="prn"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="prn">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="case"/></tag>
+             </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="pers"/>
+              <clip pos="1" side="tl" part="anim"/>
+              <clip pos="1" side="tl" part="gen" link-to="2"/>
               <clip pos="1" side="tl" part="nbr" link-to="3"/>
               <clip pos="1" side="tl" part="case" link-to="4"/>
               <clip pos="1" side="tl" part="lemq"/>
