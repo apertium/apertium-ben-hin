@@ -71,16 +71,25 @@
 
   <section-def-attrs>
 
-    <def-attr n="sint">
-      <attr-item tags="sint"/>
-      <attr-item tags="psint"/>
-    </def-attr>
-
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
       <attr-item tags="adj.pos"/>
       <attr-item tags="adj.ord"/>
     </def-attr>
+
+    <def-attr n="sint">
+      <attr-item tags="sint"/>
+      <attr-item tags="psint"/>
+    </def-attr>
+
+    <def-attr n="a_det">
+      <attr-item tags="det"/>
+      <attr-item tags="det.dem"/>
+      <attr-item tags="det.pos"/>
+      <attr-item tags="det.pos.pol"/>
+      <attr-item tags="det.ord"/>
+    </def-attr>
+
     <def-attr n="transivity">
       <attr-item tags="tv"/>
       <attr-item tags="iv"/>
