@@ -19,6 +19,8 @@
       <attr-item tags="gen"/>
       <attr-item tags="obj"/>
       <attr-item tags="obl"/>
+      <attr-item tags="erg"/>
+      <attr-item tags="ins"/>
     </def-attr>
   </section-def-attrs>
 
@@ -49,6 +51,25 @@
             <equal><clip pos="1" part="case"/><lit-tag v="obl"/></equal>
           </test>
           <let><clip pos="1" part="case"/><lit-tag v="nom"/></let>
+        </when>
+
+        <when>
+          <test>
+            <equal><clip pos="1" part="case"/><lit-tag v="erg"/></equal>
+          </test>
+          <let><clip pos="1" part="case"/><lit-tag v="nom"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" part="case"/><lit-tag v="dat"/></equal>
+          </test>
+          <let><clip pos="1" part="case"/><lit-tag v="obj"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" part="case"/><lit-tag v="ins"/></equal>
+          </test>
+          <let><clip pos="1" part="case"/><lit-tag v="obj"/></let>
         </when>
       </choose>
 
