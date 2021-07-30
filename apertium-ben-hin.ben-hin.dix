@@ -1695,16 +1695,16 @@
 
     
     <!-- p2.fam.aa.mf.sg -->
-    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" />></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="pol"/></r></p></e>   	<!-- VERIFY fam <> pol?? -->
+    <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="pol"/></r></p></e>   	<!--ben.fam = hin.pol -->
     
     <!-- p2.fam.aa.mf.pl -->
-    <e><p><l>তোমরা<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="frm"/></r></p></e>			<!-- VERIFY fam <> frm?? -->
+    <e><p><l>তোমরা<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="pol"/></r></p></e>	
 
     <!-- p2.infml.aa.mf.sg -->
     <e><p><l>তুই<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     
     <!-- p2.infml.aa.mf.pl -->
-    <e><p><l>তোরা<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="frm"/></r></p></e>
+    <e><p><l>তোরা<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="pol"/></r></p></e>
 
     <!-- p2.pol.aa.mf.sg -->
     <e><p><l>আপনি<s n="prn" /><s n="p2" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>आप<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="frm"/></r></p></e>
