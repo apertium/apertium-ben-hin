@@ -1694,8 +1694,8 @@
     <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="gen" /></l><r>मैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
 
     <!-- p1.aa.mf.pl -->
-    <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>   
-    <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e> 
+    <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>   
+    <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="obj"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="obl"/></r></p></e> 
     <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e> 
     <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e> 
     <e><p><l>আমি<s n="prn"/><s n="p1"/><s n="aa"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>हम<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e> 
