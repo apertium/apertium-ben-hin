@@ -669,7 +669,7 @@
         <out>
           <chunk name="noun">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="NP"/></tag>
               <tag><clip pos="1" side="tl" part="gen"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
               <tag><clip pos="1" side="tl" part="case"/></tag>
@@ -696,7 +696,7 @@
         <out>
           <chunk name="prn">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="NP"/></tag>
               <tag><clip pos="1" side="tl" part="gen"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
               <tag><clip pos="1" side="tl" part="case"/></tag>
@@ -730,7 +730,7 @@
         <out>
           <chunk name="vblex">
             <tags>
-              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="VP"/></tag>
               <tag><var n="tensevar"/></tag>
               <tag><var n="persvar"/></tag>
              </tags>
@@ -754,7 +754,7 @@
         <out>
           <chunk name="vblex">
             <tags>
-              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="VP"/></tag>
               <tag><clip pos="1" side="tl" part="tense"/></tag>
              </tags>
             <lu>
@@ -783,7 +783,7 @@
         <out>
           <chunk name="vblex">
             <tags>
-              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="VP"/></tag>
               <tag><var n="tensevar"/></tag>
               <tag><var n="persvar"/></tag>
              </tags>
