@@ -20,7 +20,8 @@
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
-    <sdef n="ger"             c="Gerund"/>  
+    <sdef n="ger"             c="Gerund"/>
+    <sdef n="ins"             c="instrumental"/>  
 
     <sdef n="pcnd"            c=""/>
     <sdef n="ppst"            c=""/>
@@ -329,7 +330,6 @@
       <e><p><l>আজ<s n="adv"/></l><r>आज<s n="adv"/></r></p></e>
       <e><p><l>এখনও<s n="adv"/></l><r>अभी<b/>भी<s n="adv"/></r></p></e>  
       <e><p><l>সুতরাং<s n="adv"/></l><r>इसलिए<s n="cnjadv"/></r></p></e>
-      <e><p><l>যে<s n="adv"/></l><r>कि<s n="cnjsub"/></r></p></e>  
       <e><p><l>সবদিকে<s n="adv"/></l><r>हर<b/>ओर<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>কতখ্খন<s n="adv"/></l><r>कब तक<s n="adv"/></r></p></e>  
       <e><p><l>কতবার<s n="adv"/></l><r>कितनी बार<s n="adv"/></r></p></e>  
@@ -1833,38 +1833,47 @@
     <e><p><l>নিজে<s n="prn" /><s n="ref" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>खुद<s n="prn" /><s n="ref" /><s n="mf" /><s n="pl" /><s n="gen" /></r></p></e>      
     <e><p><l>নিজে<s n="prn" /><s n="ref" /><s n="mf" /><s n="pl" /></l><r>खुद<s n="prn" /><s n="ref" /><s n="mf" /><s n="pl" /></r></p></e>    
    
-
-
-  <!--<s n="prn"/><s n="pers"/><s n="mf"/><s n="sp"/></r></p></e>-->
-
-    <!--Reflexive--> 
-    <e><p><l>নিজেই<s n="prn"/></l><r>खुदही<s n="prn"/></r></p></e>  <!--#-->
-    <!--Relative-->
-    <e><p><l>কাকে<s n="prn"/></l><r>किस<b/>को<s n="prn"/></r></p></e> <!--#-->
-    <e><p><l>কার<s n="prn"/></l><r>किसका<s n="prn"/></r></p></e>  <!--#-->
-    <e><p><l>কোথায়<s n="prn"/></l><r>कहा<b/>पे<s n="prn"/></r></p></e>  <!--#-->
-    <e><p><l>কখন<s n="prn"/></l><r>कब<s n="prn"/></r></p></e>  <!--#-->
-    <e><p><l>কেন<s n="prn"/></l><r>क्यों<s n="prn"/></r></p></e>
-    <e><p><l>তা<s n="prn" /></l><r>यह<s n="prn"/></r></p></e>   <!--#-->
-    <e><p><l>যে<s n="prn" /></l><r>जो<s n="prn"/><s n="rel"/></r></p></e>   <!--#--> 
-  
+    <!--Relative-->  
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/><s n="obl"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/><s n="obl"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/><s n="obl"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/><s n="obl"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+    <!--Need to add যা (nn)-->
+    
     <!--Indefinite-->
-    <e><p><l>যে<b/>কেউ<s n="prn"/></l><r>किसी<b/>को<s n="prn"/></r></p></e>   <!--#-->
-    <e><p><l>যে<b/>কোনো<s n="det"/></l><r>कुछ<b/>भी<s n="prn"/></r></p></e>  <!--Transfer rules needed: “#कुछ भी कुछ”-->
-    <e><p><l>প্রত্যেক<s n="prn"/></l><r>सब<b/>लोग<s n="prn"/></r></p></e>   <!--#-->
-    <e><p><l>সবাই<s n="prn"/></l><r>सब<b/>लोग<s n="prn"/></r></p></e>  <!--#-->
-    <e><p><l>সবকিছু<s n="prn"/></l><r>हर<b/>एक<b/>चीज़<s n="prn"/></r></p></e> <!--#-->
-    <e><p><l>কেউনা<s n="prn"/></l><r>कोई<b/>नहीं<s n="prn"/></r></p></e>   <!--#-->
-    <e><p><l>কিছু<b/>একটা<s n="prn"/></l><r>कुछ<b/>एक<s n="prn"/></r></p></e>   <!--#-->
-    <e><p><l>বেশ<b/>কয়েকটা<s n="prn"/></l><r>कई<s n="prn"/></r></p></e>  <!--#-->
+    <!-- /অনেকে__prn -> Hin (Need to add in monodix)-->
+    <!-- /কেউ__prn -> Hin (Need to add in monodix)-->
   
     <!--Interrogative-->
-    <e><p><l>কে<s n="prn"/><s n="p3"/><s n="itg"/></l><r>कौन<s n="prn"/><s n="itg"/></r></p></e>
-    <e><p><l>কখন<s n="prn"/><s n="p3"/><s n="itg"/></l><r>कब<s n="prn"/><s n="itg"/></r></p></e>
-    <e><p><l>কার<s n="prn"/><s n="p3"/><s n="itg"/></l><r>किसका<s n="prn"/><s n="itg"/></r></p></e>  <!--#--> 
-    <e><p><l>কোনটা<s n="prn"/></l><r>कौन सा<s n="prn"/><s n="itg"/></r></p></e>  
-    <e><p><l>আপনি<s n="prn"/><s n="p2"/><s n="pol"/><s n="aa"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>अप<s n="prn"/></r></p></e>  
-
+    
+    <e><p><l>কে<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="sp" /><s n="nom" /></l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/><s n="nom"/></r></p></e>
+    <e><p><l>কে<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="obj" /></l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
+    <e><p><l>কে<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="sg" /><s n="gen" /></l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>কে<s n="prn" /><s n="p3" /><s n="itg" /><s n="nn" /><s n="mf" /><s n="sp" /><s n="loc" /></l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>কে<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="nom" /></l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/><s n="nom"/></r></p></e>
+    <e><p><l>কে<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="obj" /></l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
+    <e><p><l>কে<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="mf" /><s n="pl" /><s n="gen" /></l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l>কে<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="m" /><s n="pl" /><s n="gen" /></l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l>কে<s n="prn" /><s n="p3" /><s n="itg" /><s n="aa" /><s n="f" /><s n="pl" /><s n="gen" /></l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l>কে<s n="prn" /><s n="p3" /><s n="itg" /><s n="nn" /><s n="mf" /><s n="pl" /><s n="loc" /></l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
+    
+    <!-- Ben -> /क्या__prn (Need to add in monodix)-->
 
     <!-- SECTION VERBS -->
 
