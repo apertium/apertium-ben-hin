@@ -452,6 +452,7 @@
       <e><p><l>কোন<s n="cnjsub"/></l><r>कौनसा<s n="cnjsub"/></r></p></e>  
       <e><p><l>কে<s n="cnjsub"/></l><r>कौन<s n="cnjsub"/></r></p></e>  
       <e><p><l>কেন<s n="cnjsub"/></l><r>क्यूं<s n="cnjsub"/></r></p></e>
+      <e><p><l>যে<s n="cnjsub"/></l><r>कि<s n="cnjsub"/></r></p></e>
       
       <e><p><l>তদনুসিরে<s n="cnjadv"/></l><r>तदनुसार<s n="cnjadv"/></r></p></e>  
       <e><p><l>অতিরিক্তভাবে<s n="cnjadv"/></l><r>अधिकता<b/>से<s n="cnjadv"/></r></p></e>  
@@ -1790,7 +1791,13 @@
     <e><p><l>নিজে<s n="prn" /><s n="ref" /><s n="mf" /><s n="sg" /></l><r>खुद<s n="prn" /><s n="ref" /><s n="m" /><s n="sg" /></r></p></e>   
     <e><p><l>নিজে<s n="prn" /><s n="ref" /><s n="mf" /><s n="sg" /></l><r>खुद<s n="prn" /><s n="ref" /><s n="f" /><s n="sg" /></r></p></e>          
     <e><p><l>নিজে<s n="prn" /><s n="ref" /><s n="mf" /><s n="pl" /></l><r>खुद<s n="prn" /><s n="ref" /><s n="mf" /><s n="pl" /></r></p></e>    
-   
+
+
+    <e><p><l>নিজে<s n="prn" /><s n="ref" /><s n="mf" /><s n="sg" /></l><r>अपने<s n="prn" /><s n="ref" /><s n="mf" /><s n="sg" /></r></p></e>
+    <e><p><l>নিজে<s n="prn" /><s n="ref" /><s n="mf" /><s n="sg" /></l><r>अपने<s n="prn" /><s n="ref" /><s n="m" /><s n="sg" /></r></p></e>   
+    <e><p><l>নিজে<s n="prn" /><s n="ref" /><s n="mf" /><s n="sg" /></l><r>अपने<s n="prn" /><s n="ref" /><s n="f" /><s n="sg" /></r></p></e>          
+    <e><p><l>নিজে<s n="prn" /><s n="ref" /><s n="mf" /><s n="pl" /></l><r>अपने<s n="prn" /><s n="ref" /><s n="mf" /><s n="pl" /></r></p></e> 
+
     <!--Relative-->  <!--Obj->Obl-->
     <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/></r></p></e>
     <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
