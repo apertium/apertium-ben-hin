@@ -1704,7 +1704,7 @@
     <e><p><l>তুমি<s n="prn" /><s n="p2" /><s n="fam" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>तुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
 
     <!-- p2.infml.aa.mf.sg -->  <!-- Obj -> Obl-->
-    <e><p><l>তুই<s n="prn"/><s n="p2"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="sg"/></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>   	<!--ben.fam = hin.pol -->
+    <e><p><l>তুই<s n="prn"/><s n="p2"/><s n="infml"/><s n="aa"/><s n="mf"/><s n="sg"/></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>   	
     <e><p><l>তুই<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>তুই<s n="prn" /><s n="p2" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>तू<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
     
@@ -1799,24 +1799,20 @@
     <e><p><l>নিজে<s n="prn" /><s n="ref" /><s n="mf" /><s n="pl" /></l><r>अपने<s n="prn" /><s n="ref" /><s n="mf" /><s n="pl" /></r></p></e> 
 
     <!--Relative-->  <!--Obj->Obl-->
-    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="infml" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="p3" /><s n="pol" /><s n="rel" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/></r></p></e>
     <!--Need to add যা (nn)-->
     
     <!--Indefinite-->

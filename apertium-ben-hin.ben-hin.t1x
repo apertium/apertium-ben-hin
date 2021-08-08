@@ -7,8 +7,26 @@
       <cat-item tags="np.*"/>
     </def-cat>
 
+    <def-cat n="pronoun">
+      <cat-item tags="prn.*"/>  
+    </def-cat>
+
     <def-cat n="sent">
       <cat-item tags="sent"/>
+    </def-cat>
+
+    <def-cat n="guio">
+      <cat-item tags="guio"/>
+    </def-cat>
+
+    <def-cat n="det">
+      <cat-item tags="det.dem.*"/>
+      <cat-item tags="det.ind.*"/>
+      <cat-item tags="det.def.*"/>
+      <cat-item tags="det.pos.*"/>
+      <cat-item tags="det.qnt.*"/>
+      <cat-item tags="det.itg.*"/>
+      <cat-item tags="det.ord.*"/>
     </def-cat>
 
     <def-cat n="adj">
@@ -18,6 +36,11 @@
       <cat-item tags="adj.sint.*"/>
       <cat-item tags="adj.psint"/>
       <cat-item tags="adj.psint.*"/>
+    </def-cat>
+
+    <def-cat n="adv">
+      <cat-item tags="adv"/>
+      <cat-item tags="adv.*"/>
     </def-cat>
 
     <def-cat n="vblex">
@@ -41,6 +64,10 @@
       <cat-item tags="vblex.pres.*"/>
       <cat-item tags="vblex.prft.*"/>
     </def-cat>
+
+    <def-cat n="__gen_endings">
+      <cat-item tags="post.gen.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -54,10 +81,54 @@
       <attr-item tags="adj.psint"/>
       <attr-item tags="adj.psint.sup"/>
     </def-attr>
+
+    <def-attr n="a_nom">
+      <attr-item tags="defa"/>
+      <attr-item tags="n"/>
+      <attr-item tags="n.acr"/>
+      <attr-item tags="np.loc"/>
+      <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
+      <attr-item tags="np.al"/>
+      <attr-item tags="adv"/>
+    </def-attr>
+
+    <def-attr n="a_np">
+      <attr-item tags="defa"/>
+      <attr-item tags="np"/>
+    </def-attr>
+
+    <def-attr n="a_cnj">
+      <attr-item tags="defa"/>
+      <attr-item tags="cnjcoo"/>
+      <attr-item tags="cnjadv"/>
+      <attr-item tags="cnj"/>	
+    </def-attr>
+
+    <def-attr n="a_adv">
+      <attr-item tags="adv"/>
+    </def-attr>
+
     <def-attr n="transivity">
       <attr-item tags="tv"/>
       <attr-item tags="iv"/>
     </def-attr>
+
+    <def-attr n="politeness">
+      <attr-item tags="pol"/>
+      <attr-item tags="fam"/>
+      <attr-item tags="infml"/>
+    </def-attr>
+
+    <def-attr n="prn_type">
+      <attr-item tags="pers"/>
+      <attr-item tags="dem"/>
+      <attr-item tags="ref"/>
+      <attr-item tags="itg"/>
+      <attr-item tags="indef"/> 
+      <attr-item tags="rel"/> 
+    </def-attr>
+
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -66,11 +137,20 @@
     <def-attr n="a_cntverb">
       <attr-item tags="cnt"/>
     </def-attr>
+
     <def-attr n ="gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
       <attr-item tags="mf"/>
       <attr-item tags="nt"/>
+    </def-attr>
+
+    <def-attr n ="anim">
+      <attr-item tags="aa"/>
+      <attr-item tags="an"/>
+      <attr-item tags="nn"/>
+      <attr-item tags="el"/>
+      <attr-item tags="hu"/>
     </def-attr>
     
     <def-attr n="a_neg">
@@ -486,8 +566,10 @@
     </def-macro>
   </section-def-macros>
 
-  <section-rules>
-    <rule comment="RULE: ADJ">
+<section-rules>
+
+
+    <rule comment="RULE: ADJ (Eg: খুশি) ">
       <pattern>
         <pattern-item n="adj" />
       </pattern>
@@ -514,7 +596,7 @@
       </action>
     </rule>
 
-   <rule comment="RULE: NOUN">
+   <rule comment="RULE: NOUN (Eg: সময়)">
       <pattern>
         <pattern-item n="noun"/>
       </pattern>
@@ -539,8 +621,84 @@
         </out>
       </action>
     </rule>
+<!--
+ <rule comment="RULE: NOUN.gen NOUN (Eg: মামার বাড়ি -> चाचा का घर) ">
+      <pattern>
+        <pattern-item n="noun"/>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+      <choose>
+          <when>
+            <test>
+               <equal>
+                  <clip pos="1" side="sl" part="case"/>
+                  <lit-tag v="gen"/>
+                </equal>
+            </test>
+          </when>
+        </choose>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr" link-to="3"/>
+              <clip pos="1" side="tl" part="case" link-to="4"/>
+            </lu>
+            <b/>
+            //!Gen
+            <lu>
+              <clip pos="1" side="tl" part="post"/>
+              <clip pos="1" side="tl" part="case" link-to="4"/>
+              <clip pos="1" side="tl" part="gen" />
+              <clip pos="1" side="tl" part="nbr" link-to="3"/>
+            </lu>
+            <b/>  //
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr" link-to="3"/>
+              <clip pos="2" side="tl" part="case" link-to="4"/>
+            </lu>
+        </out>
+      </action>
+    </rule> 
+  -->
+    <rule comment="NOUN NOUN (Eg: ঠাকুর বাড়ি) ">
+        <pattern>
+          <pattern-item n="noun"/>
+          <pattern-item n="noun"/>
+        </pattern>
+        <action>
+        <out>
+          <chunk name="noun_noun">
+            <tags>
+              <tag><lit-tag v="NP"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_n"/>
+              <clip pos="2" side="tl" part="gen" link-to="2"/>
+              <clip pos="2" side="tl" part="nbr" link-to="3"/>
+              <clip pos="2" side="tl" part="case" link-to="4"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_n"/>
+              <clip pos="2" side="tl" part="gen" link-to="2"/>
+              <clip pos="2" side="tl" part="nbr" link-to="3"/>
+              <clip pos="2" side="tl" part="case" link-to="4"/>
+              </lu>
+            </chunk>
+          </out>
+        </action>
+      </rule>
 
-    <rule comment="ADJ NOUN">
+    <rule comment="ADJ NOUN (Eg: নীল আকাশ) ">
         <pattern>
           <pattern-item n="adj" />
           <pattern-item n="noun"/>
@@ -552,7 +710,7 @@
           <out>
           <chunk name="adj_noun">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="NP adj"/></tag>
               <tag><clip pos="2" side="tl" part="gen"/></tag>
               <tag><clip pos="2" side="tl" part="nbr"/></tag>
               <tag><clip pos="2" side="tl" part="case"/></tag>
@@ -576,6 +734,389 @@
           </out>
         </action>
       </rule>
+
+
+      <rule comment="ADV VERB (Eg: পিছনে তাকালো)">
+        <pattern> 
+          <pattern-item n="adv" />
+          <pattern-item n="vblex"/>
+        </pattern>
+        <action>
+              <call-macro n="verb_init">
+                  <with-param pos="2" />
+              </call-macro>
+          <out>
+          <chunk name="adv_verb">
+            <tags>
+              <tag><lit-tag v="VP adv"/></tag>
+              <tag><var n="genvar"/></tag>
+              <tag><var n="nbrvar"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_adv"/>
+              <clip pos="2" side="tl" part="gen" link-to="2"/>
+              <clip pos="2" side="tl" part="nbr" link-to="3"/>
+              <clip pos="2" side="tl" part="case" link-to="4"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="transivity"/>
+              <lit-tag v="pres"/>
+              <clip pos="2" side="tl" part="a_cntverb"/>
+              <var n= "persvar"/>
+              <var n="genvar"/>
+              <var n="nbrvar"/>
+              <!-- <clip pos="1" side="tl" part="persvar"/> -->
+              </lu>
+            </chunk>
+          </out>
+        </action>
+      </rule>
+
+
+      <rule comment="ADJ VERB (Eg: জোরে চলা)">
+        <pattern>
+          <pattern-item n="adj" />
+          <pattern-item n="vblex"/>
+        </pattern>
+        <action>
+          <call-macro n="verb_init">
+            <with-param pos="2" />
+          </call-macro>
+          <out>
+          <chunk name="adj_verb">
+            <tags>
+              <tag><lit-tag v="VP adj"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="gen" link-to="2"/>
+              <clip pos="2" side="tl" part="nbr" link-to="3"/>
+              <clip pos="2" side="tl" part="case" link-to="4"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="transivity"/>
+              <lit-tag v="pres"/>
+              <clip pos="2" side="tl" part="a_cntverb"/>
+              <var n= "persvar"/>
+              <var n="genvar"/>
+              <var n="nbrvar"/>
+              <!-- <clip pos="1" side="tl" part="persvar"/> -->
+              </lu>
+            </chunk>
+          </out>
+        </action>
+      </rule>
+
+
+      <rule comment="NOM-ADJ NOM(Eg: কাজল-কালো চোখ)"> 
+          <pattern>
+            <pattern-item n="noun"/>
+            <pattern-item n="guio"/>
+            <pattern-item n="adj"/>
+            <pattern-item n="noun"/>
+          </pattern>
+          <action>
+          <call-macro n="noun_init">
+          <with-param pos="4"/>
+          </call-macro>
+          <out>
+          <chunk  name="nom_guio_adj_nom">
+            <tags>
+              <tag><lit-tag v="NP"/></tag>
+				      <tag><var n="genvar"/></tag>
+              <tag><var n="nbrvar"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              <var n="casevar"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip part="whole" pos="2" side="sl"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="a_adj"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              <var n="casevar"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="4" side="tl" part="lem"/>
+              <clip pos="4" side="tl" part="a_nom"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              <var n="casevar"/>
+            </lu>
+            <b/>
+          </chunk>
+          </out>
+        </action>
+      </rule>
+
+      <rule comment="NOM ADJ NOM (Eg: দুধ সাদা মেঘ)">
+        <pattern>
+	        <pattern-item n="noun"/>
+	        <pattern-item n="adj"/>
+	        <pattern-item n="noun"/>
+        </pattern>
+        <action>
+          <call-macro n="noun_init">
+            <with-param pos="3"/>
+          </call-macro>
+	        <out>
+		        <chunk  name="nom_adj_nom">
+			      <tags>
+				      <tag><lit-tag v="NP"/></tag>
+				      <tag><var n="genvar"/></tag>
+              <tag><var n="nbrvar"/></tag>
+              <tag><var n="persvar"/></tag>
+              <tag><var n="casevar"/></tag>
+			      </tags>
+            <lu>
+	            <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+            </lu>
+            <b/>
+            <lu>
+	            <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_adj"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              <lit-tag v="5"/>
+            </lu>
+            <b/>
+            <lu>
+	            <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              <lit-tag v="5"/>
+            </lu>
+            <b/>
+            </chunk>
+          </out>
+        </action>
+      </rule>
+
+
+      <rule comment="ADJ ADJ NOM (Eg: বড়ো বড়ো চোখ)">
+        <pattern>
+	        <pattern-item n="adj"/>
+	        <pattern-item n="adj"/>
+	        <pattern-item n="noun"/>
+        </pattern>
+        <action>
+          <call-macro n="noun_init">
+          <with-param pos="3"/>
+        </call-macro>
+	      <out>
+		    <chunk  name="adj_adj_nom">
+			    <tags>
+				    <tag><lit-tag v="NP"/></tag>
+				    <tag><var n="genvar"/></tag>
+            <tag><var n="nbrvar"/></tag>
+            <tag><var n="persvar"/></tag>
+            <tag><var n="casevar"/></tag>
+			    </tags>
+        <lu>
+	        <clip pos="1" side="tl" part="lem"/>
+          <clip pos="1" side="tl" part="a_adj"/>
+          <lit-tag v="2"/>
+          <lit-tag v="3"/>
+          <lit-tag v="5"/>
+        </lu>
+        <b/>
+        <lu>
+	        <clip pos="2" side="tl" part="lem"/>
+          <clip pos="2" side="tl" part="a_adj"/>
+          <lit-tag v="2"/>
+          <lit-tag v="3"/>
+          <lit-tag v="5"/>
+        </lu>
+        <b/>
+        <lu>
+	        <clip pos="3" side="tl" part="lem"/>
+          <clip pos="3" side="tl" part="a_nom"/>
+          <lit-tag v="2"/>
+          <lit-tag v="3"/>
+          <lit-tag v="5"/>
+        </lu>
+        <b/>
+        </chunk>
+        </out>
+        </action>
+      </rule>
+
+
+      <rule comment="ADJ NOM NOM(Eg: গভীর জলের মাছ)"> 
+        <pattern>
+	        <pattern-item n="adj"/>
+	        <pattern-item n="noun"/>
+	        <pattern-item n="noun"/>
+        </pattern>
+        <action>
+          <call-macro n="noun_init">
+          <with-param pos="3"/>
+        </call-macro>
+	      <out>
+		      <chunk  name="adj_nom_nom">
+			    <tags>
+				    <tag><lit-tag v="NP"/></tag>
+				    <tag><var n="genvar"/></tag>
+            <tag><var n="nbrvar"/></tag>
+            <tag><var n="persvar"/></tag>
+            <tag><var n="casevar"/></tag>
+			    </tags>
+          <lu>
+	          <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_adj"/>
+            <lit-tag v="2"/>
+            <lit-tag v="3"/>
+          </lu>
+          <b/>
+          <lu>
+	          <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <lit-tag v="2"/>
+            <lit-tag v="3"/>
+            <lit-tag v="5"/>
+          </lu>
+          <b/>
+          <lu>
+	          <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="a_nom"/>
+            <lit-tag v="2"/>
+            <lit-tag v="3"/>
+            <lit-tag v="5"/>
+          </lu>
+          <b/>
+          </chunk>
+          </out>
+        </action>
+      </rule>
+
+
+      <rule comment="DET ADJ NOM (Eg: একটি দামি পেন)">
+        <pattern>
+	        <pattern-item n="det"/>
+	        <pattern-item n="adj"/>
+	        <pattern-item n="noun"/>
+        </pattern>
+        <action>
+          <call-macro n="noun_init">
+            <with-param pos="3"/>
+          </call-macro>
+	      <out>
+		    <chunk  name="det_adj_nom">
+			  <tags>
+				  <tag><lit-tag v="NP"/></tag>
+				  <tag><var n="genvar"/></tag>
+          <tag><var n="nbrvar"/></tag>
+          <tag><var n="persvar"/></tag>
+          <tag><var n="casevar"/></tag>
+			  </tags>
+        <lu>
+	        <clip pos="1" side="tl" part="lem"/>
+          <clip pos="1" side="tl" part="a_det"/>
+          <lit-tag v="2"/>
+          <lit-tag v="3"/>
+        </lu>
+        <b/>
+        <lu>
+	        <clip pos="2" side="tl" part="lem"/>
+          <clip pos="2" side="tl" part="a_adj"/>
+          <lit-tag v="2"/>
+          <lit-tag v="3"/>
+          <lit-tag v="5"/>
+        </lu>
+        <b/>
+        <lu>
+	        <clip pos="3" side="tl" part="lem"/>
+          <clip pos="3" side="tl" part="a_nom"/>
+          <lit-tag v="2"/>
+          <lit-tag v="3"/>
+          <lit-tag v="5"/>
+        </lu>
+        <b/>
+        </chunk>
+        </out>
+        </action>
+      </rule>
+
+
+      <rule comment="ADV ADJ VERB (Eg: খুব আস্তে চলা)">
+        <pattern>
+	        <pattern-item n="adv"/>
+	        <pattern-item n="adj"/>
+	        <pattern-item n="vblex"/>
+        </pattern>
+        <action>
+            <call-macro n="verb_init">
+                <with-param pos="3" />
+            </call-macro>
+	      <out>
+		      <chunk  name="adv_adj_vblex">
+			    <tags>
+				    <tag>
+					  <lit-tag v="VP"/>
+				    </tag>
+				    <tag><var n="genvar"/></tag>
+            <tag><var n="nbrvar"/></tag>
+            <tag><var n="persvar"/></tag>
+            <tag><var n="casevar"/></tag>
+			    </tags>
+          <lu>
+	          <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_adv"/>
+            <lit-tag v="2"/>
+            <lit-tag v="3"/>
+          </lu>
+          <b/>
+          <lu>
+	          <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_adj"/>
+            <lit-tag v="2"/>
+            <lit-tag v="3"/>
+            <lit-tag v="5"/>
+          </lu>
+          <b/>
+          <lu>
+	          <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="a_verb"/>
+            <clip pos="3" side="tl" part="transivity"/>
+            <lit-tag v="pres"/>
+            <clip pos="3" side="tl" part="a_cntverb"/>
+            <var n= "persvar"/>
+            <var n="genvar"/>
+            <var n="nbrvar"/>
+            <!-- <clip pos="1" side="tl" part="persvar"/> -->
+          </lu>
+          <b/>
+          </chunk>
+        </out>
+        </action>
+      </rule>
+
+
 
 <!-- working on transfer rules for vblex -->
     <rule comment="RULE: VBLEX">
@@ -733,7 +1274,6 @@
               <tag><var n="genvar"/></tag>
               <tag><var n="nbrvar"/></tag>
             </tags>
-
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_verb"/>

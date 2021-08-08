@@ -716,6 +716,7 @@
       </action>
     </rule>
 
+
    <rule comment="RULE: VERB (conjugated)">
       <pattern>
         <pattern-item n="verb_pers"/>
