@@ -289,7 +289,7 @@
       <e><p><l>স্বতন্ত্র<s n="adj"/></l><r>स्वतंत्र<s n="adj"/></r></p></e>
       <e><p><l>পূর্ব<s n="adj"/></l><r>पूर्व<s n="adj"/></r></p></e>
       <e><p><l>সতর্ক<s n="adj"/></l><r>सावधान<s n="adj"/></r></p></e> 
-      <e><p><l>লম্বা<s n="adj"/></l><r>लंबा<s n="adj"/></r></p></e>
+      <e><p><l>লম্বা<s n="adj"/></l><r>लम्बा<s n="adj"/></r></p></e>
       
 
      
@@ -559,6 +559,7 @@
     <e><p><l>বিল্ডিং<s n="n" /><s n="nt" /><s n="nn" /></l><r>इमारतें<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ভারত<s n="np" /><s n="top" /><s n="mf" /></l><r>भारत<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>সুভাষ<s n="np" /><s n="ant" /><s n="m" /></l><r>सुभाष<s n="np"/><s n="ant"/><s n="m"/></r></p></e> 
+    <e><p><l>রাহিম<s n="np" /><s n="ant" /><s n="m" /></l><r>रहीम<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>মালিক<s n="n"/><s n="mf"/><s n="hu"/></l><r>मालिक<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>শিক্ষক<s n="n"/><s n="mf"/><s n="hu"/></l><r>शिक्षक<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>শ্রমিক<s n="n"/><s n="mf"/><s n="hu"/></l><r>मज़दूर<s n="n"/><s n="m"/></r></p></e>
@@ -1683,7 +1684,6 @@
     <e><p><l>কাছে<s n="post"/></l><r>के पास<s n="post"/></r></p></e>
     <e><p><l>সময়<s n="post"/></l><r>के दौरान<s n="post"/></r></p></e>
     <e><p><l>সামনে<s n="post"/></l><r>सामने<s n="post"/></r></p></e>
-    <e><p><l>থেকে<s n="post"/></l><r>से<s n="post"/></r></p></e>
 
   <!-- SECTION PRONOUNS -->
  
