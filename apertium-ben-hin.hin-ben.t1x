@@ -15,10 +15,6 @@
       <cat-item tags="prn.*"/>
     </def-cat>
 
-    <def-cat n="post">
-      <cat-item tags="post"/>
-    </def-cat>
-
     <def-cat n="verb">
       <cat-item tags="vbser.*"/>
       <cat-item tags="vbaux.*"/>
@@ -79,10 +75,6 @@
       <attr-item tags="adj"/>
       <attr-item tags="adj.pos"/>
       <attr-item tags="adj.ord"/>
-    </def-attr>
-
-    <def-attr n="a_post">
-      <attr-item tags="post"/>
     </def-attr>
 
     <def-attr n="sint">
@@ -215,35 +207,35 @@
         <when>
           <test>
             <or>
-              <equal>
-                <clip part="nbr" pos="1" side="tl"/>
-                <lit-tag v="sg"/>
-              </equal>
-              <equal>
-                <clip part="nbr" pos="1" side="tl"/>
-                <lit-tag v="pl"/>
-              </equal>
-              <equal>
-                <clip part="nbr" pos="1" side="tl"/>
-                <lit-tag v="sp"/>
-              </equal>
+                  <equal>
+                    <clip part="nbr" pos="1" side="tl"/>
+                    <lit-tag v="sg"/>
+                  </equal>
+                  <equal>
+                    <clip part="nbr" pos="1" side="tl"/>
+                    <lit-tag v="pl"/>
+                  </equal>
+                  <equal>
+                    <clip part="nbr" pos="1" side="tl"/>
+                    <lit-tag v="sp"/>
+                  </equal>
             </or>
-              </test>
-                <let>
+        </test>
+            <let>
                   <var n="nbrvar"/>
-                  <clip part="nbr" pos="1" side="tl"/>
-                </let>
-              </when>
-            <otherwise>
-                <let>
-                  <var n="nbrvar"/>
-                  <lit-tag v="sg"/>
-                </let>
-            </otherwise>
-        </choose>
-        <choose>
-          <when>
-            <test>
+                        <clip part="nbr" pos="1" side="tl"/>
+            </let>
+        </when>
+  <otherwise>
+          <let>
+        <var n="nbrvar"/>
+              <lit-tag v="sg"/>
+          </let>
+  </otherwise>
+      </choose>
+      <choose>
+        <when>
+          <test>
             <or>
             <equal>
               <clip part="gen" pos="1" side="tl"/>
@@ -253,30 +245,29 @@
               <clip part="gen" pos="1" side="tl"/>
               <lit-tag v="f"/>
             </equal>
-            <equal>
+            <!-- <equal>
               <clip part="gen" pos="1" side="tl"/>
               <lit-tag v="mf"/>
-            </equal>
-       <!-- <equal>
+            </equal> -->
+            <equal>
               <clip part="gen" pos="1" side="tl"/>
               <lit-tag v="nt"/>
             </equal>
-            -->
             </or>
           </test>
-            <let>
+        <let>
               <var n="genvar"/>
               <clip part="gen" pos="1" side="tl"/>
-            </let>
-          </when>
-          <otherwise>
-            <let>
+        </let>
+        </when>
+        <otherwise>
+          <let>
               <var n="genvar"/>
               <lit-tag v="m"/>
-            </let>
-          </otherwise>
-        </choose>
-        <choose>
+          </let>
+        </otherwise>
+      </choose>
+      <choose>
         <when>
           <test>
             <or>
@@ -298,10 +289,10 @@
             </equal>
             </or>
           </test>
-            <let>
+        <let>
               <var n="persvar"/>
               <clip part="pers" pos="1" side="tl"/>
-            </let>
+        </let>
         </when>
         <otherwise>
           <let>
@@ -310,7 +301,7 @@
           </let>
         </otherwise>
       </choose>
-      <!--<choose>
+      <choose>
         <when>
           <test>
             <or>
@@ -328,21 +319,19 @@
             </equal>
             </or>
           </test>
-            <let>
+        <let>
               <var n="casevar"/>
               <clip part="case" pos="1" side="tl"/>
-            </let>
-          </when>
-          <otherwise>
+        </let>
+        </when>
+        <otherwise>
           <let>
               <var n="casevar"/>
               <lit-tag v="nom"/>
           </let>
         </otherwise>
-      </choose>-->
+      </choose>
     </def-macro>
-
-
     <def-macro n="verb_init" npar="1">
 
       <!-- checking for the number in verb i.e. sg/pl -->
@@ -577,7 +566,6 @@
           </let>
         </otherwise>
       </choose> -->
-
     </def-macro>
 
     <def-macro n="change_tense" npar="1">
@@ -644,7 +632,6 @@
       </choose>
     </def-macro>
   </section-def-macros>
-
 
   <section-rules>
 
@@ -729,7 +716,6 @@
       </action>
     </rule>
 
-
    <rule comment="RULE: VERB (conjugated)">
       <pattern>
         <pattern-item n="verb_pers"/>
@@ -812,89 +798,6 @@
         </out>
       </action>
     </rule>
-
-    <rule comment="RULE: adj + vbser.pres.pers → adj (Eg: सुभाष लम्बा है → সুভাষ লম্বা)">
-      <pattern>
-        <pattern-item n="adj"/>
-        <pattern-item n="vbser_pres_pers"/>
-      </pattern>
-      <action>
-        <call-macro n="adj_init">
-          <with-param pos="1" />
-        </call-macro>
-        <out>
-          <chunk name="adj_vbser">
-            <tags>
-              <tag><clip pos="1" side="tl" part="gen"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-             </tags>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_adj"/>
-            <lit-tag v="mf"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="RULE: noun.nom + post → noun.gen + post (Eg: रहीम से → রাহিমের থেকে)">
-      <pattern>
-        <pattern-item n="noun"/>
-        <pattern-item n="post"/>
-      </pattern>
-      <action>
-        <call-macro n="noun_init">
-          <with-param pos="1" />
-        </call-macro>
-        <choose>
-          <when>
-            <test>
-                <equal>
-                  <clip pos="1" side="sl" part="case"/>
-                  <lit-tag v="nom"/>
-                </equal>
-            </test>
-            <let>
-              <var n ="casevar"/>
-              <lit-tag v="gen"/>
-            </let>
-          </when>
-           <otherwise>
-            <let>
-              <var n ="casevar"/>
-              <clip part="case" pos="1" side="sl"/>
-            </let>
-            </otherwise>
-        </choose> 
-        <out>
-          <chunk name="noun_post">
-            <tags>
-              <tag><lit-tag v="NP"/></tag>
-              <tag><clip pos="1" side="tl" part="gen"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-              <tag><var n="casevar"/></tag>
-             </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_n"/>
-              <clip pos="1" side="tl" part="gen" link-to="2"/>
-              <clip pos="1" side="tl" part="nbr" link-to="3"/>
-              <var n="casevar"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-            <b/>
-            <lu>
-            <clip pos="2" side="tl" part="lemh"/>
-            <clip pos="2" side="tl" part="a_post"/>
-            <clip pos="2" side="tl" part="lemq"/>
-          </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
 
     <rule comment="RULE: SENT">
       <pattern>

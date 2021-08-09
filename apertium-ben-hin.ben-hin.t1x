@@ -7,26 +7,8 @@
       <cat-item tags="np.*"/>
     </def-cat>
 
-    <def-cat n="pronoun">
-      <cat-item tags="prn.*"/>  
-    </def-cat>
-
     <def-cat n="sent">
       <cat-item tags="sent"/>
-    </def-cat>
-
-    <def-cat n="guio">
-      <cat-item tags="guio"/>
-    </def-cat>
-
-    <def-cat n="det">
-      <cat-item tags="det.dem.*"/>
-      <cat-item tags="det.ind.*"/>
-      <cat-item tags="det.def.*"/>
-      <cat-item tags="det.pos.*"/>
-      <cat-item tags="det.qnt.*"/>
-      <cat-item tags="det.itg.*"/>
-      <cat-item tags="det.ord.*"/>
     </def-cat>
 
     <def-cat n="adj">
@@ -36,11 +18,6 @@
       <cat-item tags="adj.sint.*"/>
       <cat-item tags="adj.psint"/>
       <cat-item tags="adj.psint.*"/>
-    </def-cat>
-
-    <def-cat n="adv">
-      <cat-item tags="adv"/>
-      <cat-item tags="adv.*"/>
     </def-cat>
 
     <def-cat n="vblex">
@@ -64,10 +41,6 @@
       <cat-item tags="vblex.pres.*"/>
       <cat-item tags="vblex.prft.*"/>
     </def-cat>
-
-    <def-cat n="__gen_endings">
-      <cat-item tags="post.gen.*"/>
-    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -81,54 +54,10 @@
       <attr-item tags="adj.psint"/>
       <attr-item tags="adj.psint.sup"/>
     </def-attr>
-
-    <def-attr n="a_nom">
-      <attr-item tags="defa"/>
-      <attr-item tags="n"/>
-      <attr-item tags="n.acr"/>
-      <attr-item tags="np.loc"/>
-      <attr-item tags="np.ant"/>
-      <attr-item tags="np.cog"/>
-      <attr-item tags="np.al"/>
-      <attr-item tags="adv"/>
-    </def-attr>
-
-    <def-attr n="a_np">
-      <attr-item tags="defa"/>
-      <attr-item tags="np"/>
-    </def-attr>
-
-    <def-attr n="a_cnj">
-      <attr-item tags="defa"/>
-      <attr-item tags="cnjcoo"/>
-      <attr-item tags="cnjadv"/>
-      <attr-item tags="cnj"/>	
-    </def-attr>
-
-    <def-attr n="a_adv">
-      <attr-item tags="adv"/>
-    </def-attr>
-
     <def-attr n="transivity">
       <attr-item tags="tv"/>
       <attr-item tags="iv"/>
     </def-attr>
-
-    <def-attr n="politeness">
-      <attr-item tags="pol"/>
-      <attr-item tags="fam"/>
-      <attr-item tags="infml"/>
-    </def-attr>
-
-    <def-attr n="prn_type">
-      <attr-item tags="pers"/>
-      <attr-item tags="dem"/>
-      <attr-item tags="ref"/>
-      <attr-item tags="itg"/>
-      <attr-item tags="indef"/> 
-      <attr-item tags="rel"/> 
-    </def-attr>
-
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -137,20 +66,11 @@
     <def-attr n="a_cntverb">
       <attr-item tags="cnt"/>
     </def-attr>
-
     <def-attr n ="gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
       <attr-item tags="mf"/>
       <attr-item tags="nt"/>
-    </def-attr>
-
-    <def-attr n ="anim">
-      <attr-item tags="aa"/>
-      <attr-item tags="an"/>
-      <attr-item tags="nn"/>
-      <attr-item tags="el"/>
-      <attr-item tags="hu"/>
     </def-attr>
     
     <def-attr n="a_neg">
@@ -566,10 +486,8 @@
     </def-macro>
   </section-def-macros>
 
-<section-rules>
-
-
-    <rule comment="RULE: ADJ (Eg: খুশি) ">
+  <section-rules>
+    <rule comment="RULE: ADJ">
       <pattern>
         <pattern-item n="adj" />
       </pattern>
@@ -596,7 +514,7 @@
       </action>
     </rule>
 
-   <rule comment="RULE: NOUN (Eg: সময়)">
+   <rule comment="RULE: NOUN">
       <pattern>
         <pattern-item n="noun"/>
       </pattern>
@@ -622,43 +540,42 @@
       </action>
     </rule>
 
-    <rule comment="ADJ NOUN (Eg: নীল আকাশ) ">
-       <pattern>
-         <pattern-item n="adj" />
-         <pattern-item n="noun"/>
-       </pattern>
-       <action>
-         <call-macro n="adj_init">
-           <with-param pos="1" />
-         </call-macro>
-         <out>
-         <chunk name="adj_noun">
-           <tags>
-             <tag><lit-tag v="NP adj"/></tag>
-             <tag><clip pos="2" side="tl" part="gen"/></tag>
-             <tag><clip pos="2" side="tl" part="nbr"/></tag>
-             <tag><clip pos="2" side="tl" part="case"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lem"/>
-             <clip pos="1" side="tl" part="a_adj"/>
-             <clip pos="2" side="tl" part="gen" link-to="2"/>
-             <clip pos="2" side="tl" part="nbr" link-to="3"/>
-             <clip pos="2" side="tl" part="case" link-to="4"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="2" side="tl" part="lem"/>
-             <clip pos="2" side="tl" part="a_n"/>
-             <clip pos="2" side="tl" part="gen" link-to="2"/>
-             <clip pos="2" side="tl" part="nbr" link-to="3"/>
-             <clip pos="2" side="tl" part="case" link-to="4"/>
-             </lu>
-           </chunk>
-         </out>
-       </action>
-     </rule>
-
+    <rule comment="ADJ NOUN">
+        <pattern>
+          <pattern-item n="adj" />
+          <pattern-item n="noun"/>
+        </pattern>
+        <action>
+          <call-macro n="adj_init">
+            <with-param pos="1" />
+          </call-macro>
+          <out>
+          <chunk name="adj_noun">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="gen" link-to="2"/>
+              <clip pos="2" side="tl" part="nbr" link-to="3"/>
+              <clip pos="2" side="tl" part="case" link-to="4"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_n"/>
+              <clip pos="2" side="tl" part="gen" link-to="2"/>
+              <clip pos="2" side="tl" part="nbr" link-to="3"/>
+              <clip pos="2" side="tl" part="case" link-to="4"/>
+              </lu>
+            </chunk>
+          </out>
+        </action>
+      </rule>
 
 <!-- working on transfer rules for vblex -->
     <rule comment="RULE: VBLEX">
@@ -816,6 +733,7 @@
               <tag><var n="genvar"/></tag>
               <tag><var n="nbrvar"/></tag>
             </tags>
+
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_verb"/>
