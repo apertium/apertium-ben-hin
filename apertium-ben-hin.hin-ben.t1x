@@ -49,11 +49,6 @@
       <cat-item tags="vbser.pres.p3.*"/>
     </def-cat>
 
-    <def-cat n="like">
-      <cat-item lemma="like" tags="vblex.past"/>
-      
-    </def-cat>
-
     <def-cat n="ppst">
       <cat-item tags="vbser.ppst"/>
     </def-cat>
