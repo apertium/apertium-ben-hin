@@ -49,6 +49,11 @@
       <cat-item tags="vbser.pres.p3.*"/>
     </def-cat>
 
+    <def-cat n="like">
+      <cat-item lemma="like" tags="vblex.past"/>
+      
+    </def-cat>
+
     <def-cat n="ppst">
       <cat-item tags="vbser.ppst"/>
     </def-cat>
@@ -799,6 +804,35 @@
         </out>
       </action>
     </rule>
+<!-- Currently Working -->
+
+    <rule comment="RULE: adj + vbser.pres.pers → adj (Eg: सुभाष लम्बा है → সুভাষ লম্বা)">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="vbser_pres_pers"/>
+      </pattern>
+      <action>
+        <call-macro n="adj_init">
+          <with-param pos="1" />
+        </call-macro>
+        <out>
+          <chunk name="adj_vbser">
+            <tags>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+             </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_adj"/>
+            <lit-tag v="mf"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+<!-- End here-->
 
     <rule comment="RULE: SENT">
       <pattern>
