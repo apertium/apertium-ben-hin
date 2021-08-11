@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer default="chunk">
 <section-def-cats>
-  <def-cat n="noun">
+   <def-cat n="noun">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
+    </def-cat>
+
+    <def-cat n="noun_nom">
+      <cat-item tags="n.*.nom"/>
+      <cat-item tags="n.*.nom.*"/>
+      <cat-item tags="np.*.nom"/>
     </def-cat>
 
     <def-cat n="adj">
@@ -117,6 +123,7 @@
       <attr-item tags="mf"/>
       <attr-item tags="nt"/>
     </def-attr>
+
     <def-attr n="anim">
       <attr-item tags="nn"/>
       <attr-item tags="aa"/>
@@ -128,6 +135,7 @@
     <def-attr n="a_neg">
       <attr-item tags="neg"/>
     </def-attr>
+
     <def-attr n="a_n">
       <attr-item tags="n"/>
       <attr-item tags="np.ant"/>
@@ -760,8 +768,53 @@
       </action>
     </rule>
 
-   
-
+    <rule comment="RULE: noun.nom + post → noun.gen + post (Eg: रहीम से → রাহিমের থেকে)">
+      <pattern>
+        <pattern-item n="noun_nom"/>
+        <pattern-item n="post"/>
+      </pattern>
+      <action>
+        <call-macro n="noun_init">
+          <with-param pos="1" />
+        </call-macro>
+      
+           <let>
+              <var n ="casevar"/>
+              <lit-tag v="gen"/>
+            </let>
+        <out>
+          <chunk name="noun">
+            <tags>
+              <tag><lit-tag v="NP"/></tag>
+              <tag><var n="genvar"/></tag>
+              <tag><var n="nbrvar"/></tag>
+              <tag><var n="casevar"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_n"/>
+              <clip pos="1" side="tl" part="gen" link-to="2"/>
+              <clip pos="1" side="tl" part="anim"/>
+              <clip pos="1" side="tl" part="nbr" link-to="3"/>
+              <var n="casevar"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b pos="1"/>
+          <chunk name="post">
+            <tags>
+              <tag><lit-tag v="post"/></tag>
+            </tags>
+            <lu>
+            <clip pos="2" side="tl" part="lemh"/>
+            <clip pos="2" side="tl" part="a_post"/>
+            <clip pos="2" side="tl" part="lemq"/>
+          </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+  
     <rule comment="RULE: SENT">
       <pattern>
         <pattern-item n="sent"/>
