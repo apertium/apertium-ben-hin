@@ -772,7 +772,7 @@
               <clip pos="1" side="tl" part="gen" link-to="2"/>
               <clip pos="1" side="tl" part="anim"/>
               <clip pos="1" side="tl" part="nbr" link-to="3"/>
-              <var n="casevar"/>
+              <clip pos="1" side="tl" part="case" link-to="4"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
