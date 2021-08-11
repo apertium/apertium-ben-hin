@@ -326,7 +326,8 @@
     </def-macro>
 -->
 
- <!--Macro to set the value of casevar for nouns-->
+<!--Macro to set the value of casevar for nouns-->
+<!-- If the case in the source language (Hindi) exists in the target language (Bengali), we put it in "casevar"; otherwise "nom" is set as a guess for avoiding # in the output -->
     <def-macro n="set_casevar_noun" npar="1">
      <choose>
         <when>
@@ -361,7 +362,9 @@
     </def-macro>
 
 
- <!--Macro to set the value of casevar for pronouns-->
+<!--Macro to set the value of casevar for pronouns-->
+<!-- If the case in the source language (Hindi) exists in the target language (Bengali), we put it in "casevar"; otherwise "nom" is set as a guess for avoiding # in the output -->
+<!-- the macro is different to the one for nouns because there are more cases for pronouns than for nouns -->
     <def-macro n="set_casevar_pronoun" npar="1">
      <choose>
         <when>
