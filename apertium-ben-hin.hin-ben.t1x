@@ -291,6 +291,7 @@
     </def-macro>
 
  <!--Macro to set the value of persvar-->
+<!--
     <def-macro n="set_persvar" npar="1">
      <choose>
         <when>
@@ -323,9 +324,10 @@
         </otherwise>
       </choose>
     </def-macro>
+-->
 
- <!--Macro to set the value of casevar-->
-    <def-macro n="set_casevar" npar="1">
+ <!--Macro to set the value of casevar for nouns-->
+    <def-macro n="set_casevar_noun" npar="1">
      <choose>
         <when>
           <test>
@@ -359,6 +361,45 @@
     </def-macro>
 
 
+ <!--Macro to set the value of casevar for pronouns-->
+    <def-macro n="set_casevar_pronoun" npar="1">
+     <choose>
+        <when>
+          <test>
+            <or>
+            <equal>
+              <clip part="case" pos="1" side="tl"/>
+              <lit-tag v="nom"/>
+            </equal>
+            <equal>
+              <clip part="case" pos="1" side="tl"/>
+              <lit-tag v="obj"/>
+            </equal>
+            <equal>
+              <clip part="case" pos="1" side="tl"/>
+              <lit-tag v="loc"/>
+            </equal>
+            <equal>
+              <clip part="case" pos="1" side="tl"/>
+              <lit-tag v="gen"/>
+            </equal>
+            </or>
+          </test>
+        <let>
+              <var n="casevar"/>
+              <clip part="case" pos="1" side="tl"/>
+        </let>
+        </when>
+        <otherwise>
+          <let>
+              <var n="casevar"/>
+              <lit-tag v="nom"/>
+          </let>
+        </otherwise>
+      </choose>
+    </def-macro>
+
+
     <def-macro n="noun_init" npar="1">
     
         <call-macro n="set_nbrvar">
@@ -369,13 +410,24 @@
           <with-param pos="1"/>
         </call-macro>
     
-<!--
-        <call-macro n="set_persvar">  
+        <call-macro n="set_casevar_noun">  
           <with-param pos="1"/>
         </call-macro>
--->
+      
+    </def-macro>
 
-        <call-macro n="set_casevar">  
+
+    <def-macro n="pronoun_init" npar="1">
+    
+        <call-macro n="set_nbrvar">
+          <with-param pos="1"/>
+        </call-macro>
+
+        <call-macro n="set_genvar">  
+          <with-param pos="1"/>
+        </call-macro>
+    
+        <call-macro n="set_casevar_pronoun">  
           <with-param pos="1"/>
         </call-macro>
       
@@ -589,13 +641,16 @@
         <pattern-item n="noun"/>
       </pattern>
       <action>
+        <call-macro n="noun_init">
+          <with-param pos="1" />
+        </call-macro>
         <out>
           <chunk name="noun">
             <tags>
               <tag><lit-tag v="NP"/></tag>
-              <tag><clip pos="1" side="tl" part="gen"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-              <tag><clip pos="1" side="tl" part="case"/></tag>
+              <tag><var n="genvar"/></tag>
+              <tag><var n="nbrvar"/></tag>
+              <tag><var n="casevar"/></tag>
              </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -616,13 +671,16 @@
         <pattern-item n="prn"/>
       </pattern>
       <action>
+        <call-macro n="pronoun_init">
+          <with-param pos="1" />
+        </call-macro>
         <out>
           <chunk name="prn">
             <tags>
               <tag><lit-tag v="NP"/></tag>
-              <tag><clip pos="1" side="tl" part="gen"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-              <tag><clip pos="1" side="tl" part="case"/></tag>
+              <tag><var n="genvar"/></tag>
+              <tag><var n="nbrvar"/></tag>
+              <tag><var n="casevar"/></tag>
              </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
