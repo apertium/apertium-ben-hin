@@ -183,36 +183,41 @@
        <attr-item tags="fut"/>
        <attr-item tags="imp"/>
        <attr-item tags="impf"/>
-       <attr-item tags="pres.smpl"/>
-       <attr-item tags="pres.imp"/>
-       <attr-item tags="pres.cnt"/>
-       <attr-item tags="past.smpl"/>
-       <attr-item tags="past.cnt"/>
-       <attr-item tags="past.hbtl"/>
-       <attr-item tags="ft.smpl"/>
-       <attr-item tags="ft.imp"/>
+       <attr-item tags="past"/>
+       <attr-item tags="ft"/>
        <attr-item tags="plprft"/>
+    </def-attr>
+
+    <def-attr n="tense2">
+       <attr-item tags="smpl"/>
+       <attr-item tags="imp"/>
+       <attr-item tags="cnt"/>
+       <attr-item tags="hbtl"/>
     </def-attr>
 
     <def-attr n="pers">
        <attr-item tags="p1"/>
        <attr-item tags="p2"/>
-       <attr-item tags="p2.frm"/>
-       <attr-item tags="p2.fam"/>
-       <attr-item tags="p2.infml"/>
-       <attr-item tags="p2.pol"/>
        <attr-item tags="p3"/>
-       <attr-item tags="p3.infml"/>
-       <attr-item tags="p3.pol"/>
     </def-attr>
+
+    <def-attr n="pers2">
+       <attr-item tags="frm"/>
+       <attr-item tags="fam"/>
+       <attr-item tags="infml"/>
+       <attr-item tags="pol"/>
+    </def-attr>
+
   </section-def-attrs>
 
   <section-def-vars>
     <def-var n="tvvar"/>
     <def-var n="nbrvar"/>
-    <def-var n="persvar"/>
     <def-var n="casevar"/>
-    <def-var n="tensevar"/>
+    <def-var n="persvar1"/>
+    <def-var n="persvar2"/>
+    <def-var n="tensevar1"/>
+    <def-var n="tensevar2"/>
     <def-var n="genvar"/>
   </section-def-vars>
 
@@ -290,41 +295,32 @@
       </choose>
     </def-macro>
 
- <!--Macro to set the value of persvar-->
-<!--
+ <!--Macro to set the value of persvar1 and persvar2 -->
     <def-macro n="set_persvar" npar="1">
      <choose>
         <when>
           <test>
             <or>
-            <equal>
-              <clip part="pers" pos="1" side="tl"/>
-              <lit-tag v="p1"/>
-            </equal>
-            <equal>
-              <clip part="pers" pos="1" side="tl"/>
-              <lit-tag v="p2"/>
-            </equal>
-            <equal>
-              <clip part="pers" pos="1" side="tl"/>
-              <lit-tag v="p3"/>
-            </equal>
+              <equal><clip part="pers" pos="1" side="tl"/><lit-tag v="p2"/></equal>
+              <equal><clip part="pers" pos="1" side="tl"/><lit-tag v="p3"/></equal>
             </or>
           </test>
-        <let>
-              <var n="persvar"/>
-              <clip part="pers" pos="1" side="tl"/>
-        </let>
+          <let><var n="persvar1"/><clip part="pers" pos="1" side="tl"/></let>
+          <let><var n="persvar2"/><clip part="pers2" pos="1" side="tl"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip part="pers" pos="1" side="tl"/><lit-tag v="p1"/></equal>
+          </test>
+          <let><var n="persvar1"/><clip part="pers" pos="1" side="tl"/></let>
+          <let><var n="persvar2"/><lit-tag v=""/></let>
         </when>
         <otherwise>
-          <let>
-              <var n="persvar"/>
-              <lit-tag v="p3"/>
-          </let>
+          <let><var n="persvar1"/><lit-tag v=""/></let>
+          <let><var n="persvar2"/><lit-tag v=""/></let>
         </otherwise>
       </choose>
     </def-macro>
--->
 
 <!--Macro to set the value of casevar for nouns-->
 <!-- If the case in the source language (Hindi) exists in the target language (Bengali), we put it in "casevar"; otherwise "nom" is set as a guess for avoiding # in the output -->
@@ -431,6 +427,10 @@
         </call-macro>
     
         <call-macro n="set_casevar_pronoun">  
+          <with-param pos="1"/>
+        </call-macro>
+      
+        <call-macro n="set_persvar">  
           <with-param pos="1"/>
         </call-macro>
       
@@ -556,34 +556,40 @@
           <test>
             <equal><clip part="tense" pos="1" side="sl"/><lit-tag v="pres"/></equal>
           </test>
-          <let><var n="tensevar"/><lit-tag v="pres.smpl"/></let>
+          <let><var n="tensevar1"/><lit-tag v="pres"/></let>
+          <let><var n="tensevar2"/><lit-tag v="smpl"/></let>
         </when>
         <when>
           <test>
             <equal><clip part="tense" pos="1" side="sl"/><lit-tag v="prs"/></equal>
           </test>
-          <let><var n="tensevar"/><lit-tag v="pres.smpl"/></let>
+          <let><var n="tensevar1"/><lit-tag v="pres"/></let>
+          <let><var n="tensevar2"/><lit-tag v="smpl"/></let>
         </when>
         <when>
           <test>
             <equal><clip part="tense" pos="1" side="sl"/><lit-tag v="fut"/></equal>
           </test>
-          <let><var n="tensevar"/><lit-tag v="ft.smpl"/></let>
+          <let><var n="tensevar1"/><lit-tag v="ft"/></let>
+          <let><var n="tensevar2"/><lit-tag v="smpl"/></let>
         </when>
         <when>
           <test>
             <equal><clip part="tense" pos="1" side="sl"/><lit-tag v="imp"/></equal>
           </test>
-          <let><var n="tensevar"/><lit-tag v="past.smpl"/></let>
+          <let><var n="tensevar1"/><lit-tag v="past"/></let>
+          <let><var n="tensevar2"/><lit-tag v="smpl"/></let>
         </when>
         <when>
           <test>
             <equal><clip part="tense" pos="1" side="sl"/><lit-tag v="impf"/></equal>
           </test>
-          <let><var n="tensevar"/><lit-tag v="past.smpl"/></let>
+          <let><var n="tensevar1"/><lit-tag v="past"/></let>
+          <let><var n="tensevar2"/><lit-tag v="smpl"/></let>
         </when>
         <otherwise>
-          <let><var n="tensevar"/><clip part="tense" pos="1" side="sl"/></let>
+          <let><var n="tensevar1"/><clip part="tense" pos="1" side="sl"/></let>
+          <let><var n="tensevar2"/><lit-tag v="smpl"/></let>
         </otherwise>
       </choose>
     </def-macro>
@@ -594,22 +600,26 @@
           <test>
             <equal><clip part="pers" pos="1" side="sl"/><lit-tag v="p2.frm"/></equal>
           </test>
-          <let><var n="persvar"/><lit-tag v="p2.pol"/></let>
+          <let><var n="persvar1"/><lit-tag v="p2"/></let>
+          <let><var n="persvar2"/><lit-tag v="pol"/></let>
         </when>
         <when>
           <test>
             <equal><clip part="pers" pos="1" side="sl"/><lit-tag v="p2"/></equal>
           </test>
-          <let><var n="persvar"/><lit-tag v="p2.pol"/></let>
+          <let><var n="persvar1"/><lit-tag v="p2"/></let>
+          <let><var n="persvar2"/><lit-tag v="pol"/></let>
         </when>
         <when>
           <test>
             <equal><clip part="pers" pos="1" side="sl"/><lit-tag v="p3"/></equal>
           </test>
-          <let><var n="persvar"/><lit-tag v="p3.pol"/></let>
+          <let><var n="persvar1"/><lit-tag v="p3"/></let>
+          <let><var n="persvar2"/><lit-tag v="pol"/></let>
         </when>
         <otherwise>
-          <let><var n="persvar"/><clip part="pers" pos="1" side="sl"/></let>
+          <let><var n="persvar1"/><clip part="pers" pos="1" side="sl"/></let>
+          <let><var n="persvar2"/><lit-tag v=""/></let>
         </otherwise>
       </choose>
     </def-macro>
@@ -677,26 +687,86 @@
         <call-macro n="pronoun_init">
           <with-param pos="1" />
         </call-macro>
-        <out>
-          <chunk name="prn">
-            <tags>
-              <tag><lit-tag v="NP"/></tag>
-              <tag><var n="genvar"/></tag>
-              <tag><var n="nbrvar"/></tag>
-              <tag><var n="casevar"/></tag>
-             </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_prn"/>
-              <clip pos="1" side="tl" part="pers"/>
-              <clip pos="1" side="tl" part="anim"/>
-              <clip pos="1" side="tl" part="gen" link-to="2"/>
-              <clip pos="1" side="tl" part="nbr" link-to="3"/>
-              <clip pos="1" side="tl" part="case" link-to="4"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+        <choose>
+           <when>
+             <test>
+               <and>
+                 <equal><var n="persvar1"/><lit-tag v=""/></equal>
+                 <equal><var n="persvar2"/><lit-tag v=""/></equal>
+               </and>
+             </test>
+             <out>
+               <chunk name="prn">
+                 <tags>
+                   <tag><lit-tag v="NP"/></tag>
+                   <tag><var n="genvar"/></tag>
+                   <tag><var n="nbrvar"/></tag>
+                   <tag><var n="casevar"/></tag>
+                  </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="a_prn"/>
+                   <clip pos="1" side="tl" part="anim"/>
+                   <clip pos="1" side="tl" part="gen" link-to="2"/>
+                   <clip pos="1" side="tl" part="nbr" link-to="3"/>
+                   <clip pos="1" side="tl" part="case" link-to="4"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </when>
+           <when>
+             <test>
+               <equal><var n="persvar2"/><lit-tag v=""/></equal>
+             </test>
+             <out>
+               <chunk name="prn">
+                 <tags>
+                   <tag><lit-tag v="NP"/></tag>
+                   <tag><var n="genvar"/></tag>
+                   <tag><var n="nbrvar"/></tag>
+                   <tag><var n="casevar"/></tag>
+                   <tag><var n="persvar1"/></tag>
+                  </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="a_prn"/>
+                   <clip pos="1" side="tl" part="pers" link-to="5"/>
+                   <clip pos="1" side="tl" part="anim"/>
+                   <clip pos="1" side="tl" part="gen" link-to="2"/>
+                   <clip pos="1" side="tl" part="nbr" link-to="3"/>
+                   <clip pos="1" side="tl" part="case" link-to="4"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="prn">
+                 <tags>
+                   <tag><lit-tag v="NP"/></tag>
+                   <tag><var n="genvar"/></tag>
+                   <tag><var n="nbrvar"/></tag>
+                   <tag><var n="casevar"/></tag>
+                   <tag><var n="persvar1"/></tag>
+                   <tag><var n="persvar2"/></tag>
+                  </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="a_prn"/>
+                   <clip pos="1" side="tl" part="pers" link-to="5"/>
+                   <clip pos="1" side="tl" part="pers" link-to="6"/>
+                   <clip pos="1" side="tl" part="anim"/>
+                   <clip pos="1" side="tl" part="gen" link-to="2"/>
+                   <clip pos="1" side="tl" part="nbr" link-to="3"/>
+                   <clip pos="1" side="tl" part="case" link-to="4"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </otherwise>
+        </choose>
       </action>
     </rule>
 
@@ -711,22 +781,53 @@
         <call-macro n="change_pers">
           <with-param pos="1" />
         </call-macro>
-        <out>
-          <chunk name="vblex">
-            <tags>
-              <tag><lit-tag v="VP"/></tag>
-              <tag><var n="tensevar"/></tag>
-              <tag><var n="persvar"/></tag>
-             </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <var n="tensevar"/>
-              <var n="persvar"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+        <choose>
+           <when>
+             <test>
+               <equal><var n="persvar2"/><lit-tag v=""/></equal>
+             </test>
+             <out>
+              <chunk name="vblex">
+                <tags>
+                  <tag><lit-tag v="VP"/></tag>
+                  <tag><var n="tensevar1"/></tag>
+                  <tag><var n="tensevar2"/></tag>
+                  <tag><var n="persvar1"/></tag>
+                 </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <clip pos="1" side="tl" part="tense" link-to="2"/>
+                  <clip pos="1" side="tl" part="tense" link-to="3"/>
+                  <clip pos="1" side="tl" part="pers" link-to="4"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+             </out>
+           </when>
+           <otherwise>
+            <out>
+              <chunk name="vblex">
+                <tags>
+                  <tag><lit-tag v="VP"/></tag>
+                  <tag><var n="tensevar1"/></tag>
+                  <tag><var n="tensevar2"/></tag>
+                  <tag><var n="persvar1"/></tag>
+                  <tag><var n="persvar2"/></tag>
+                 </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <clip pos="1" side="tl" part="tense" link-to="2"/>
+                  <clip pos="1" side="tl" part="tense" link-to="3"/>
+                  <clip pos="1" side="tl" part="pers" link-to="4"/>
+                  <clip pos="1" side="tl" part="pers" link-to="5"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+           </otherwise>
+        </choose>
       </action>
     </rule>
 
@@ -764,22 +865,53 @@
         <call-macro n="change_pers">
           <with-param pos="2" />
         </call-macro>
-        <out>
-          <chunk name="vblex">
-            <tags>
-              <tag><lit-tag v="VP"/></tag>
-              <tag><var n="tensevar"/></tag>
-              <tag><var n="persvar"/></tag>
-             </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <var n="tensevar"/>
-              <var n="persvar"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+        <choose>
+           <when>
+             <test>
+               <equal><var n="persvar2"/><lit-tag v=""/></equal>
+             </test>
+             <out>
+               <chunk name="vblex">
+                 <tags>
+                   <tag><lit-tag v="VP"/></tag>
+                   <tag><var n="tensevar1"/></tag>
+                   <tag><var n="tensevar2"/></tag>
+                   <tag><var n="persvar1"/></tag>
+                  </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="a_verb"/>
+                   <clip pos="2" side="tl" part="tense" link-to="2"/>
+                   <clip pos="2" side="tl" part="tense" link-to="3"/>
+                   <clip pos="2" side="tl" part="pers" link-to="4"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="vblex">
+                 <tags>
+                   <tag><lit-tag v="VP"/></tag>
+                   <tag><var n="tensevar1"/></tag>
+                   <tag><var n="tensevar2"/></tag>
+                   <tag><var n="persvar1"/></tag>
+                   <tag><var n="persvar2"/></tag>
+                  </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="a_verb"/>
+                   <clip pos="2" side="tl" part="tense" link-to="2"/>
+                   <clip pos="2" side="tl" part="tense" link-to="3"/>
+                   <clip pos="2" side="tl" part="pers" link-to="4"/>
+                   <clip pos="2" side="tl" part="pers" link-to="5"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </otherwise>
+        </choose>
       </action>
     </rule>
 
