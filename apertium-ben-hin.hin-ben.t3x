@@ -1,27 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <postchunk>
   <section-def-cats>
-    <def-cat n="sent">
-      <cat-item name="punt"/>
+    <def-cat n="vblex_PD">
+      <cat-item name="vblex"/>
     </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
-    <def-attr n="nbr">
-      <attr-item tags="sg"/>
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
     </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
-    <def-var n="paraula"/>
+    <def-var n="word"/>
   </section-def-vars>
 
   <section-rules>
-    <rule comment="CHUNK:">
+    <rule comment="default PD setting">
       <pattern>
-        <pattern-item n="sent"/>
+        <pattern-item n="vblex_PD"/>
       </pattern>
       <action>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" part="pers"/><lit-tag v="PD"/></equal>
+            </test>
+            <let><clip pos="1" part="pers"/><lit-tag v="p3"/></let>
+          </when>
+        </choose>
         <out>
           <lu>
             <clip pos="1" part="whole"/>

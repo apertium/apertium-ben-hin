@@ -49,6 +49,12 @@
     <def-cat n="vblex_impf">
       <cat-item tags="vblex.*.impf.*"/>
     </def-cat>
+    <def-cat n="vblex_perf">
+      <cat-item tags="vblex.*.perf.*"/>
+    </def-cat>
+    <def-cat n="vbser_past">
+     <cat-item tags="vbser.past.*"/>
+    </def-cat>
     <def-cat n="vbser_pres_pers">
       <cat-item tags="vbser.pres.p1.*"/>
       <cat-item tags="vbser.pres.p2.*"/>
@@ -199,6 +205,7 @@
        <attr-item tags="p1"/>
        <attr-item tags="p2"/>
        <attr-item tags="p3"/>
+       <attr-item tags="PD"/>
     </def-attr>
 
     <def-attr n="pers2">
@@ -770,6 +777,8 @@
       </action>
     </rule>
 
+<!-- VERB RULES -->
+
    <rule comment="RULE: VERB (conjugated)">
       <pattern>
         <pattern-item n="verb_pers"/>
@@ -861,6 +870,33 @@
       </action>
     </rule>
 
+   <rule comment="RULE: vblex.perf + vbser.past > vblex.plprft">
+      <pattern>
+        <pattern-item n="vblex_perf"/>
+        <pattern-item n="vbser_past"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="vblex">
+            <tags>
+              <tag><lit-tag v="VP"/></tag>
+              <tag><lit-tag v="plprft"/></tag>
+              <tag><lit-tag v="PD"/></tag>
+              <tag><lit-tag v="pol"/></tag>
+             </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              <lit-tag v="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="RULE: adj + vbser.pres.pers → adj (Eg: सुभाष लम्बा है → সুভাষ লম্বা)">
       <pattern>
         <pattern-item n="adj"/>
@@ -882,6 +918,8 @@
         </out>
       </action>
     </rule>
+
+<!-- NOUN PHRASE RULES -->
 
     <rule comment="RULE: noun.nom + post → noun.gen + post (Eg: रहीम से → রাহিমের থেকে)">
       <pattern>
