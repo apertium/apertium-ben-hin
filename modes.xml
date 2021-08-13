@@ -83,6 +83,10 @@
         <file name="apertium-ben-hin.hin-ben.t3x"/>
         <file name="hin-ben.t3x.bin"/>
       </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-ben-hin.hin-ben.t4x"/>
+        <file name="hin-ben.t4x.bin"/>
+      </program>
       <program name="lt-proc $1">
         <file name="hin-ben.autogen.bin"/>
       </program>

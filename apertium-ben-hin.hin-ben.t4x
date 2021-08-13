@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<transfer>
+  <section-def-cats>
+
+    <!-- this shouldn't include 'sent' or other punctuation -->
+    <def-cat n="default">
+      <cat-item tags="*"/>
+      <cat-item tags=""/>
+    </def-cat>
+    <def-cat n="vblex_p1pol">
+      <cat-item tags="vblex.*.p1.pol"/>
+      <cat-item tags="vblex.*.p1.pol.*"/>
+    </def-cat>
+  </section-def-cats>
+
+  <section-def-attrs>
+    <def-attr n="p1pol">
+      <attr-item tags="p1.pol"/>
+    </def-attr>
+  </section-def-attrs>
+
+  <section-rules>
+    <rule comment="RULE: removing tag 'pol' in 'p1.pol'">
+      <pattern>
+        <pattern-item n="vblex_p1pol"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="p1pol"/><lit-tag v="p1"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+  </section-rules>
+</transfer>
