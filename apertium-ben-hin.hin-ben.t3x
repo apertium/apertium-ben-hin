@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <postchunk>
   <section-def-cats>
-    <def-cat n="vblex_PD">
+    <def-cat n="vblex">
       <cat-item name="vblex"/>
     </def-cat>
   </section-def-cats>
@@ -13,6 +13,12 @@
       <attr-item tags="p3"/>
       <attr-item tags="PD"/>
     </def-attr>
+    <def-attr n="honour">
+       <attr-item tags="fam"/>
+       <attr-item tags="infml"/>
+       <attr-item tags="pol"/>
+       <attr-item tags="HD"/>
+    </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
@@ -20,9 +26,9 @@
   </section-def-vars>
 
   <section-rules>
-    <rule comment="default PD setting">
+    <rule comment="default PD and HD setting">
       <pattern>
-        <pattern-item n="vblex_PD"/>
+        <pattern-item n="vblex"/>
       </pattern>
       <action>
         <choose>
@@ -31,6 +37,24 @@
               <equal><clip pos="1" part="pers"/><lit-tag v="PD"/></equal>
             </test>
             <let><clip pos="1" part="pers"/><lit-tag v="p3"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" part="honour"/><lit-tag v="HD"/></equal>
+            </test>
+            <choose>
+              <when>
+                <test>
+                  <equal><clip pos="1" part="pers"/><lit-tag v="p3"/></equal>
+                </test>
+                <let><clip pos="1" part="honour"/><lit-tag v="infml"/></let>
+              </when>
+              <otherwise>
+                <let><clip pos="1" part="honour"/><lit-tag v="pol"/></let>
+              </otherwise>
+            </choose>
           </when>
         </choose>
         <out>

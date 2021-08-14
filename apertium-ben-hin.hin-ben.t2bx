@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interchunk>
   <section-def-cats>
-    <def-cat n="NP">
-      <cat-item tags="NP"/>
-      <cat-item tags="NP.*"/>
+    <def-cat n="prn_pers_nom">
+      <cat-item tags="NP.*.nom.p1"/>
+      <cat-item tags="NP.*.nom.p2"/>
+      <cat-item tags="NP.*.nom.p3"/>
+      <cat-item tags="NP.*.nom.p1.*"/>
+      <cat-item tags="NP.*.nom.p2.*"/>
+      <cat-item tags="NP.*.nom.p3.*"/>
+    </def-cat>
+
+    <def-cat n="noun_nom">
+      <cat-item tags="NP.*.nom"/>
+    </def-cat>
+
+    <def-cat n="vblex_PD">
+      <cat-item tags="VP.*.PD.*"/>
+    </def-cat>
+
+    <def-cat n="vblex_p3">
+      <cat-item tags="VP.*.p3.*"/>
+      <cat-item tags="VP.*.PD.*"/>
     </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
+    <def-attr n="pers">
+       <attr-item tags="p1"/>
+       <attr-item tags="p2"/>
+       <attr-item tags="p3"/>
+       <attr-item tags="PD"/>
+    </def-attr>
+
+    <def-attr n="honour">
+       <attr-item tags="fam"/>
+       <attr-item tags="infml"/>
+       <attr-item tags="pol"/>
+       <attr-item tags="HD"/>
+    </def-attr>
+
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
     </def-attr>
+
     <def-attr n="case">
       <attr-item tags="nom"/>
       <attr-item tags="dat"/>
@@ -29,55 +61,168 @@
   </section-def-vars>
 
   <section-def-macros>
-    <def-macro n="test1" npar="1">
-      <let>
-        <var n="number"/>
-        <lit v=""/>
-      </let>
+    <def-macro n="np_vblex_agreement" npar="2"> <!-- par1 = prn, par2 = verb -->
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="2" part="pers"/><lit-tag v="PD"/></equal>
+          </test>
+          <choose>
+            <when>
+              <test>
+                <equal><clip pos="1" part="pers"/><lit v=""/></equal>
+              </test>
+              <let><clip pos="2" part="pers"/><lit-tag v="p3"/></let>
+            </when>
+            <otherwise>
+              <let><clip pos="2" part="pers"/><clip pos="1" part="pers"/></let>
+            </otherwise>
+          </choose>
+        </when>
+      </choose>
+
+<!-- possibilities for vblex:
+p1
+p2.fam
+p2.pol
+p2.infml
+p3.pol
+p3.infml
+-->
+      <choose>
+        <when>
+          <test>
+            <or>
+              <equal><clip pos="1" part="pers"/><lit-tag v="p1"/></equal>
+              <equal><clip pos="1" part="pers"/><lit-tag v="p2"/></equal>
+            </or>
+          </test>
+          <choose>
+           <when>
+             <test>
+               <or>
+                 <equal><clip pos="1" part="honour"/><lit-tag v="fam"/></equal>
+                 <equal><clip pos="1" part="honour"/><lit-tag v="infml"/></equal>
+                 <equal><clip pos="1" part="honour"/><lit-tag v="pol"/></equal>
+               </or>
+             </test>
+             <let><clip pos="2" part="honour"/><clip pos="1" part="honour"/></let>
+           </when>
+           <otherwise>
+             <let><clip pos="2" part="honour"/><lit-tag v="pol"/></let>
+           </otherwise>
+         </choose>
+        </when>
+        <otherwise>
+           <choose>
+             <when>
+               <test>
+                 <or>
+                   <equal><clip pos="1" part="honour"/><lit-tag v="pol"/></equal>
+                   <equal><clip pos="1" part="anim"/><lit-tag v="hu"/></equal>
+                   <equal><clip pos="1" part="anim"/><lit-tag v="el"/></equal>
+                   <and> <!-- this is for pronouns we don't know whether they stand for a human or not -->
+                     <equal><clip pos="1" part="lem"/><lit v="prn"/></equal>
+                     <equal><clip pos="1" part="anim"/><lit-tag v="an"/></equal>
+                   </and>
+                 </or>
+               </test>
+               <let><clip pos="2" part="honour"/><lit-tag v="pol"/></let>
+             </when>
+             <otherwise>
+               <let><clip pos="1" part="honour"/><lit-tag v="infml"/></let>
+             </otherwise>
+           </choose>
+        </otherwise>
+      </choose>
+
+      <!-- if, for some reason, we still have HD -->
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="2" part="honour"/><lit-tag v="HD"/></equal>
+          </test>
+          <choose>
+            <when>
+              <test>
+                <equal><clip pos="1" part="pers"/><lit-tag v="p3"/></equal>
+              </test>
+              <let><clip pos="2" part="honour"/><lit-tag v="infml"/></let>
+            </when>
+            <otherwise>
+              <let><clip pos="2" part="honour"/><lit-tag v="pol"/></let>
+            </otherwise>
+          </choose>
+        </when>
+      </choose>
     </def-macro>
   </section-def-macros>
 
   <section-rules>
-    <rule comment="RULE: NP">
+    <rule comment="RULE: personal pronoun in nominative + verb with PD = agreement">
       <pattern>
-        <pattern-item n="NP"/>
+        <pattern-item n="prn_pers_nom"/>
+        <pattern-item n="vblex_PD"/>
       </pattern>
       <action>
-
-<!-- This is only a temporary patch that changes the oblique case (which does not exist in Bengali) to the nominative case, which does exist. -->
       <choose>
         <when>
           <test>
-            <equal><clip pos="1" part="case"/><lit-tag v="obl"/></equal>
+            <equal><clip pos="1" part="lem"/><lit v="prn"/></equal>
           </test>
-          <let><clip pos="1" part="case"/><lit-tag v="nom"/></let>
-        </when>
-
-        <when>
-          <test>
-            <equal><clip pos="1" part="case"/><lit-tag v="erg"/></equal>
-          </test>
-          <let><clip pos="1" part="case"/><lit-tag v="nom"/></let>
-        </when>
-        <when>
-          <test>
-            <equal><clip pos="1" part="case"/><lit-tag v="dat"/></equal>
-          </test>
-          <let><clip pos="1" part="case"/><lit-tag v="obj"/></let>
-        </when>
-        <when>
-          <test>
-            <equal><clip pos="1" part="case"/><lit-tag v="ins"/></equal>
-          </test>
-          <let><clip pos="1" part="case"/><lit-tag v="obj"/></let>
+          <call-macro n="np_vblex_agreement">
+            <with-param pos="1"/>
+            <with-param pos="2"/>
+          </call-macro>
         </when>
       </choose>
-
         <out>
           <chunk>
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>
             <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RULE: noun in nominative + verb in p3 = agreement">
+      <pattern>
+        <pattern-item n="noun_nom"/>
+        <pattern-item n="vblex_p3"/>
+      </pattern>
+      <action>
+      <choose>
+        <when>
+          <test>
+            <or>
+              <equal><clip pos="1" part="lem"/><lit v="noun"/></equal>
+              <equal><clip pos="1" part="lem"/><lit v="pn"/></equal>
+            </or>
+          </test>
+          <call-macro n="np_vblex_agreement">
+            <with-param pos="1"/>
+            <with-param pos="2"/>
+          </call-macro>
+        </when>
+      </choose>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
           </chunk>
         </out>
       </action>
