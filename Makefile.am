@@ -27,7 +27,8 @@ TARGETS_COMMON =		\
 	$(PREFIX2).autolex.bin	\
 	$(PREFIX2).autogen.bin	\
 	$(PREFIX2).t1x.bin	\
-	$(PREFIX2).t2x.bin	\
+	$(PREFIX2).t2ax.bin	\
+	$(PREFIX2).t2bx.bin	\
 	$(PREFIX2).t3x.bin	\
 	$(PREFIX2).t4x.bin
 
@@ -139,7 +140,11 @@ $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
-$(PREFIX2).t2x.bin: $(BASENAME).$(PREFIX2).t2x
+$(PREFIX2).t2ax.bin: $(BASENAME).$(PREFIX2).t2ax
+	apertium-validate-interchunk $<
+	apertium-preprocess-transfer $< $@
+
+$(PREFIX2).t2bx.bin: $(BASENAME).$(PREFIX2).t2bx
 	apertium-validate-interchunk $<
 	apertium-preprocess-transfer $< $@
 
@@ -173,7 +178,8 @@ EXTRA_DIST=					\
 		$(BASENAME).$(PREFIX1).t2x	\
 		$(BASENAME).$(PREFIX1).t3x	\
 		$(BASENAME).$(PREFIX2).t1x	\
-		$(BASENAME).$(PREFIX2).t2x	\
+		$(BASENAME).$(PREFIX2).t2ax	\
+		$(BASENAME).$(PREFIX2).t2bx	\
 		$(BASENAME).$(PREFIX2).t3x	\
 		$(BASENAME).$(PREFIX2).t4x	\
 		modes.xml
@@ -191,7 +197,8 @@ apertium_ben_hin_DATA=	\
 	$(BASENAME).$(PREFIX1).t2x			\
 	$(BASENAME).$(PREFIX1).t3x			\
 	$(BASENAME).$(PREFIX2).t1x			\
-	$(BASENAME).$(PREFIX2).t2x			\
+	$(BASENAME).$(PREFIX2).t2ax			\
+	$(BASENAME).$(PREFIX2).t2bx			\
 	$(BASENAME).$(PREFIX2).t3x			\
 	$(BASENAME).$(PREFIX2).t4x
 

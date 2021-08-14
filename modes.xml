@@ -75,9 +75,13 @@
         <file name="apertium-ben-hin.hin-ben.t1x"/>
         <file name="hin-ben.t1x.bin"/>
       </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-ben-hin.hin-ben.t2x"/>
-        <file name="hin-ben.t2x.bin"/>
+      <program name="apertium-interchunk" debug-suff="interchunka">
+        <file name="apertium-ben-hin.hin-ben.t2ax"/>
+        <file name="hin-ben.t2ax.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunkb">
+        <file name="apertium-ben-hin.hin-ben.t2bx"/>
+        <file name="hin-ben.t2bx.bin"/>
       </program>
       <program name="apertium-postchunk">
         <file name="apertium-ben-hin.hin-ben.t3x"/>
