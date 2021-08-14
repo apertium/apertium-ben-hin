@@ -190,7 +190,6 @@
        <attr-item tags="imp"/>
        <attr-item tags="impf"/>
        <attr-item tags="past"/>
-       <attr-item tags="ft"/>
        <attr-item tags="plprft"/>
     </def-attr>
 
@@ -577,7 +576,7 @@
           <test>
             <equal><clip part="tense" pos="1" side="sl"/><lit-tag v="fut"/></equal>
           </test>
-          <let><var n="tensevar1"/><lit-tag v="ft"/></let>
+          <let><var n="tensevar1"/><lit-tag v="fut"/></let>
           <let><var n="tensevar2"/><lit-tag v="smpl"/></let>
         </when>
         <when>
