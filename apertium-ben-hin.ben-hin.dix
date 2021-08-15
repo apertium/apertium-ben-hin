@@ -1912,11 +1912,11 @@
 
      <!--Need to Test, Having some errors--> 
 
-      <e><p><l>দাও<s n="vblex"/></l><r>दे<s n="vblex"/><s n="tv"/></r></p></e>  <!--#-->
-      <e><p><l>এসো<s n="vblex"/></l><r>आ<s n="vblex"/><s n="iv"/></r></p></e>  <!--#-->
-      <e><p><l>বলুন<s n="vblex"/></l><r>कह<s n="vblex"/><s n="tv"/></r></p></e>  <!--#-->
+      <e><p><l>দে<s n="vblex"/></l><r>दे<s n="vblex"/><s n="tv"/></r></p></e>  <!--#-->
+      <e><p><l>আস<s n="vblex"/></l><r>आ<s n="vblex"/><s n="iv"/></r></p></e>  <!--#-->
+      <e><p><l>বল<s n="vblex"/></l><r>कह<s n="vblex"/><s n="tv"/></r></p></e>  <!--#-->
       <e><p><l>গ্রহণ করা<s n="vblex"/></l><r>ले<s n="vblex"/><s n="tv"/></r></p></e>
-      <e><p><l>দেখা কর<s n="vblex"/></l><r>मिल<s n="vblex"/><s n="tv"/></r></p></e>  <!--#-->
+      <e><p><l>দেখ<s n="vblex"/></l><r>मिल<s n="vblex"/><s n="tv"/></r></p></e>  <!--#-->
       <e><p><l>নেওয়া<s n="vblex"/></l><r>ले<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>হয়ে যাওয়া<s n="vblex"/></l><r>हो जा<s n="vblex"/><s n="iv"/></r></p></e> 
       <e><p><l>লিখুন<s n="vblex"/></l><r>लिख<s n="vblex"/><s n="tv"/></r></p></e>
@@ -1928,9 +1928,9 @@
       <e><p><l>হত্তয়া<s n="vblex"/></l><r>बन<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>অনুভূত<s n="vblex"/></l><r>लगा<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>বলা হচ্ছে<s n="vblex"/></l><r>कहा जा<s n="vblex"/><s n="iv"/></r></p></e>
-      <e><p><l>বোঝা<s n="vblex"/></l><r>समझ<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>বুঝ<s n="vblex"/></l><r>समझ<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>ভরা<s n="vblex"/></l><r>भर<s n="vblex"/><s n="tv"/></r></p></e>
-      <e><p><l>চলা<s n="vblex"/></l><r>चलना<s n="vblex"/><s n="tv"/></r></p></e>  <!--ben-hin, hin-ben #-->
+      <e><p><l>চল<s n="vblex"/></l><r>चलना<s n="vblex"/><s n="tv"/></r></p></e>  <!--ben-hin, hin-ben #-->
      
       <!---->
 
