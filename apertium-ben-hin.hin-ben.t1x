@@ -25,8 +25,17 @@
       <cat-item tags="adj.*"/>
     </def-cat>
 
+    <def-cat n="adv">
+      <cat-item tags="adv"/>
+    </def-cat>
+
     <def-cat n="prn">
       <cat-item tags="prn.*"/>
+    </def-cat>
+
+    <def-cat n="num">
+      <cat-item tags="num"/>
+      <cat-item tags="num.*"/>
     </def-cat>
 
     <def-cat n="verb">
@@ -86,6 +95,30 @@
 
     <def-cat n="post">
       <cat-item tags="post"/>
+    </def-cat>
+
+    <def-cat n="cnjadv">
+      <cat-item tags="cnjadv"/>
+    </def-cat>
+
+    <def-cat n="cnjcoo">
+      <cat-item tags="cnjcoo"/>
+    </def-cat>
+
+    <def-cat n="cnjsub">
+      <cat-item tags="cnjsub"/>
+    </def-cat>
+
+    <def-cat n="cm">
+      <cat-item tags="cm"/>
+    </def-cat>
+
+    <def-cat n="lpar">
+      <cat-item tags="lpar"/>
+    </def-cat>
+
+    <def-cat n="rpar">
+      <cat-item tags="rpar"/>
     </def-cat>
 
     <def-cat n="sent">
@@ -868,6 +901,115 @@
       </action>
     </rule>
 
+    <rule comment="RULE: ADV">
+      <pattern>
+        <pattern-item n="adv"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="adv">
+            <tags>
+              <tag><lit-tag v="adv"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RULE: POST">
+      <pattern>
+        <pattern-item n="post"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="post">
+            <tags>
+              <tag><lit-tag v="post"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RULE: CNJADV">
+      <pattern>
+        <pattern-item n="cnjadv"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="cnjadv">
+            <tags>
+              <tag><lit-tag v="cnjadv"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RULE: CNJCOO">
+      <pattern>
+        <pattern-item n="cnjcoo"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="cnjcoo">
+            <tags>
+              <tag><lit-tag v="cnjcoo"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RULE: CNJSUB">
+      <pattern>
+        <pattern-item n="cnjsub"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="cnjsub">
+            <tags>
+              <tag><lit-tag v="cnjsub"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RULE: NUM">
+      <pattern>
+        <pattern-item n="num"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="num">
+            <tags>
+              <tag><lit-tag v="NUM"/></tag>
+              <tag><clip pos="1" side="tl" part="anim"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 <!-- VERB RULES -->
 
    <rule comment="RULE: VERB (conjugated)">
@@ -1059,13 +1201,67 @@
       </action>
     </rule>
   
+    <rule comment="RULE: LPAR">
+      <pattern>
+        <pattern-item n="lpar"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="lpar">
+            <tags>
+              <tag><lit-tag v="lpar"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RULE: RPAR">
+      <pattern>
+        <pattern-item n="rpar"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="rpar">
+            <tags>
+              <tag><lit-tag v="rpar"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RULE: CM">
+      <pattern>
+        <pattern-item n="cm"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="cm">
+            <tags>
+              <tag><lit-tag v="cm"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="RULE: SENT">
       <pattern>
         <pattern-item n="sent"/>
       </pattern>
       <action>
         <out>
-          <chunk name="sent" case="caseFirstWord">
+          <chunk name="sent">
             <tags>
               <tag><lit-tag v="SENT"/></tag>
             </tags>
