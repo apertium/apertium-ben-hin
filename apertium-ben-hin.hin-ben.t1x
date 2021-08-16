@@ -17,7 +17,11 @@
     <def-cat n="noun_nom">
       <cat-item tags="n.*.nom"/>
       <cat-item tags="n.*.nom.*"/>
-      <cat-item tags="np.*.nom"/>
+    </def-cat>
+
+    <def-cat n="noun_obl">
+      <cat-item tags="n.*.obl"/>
+      <cat-item tags="n.*.obl.*"/>
     </def-cat>
 
     <def-cat n="adj">
@@ -274,6 +278,28 @@
     <def-var n="genvar"/>
     <def-var n="animvar"/>
   </section-def-vars>
+
+  <section-def-lists>
+    <def-list n="post_obj">
+      <list-item v="করে"/>
+      <list-item v="ছাড়া"/>
+      <list-item v="থেকে"/>
+      <list-item v="দিয়ে"/>
+      <list-item v="নিয়ে"/>
+      <list-item v="পর্যন্ত"/>
+      <list-item v="সহ"/>
+      <list-item v="হয়ে"/>
+      <list-item v="দ্বারা"/>
+      <list-item v="এর"/>
+      <list-item v="দিকে"/>
+      <list-item v="ছাড়া"/>
+      <list-item v="হতে"/>
+      <list-item v="সত্বেও"/>
+      <list-item v="বনাম"/>
+      <list-item v="অনুসারে"/>
+      <list-item v="এবং"/>
+    </def-list>
+  </section-def-lists>
 
   <section-def-macros>
 
@@ -1181,35 +1207,42 @@
 
 <!-- NOUN PHRASE RULES -->
 
-    <rule comment="RULE: noun.nom + post → noun.gen + post (Eg: रहीम से → রাহিমের থেকে)">
+    <rule comment="RULE: noun.obj + post → noun.gen/obj + post">
       <pattern>
-        <pattern-item n="noun_nom"/>
+        <pattern-item n="noun_obl"/>
         <pattern-item n="post"/>
       </pattern>
       <action>
         <call-macro n="noun_init">
           <with-param pos="1" />
         </call-macro>
-      
-           <let>
-              <var n ="casevar"/>
-              <lit-tag v="gen"/>
-            </let>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes"><clip pos="2" side="tl" part="lem"/><list n="post_obj"/></in>
+            </test>
+            <let><var n ="casevar"/><lit-tag v="obj"/></let>
+          </when>
+          <otherwise>
+            <let><var n ="casevar"/><lit-tag v="gen"/></let>
+          </otherwise>
+        </choose>
         <out>
           <chunk name="noun">
             <tags>
               <tag><lit-tag v="NP"/></tag>
+              <tag><clip pos="1" side="tl" part="anim"/></tag>
               <tag><var n="genvar"/></tag>
               <tag><var n="nbrvar"/></tag>
               <tag><var n="casevar"/></tag>
-            </tags>
+             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_n"/>
-              <clip pos="1" side="tl" part="gen" link-to="2"/>
+              <clip pos="1" side="tl" part="gen" link-to="3"/>
               <clip pos="1" side="tl" part="anim"/>
-              <clip pos="1" side="tl" part="nbr" link-to="3"/>
-              <clip pos="1" side="tl" part="case" link-to="4"/>
+              <clip pos="1" side="tl" part="nbr" link-to="4"/>
+              <clip pos="1" side="tl" part="case" link-to="5"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -1219,9 +1252,7 @@
               <tag><lit-tag v="post"/></tag>
             </tags>
             <lu>
-            <clip pos="2" side="tl" part="lemh"/>
-            <clip pos="2" side="tl" part="a_post"/>
-            <clip pos="2" side="tl" part="lemq"/>
+            <clip pos="2" side="tl" part="whole"/>
           </lu>
           </chunk>
         </out>
