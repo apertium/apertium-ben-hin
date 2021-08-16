@@ -1916,11 +1916,11 @@
       <e><p><l>বল<s n="vblex"/></l><r>कह<s n="vblex"/><s n="tv"/></r></p></e>  <!--#-->
       <e><p><l>গ্রহণ করা<s n="vblex"/></l><r>ले<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>দেখ<s n="vblex"/></l><r>मिल<s n="vblex"/><s n="tv"/></r></p></e>  <!--#-->
-      <e><p><l>নেওয়া<s n="vblex"/></l><r>ले<s n="vblex"/><s n="tv"/></r></p></e>
-      <e><p><l>হয়ে যাওয়া<s n="vblex"/></l><r>हो जा<s n="vblex"/><s n="iv"/></r></p></e> 
-      <e><p><l>লিখুন<s n="vblex"/></l><r>लिख<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>নেওয়া<s n="vblex"/></l><r>ले<s n="vblex"/><s n="tv"/></r></p></e>		<!-- ERROR: The Bengali verb is not defined in the monodix -->
+      <e><p><l>হয়ে যাওয়া<s n="vblex"/></l><r>हो जा<s n="vblex"/><s n="iv"/></r></p></e> 		<!-- ERROR: The Bengali verb is not defined in the monodix -->
+      <e><p><l>লিখুন<s n="vblex"/></l><r>लिख<s n="vblex"/><s n="tv"/></r></p></e>		<!-- ERROR: The Bengali verb is not defined in the monodix -->
       <e><p><l>তৈরি<s n="vblex"/></l><r>बना<s n="vblex"/><s n="tv"/></r></p></e>
-      <e><p><l>রাখা<s n="vblex"/></l><r>रख<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>রাখা<s n="vblex"/></l><r>रख<s n="vblex"/><s n="tv"/></r></p></e>		<!-- ERROR: The Bengali verb is not defined in the monodix -->
       <e><p><l>হ্যাঁ<s n="vblex"/></l><r>जी<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>পড়<s n="vblex"/></l><r>पड़<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>মান<s n="vblex"/></l><r>मान<s n="vblex"/><s n="tv"/></r></p></e>
