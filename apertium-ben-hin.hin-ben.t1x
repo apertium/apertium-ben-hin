@@ -76,7 +76,13 @@
       <cat-item tags="vbser.pres.p1.*"/>
       <cat-item tags="vbser.pres.p2.*"/>
       <cat-item tags="vbser.pres.p3.*"/>
+    </def-cat>   
+    <def-cat n="verb_gna">
+     <cat-item tags="vblex.*.gna"/>
+     <cat-item tags="vbser.*.gna"/>
+     <cat-item tags="vaux.*.gna"/>
     </def-cat>
+
 
     <def-cat n="ppst">
       <cat-item tags="vbser.ppst"/>
@@ -1145,6 +1151,27 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_adj"/>
             <lit-tag v="mf"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+  <rule comment="Rule: vblex.gna > vblex.pcnd (बोलकर > বলে)">
+      <pattern>
+        <pattern-item n="verb_gna"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="vblex">
+            <tags>
+              <tag><lit-tag v="VP"/></tag>
+             </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <lit-tag v="pcnd"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
           </chunk>
