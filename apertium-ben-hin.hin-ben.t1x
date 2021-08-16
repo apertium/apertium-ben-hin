@@ -83,8 +83,8 @@
     </def-cat>   
     <def-cat n="verb_gna">
      <cat-item tags="vblex.*.gna"/>
-     <cat-item tags="vbser.*.gna"/>
-     <cat-item tags="vaux.*.gna"/>
+     <cat-item tags="vbser.gna"/>
+     <cat-item tags="vaux.gna"/>
     </def-cat>
 
 
