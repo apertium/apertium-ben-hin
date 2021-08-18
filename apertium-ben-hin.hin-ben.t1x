@@ -87,6 +87,9 @@
      <cat-item tags="vaux.gna"/>
     </def-cat>
 
+    <def-cat n="vblex_stem">
+      <cat-item tags="vblex.*.stem"/>
+    </def-cat>
 
     <def-cat n="ppst">
       <cat-item tags="vbser.ppst"/>
