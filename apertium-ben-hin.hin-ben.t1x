@@ -76,6 +76,9 @@
     <def-cat n="vbser_past">
      <cat-item tags="vbser.past.*"/>
     </def-cat>
+    <def-cat n="vbser">
+     <cat-item tags="vbser.*"/>
+    </def-cat>
     <def-cat n="vbser_pres_pers">
       <cat-item tags="vbser.pres.p1.*"/>
       <cat-item tags="vbser.pres.p2.*"/>
@@ -89,6 +92,15 @@
 
     <def-cat n="vblex_stem">
       <cat-item tags="vblex.*.stem"/>
+    </def-cat>
+
+    <def-cat n="गया_perf"> 
+      <!--gya--> 
+      <cat-item lemma="जा" tags="vblex.*.perf.*"/>
+      <!--liya-->
+      <cat-item lemma="ले" tags="vblex.*.perf.*"/>
+      <!--diya-->
+      <cat-item lemma="दे" tags="vblex.*.perf.*"/>
     </def-cat>
 
     <def-cat n="ppst">
@@ -1207,6 +1219,33 @@
         </out>
       </action>
     </rule>
+
+     <rule comment="Rule: vblex.stem + गया_perf > vblex(stem).prft">
+     <pattern>
+       <pattern-item n="vblex_stem"/>
+       <pattern-item n="गया_perf"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="vblex">
+           <tags>
+             <tag><lit-tag v="VP"/></tag>
+             <tag><lit-tag v="prft"/></tag>
+             <tag><lit-tag v="PD"/></tag>
+             <tag><lit-tag v="HD"/></tag>
+            </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_verb"/>
+           <lit-tag v="2"/>
+           <lit-tag v="3"/>
+           <lit-tag v="4"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         </chunk>
+       </out>
+     </action>
+   </rule>
 
 <!-- NOUN PHRASE RULES -->
 
