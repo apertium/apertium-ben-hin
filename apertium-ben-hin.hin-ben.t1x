@@ -103,6 +103,11 @@
       <cat-item lemma="दे" tags="vblex.*.perf.*"/>
     </def-cat>
 
+    <def-cat n="रहा_perf">
+     <!--rha-->
+     <cat-item lemma="रह" tags="vaux.perf.*"/>
+   </def-cat>
+
     <def-cat n="ppst">
       <cat-item tags="vbser.ppst"/>
     </def-cat>
@@ -1220,7 +1225,7 @@
       </action>
     </rule>
 
-     <rule comment="Rule: vblex.stem + गया_perf > vblex(stem).prft">
+   <rule comment="Rule: vblex.stem + गया_perf > vblex(stem).prft">
      <pattern>
        <pattern-item n="vblex_stem"/>
        <pattern-item n="गया_perf"/>
@@ -1246,6 +1251,37 @@
        </out>
      </action>
    </rule>
+
+   <rule comment="Rule: vblex.stem + रहा_perf > vblex(stem).prft">
+     <pattern>
+       <pattern-item n="vblex_stem"/>
+       <pattern-item n="रहा_perf"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="vblex">
+           <tags>
+             <tag><lit-tag v="VP"/></tag>
+             <tag><lit-tag v="pres"/></tag>
+             <tag><lit-tag v="cnt"/></tag>
+             <tag><lit-tag v="PD"/></tag>
+             <tag><lit-tag v="HD"/></tag>
+            </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_verb"/>
+           <lit-tag v="2"/>
+           <lit-tag v="3"/>
+           <lit-tag v="4"/>
+           <lit-tag v="5"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         </chunk>
+       </out>
+     </action>
+   </rule>
+
+
 
 <!-- NOUN PHRASE RULES -->
 

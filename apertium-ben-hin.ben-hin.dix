@@ -1929,7 +1929,9 @@
       <e><p><l>ভরা<s n="vblex"/></l><r>भर<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>চল<s n="vblex"/></l><r>चलना<s n="vblex"/><s n="tv"/></r></p></e>  <!--ben-hin, hin-ben #-->
      
-      <!---->
+      <!--One way dix entry for transfer rules--> 
+      <e r="RL"><p><l>থাকা<s n="vblex"/></l><r>रह<s n="vaux"/></r></p></e>
+
 
     <!-- SECTION: Punctuation -->
 
