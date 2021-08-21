@@ -1800,21 +1800,15 @@
     <e><p><l>নিজে<s n="prn" /><s n="ref" /><s n="mf" /><s n="pl" /></l><r>अपने<s n="prn" /><s n="ref" /><s n="mf" /><s n="pl" /></r></p></e> 
 
     <!--Relative-->
-    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="infml" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="sg" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
-    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="pol" /><s n="aa" /><s n="mf" /><s n="pl" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
-    <!--Need to add যা (nn)-->
+    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="infml" /><s n="aa" /><s n="mf" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>যে<s n="prn" /><s n="rel" /><s n="infml" /><s n="aa" /><s n="mf" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>যে<s n="prn" /><s n="rel" /><s n="infml" /><s n="aa" /><s n="mf" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="pol" /><s n="aa" /><s n="mf" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>যে<s n="prn" /><s n="rel" /><s n="pol" /><s n="aa" /><s n="mf" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>যে<s n="prn" /><s n="rel" /><s n="pol" /><s n="aa" /><s n="mf" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/></r></p></e>
+    <e><p><l>যে<s n="prn" /><s n="rel" /><s n="nn" /><s n="mf" /></l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>যে<s n="prn" /><s n="rel" /><s n="nn" /><s n="mf" /></l><r>जो<s n="prn"/><s n="rel"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>যে<s n="prn" /><s n="rel" /><s n="nn" /><s n="mf" /></l><r>जो<s n="prn"/><s n="rel"/><s n="f"/></r></p></e>
     
     <!--Indefinite-->
     <!-- /অনেকে__prn -> Hin (Need to add in monodix)-->
